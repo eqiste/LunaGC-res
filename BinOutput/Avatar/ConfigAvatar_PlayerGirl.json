@@ -436,6 +436,56 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Avatar_PlayerGirl_ExtraAttack_Fire",
+      "abilityName": "Avatar_PlayerGirl_ExtraAttack_Fire",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Fire",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Fire",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Fire_Click",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Fire_Click",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Fire_Hold",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Fire_Hold",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Fire_Hold_Attack",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Fire_Hold_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_Fire_ElementalBurst",
+      "abilityName": "Avatar_PlayerBoy_Fire_ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_Fire_WeaponHide",
+      "abilityName": "Avatar_PlayerBoy_Fire_WeaponHide",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Fire_ElemBall",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Fire_ElemBall",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_Fire_EmotionControl",
+      "abilityName": "Avatar_PlayerBoy_Fire_EmotionControl",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerFire_ElemA_Charge_TriggerBullet",
+      "abilityName": "Avatar_PlayerFire_ElemA_Charge_TriggerBullet",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_PlayerGirl_FallingAnthem",
       "abilityName": "Avatar_PlayerGirl_FallingAnthem",
       "abilityOverride": ""

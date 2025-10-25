@@ -215,6 +215,21 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Vehicle_Natsaurus_Shamansaurus_SpecialInteract",
+      "abilityName": "Vehicle_Natsaurus_Shamansaurus_SpecialInteract",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Vehicle_Natsaurus_Shamansaurus_ElementalArt_Create",
+      "abilityName": "Vehicle_Natsaurus_Shamansaurus_ElementalArt_Create",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "SceneObj_Area_Nt_Property_Ani_LongPressScan_01",
+      "abilityName": "SceneObj_Area_Nt_Property_Ani_LongPressScan_01",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Olorun_Arrow_FX",
       "abilityName": "Avatar_Olorun_Arrow_FX",
       "abilityOverride": ""
@@ -277,11 +292,6 @@
     {
       "abilityID": "Avatar_Olorun_NyxSwitch",
       "abilityName": "Avatar_Olorun_NyxSwitch",
-      "abilityOverride": ""
-    },
-    {
-      "abilityID": "Vehicle_Natsaurus_Shamansaurus_SpecialInteract",
-      "abilityName": "Vehicle_Natsaurus_Shamansaurus_SpecialInteract",
       "abilityOverride": ""
     }
   ],

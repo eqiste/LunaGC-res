@@ -304,6 +304,11 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Weapon_Bow_HealAmountHPonEnemyKilled",
+      "abilityName": "Weapon_Bow_HealAmountHPonEnemyKilled",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Ambor_FallingAnthem",
       "abilityName": "Avatar_Ambor_FallingAnthem",
       "abilityOverride": ""

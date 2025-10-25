@@ -11,6 +11,21 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Avatar_Flins_Hide",
+      "abilityName": "Avatar_Flins_Hide",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_LightHide",
+      "abilityName": "Avatar_Flins_LightHide",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_LanternWarning",
+      "abilityName": "Avatar_Flins_LanternWarning",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Flins_MoonPhase",
       "abilityName": "Avatar_Flins_MoonPhase",
       "abilityOverride": ""
@@ -48,6 +63,11 @@
     {
       "abilityID": "Avatar_Flins_AbilityExtraAttack",
       "abilityName": "Avatar_Flins_AbilityExtraAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_Show02",
+      "abilityName": "Avatar_Flins_Show02",
       "abilityOverride": ""
     },
     {

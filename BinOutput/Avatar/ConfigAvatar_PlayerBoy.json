@@ -498,7 +498,42 @@
       "abilityID": "Avatar_PlayerBoy_FallingAnthem",
       "abilityName": "Avatar_PlayerBoy_FallingAnthem",
       "abilityOverride": ""
-    }
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ExtraAttack_Water",
+      "abilityName": "Avatar_PlayerBoy_ExtraAttack_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Water",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Player_Water_ElementalBurst_Initiate",
+      "abilityName": "Avatar_Player_Water_ElementalBurst_Initiate",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_Core_Heal",
+      "abilityName": "Avatar_PlayerBoy_Core_Heal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_Water_WeaponHide",
+      "abilityName": "Avatar_PlayerBoy_Water_WeaponHide",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Player_Water_Talent_4_Shield",
+      "abilityName": "Avatar_Player_Water_Talent_4_Shield",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_PlayerBoy_ElementalArt_Water_ElemBall",
+      "abilityName": "Avatar_PlayerBoy_ElementalArt_Water_ElemBall",
+      "abilityOverride": ""
+  }  
   ],
   "stateLayers": {
     "defaultLayer": {

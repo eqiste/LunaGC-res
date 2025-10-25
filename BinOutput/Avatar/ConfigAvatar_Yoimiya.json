@@ -245,6 +245,11 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "",
+      "abilityName": "Relic_NormalDamageUpIfCostEnergy",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Yoimiya_ShootArrow_04",
       "abilityName": "Avatar_Yoimiya_ShootArrow_04",
       "abilityOverride": ""

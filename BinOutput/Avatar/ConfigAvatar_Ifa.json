@@ -26,6 +26,11 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Avatar_Ifa_NyxValue_Eff",
+      "abilityName": "Avatar_Ifa_NyxValue_Eff",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Ifa_Constellation_1",
       "abilityName": "Avatar_Ifa_Constellation_1",
       "abilityOverride": ""
@@ -51,6 +56,11 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Avatar_Ifa_HoverAir_Attack",
+      "abilityName": "Avatar_Ifa_HoverAir_Attack",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Ifa_ElementalArt_HoverAir",
       "abilityName": "Avatar_Ifa_ElementalArt_HoverAir",
       "abilityOverride": ""
@@ -66,11 +76,6 @@
       "abilityOverride": ""
     },
     {
-      "abilityID": "Avatar_Ifa_HoverAir_Attack",
-      "abilityName": "Avatar_Ifa_HoverAir_Attack",
-      "abilityOverride": ""
-    },
-    {
       "abilityID": "Avatar_Ifa_PermanentSkill_1",
       "abilityName": "Avatar_Ifa_PermanentSkill_1",
       "abilityOverride": ""
@@ -83,11 +88,6 @@
     {
       "abilityID": "Avatar_Ifa_PermanentSkill_3",
       "abilityName": "Avatar_Ifa_PermanentSkill_3",
-      "abilityOverride": ""
-    },
-    {
-      "abilityID": "Avatar_Ifa_FallingAnthem",
-      "abilityName": "Avatar_Ifa_FallingAnthem",
       "abilityOverride": ""
     },
     {
@@ -111,6 +111,11 @@
       "abilityOverride": ""
     },
     {
+      "abilityID": "Avatar_Ifa_FallingAnthem",
+      "abilityName": "Avatar_Ifa_FallingAnthem",
+      "abilityOverride": ""
+    },
+    {
       "abilityID": "Avatar_Ifa_OtherLogic",
       "abilityName": "Avatar_Ifa_OtherLogic",
       "abilityOverride": ""
@@ -118,11 +123,6 @@
     {
       "abilityID": "Avatar_Ifa_NyxSwitch",
       "abilityName": "Avatar_Ifa_NyxSwitch",
-      "abilityOverride": ""
-    },
-    {
-      "abilityID": "Avatar_Ifa_NyxValue_Eff",
-      "abilityName": "Avatar_Ifa_NyxValue_Eff",
       "abilityOverride": ""
     }
   ]

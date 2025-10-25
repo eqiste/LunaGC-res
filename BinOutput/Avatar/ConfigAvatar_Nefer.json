@@ -1,0 +1,110 @@
+{
+  "abilities": [
+    {
+      "abilityID": "Avatar_Nefer_ExtraAttack",
+      "abilityName": "Avatar_Nefer_ExtraAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Lauma_ExtraAttack_Damage",
+      "abilityName": "Avatar_Lauma_ExtraAttack_Damage",
+      "abilityOverride": ""
+    },
+    {
+      "abilityName": "Avatar_Lady_Catalyst_Nefer_AniEvent_Camera",
+      "abilityID": "Avatar_Lady_Catalyst_Nefer_AniEvent_Camera"
+    },
+    {
+      "abilityName": "Avatar_Nefer_NormalAttack",
+      "abilityID": "Avatar_Nefer_NormalAttack"
+    },
+    {
+      "abilityName": "Avatar_Nefer_MoonLight",
+      "abilityID": "Avatar_Nefer_MoonLight"
+    },
+    {
+      "abilityName": "Avatar_Nefer_SpecialScanSkill",
+      "abilityID": "Avatar_Nefer_SpecialScanSkill"
+    },
+    {
+      "abilityID": "Avatar_Nefer_Constellation_1",
+      "abilityName": "Avatar_Nefer_Constellation_1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_Constellation_2",
+      "abilityName": "Avatar_Nefer_Constellation_2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_Constellation_4",
+      "abilityName": "Avatar_Nefer_Constellation_4",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_Constellation_6",
+      "abilityName": "Avatar_Nefer_Constellation_6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_PermanentSkill_1",
+      "abilityName": "Avatar_Nefer_PermanentSkill_1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_PermanentSkill_2",
+      "abilityName": "Avatar_Nefer_PermanentSkill_2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_PermanentSkill_3",
+      "abilityName": "Avatar_Nefer_PermanentSkill_3",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_ElementalArt",
+      "abilityName": "Avatar_Nefer_ElementalArt",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_ElementalArt_Handler",
+      "abilityName": "Avatar_Nefer_ElementalArt_Handler",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_ElementalBurst",
+      "abilityName": "Avatar_Nefer_ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_DamageHandler",
+      "abilityName": "Avatar_Nefer_DamageHandler",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_NormalAttack_DamageHandler",
+      "abilityName": "Avatar_Nefer_NormalAttack_DamageHandler",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_FallingAnthem",
+      "abilityName": "Avatar_Nefer_FallingAnthem",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_Combat_FallingAnthem",
+      "abilityName": "Avatar_Nefer_Combat_FallingAnthem",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_Effect",
+      "abilityName": "Avatar_Nefer_Effect",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Nefer_OtherLogic",
+      "abilityName": "Avatar_Nefer_OtherLogic",
+      "abilityOverride": ""
+    }
+  ]
+}
