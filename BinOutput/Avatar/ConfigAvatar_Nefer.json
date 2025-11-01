@@ -105,6 +105,331 @@
       "abilityID": "Avatar_Nefer_OtherLogic",
       "abilityName": "Avatar_Nefer_OtherLogic",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Nefer_ElementalBurst_UpDamage_Count",
+      "abilityName": "Ability_Nefer_ElementalBurst_UpDamage_Count",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Nefer_PermanentSkill_1_Buff_Count",
+      "abilityName": "Ability_Nefer_PermanentSkill_1_Buff_Count",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Nefer_PermanentSkill_2_SpeedUp",
+      "abilityName": "Ability_Nefer_PermanentSkill_2_SpeedUp",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_AvatarCommon_Moon",
+      "abilityName": "Eff_AvatarCommon_Moon",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_BS_Grass",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_BS_Grass",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Self_Grass",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Self_Grass",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Grass",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Grass",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Grass",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Grass",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_AbsorbMushroom",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_AbsorbMushroom",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_Attack_04_HideSpark",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_Attack_04_HideSpark",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_BuffElementalArt",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_BuffElementalArt",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_BuffElementalArt_L",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_BuffElementalArt_L",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_BuffElementalArt_R",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_BuffElementalArt_R",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalArt_AreaOpen",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalArt_AreaOpen",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_Attack",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_InCamera",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_InCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_Shadow_01",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_Shadow_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_Shadow_02",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_Shadow_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_ThirartyDP",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ElementalBurst_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Charge",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Charge",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_ChargeDone_Burst",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_ChargeDone_Burst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_ChargeDone_Loop",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_ChargeDone_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_DungeonFog",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_DungeonFog",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_DungeonFog5",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_DungeonFog5",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_02_C6_Ground",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_02_C6_Ground",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_02_Ground",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_02_Ground",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_RetractChess",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_RetractChess",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_RetractChess_C6",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_MoonLight_RetractChess_C6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_C6",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_C6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Left",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Left",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_LeftUc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_LeftUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Left_02",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Left_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Right",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Right",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_RightUc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_RightUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Right_02",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_ExtraAttack_Shadow_Right_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Nefer_MushroomBuff_03",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Nefer_MushroomBuff_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Element_Overgrow_Mushroom_Nefer",
+      "abilityName": "Eff_Element_Overgrow_Mushroom_Nefer",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Element_Overgrow_Mushroom_Trail",
+      "abilityName": "Eff_Element_Overgrow_Mushroom_Trail",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttackChargeTime",
+      "abilityName": "Avatar_Flins_ExtraAttackChargeTime",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttackCount",
+      "abilityName": "Avatar_Flins_ExtraAttackCount",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityName": "Avatar_Flins_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_Catalyst_Stamina_Cost_02",
+      "abilityName": "Avatar_Flins_ExtraAttack_Catalyst_Stamina_Cost_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_DP",
+      "abilityName": "Avatar_Flins_ExtraAttack_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_Loop_Stamina_Cost",
+      "abilityName": "Avatar_Flins_ExtraAttack_Loop_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MLSC6_Extra_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_MLSC6_Extra_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MLS_01_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_MLS_01_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MLS_02_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_MLS_02_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MLS_03_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_MLS_03_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_ML_01_DP",
+      "abilityName": "Avatar_Flins_ExtraAttack_ML_01_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_ML_01_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_ML_01_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_ML_02_C6_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_ML_02_C6_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_ML_02_DP",
+      "abilityName": "Avatar_Flins_ExtraAttack_ML_02_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_ML_02_DPM",
+      "abilityName": "Avatar_Flins_ExtraAttack_ML_02_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MoonLight",
+      "abilityName": "Avatar_Flins_ExtraAttack_MoonLight",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MoonLight_C6",
+      "abilityName": "Avatar_Flins_ExtraAttack_MoonLight_C6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MoonLight_CameraAngle_01",
+      "abilityName": "Avatar_Flins_ExtraAttack_MoonLight_CameraAngle_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_MoonLight_CameraAngle_02",
+      "abilityName": "Avatar_Flins_ExtraAttack_MoonLight_CameraAngle_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_StaminaCost",
+      "abilityName": "Avatar_Flins_ExtraAttack_StaminaCost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK",
+      "abilityName": "Avatar_Flins_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK_01_DP",
+      "abilityName": "Avatar_Flins_ATK_01_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK_01_DPM",
+      "abilityName": "Avatar_Flins_ATK_01_DPM",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK_02_DP",
+      "abilityName": "Avatar_Flins_ATK_02_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK_DP",
+      "abilityName": "Avatar_Flins_ATK_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK_End_DP",
+      "abilityName": "Avatar_Flins_ATK_End_DP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK_End_DPM",
+      "abilityName": "Avatar_Flins_ATK_End_DPM",
+      "abilityOverride": ""
     }
   ]
 }

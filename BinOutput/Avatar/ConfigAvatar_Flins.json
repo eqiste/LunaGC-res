@@ -149,6 +149,241 @@
       "abilityID": "Avatar_Flins_OtherLogic",
       "abilityName": "Avatar_Flins_OtherLogic",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_AvatarCommon_Moon",
+      "abilityName": "Eff_AvatarCommon_Moon",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_1ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_1ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_2ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_2ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_3ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_3ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_4ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_4ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_5ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_5ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_6ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_6ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_04_HideSpark",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_04_HideSpark",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_04_HideSpark_Elec",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_04_HideSpark_Elec",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_04_Lantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_04_Lantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_04_ShowSpark",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_04_ShowSpark",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_04_ShowSpark_Elec",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_04_ShowSpark_Elec",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_05_Lantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_05_Lantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_05_Lantern_Die",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_05_Lantern_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_Attack_Lantern_Die",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_Attack_Lantern_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_BodyLantern_Die",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_BodyLantern_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_BodyLantern_InArt",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_BodyLantern_InArt",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_BodyLantern_Warning",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_BodyLantern_Warning",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Extra2",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Extra2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Extra2Body",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Extra2Body",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Extra2Screen",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Extra2Screen",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_ExtraLantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_ExtraLantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_EyebrowL",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_EyebrowL",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_EyebrowR",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_EyebrowR",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Lantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Lantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Lantern_Die",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Lantern_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_BS",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_BS_Lantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_BS_Lantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_Eff",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_Eff",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_Lantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_Lantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_Lantern_Die",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Q_Lantern_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_L1",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_L1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_L2",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_L2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_R1",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_R1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_R2",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Skirt_R2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_State",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_State",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Weapon",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalArt_Weapon",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_BodyFire",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_BodyFire",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_EyebrowL",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_EyebrowL",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_EyebrowR",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_EyebrowR",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_InCamera",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_InCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_Lantern",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_Lantern",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_NoCamera",
+      "abilityName": "Eff_Avatar_Male_Pole_Flins_ElementalBurst_NoCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ExtraAttack_Pole_Stamina_Cost",
+      "abilityName": "Avatar_Flins_ExtraAttack_Pole_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Flins_ATK",
+      "abilityName": "Avatar_Flins_ATK",
+      "abilityOverride": ""
     }
   ]
 }

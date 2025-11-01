@@ -99,6 +99,421 @@
       "abilityID": "Avatar_SkirkNew_Misc_Handler",
       "abilityName": "Avatar_SkirkNew_Misc_Handler",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Attack01",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Attack01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Attack02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Attack02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Attack03",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Attack03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Attack03_02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Attack03_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Attack04",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Attack04",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Attack05",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Attack05",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_LV1",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_LV1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_LV2",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_LV2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_LV3",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_LV3",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_NormalAttack_01",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_NormalAttack_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_NormalAttack_02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_NormalAttack_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_Shadow_01",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_Shadow_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_Shadow_02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_Shadow_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_Shadow_03",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Constellation_6_Shadow_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_Enter",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_Enter",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_Exit",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_Exit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_Loop",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_TailLoop_Down",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_TailLoop_Down",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_TailLoop_Up",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementalArt_Transform_TailLoop_Up",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack01",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack01_Rush",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack01_Rush",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack03",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack04",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack04",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack05",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Attack05",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Hold_BS_Loop",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Hold_BS_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Rush_Attack04",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Rush_Attack04",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Rush_BS_02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanArt_Rush_BS_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Broken",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Broken",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Bullet",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Special",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Special",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Special_Buff",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_Special_Buff",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_ThirartyDP",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_ThirartyDP_02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ElementanBurst_ThirartyDP_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ExtraAttack_Bullet",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ExtraAttack_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ExtraAttack_Enhanced_AS",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ExtraAttack_Enhanced_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_ExtraAttack_Enhanced_Bullet",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_ExtraAttack_Enhanced_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_AS_Audio",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_AS_Audio",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_BS_Audio",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_BS_Audio",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_Loop",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_Loop_Audio",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_Loop_Audio",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_Strike",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_FallingAttack_Strike",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_PermanentSkill_2_LV1",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_PermanentSkill_2_LV1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_PermanentSkill_2_LV2",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_PermanentSkill_2_LV2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_PermanentSkill_2_LV3",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_PermanentSkill_2_LV3",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Pickable_Absorb",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Pickable_Absorb",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Rift",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Rift",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Rift_AS",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Rift_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Rift_Bullet",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Rift_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Rift_Hit",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Rift_Hit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show01",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_As",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_As",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_Disappear",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_Disappear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_Hand",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_Hand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_Hand_As",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show01_Hand_As",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show02_Portal",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show02_Portal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Show02_Sword",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Show02_Sword",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Disappear",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Disappear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Disappear_02",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Disappear_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Hand_Disappear",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Hand_Disappear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Temp",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_UltiWeapon_Temp",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_WeaponL",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_WeaponL",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_WeaponR",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_WeaponR",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Dissolve_L",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Dissolve_L",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Dissolve_R",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Dissolve_R",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Lance",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Lance",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Lance_Dissolve",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Lance_Dissolve",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Lance_Enhanced",
+      "abilityName": "Eff_Avatar_Girl_Sword_SkirkNew_Weapon_Lance_Enhanced",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sword_FallAnthem_BS",
+      "abilityName": "Eff_Avatar_Sword_FallAnthem_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sword_FallAnthem_Loop_01",
+      "abilityName": "Eff_Avatar_Sword_FallAnthem_Loop_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sword_FallAnthem_Loop_02",
+      "abilityName": "Eff_Avatar_Sword_FallAnthem_Loop_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sword_FallAnthem_Self_01",
+      "abilityName": "Eff_Avatar_Sword_FallAnthem_Self_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sword_FallAnthem_Strike_01",
+      "abilityName": "Eff_Avatar_Sword_FallAnthem_Strike_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sword_FallAnthem_Strike_02",
+      "abilityName": "Eff_Avatar_Sword_FallAnthem_Strike_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_SkirkNew_ExtraAttack_Damage",
+      "abilityName": "Avatar_SkirkNew_ExtraAttack_Damage",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_SkirkNew_ExtraAttack_ElementalArt_Damage",
+      "abilityName": "Avatar_SkirkNew_ExtraAttack_ElementalArt_Damage",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_SkirkNew_ExtraAttack_Enhanced_Stamina_Cost",
+      "abilityName": "Avatar_SkirkNew_ExtraAttack_Enhanced_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_SkirkNew_ExtraAttack_Stamina_Cost",
+      "abilityName": "Avatar_SkirkNew_ExtraAttack_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_SkirkNew_ExtraAttack_Stamina_Cost5",
+      "abilityName": "Avatar_SkirkNew_ExtraAttack_Stamina_Cost5",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_SkirkNew_ATK",
+      "abilityName": "Avatar_SkirkNew_ATK",
+      "abilityOverride": ""
     }
   ]
 }

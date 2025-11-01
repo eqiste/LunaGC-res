@@ -119,6 +119,376 @@
       "abilityID": "Avatar_Lauma_OtherLogic",
       "abilityName": "Avatar_Lauma_OtherLogic",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_AvatarCommon_Moon",
+      "abilityName": "Eff_AvatarCommon_Moon",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_BS_Grass_Lauma",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_BS_Grass_Lauma",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Self_Grass_Lauma",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Self_Grass_Lauma",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Grass_Lauma",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Grass_Lauma",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Grass_Lauma",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Grass_Lauma",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Attack_01",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Attack_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Attack_02",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Attack_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Attack_03",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Attack_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_1_Heal",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_1_Heal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_Attack",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_NormalAttack01",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_NormalAttack01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_NormalAttack02",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_NormalAttack02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_NormalAttack03",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Constellation_6_NormalAttack03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deer",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deer",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerSc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerSc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerUc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerVc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerVc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerWc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerWc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerXc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerXc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerYc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerYc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_DeerZc",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_DeerZc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_C",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_C",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_CD_Big",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_CD_Big",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_CD_Small",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_CD_Small",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_Jump",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_Jump",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_Transform",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deer_Transform",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Deery",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Deery",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_BS",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Click",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Click",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Click_Hand",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Click_Hand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_DeerAttack",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_DeerAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_DeerAttack_Center",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_DeerAttack_Center",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_DeerDomain",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_DeerDomain",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Create_1",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Create_1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Create_2",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Create_2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Create_3",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Create_3",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_FirstStrike",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_FirstStrike",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Hand",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_Hand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_SecondStrike",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalArt_Hold_SecondStrike",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_Buff",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_Buff",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_Hair",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_Hair",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_InCamera",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_InCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_MoonOnHand",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_MoonOnHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_OutCamera",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_OutCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_ThirartyDP_Eff",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ElementalBurst_ThirartyDP_Eff",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack_Body",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack_Body",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack_Hand",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack_Hand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack_Shoot",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_ExtraAttack_Shoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Show01",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Show01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Show02",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Show02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Lady_Catalyst_Lauma_Show02_Disappear",
+      "abilityName": "Eff_Avatar_Lady_Catalyst_Lauma_Show02_Disappear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Lauma_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityName": "Avatar_Lauma_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Lauma_ExtraAttack_StaminaCost",
+      "abilityName": "Avatar_Lauma_ExtraAttack_StaminaCost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Lauma_ATK",
+      "abilityName": "Avatar_Lauma_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_1",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_1K",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_1K",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_2",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_2",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_2K",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_2K",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_3",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_3",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_3K",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_3K",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalBurst_BuffCount_3_Add",
+      "abilityName": "Ability_Lauma_ElementalBurst_BuffCount_3_Add",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_Constellation_1_Mastery",
+      "abilityName": "Ability_Lauma_Constellation_1_Mastery",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalArt_Hold_BuffPerPoint",
+      "abilityName": "Ability_Lauma_ElementalArt_Hold_BuffPerPoint",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_ElementalArt_Hold_Count",
+      "abilityName": "Ability_Lauma_ElementalArt_Hold_Count",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_PermanentSkill_2_DeerAttack_Buff",
+      "abilityName": "Ability_Lauma_PermanentSkill_2_DeerAttack_Buff",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialJump_Stamina_Cost",
+      "abilityName": "Ability_Lauma_SpecialJump_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialMove_CD5",
+      "abilityName": "Ability_Lauma_SpecialMove_CD5",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialMove_CD_Reduce",
+      "abilityName": "Ability_Lauma_SpecialMove_CD_Reduce",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialMove_CD_Temp",
+      "abilityName": "Ability_Lauma_SpecialMove_CD_Temp",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialMove_MaxDura",
+      "abilityName": "Ability_Lauma_SpecialMove_MaxDura",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialMove_MaxDura_Temp",
+      "abilityName": "Ability_Lauma_SpecialMove_MaxDura_Temp",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Lauma_SpecialMove_Stamina_Cost",
+      "abilityName": "Ability_Lauma_SpecialMove_Stamina_Cost",
+      "abilityOverride": ""
     }
   ]
 }

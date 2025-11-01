@@ -124,6 +124,371 @@
       "abilityID": "Avatar_Ifa_NyxSwitch",
       "abilityName": "Avatar_Ifa_NyxSwitch",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_BS_Wind",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_BS_Wind",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Self_Wind",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Self_Wind",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Wind",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Strike_01_Wind",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Wind",
+      "abilityName": "Eff_Avatar_Catalyst_FallAnthem_Strike_02_Wind",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_AirFastAttackLoop_Gun",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_AirFastAttackLoop_Gun",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_AirFastAttack_Gun",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_AirFastAttack_Gun",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_Attack",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_Attack_Talent_4",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_Attack_Talent_4",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_BS02",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_BS02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Elec",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Elec",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Fire",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Fire",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Ice",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Ice",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Water",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_ExtraHit_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_GunRotation",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_GunRotation",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_Trail",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ElementalBurst_Trail",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_Bullet",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_BulletTrail",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_BulletTrail",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_GunRotation",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_GunRotation",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_Hit",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_Hit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_Shoot",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_ExtraAttack_Shoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Gun_CatalystR",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Gun_CatalystR",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Gun_Fade",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Gun_Fade",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Gun_WeaponL",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Gun_WeaponL",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_HoverEnter",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_HoverEnter",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_HoverSprint_Trail",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_HoverSprint_Trail",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_HoverSprint_Trail_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_HoverSprint_Trail_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_01_Shoot",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_01_Shoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_02_Shoot",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_02_Shoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_03_Shoot",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_03_Shoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BulletTrail_01",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BulletTrail_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BulletTrail_02",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BulletTrail_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BulletTrail_03",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_BulletTrail_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Bullet_01",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Bullet_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Bullet_02",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Bullet_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Bullet_03",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Bullet_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_GunRotation",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_GunRotation",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_GunRotation01",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_GunRotation01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_GunRotation02",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_GunRotation02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Hit",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_Hit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_LineL",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_LineL",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_LineR",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NormalAttack_LineR",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_CineHead",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_CineHead",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_LHand",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_LHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_RHand",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_RHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_Spark",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NyxState_Spark",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NyxSwitch_AS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NyxSwitch_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_NyxSwitch_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_NyxSwitch_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Show01",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Show01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Show02",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Show02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Show02_Glass_Hand",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Show02_Glass_Hand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_Show02_Glass_Head",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_Show02_Glass_Head",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet_Hit",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet_Hit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet_Hit_Talent_6",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet_Hit_Talent_6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet_Talent_6",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Bullet_Talent_6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_BS",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_Loop",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_Strike_01",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_Strike_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_Strike_02",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_FallAnthem_Strike_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_LockSign",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_LockSign",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Once",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Once",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Once_Talent_6",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverAttack_Once_Talent_6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverMove_AirMove_Trial",
+      "abilityName": "Eff_Avatar_Male_Catalyst_Ifa_SpecialHoverMove_AirMove_Trial",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Ifa_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityName": "Avatar_Ifa_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Ifa_ExtraAttack_Damage",
+      "abilityName": "Avatar_Ifa_ExtraAttack_Damage",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Ifa_ATK",
+      "abilityName": "Avatar_Ifa_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Avatar_Ifa_PermanentSkill_1_CharmerCount",
+      "abilityName": "Ability_Avatar_Ifa_PermanentSkill_1_CharmerCount",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Avatar_Ifa_PermanentSkill_1_CurrentTotalNyxValue",
+      "abilityName": "Ability_Avatar_Ifa_PermanentSkill_1_CurrentTotalNyxValue",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Ifa_HoverAttack_Heal_MasteryCache",
+      "abilityName": "Ability_Ifa_HoverAttack_Heal_MasteryCache",
+      "abilityOverride": ""
     }
   ]
 }

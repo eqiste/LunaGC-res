@@ -99,6 +99,311 @@
       "abilityID": "Avatar_Varesa_NyxSwitch",
       "abilityName": "Avatar_Varesa_NyxSwitch",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_01",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_02",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_03",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_Cast3",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Attack_Cast3",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Attack_01",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Attack_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Attack_02",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Attack_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Attack_03",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Attack_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Gas",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Gas",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Mask",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Berserker_Mask",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_DashElementalArt",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_DashElementalArt",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop7",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop7",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoopP",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoopP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop_AS_L",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop_AS_L",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop_AS_R",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_DashLoop_AS_R",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalArt_Dash",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalArt_Dash",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalArt_DashBs_Enter",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalArt_DashBs_Enter",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalArt_Dash_AS",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalArt_Dash_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Berserker_Mask",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Berserker_Mask",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Camera_Fog",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Camera_Fog",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Explode",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Explode",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Foot_L",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Foot_L",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Foot_R",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Foot_R",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Heart",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_Heart",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_ThirartyDP",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ElementalBurst_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack_Charge",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack_Charge",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack_Charge_Foot",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack_Charge_Foot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack_Jump",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ExtraAttack_Jump",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_AS_1_Explode",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_AS_1_Explode",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_BS_1",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_BS_1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_Henshin",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_Henshin",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_Loop",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_FallingAnthem_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_CineHead",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_CineHead",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_LHand",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_LHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_RHand",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_RHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_Spark",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_NyxState_Spark",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_NyxSwitch",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_NyxSwitch",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Show01_FX",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Show01_FX",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Show01_Hamburger",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Show01_Hamburger",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Show02_Fly",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Show02_Fly",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_Show02_Wind",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_Show02_Wind",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_ShowTimeCamera",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_ShowTimeCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalArt_Dash",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalArt_Dash",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalArt_Dash_AS",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalArt_Dash_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalBurst_Explode",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalBurst_Explode",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalBurst_Roll",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialElementalBurst_Roll",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialFallingAnthem_AS_1_Explode",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialFallingAnthem_AS_1_Explode",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialFallingAnthem_BS_1",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialFallingAnthem_BS_1",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialFallingAnthem_Loop",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialFallingAnthem_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialJump_OnGround",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialJump_OnGround",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialJump_OnWater",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialJump_OnWater",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialJump_OnliquihlogistonDP",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialJump_OnliquihlogistonDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialMove_OnGround",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialMove_OnGround",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialMove_OnWater",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialMove_OnWater",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialMove_OnliquihlogistonDP",
+      "abilityName": "Eff_Avatar_Girl_Catalyst_Varesa_SpecialMove_OnliquihlogistonDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Varesa_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityName": "Avatar_Varesa_ExtraAttack_Catalyst_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Varesa_ExtraAttack_StaminaCost",
+      "abilityName": "Avatar_Varesa_ExtraAttack_StaminaCost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Varesa_ATK",
+      "abilityName": "Avatar_Varesa_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Varesa_ATKDP",
+      "abilityName": "Avatar_Varesa_ATKDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Varesa_ATK_FwV",
+      "abilityName": "Avatar_Varesa_ATK_FwV",
+      "abilityOverride": ""
     }
   ]
 }

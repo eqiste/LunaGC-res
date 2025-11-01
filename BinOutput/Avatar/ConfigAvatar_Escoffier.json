@@ -119,6 +119,231 @@
       "abilityID": "Avatar_Escoffier_IceIsandrum",
       "abilityName": "Avatar_Escoffier_IceIsandrum",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_Attack_Tail",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_Attack_Tail",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_BS_Spin",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_BS_Spin",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachine",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachine",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachinePw",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachinePw",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachineUc",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachineUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachineVc",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachineVc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachine_BS",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachine_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachine_BSy",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_FoodMachine_BSy",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Big",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Big",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Hit_Big",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Hit_Big",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Hit_Small",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Hit_Small",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Small",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Small",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Trail_Big",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Trail_Big",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Trail_Small",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Bullet_Trail_Small",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Trigger_Big",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_GadgetAttack_Trigger_Big",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFood",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFood",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoodG",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoodG",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoodS",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoodS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoodUc",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoodUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFood_DisAppear",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFood_DisAppear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoody",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_Hold_CookFoody",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_OnceAttack",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalArt_OnceAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Hot_Die",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Hot_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Hot_Loop",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Hot_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_02",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_Lhand",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_Lhand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_Lhand_ThirartyDP",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_Lhand_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_Rhand",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_InCamera_Rhand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Lhand_Disappear",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Lhand_Disappear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Rhand_Disappear",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Rhand_Disappear",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Strike",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_Strike",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_ThirartyDP",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_ElementalBurst_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_Pneuma_Attack",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_Pneuma_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_Show01_HollowareDie",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_Show01_HollowareDie",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Escoffier_Show02_HollowareDie",
+      "abilityName": "Eff_Avatar_Girl_Pole_Escoffier_Show02_HollowareDie",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_BS_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_BS_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Loop_01_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Loop_01_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Loop_02_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Loop_02_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Strike_01_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Strike_01_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Strike_02_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Strike_02_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sprint_Boost",
+      "abilityName": "Eff_Avatar_Sprint_Boost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Escoffier_ExtraAttack_Pole_Stamina_Cost",
+      "abilityName": "Avatar_Escoffier_ExtraAttack_Pole_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Escoffier_ATK",
+      "abilityName": "Avatar_Escoffier_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Escoffier_CurCtritical5",
+      "abilityName": "Ability_Escoffier_CurCtritical5",
+      "abilityOverride": ""
     }
   ]
 }

@@ -84,6 +84,346 @@
       "abilityID": "Avatar_Iansan_FallingAnthem",
       "abilityName": "Avatar_Iansan_FallingAnthem",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_BS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_Movement_01",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_Movement_01",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_Movement_02",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_Movement_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_Strike",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_DashImpact_Strike",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalArt_Strike",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalArt_Strike",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Attack",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_BS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_GadgetTrail",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_GadgetTrail",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_GadgetTrailUc",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_GadgetTrailUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_Constellation_6",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_Constellation_6",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_Constellation_6UC",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_Constellation_6UC",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_Nyx",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_Nyx",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_NyxUc",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_ElementalBurst_Gadget_NyxUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NormalAttack_GymEquipment",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NormalAttack_GymEquipment",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NormalAttack_GymEquipment_Disapper",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NormalAttack_GymEquipment_Disapper",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxState_CineHead",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxState_CineHead",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxState_LHand",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxState_LHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxState_Quit",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxState_Quit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxState_RHand",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxState_RHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxState_Spark",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxState_Spark",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxSwitch_BS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxSwitch_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_NyxSwitch_Trial",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_NyxSwitch_Trial",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_AS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_BS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_Loop",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_Loop",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_Loop_LFoot",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_Loop_LFoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_Loop_RFoot",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialJump_Loop_RFoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialRun_PhantomLeg",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialRun_PhantomLeg",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintBs_Phlogiston",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintBs_Phlogiston",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintBs_Water",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintBs_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashAs_Phlogiston",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashAs_Phlogiston",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashAs_Water",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashAs_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashBs_Env",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashBs_Env",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashBs_Phlogiston",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashBs_Phlogiston",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashBs_Water",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDashBs_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_AS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_AS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Ground",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Ground",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Phlogiston",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Phlogiston",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Trial",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Trial",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Trial_LFoot",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Trial_LFoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Trial_RFoot",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Trial_RFoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Water",
+      "abilityName": "Eff_Avatar_Loli_Pole_Iansan_SpecialSprintDash_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Yaoyao_ExtraAttack",
+      "abilityName": "Eff_Avatar_Loli_Pole_Yaoyao_ExtraAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Loli_Pole_Yaoyao_ExtraAttack_BS",
+      "abilityName": "Eff_Avatar_Loli_Pole_Yaoyao_ExtraAttack_BS",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_BS_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_BS_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Loop_01_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Loop_01_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Loop_02_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Loop_02_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Strike_01_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Strike_01_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Strike_02_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Strike_02_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Iansan_ExtraAttack_Pole_Stamina_Cost",
+      "abilityName": "Avatar_Iansan_ExtraAttack_Pole_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Iansan_ExtraAttack_Ratio",
+      "abilityName": "Avatar_Iansan_ExtraAttack_Ratio",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Iansan_ExtraAttack_RatioDamage",
+      "abilityName": "Avatar_Iansan_ExtraAttack_RatioDamage",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Iansan_ATK",
+      "abilityName": "Avatar_Iansan_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_Mileage",
+      "abilityName": "Ability_Iansan_Mileage",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_MileageExtraNyx",
+      "abilityName": "Ability_Iansan_MileageExtraNyx",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_MileageExtraNyx_02",
+      "abilityName": "Ability_Iansan_MileageExtraNyx_02",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_MileageExtraNyx_03",
+      "abilityName": "Ability_Iansan_MileageExtraNyx_03",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_MileageExtraNyx_04",
+      "abilityName": "Ability_Iansan_MileageExtraNyx_04",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_Mileage_Cache_OnGadget",
+      "abilityName": "Ability_Iansan_Mileage_Cache_OnGadget",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_NyxCostRatio",
+      "abilityName": "Ability_Iansan_NyxCostRatio",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_NyxCost_SpecialSprintDash",
+      "abilityName": "Ability_Iansan_NyxCost_SpecialSprintDash",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_NyxRecover",
+      "abilityName": "Ability_Iansan_NyxRecover",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_NyxRecoverExtra",
+      "abilityName": "Ability_Iansan_NyxRecoverExtra",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_NyxRecoverw",
+      "abilityName": "Ability_Iansan_NyxRecoverw",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_NyxToPhlogistonRate",
+      "abilityName": "Ability_Iansan_NyxToPhlogistonRate",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Iansan_PhlogistonCost_SpecialSprintDash",
+      "abilityName": "Ability_Iansan_PhlogistonCost_SpecialSprintDash",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_NyxCost_Water",
+      "abilityName": "Ability_NyxCost_Water",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_PhlogistonCost_Water",
+      "abilityName": "Ability_PhlogistonCost_Water",
+      "abilityOverride": ""
     }
   ]
 }

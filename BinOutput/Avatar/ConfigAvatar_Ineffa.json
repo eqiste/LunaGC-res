@@ -84,6 +84,201 @@
       "abilityID": "Avatar_Ineffa_OtherLogic",
       "abilityName": "Avatar_Ineffa_OtherLogic",
       "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_Attack_03_Cleaner",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_Attack_03_Cleaner",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_Attack_04_Cleaner",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_Attack_04_Cleaner",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Born",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Born",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_LHand",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_LHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_RHand",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_RHand",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Attack",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_AttackExtra",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_AttackExtra",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_AttackExtra_ThirartyDP",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_AttackExtra_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Attack_ThirartyDP",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Attack_ThirartyDP",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Blink",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Blink",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Born",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Born",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Die",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Robot_Die",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_ShieldAttack",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_ShieldAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_ShieldUc",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_ShieldUc",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Shield_Hit",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalArt_Shield_Hit",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Attack",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Attack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_AttackAir",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_AttackAir",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Bullet",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Bullet",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Fire",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Fire",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_LFoot",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_LFoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_LForearm",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_LForearm",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_RFoot",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_RFoot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_RForearm",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_RForearm",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_RushAttack",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_FireLine_RushAttack",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_NoCamera",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_NoCamera",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Robot",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_Robot",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_T2_Buff",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_T2_Buff",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_T2_Explode",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_T2_Explode",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_T2_ExplodeGround",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ElementalBurst_T2_ExplodeGround",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Girl_Pole_Eff_ExtraAttack_Cleaner",
+      "abilityName": "Eff_Avatar_Girl_Pole_Eff_ExtraAttack_Cleaner",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_BS_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_BS_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Loop_01_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Loop_01_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Loop_02_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Loop_02_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Strike_01_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Strike_01_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Pole_FallingAnthem_Strike_02_Normal",
+      "abilityName": "Eff_Avatar_Pole_FallingAnthem_Strike_02_Normal",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Eff_Avatar_Sprint_Boost",
+      "abilityName": "Eff_Avatar_Sprint_Boost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Ineffa_ExtraAttack_Pole_Stamina_Cost",
+      "abilityName": "Avatar_Ineffa_ExtraAttack_Pole_Stamina_Cost",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Avatar_Ineffa_ATK",
+      "abilityName": "Avatar_Ineffa_ATK",
+      "abilityOverride": ""
+    },
+    {
+      "abilityID": "Ability_Eff_Relay_AttackCache",
+      "abilityName": "Ability_Eff_Relay_AttackCache",
+      "abilityOverride": ""
     }
   ]
 }
