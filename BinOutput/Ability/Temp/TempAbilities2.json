@@ -1,43 +1,44 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "TestHitAir",
       "onAbilityStart": [
         {
-          "$type": "TriggerAttackEvent",
+          "$type": "LAHLFGKNGGA",
           "attackEvent": {
             "attackPattern": {
-              "$type": "ConfigAttackSphere",
+              "$type": "FDBKEGJJIBF",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 1.0
                 }
               },
-              "radius": 2.0
+              "JNOPAOAHJAH": 2.0
             },
             "attackInfo": {
               "attackTag": "",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "damagePercentage": 1.0,
-                "damagePercentageRatio": 0.0,
+                "actorElecSubHurtDelta": 1.0,
+                "actorElementReactionCriticalDelta": 0.0,
                 "elementType": "Rock",
-                "bonusCritical": 2.0,
-                "FKGFPFNOJMN": 0.0
+                "PBPPIFIOAMB": 2.0,
+                "IPANOFPPPBC": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
+                "hitImpulseY": "",
                 "hitImpulseType": "LV6",
                 "overrideHitImpulse": {
                   "hitLevel": "Air",
-                  "BLHKKKALNDK": 500.0,
-                  "hitImpulseY": 500.0
+                  "JLAOBKLMDMI": 500.0,
+                  "ENCDKNBLCCA": 500.0
                 },
                 "hitHaltTimeScale": 0.05000000074505806
               }
@@ -50,43 +51,44 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "TestHitHeavy",
       "onAbilityStart": [
         {
-          "$type": "TriggerAttackEvent",
+          "$type": "LAHLFGKNGGA",
           "attackEvent": {
             "attackPattern": {
-              "$type": "ConfigAttackSphere",
+              "$type": "FDBKEGJJIBF",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 1.0
                 }
               },
-              "radius": 2.0
+              "JNOPAOAHJAH": 2.0
             },
             "attackInfo": {
               "attackTag": "",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "damagePercentage": 1.0,
-                "damagePercentageRatio": 0.0,
+                "actorElecSubHurtDelta": 1.0,
+                "actorElementReactionCriticalDelta": 0.0,
                 "elementType": "Rock",
-                "bonusCritical": 2.0,
-                "FKGFPFNOJMN": 0.0
+                "PBPPIFIOAMB": 2.0,
+                "IPANOFPPPBC": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
+                "hitImpulseY": "",
                 "hitImpulseType": "LV4",
                 "overrideHitImpulse": {
                   "hitLevel": "Heavy",
-                  "BLHKKKALNDK": 500.0,
-                  "hitImpulseY": 0.0
+                  "JLAOBKLMDMI": 500.0,
+                  "ENCDKNBLCCA": 0.0
                 },
                 "hitHaltTimeScale": 0.05000000074505806
               }
@@ -99,43 +101,44 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "TestHitLight",
       "onAbilityStart": [
         {
-          "$type": "TriggerAttackEvent",
+          "$type": "LAHLFGKNGGA",
           "attackEvent": {
             "attackPattern": {
-              "$type": "ConfigAttackSphere",
+              "$type": "FDBKEGJJIBF",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 1.0
                 }
               },
-              "radius": 2.0
+              "JNOPAOAHJAH": 2.0
             },
             "attackInfo": {
               "attackTag": "",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "damagePercentage": 1.0,
-                "damagePercentageRatio": 0.0,
+                "actorElecSubHurtDelta": 1.0,
+                "actorElementReactionCriticalDelta": 0.0,
                 "elementType": "Rock",
-                "bonusCritical": 2.0,
-                "FKGFPFNOJMN": 0.0
+                "PBPPIFIOAMB": 2.0,
+                "IPANOFPPPBC": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
+                "hitImpulseY": "",
                 "hitImpulseType": "LV2",
                 "overrideHitImpulse": {
                   "hitLevel": "Light",
-                  "BLHKKKALNDK": 500.0,
-                  "hitImpulseY": 0.0
+                  "JLAOBKLMDMI": 500.0,
+                  "ENCDKNBLCCA": 0.0
                 },
                 "hitHaltTimeScale": 0.05000000074505806
               }
@@ -148,43 +151,44 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "TestHitShake",
       "onAbilityStart": [
         {
-          "$type": "TriggerAttackEvent",
+          "$type": "LAHLFGKNGGA",
           "attackEvent": {
             "attackPattern": {
-              "$type": "ConfigAttackSphere",
+              "$type": "FDBKEGJJIBF",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 1.0
                 }
               },
-              "radius": 2.0
+              "JNOPAOAHJAH": 2.0
             },
             "attackInfo": {
               "attackTag": "",
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "damagePercentage": 1.0,
-                "damagePercentageRatio": 0.0,
+                "actorElecSubHurtDelta": 1.0,
+                "actorElementReactionCriticalDelta": 0.0,
                 "elementType": "Rock",
-                "bonusCritical": 2.0,
-                "FKGFPFNOJMN": 0.0
+                "PBPPIFIOAMB": 2.0,
+                "IPANOFPPPBC": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
+                "hitImpulseY": "",
                 "hitImpulseType": "LV1",
                 "overrideHitImpulse": {
                   "hitLevel": "Shake",
-                  "BLHKKKALNDK": 500.0,
-                  "hitImpulseY": 0.0
+                  "JLAOBKLMDMI": 500.0,
+                  "ENCDKNBLCCA": 0.0
                 },
                 "hitHaltTimeScale": 0.05000000074505806
               }
@@ -197,16 +201,16 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "TestRock",
       "modifiers": {
         "Collision": {
           "modifierName": "",
-          "duration": 30.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 30.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CollisionMixin",
+              "$type": "BOCLFDOPFBJ",
               "collision": {
                 "triggerType": "TriggerAlways",
                 "triggerCD": 0.10000000149011612,
@@ -216,44 +220,46 @@
               "minShockSpeed": 6.0,
               "onCollision": [
                 {
-                  "$type": "FireEffect",
-                  "healLimitedByCasterMaxHPRatio": "Eff_Monster_Hili_None_ShieldDestroy",
-                  "effectTempleteID": -1.0
+                  "$type": "HPOJEFINJEP",
+                  "rotationDampTime": "Eff_Monster_Hili_None_ShieldDestroy",
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "TriggerAttackEvent",
+                  "$type": "LAHLFGKNGGA",
                   "attackEvent": {
                     "attackPattern": {
-                      "$type": "ConfigAttackSphere",
+                      "$type": "FDBKEGJJIBF",
                       "triggerType": "TriggerNoRepeat",
                       "born": {
-                        "$type": "ConfigBornByCollisionPoint",
+                        "$type": "BBOPPIBMHDE",
                         "offset": {
-                          "x": 0.0,
-                          "y": 0.0,
-                          "z": 0.0
+                          "PANGIELPECA": 0.0,
+                          "CJENFGKOOOO": 0.0,
+                          "HCMGOAIEFGL": 0.0
                         }
                       },
-                      "radius": 1.0
+                      "JNOPAOAHJAH": 1.0
                     },
                     "attackInfo": {
                       "attackTag": "",
                       "attenuationTag": "",
                       "attenuationGroup": "default",
                       "attackProperty": {
-                        "damagePercentage": 1.0,
-                        "damagePercentageRatio": 0.0,
+                        "actorElecSubHurtDelta": 1.0,
+                        "actorElementReactionCriticalDelta": 0.0,
                         "elementType": "Rock",
-                        "bonusCritical": 2.0,
-                        "FKGFPFNOJMN": 0.0
+                        "PBPPIFIOAMB": 2.0,
+                        "IPANOFPPPBC": 0.0
                       },
                       "hitPattern": {
                         "onHitEffectName": "default",
+                        "hitImpulseY": "",
                         "hitImpulseType": "LV3",
                         "overrideHitImpulse": {
                           "hitLevel": "Heavy",
-                          "BLHKKKALNDK": 5.0,
-                          "hitImpulseY": 0.0
+                          "JLAOBKLMDMI": 5.0,
+                          "ENCDKNBLCCA": 0.0
                         },
                         "hitHaltTimeScale": 0.05000000074505806
                       }
@@ -266,24 +272,26 @@
           ],
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Element_Overload_Explode",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Element_Overload_Explode",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Element_Overload_Explode",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Element_Overload_Explode",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Weight": {
           "modifierName": "",
-          "duration": 30.0,
+          "FOAFPGCJHHF": 30.0,
           "elementType": "Rock",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Entity_WeightRatio": 0.3499999940395355
           }
@@ -291,11 +299,11 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Collision"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Weight"
         }
       ]

@@ -1,24 +1,24 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "DynamicAbility_MichiaeMatsuri_Pressure",
       "abilityMixins": [
         {
-          "$type": "DoActionOnGlobalValueChangeMixin",
+          "$type": "OBOPGDKEOIF",
           "globalValueKey": "SGV_MichiaeMatsuri_DarkPressure",
           "actions": [
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "globalValueKey": "SGV_MichiaeMatsuri_DarkPressure",
               "overrideMapKey": "DeBuffStacking"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "MichiaeMatsuri_Pressure"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "MichiaeMatsuri_Pressure"
             }
           ]
@@ -32,44 +32,53 @@
       "modifiers": {
         "MichiaeMatsuri_Pressure": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_MichiaeMatsuri_Pressure_Avatar"
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+              "$type": "KBIPODHHACL",
               "globalValueKey": "SGV_MichiaeMatsuri_DarkPressure",
-              "valueSteps": [7.5, 30.0],
-              "modifierNameSteps": ["MichiaeMatsuri_Pressure_Debuffeffect_Team"]
+              "valueSteps": [
+                7.5,
+                30.0
+              ],
+              "modifierNameSteps": [
+                "MichiaeMatsuri_Pressure_Debuffeffect_Team"
+              ]
             }
           ]
         },
         "MichiaeMatsuri_Pressure_Debuffeffect_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "MichiaeMatsuri_Pressure_Debuffeffect_Avatar"
             }
           ]
         },
         "MichiaeMatsuri_Pressure_Debuffeffect_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "state": "DefenseDown"
         },
         "UNIQUE_MichiaeMatsuri_Pressure_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": ["SubAttackRatio", "DeBuffStacking", "MUL"]
+              "actorElementReactionCriticalDelta": [
+                "SubAttackRatio",
+                "DeBuffStacking",
+                "MUL"
+              ]
             }
           ],
           "properties": {
@@ -118,16 +127,16 @@
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValueToOverrideMap",
+          "$type": "OLOEGCPACDP",
           "globalValueKey": "SGV_MichiaeMatsuri_DarkPressure",
           "overrideMapKey": "DeBuffStacking"
         },
         {
-          "$type": "RemoveModifier",
+          "$type": "LBCOJMOPBAB",
           "modifierName": "MichiaeMatsuri_Pressure"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "MichiaeMatsuri_Pressure"
         }
       ]

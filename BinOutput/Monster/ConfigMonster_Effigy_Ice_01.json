@@ -1,8 +1,8 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "CMIPFEGOJCH",
-      "EJAEFCDBDFB": "Body"
+      "$type": "GJLMDMJBELA",
+      "mesh": "Body"
     },
     "mass": 10000.0,
     "height": 3.0,
@@ -15,7 +15,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 2.0,
@@ -41,46 +42,47 @@
       "dieForceDisappearTime": 4.0,
       "dieDisappearEffect": "",
       "dieDisappearEffectDelay": 1.0,
-      "LDOHFFOEPPI": true,
-      "BMOKGIFNILM": true,
-      "PHCLLDNDFNG": true,
-      "CHBAHMJGJBE": true,
-      "OPPHENIKFJA": true,
-      "CCNGAIMLPIJ": true
+      "muteHitBox": true,
+      "dieDenyLockOn": true,
+      "dieIsGhostToEnemy": true,
+      "dieIgnoreTriggerBullet": true,
+      "muteBillboard": true,
+      "mutePushCollider": true
     },
     "animEvents": {
       "AtkL01": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.0,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "height": 5.0,
-          "NPLOANBGDOK": 180.0,
-          "DFMMIGEMOHH": 7.0
+          "fanAngle": 180.0,
+          "JNOPAOAHJAH": 7.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 50.0,
+            "PBPPIFIOAMB": 50.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV5",
             "hitHaltTimeScale": 0.009999999776482582
           },
@@ -94,44 +96,45 @@
       },
       "Revive_NeedleAttack_AtkEvnt01": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.30000001192092896,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.30000001192092896,
+              "HCMGOAIEFGL": 0.0
             },
-            "GDHMBIJKMEF": {
-              "$type": "KFDGCDGDJMH",
-              "PKNBBHPAKCG": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": -75.0,
-                "DDOAGBLBCEF": 0.0
+            "direction": {
+              "$type": "ALLJIBFFCHF",
+              "angleOffset": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": -75.0,
+                "HCMGOAIEFGL": 0.0
               },
-              "IDGILJNLJGN": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
+              "directionKey": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
             }
           },
           "height": 1.7999999523162842,
-          "NPLOANBGDOK": 30.0,
-          "DFMMIGEMOHH": 10.0
+          "fanAngle": 30.0,
+          "JNOPAOAHJAH": 10.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -139,44 +142,45 @@
       },
       "Revive_NeedleAttack_AtkEvnt02": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.30000001192092896,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.30000001192092896,
+              "HCMGOAIEFGL": 0.0
             },
-            "GDHMBIJKMEF": {
-              "$type": "KFDGCDGDJMH",
-              "PKNBBHPAKCG": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": -45.0,
-                "DDOAGBLBCEF": 0.0
+            "direction": {
+              "$type": "ALLJIBFFCHF",
+              "angleOffset": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": -45.0,
+                "HCMGOAIEFGL": 0.0
               },
-              "IDGILJNLJGN": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
+              "directionKey": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
             }
           },
           "height": 1.7999999523162842,
-          "NPLOANBGDOK": 30.0,
-          "DFMMIGEMOHH": 10.0
+          "fanAngle": 30.0,
+          "JNOPAOAHJAH": 10.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -184,44 +188,45 @@
       },
       "Revive_NeedleAttack_AtkEvnt03": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.30000001192092896,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.30000001192092896,
+              "HCMGOAIEFGL": 0.0
             },
-            "GDHMBIJKMEF": {
-              "$type": "KFDGCDGDJMH",
-              "PKNBBHPAKCG": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": -15.0,
-                "DDOAGBLBCEF": 0.0
+            "direction": {
+              "$type": "ALLJIBFFCHF",
+              "angleOffset": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": -15.0,
+                "HCMGOAIEFGL": 0.0
               },
-              "IDGILJNLJGN": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
+              "directionKey": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
             }
           },
           "height": 1.7999999523162842,
-          "NPLOANBGDOK": 30.0,
-          "DFMMIGEMOHH": 10.0
+          "fanAngle": 30.0,
+          "JNOPAOAHJAH": 10.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -229,44 +234,45 @@
       },
       "Revive_NeedleAttack_AtkEvnt04": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.30000001192092896,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.30000001192092896,
+              "HCMGOAIEFGL": 0.0
             },
-            "GDHMBIJKMEF": {
-              "$type": "KFDGCDGDJMH",
-              "PKNBBHPAKCG": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": 15.0,
-                "DDOAGBLBCEF": 0.0
+            "direction": {
+              "$type": "ALLJIBFFCHF",
+              "angleOffset": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": 15.0,
+                "HCMGOAIEFGL": 0.0
               },
-              "IDGILJNLJGN": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
+              "directionKey": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
             }
           },
           "height": 1.7999999523162842,
-          "NPLOANBGDOK": 30.0,
-          "DFMMIGEMOHH": 10.0
+          "fanAngle": 30.0,
+          "JNOPAOAHJAH": 10.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -274,44 +280,45 @@
       },
       "Revive_NeedleAttack_AtkEvnt05": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.30000001192092896,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.30000001192092896,
+              "HCMGOAIEFGL": 0.0
             },
-            "GDHMBIJKMEF": {
-              "$type": "KFDGCDGDJMH",
-              "PKNBBHPAKCG": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": 45.0,
-                "DDOAGBLBCEF": 0.0
+            "direction": {
+              "$type": "ALLJIBFFCHF",
+              "angleOffset": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": 45.0,
+                "HCMGOAIEFGL": 0.0
               },
-              "IDGILJNLJGN": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
+              "directionKey": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
             }
           },
           "height": 1.7999999523162842,
-          "NPLOANBGDOK": 30.0,
-          "DFMMIGEMOHH": 10.0
+          "fanAngle": 30.0,
+          "JNOPAOAHJAH": 10.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -319,44 +326,45 @@
       },
       "Revive_NeedleAttack_AtkEvnt06": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.30000001192092896,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.30000001192092896,
+              "HCMGOAIEFGL": 0.0
             },
-            "GDHMBIJKMEF": {
-              "$type": "KFDGCDGDJMH",
-              "PKNBBHPAKCG": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": 75.0,
-                "DDOAGBLBCEF": 0.0
+            "direction": {
+              "$type": "ALLJIBFFCHF",
+              "angleOffset": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": 75.0,
+                "HCMGOAIEFGL": 0.0
               },
-              "IDGILJNLJGN": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
+              "directionKey": "_ABILITY_Effigy_Ice_Revive_SkillDirection"
             }
           },
           "height": 1.7999999523162842,
-          "NPLOANBGDOK": 30.0,
-          "DFMMIGEMOHH": 10.0
+          "fanAngle": 30.0,
+          "JNOPAOAHJAH": 10.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -364,36 +372,37 @@
       },
       "NeedleSpinningShoot_WaveAtk1": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.0,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             },
-            "CJKCLAIPMHH": true
+            "onGround": true
           },
           "height": 5.0,
-          "DFMMIGEMOHH": 6.0,
-          "innerRadius": 2.0
+          "JNOPAOAHJAH": 6.0,
+          "DHPHFIGEAHK": 2.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -401,36 +410,37 @@
       },
       "NeedleSpinningShoot_WaveAtk2": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.0,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             },
-            "CJKCLAIPMHH": true
+            "onGround": true
           },
           "height": 5.0,
-          "DFMMIGEMOHH": 10.0,
-          "innerRadius": 5.0
+          "JNOPAOAHJAH": 10.0,
+          "DHPHFIGEAHK": 5.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -438,36 +448,37 @@
       },
       "NeedleSpinningShoot_WaveAtk3": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.0,
-              "DDOAGBLBCEF": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             },
-            "CJKCLAIPMHH": true
+            "onGround": true
           },
           "height": 5.0,
-          "DFMMIGEMOHH": 14.0,
-          "innerRadius": 8.0
+          "JNOPAOAHJAH": 14.0,
+          "DHPHFIGEAHK": 8.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Regisvine_Ice_IceWave",
           "attenuationGroup": "Regisvine_Common",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Ice",
-            "bonusCritical": 25.0,
+            "PBPPIFIOAMB": 25.0,
             "strikeType": "Pierce",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -639,145 +650,216 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "KFHJINNNDPN",
-      "BOPIBFKFKCA": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "PJFELLIJONH": ["DoSkill", "ToShaderState2"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "ToShaderState2"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "Standby_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby_BS": []
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["DoSkill", "ToShaderState2"],
-          "ADPGACLPFHN": ["ToShaderState1"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "ToShaderState2"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "ToShaderState1"
+          ]
         },
         "Standby_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby_AS": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["ToShaderState2"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "ToShaderState2"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "Revive_Standby": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "Revive_BS02": ["Monster_Effigy_Ice_Revive_BS02"],
-            "Revive_Standby": ["Monster_Effigy_Ice_Revive_Loop"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Revive_BS02": [
+              "Monster_Effigy_Ice_Revive_BS02"
+            ],
+            "Revive_Standby": [
+              "Monster_Effigy_Ice_Revive_Loop"
+            ]
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["DoSkill", "ToShaderState2"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "ToShaderState2"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "Stunning_Standby": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Stunning_Standby": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["DoSkill", "ToShaderState2"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "ToShaderState2"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "StandbyFree": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "StandbyFree": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["DoSkill", "ToShaderState2"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill",
+            "ToShaderState2"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "Die": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "Die": ["Monster_Effigy_Ice_Die"],
-            "SwimDie": ["Monster_Effigy_Ice_Die"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Monster_Effigy_Ice_Die"
+            ],
+            "SwimDie": [
+              "Monster_Effigy_Ice_Die"
+            ]
           }
         },
         "Warning": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "Warning": ["Audio_Effigy_Ice_Warning"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Warning": [
+              "Audio_Effigy_Ice_Warning"
+            ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "ToShaderState1"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "BeHit": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_L": [],
             "Hit_H": []
           },
-          "PJFELLIJONH": ["BeHit"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "BeHitThrow": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "HitThrow": [],
             "HitThrowDrop": [],
             "HitThrowToGround": []
           },
-          "PJFELLIJONH": ["BeHit", "HitAir2HitDrop"],
-          "ADPGACLPFHN": ["DoSkill", "ToShaderState1"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill",
+            "ToShaderState1"
+          ]
         },
         "RushAway": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "RushAway_BS": []
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "RushAway_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "RushAway_AS": ["Audio_Effigy_Ice_RushAway_AS"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "RushAway_AS": [
+              "Audio_Effigy_Ice_RushAway_AS"
+            ]
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Return": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Return": [
               "Monster_Effigy_Ice_BlinkReturn",
               "Audio_Effigy_Ice_ReturnToBorn_Bink"
             ]
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "SingleAtk": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "SingleAtk": [
               "Monster_Effigy_Ice_SingleAtk",
               "Audio_Effigy_Ice_SingleAtk"
@@ -788,44 +870,64 @@
               "Audio_Effigy_Ice_SingleAtk_CoreOutAS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "SingleAtk_Rush": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "SingleAtk_Rush": []
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "SingleAtk_RushStop"],
-          "NPMGEMAFACP": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "SingleAtk_RushStop"
+          ],
+          "canSteer": true
         },
         "RangeAtk": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "RangeAtk_BS1": ["Audio_Effigy_Ice_RangeAtk_BS"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "RangeAtk_BS1": [
+              "Audio_Effigy_Ice_RangeAtk_BS"
+            ],
             "RangeAtk_BS2": [
               "Monster_Effigy_Ice_RangeAtk_BS",
               "Audio_Effigy_Ice_RangeAtk_BS"
             ],
-            "RangeAtk_Loop1": ["Monster_Effigy_Ice_RangeAtk_Loop"],
+            "RangeAtk_Loop1": [
+              "Monster_Effigy_Ice_RangeAtk_Loop"
+            ],
             "RangeAtk_Loop2": [],
             "RangeAtk_AS": [
               "Monster_Effigy_Ice_RangeAtk_AS",
               "Audio_Effigy_Ice_RangeAtk_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "RangeAtk_Activity": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "RangeAtk_Activity_BS1": ["Audio_Effigy_Ice_RangeAtk_BS"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "RangeAtk_Activity_BS1": [
+              "Audio_Effigy_Ice_RangeAtk_BS"
+            ],
             "RangeAtk_Activity_BS2": [
               "Monster_Effigy_Ice_RangeAtk_BS",
               "Audio_Effigy_Ice_RangeAtk_BS"
@@ -839,51 +941,71 @@
               "Audio_Effigy_Ice_RangeAtk_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_BS": [
               "Monster_Effigy_Ice_NeedleWheelCharge_BS",
               "Audio_Effigy_Ice_NeedleWheelCharge_BS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_Aiming": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_Aiming1": [],
             "NeedleWheelCharge_Aiming2": [],
             "NeedleWheelCharge_Aiming3": []
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_Loop1": [],
             "NeedleWheelCharge_Loop2": [],
             "NeedleWheelCharge_Loop3": []
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_AS01": [],
             "NeedleWheelCharge_AS02": [
               "Monster_Effigy_Ice_NeedleWheelCharge_AS",
@@ -895,51 +1017,71 @@
               "Audio_Effigy_Ice_RushAway_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_Activity_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_Activity_BS": [
               "Monster_Effigy_Ice_NeedleWheelCharge_BS",
               "Audio_Effigy_Ice_NeedleWheelCharge_BS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_Activity_Aiming": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_Activity_Aiming1": [],
             "NeedleWheelCharge_Activity_Aiming2": [],
             "NeedleWheelCharge_Activity_Aiming3": []
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_Activity_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_Activity_Loop1": [],
             "NeedleWheelCharge_Activity_Loop2": [],
             "NeedleWheelCharge_Activity_Loop3": []
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleWheelCharge_Activity_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleWheelCharge_Activity_AS01": [],
             "NeedleWheelCharge_Activity_AS02": [
               "Monster_Effigy_Ice_NeedleWheelCharge_AS",
@@ -951,40 +1093,55 @@
               "Audio_Effigy_Ice_RushAway_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleSpinningShoot_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleSpinningShoot_BS": [
               "Monster_Effigy_Ice_NeedleSpinningShoot_BS",
               "Audio_Effigy_Ice_NeedleSpinningShoot_BS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleSpinningShoot_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleSpinningShoot_Loop": [
               "Monster_Effigy_Ice_NeedleSpinningShoot_Loop",
               "Audio_Effigy_Ice_NeedleSpinningShoot_Loop"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleSpinningShoot_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleSpinningShoot_AS": [
               "Audio_Effigy_Ice_NeedleSpinningShoot_AS"
             ],
@@ -994,40 +1151,55 @@
               "Audio_Effigy_Ice_RushAway_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleSpinningShoot_Activity_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleSpinningShoot_Activity_BS": [
               "Monster_Effigy_Ice_NeedleSpinningShoot_BS",
               "Audio_Effigy_Ice_NeedleSpinningShoot_BS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleSpinningShoot_Activity_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleSpinningShoot_Activity_Loop": [
               "Monster_Effigy_Ice_NeedleSpinningShoot_Loop",
               "Audio_Effigy_Ice_NeedleSpinningShoot_Loop"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NeedleSpinningShoot_Activity_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NeedleSpinningShoot_Activity_AS": [
               "Audio_Effigy_Ice_NeedleSpinningShoot_AS"
             ],
@@ -1037,17 +1209,28 @@
               "Audio_Effigy_Ice_RushAway_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "SpikeStrike": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "SpikeStrike_BS01": ["Audio_Effigy_Ice_Revive_SpikeAttack_BS"],
-            "SpikeStrike_BS02": ["Audio_Effigy_Ice_Revive_SpikeAttack_BS"],
-            "SpikeStrike_BS03": ["Audio_Effigy_Ice_Revive_SpikeAttack_BS"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "SpikeStrike_BS01": [
+              "Audio_Effigy_Ice_Revive_SpikeAttack_BS"
+            ],
+            "SpikeStrike_BS02": [
+              "Audio_Effigy_Ice_Revive_SpikeAttack_BS"
+            ],
+            "SpikeStrike_BS03": [
+              "Audio_Effigy_Ice_Revive_SpikeAttack_BS"
+            ],
             "SpikeStrike_CoreExpose1": [],
             "SpikeStrike_CoreExpose2": [],
             "SpikeStrike_Reform": [
@@ -1055,14 +1238,19 @@
               "Audio_Effigy_Ice_RushAway_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "SpikeStrike_Activity": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "SpikeStrike_Activity_BS01": [
               "Audio_Effigy_Ice_Revive_SpikeAttack_BS"
             ],
@@ -1079,14 +1267,19 @@
               "Audio_Effigy_Ice_RushAway_AS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "PJFELLIJONH": ["RushAwayTrigger"],
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "RushAwayTrigger"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "ReturnToBorn": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "ReturnToBorn": [],
             "ReturnToBorn_Blink": [
               "Monster_Effigy_Ice_ReturnToBorn",
@@ -1094,49 +1287,61 @@
             ],
             "ReturnToBorn_AS": []
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Revive_Blink": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_Blink": [
               "Monster_Effigy_Ice_BlinkReborn",
               "Audio_Effigy_Ice_ReturnToBorn_Bink"
             ]
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Revive_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_BS01": [
               "Monster_Effigy_Ice_Revive_BS",
               "Audio_Effigy_Ice_Revive_BS"
             ]
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Revive_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_AS": [
               "Monster_Effigy_Ice_Revive_AS",
               "Audio_Effigy_Ice_Revive_AS"
             ]
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Revive_IceBarrage": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_IceBarrage_BS": [
               "Monster_Effigy_Ice_Revive_IceBarrage_BS",
               "Audio_Effigy_Ice_Revive_IceBarrage_BS"
@@ -1161,26 +1366,36 @@
               "Monster_Effigy_Ice_Revive_IceBarrage_Loop",
               "Audio_Effigy_Ice_Revive_IceBarrage_Loop"
             ],
-            "Revive_IceBarrage_AS": ["Audio_Effigy_Ice_Revive_IceBarrage_AS"]
+            "Revive_IceBarrage_AS": [
+              "Audio_Effigy_Ice_Revive_IceBarrage_AS"
+            ]
           },
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "RushAwayTrigger"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "RushAwayTrigger"
+          ],
+          "canSteer": true
         },
         "Revive_NeedleAttack_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_NeedleAttack_BS": [
               "Audio_Effigy_Ice_Revive_NeedleAttack_BS"
             ]
           },
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "RushAwayTrigger"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "RushAwayTrigger"
+          ],
+          "canSteer": true
         },
         "Revive_NeedleAttack_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_NeedleAttack_Loop0": [],
             "Revive_NeedleAttack_Loop1": [
               "Monster_Effigy_Ice_Revive_NeedleAttack_Loop1"
@@ -1192,52 +1407,69 @@
               "Monster_Effigy_Ice_Revive_NeedleAttack_Loop3"
             ]
           },
-          "KNOHBHKACHA": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "RushAwayTrigger"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "RushAwayTrigger"
+          ],
+          "canSteer": true
         },
         "Revive_NeedleAttack_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_NeedleAttack_AS": [
               "Audio_Effigy_Ice_Revive_NeedleAttack_AS"
             ]
           },
-          "KNOHBHKACHA": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "RushAwayTrigger"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "RushAwayTrigger"
+          ],
+          "canSteer": true
         },
         "Revive_SpikeAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_SpikeAttack_BS": [
               "Monster_Effigy_Ice_Revive_SpikeAttack_BS",
               "Audio_Effigy_Ice_Revive_SpikeAttack_BS"
             ],
             "Revive_SpikeAttack_Loop": [],
-            "Revive_SpikeAttack_AS": ["Audio_Effigy_Ice_Revive_SpikeAttack_AS"]
+            "Revive_SpikeAttack_AS": [
+              "Audio_Effigy_Ice_Revive_SpikeAttack_AS"
+            ]
           },
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "RushAwayTrigger"],
-          "NPMGEMAFACP": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "RushAwayTrigger"
+          ],
+          "canSteer": true
         },
         "Revive_Stunning_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_Stunning_BS": [
               "Monster_Effigy_Ice_Stunning_BS",
               "Audio_Effigy_Ice_Revive_Stunning_BS"
             ]
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Revive_Stunning_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Revive_Stunning_AS01": [
               "Monster_Effigy_Ice_Stunning_AS",
               "Audio_Effigy_Ice_Revive_Stunning_AS"
@@ -1247,9 +1479,12 @@
               "Audio_Effigy_Ice_Revive_Stunning_AS"
             ]
           },
-          "BAABNFCMKIO": true,
-          "BGJDNIJICNM": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         }
       }
     }
@@ -1257,25 +1492,25 @@
   "partControl": {
     "parts": [
       {
-        "$type": "PMGKKACOLIC",
+        "$type": "CFHGCDHHFCB",
         "angularSpeed": 3600.0,
-        "BGKPNLALNPD": "ReviveSkillDirection",
-        "BDLFNAFBKOJ": "Parent",
-        "AJBEMCBABJF": "",
-        "GPAPEPNEEMC": 360.0,
-        "OGNBJMIOCPO": 0.0
+        "partRootName": "ReviveSkillDirection",
+        "forwardBy": "Parent",
+        "forwardByTransName": "",
+        "limitHorizontal": 360.0,
+        "limitVertical": 0.0
       }
     ]
   },
   "billboard": {
-    "$type": "HFEGKLAIGGI",
-    "IIKEHINGEME": "BillboardAttach",
+    "$type": "HODFBPFPGEF",
+    "attachPoint": "BillboardAttach",
     "offset": {
       "y": 1.5
     },
-    "HECLHMINJII": 1.0,
-    "ABJJCOBEPLC": true,
-    "DMHOOGGGDKG": true,
+    "radiusOffset": 1.0,
+    "enableSelfAdapt": true,
+    "showHPBar": true,
     "size": "Big"
   },
   "initialPoses": {
@@ -1302,6 +1537,7 @@
       }
     },
     "threat": {
+      "specification": "",
       "clearThreatTargetDistance": 70.0,
       "clearThreatEdgeDistance": 7.5,
       "clearThreatByTargetOutOfZone": true,
@@ -1314,7 +1550,9 @@
     },
     "profiling": {
       "lodStrategy": "Best",
-      "staticPoses": [1]
+      "staticPoses": [
+        1
+      ]
     },
     "skillGroupCDConfigs": [
       {
@@ -1328,8 +1566,28 @@
     ],
     "skillSetting": {
       "skillEliteSet": {
-        "1": [221, 231, 232, 233, 241, 251, 311, 321, 322, 341],
-        "2": [312, 342, 2201, 2301, 2302, 2303, 2401, 2501]
+        "1": [
+          221,
+          231,
+          232,
+          233,
+          241,
+          251,
+          311,
+          321,
+          322,
+          341
+        ],
+        "2": [
+          312,
+          342,
+          2201,
+          2301,
+          2302,
+          2303,
+          2401,
+          2501
+        ]
       }
     },
     "skills": {
@@ -1338,12 +1596,18 @@
         "skillType": "OnAlert",
         "faceTarget": true,
         "castCondition": {
-          "pose": [1, 101, 201]
+          "pose": [
+            1,
+            101,
+            201
+          ]
         },
         "publicCDGroup": "",
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Warning"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Warning"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -1353,15 +1617,19 @@
       "211": {
         "name": "SingleAtk",
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMax": 8.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 5.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["SingleAtk"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "SingleAtk"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1372,16 +1640,20 @@
         "name": "RangeAtk",
         "priority": 4,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 10.0,
           "pickRangeMax": 50.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 20.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["RangeAtk"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "RangeAtk"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -1392,16 +1664,20 @@
         "name": "RangeAtk_Activity",
         "priority": 4,
         "castCondition": {
-          "pose": [102],
+          "pose": [
+            102
+          ],
           "pickRangeMin": 10.0,
           "pickRangeMax": 50.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 20.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["RangeAtk_Activity"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "RangeAtk_Activity"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -1412,16 +1688,18 @@
         "name": "NeedleWheelCharge_Once",
         "priority": 4,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 8.0,
           "pickRangeMax": 20.0,
-          "SkillAnchorRangeMax": 12.5
+          "skillAnchorRangeMax": 12.5
         },
         "cd": 30.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 230,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleWheelCharge_BS",
           "NeedleWheelCharge_Aiming",
@@ -1438,16 +1716,18 @@
         "name": "NeedleWheelCharge_Twice",
         "priority": 4,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 8.0,
           "pickRangeMax": 20.0,
-          "SkillAnchorRangeMax": 12.5
+          "skillAnchorRangeMax": 12.5
         },
         "cd": 30.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 230,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleWheelCharge_BS",
           "NeedleWheelCharge_Aiming",
@@ -1464,16 +1744,18 @@
         "name": "NeedleWheelCharge_ThreeTimes",
         "priority": 4,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 8.0,
           "pickRangeMax": 20.0,
-          "SkillAnchorRangeMax": 12.5
+          "skillAnchorRangeMax": 12.5
         },
         "cd": 30.0,
         "cdUpperRange": 15.0,
         "publicCDGroup": "",
         "skillGroupCDID": 230,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleWheelCharge_BS",
           "NeedleWheelCharge_Aiming",
@@ -1490,16 +1772,18 @@
         "name": "NeedleWheelCharge_Activity_Once",
         "priority": 4,
         "castCondition": {
-          "pose": [102],
+          "pose": [
+            102
+          ],
           "pickRangeMin": 8.0,
           "pickRangeMax": 20.0,
-          "SkillAnchorRangeMax": 12.5
+          "skillAnchorRangeMax": 12.5
         },
         "cd": 30.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 230,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleWheelCharge_Activity_BS",
           "NeedleWheelCharge_Activity_Aiming",
@@ -1516,16 +1800,18 @@
         "name": "NeedleWheelCharge_Activity_Twice",
         "priority": 4,
         "castCondition": {
-          "pose": [102],
+          "pose": [
+            102
+          ],
           "pickRangeMin": 8.0,
           "pickRangeMax": 20.0,
-          "SkillAnchorRangeMax": 12.5
+          "skillAnchorRangeMax": 12.5
         },
         "cd": 30.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 230,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleWheelCharge_Activity_BS",
           "NeedleWheelCharge_Aiming",
@@ -1542,16 +1828,18 @@
         "name": "NeedleWheelCharge_Activity_ThreeTimes",
         "priority": 4,
         "castCondition": {
-          "pose": [102],
+          "pose": [
+            102
+          ],
           "pickRangeMin": 8.0,
           "pickRangeMax": 20.0,
-          "SkillAnchorRangeMax": 12.5
+          "skillAnchorRangeMax": 12.5
         },
         "cd": 30.0,
         "cdUpperRange": 15.0,
         "publicCDGroup": "",
         "skillGroupCDID": 230,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleWheelCharge_Activity_BS",
           "NeedleWheelCharge_Activity_Aiming",
@@ -1568,16 +1856,18 @@
         "name": "NeedleSpinningShoot",
         "priority": 4,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 12.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 20.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 0,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleSpinningShoot_BS",
           "NeedleSpinningShoot_Loop",
@@ -1593,16 +1883,18 @@
         "name": "NeedleSpinningShoot_Activity",
         "priority": 4,
         "castCondition": {
-          "pose": [102],
+          "pose": [
+            102
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 12.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 20.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 0,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NeedleSpinningShoot_Activity_BS",
           "NeedleSpinningShoot_Activity_Loop",
@@ -1618,17 +1910,21 @@
         "name": "SpikeStrike",
         "priority": 4,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 50.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 20.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 0,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["SpikeStrike"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "SpikeStrike"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -1639,17 +1935,21 @@
         "name": "SpikeStrike_Activity",
         "priority": 4,
         "castCondition": {
-          "pose": [102],
+          "pose": [
+            102
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 50.0,
-          "SkillAnchorRangeMax": 30.0
+          "skillAnchorRangeMax": 30.0
         },
         "cd": 20.0,
         "cdUpperRange": 5.0,
         "publicCDGroup": "",
         "skillGroupCDID": 0,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["SpikeStrike_Activity"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "SpikeStrike_Activity"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -1659,7 +1959,9 @@
       "311": {
         "name": "Revive_IceBarrage",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "needReInitCD": true,
           "pickRangeMax": 30.0
         },
@@ -1668,8 +1970,10 @@
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Revive_IceBarrage"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Revive_IceBarrage"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1679,7 +1983,9 @@
       "312": {
         "name": "Revive_IceBarrage_Activity",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "needReInitCD": true,
           "pickRangeMax": 30.0
         },
@@ -1688,8 +1994,10 @@
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Revive_IceBarrage"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Revive_IceBarrage"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1699,7 +2007,9 @@
       "321": {
         "name": "Revive_NeedleAttack",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "needReInitCD": true,
           "pickRangeMax": 8.0
         },
@@ -1709,7 +2019,7 @@
         "ignoreGCD": true,
         "triggerGCD": false,
         "skillGroupCDID": 320,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "Revive_NeedleAttack_BS",
           "Revive_NeedleAttack_Loop",
@@ -1724,7 +2034,9 @@
       "322": {
         "name": "Revive_NeedleAttack",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "needReInitCD": true,
           "pickRangeMin": 8.0,
           "pickRangeMax": 30.0
@@ -1735,7 +2047,7 @@
         "ignoreGCD": true,
         "triggerGCD": false,
         "skillGroupCDID": 320,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "Revive_NeedleAttack_BS",
           "Revive_NeedleAttack_Loop",
@@ -1751,7 +2063,9 @@
         "name": "Revive_AS",
         "priority": 1,
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "needReInitCD": true
         },
         "cd": 36.0,
@@ -1759,8 +2073,10 @@
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Revive_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Revive_AS"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1771,7 +2087,9 @@
         "name": "Revive_AS_Activity",
         "priority": 1,
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "needReInitCD": true
         },
         "cd": 42.0,
@@ -1779,8 +2097,10 @@
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Revive_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Revive_AS"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1791,13 +2111,17 @@
         "name": "Revive_Stunning_AS",
         "priority": 1,
         "castCondition": {
-          "pose": [301]
+          "pose": [
+            301
+          ]
         },
         "cd": 15.0,
         "initialCD": 15.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Revive_Stunning_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Revive_Stunning_AS"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1808,15 +2132,19 @@
         "name": "Return",
         "priority": 1,
         "castCondition": {
-          "pose": [101],
-          "ELMBIHAGCOP": 27.0,
-          "SkillAnchorRangeMax": 99.0
+          "pose": [
+            101
+          ],
+          "skillAnchorRangeMin": 27.0,
+          "skillAnchorRangeMax": 99.0
         },
         "cd": 5.0,
         "initialCD": 5.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Return"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Return"
+        ],
         "skillQueryingTime": 4.0,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -1825,19 +2153,22 @@
       }
     },
     "skillGCD": 0.0,
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "GJGILIGEJMO",
+        "$type": "CCGMBAAMCIC",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [1, 101]
+        "condition": {
+          "pose": [
+            1,
+            101
+          ]
         },
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 0,
-          "JIFACJMKJID": 3.0,
-          "HEMHHCFMJGB": 3.5,
-          "FCFLCFFJKLO": "",
-          "BKCOJDIDEGN": ""
+        "platformMap": {
+          "autoChangeStep": 0,
+          "DABNKNHAGJA": 3.0,
+          "OINBNIHBNFB": 3.5,
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       }
     ]
@@ -1890,13 +2221,13 @@
     }
   ],
   "move": {
-    "$type": "JKDLANFKJIL",
-    "FMOHEOLGBMD": "None",
-    "BEICMHKFBPB": true,
-    "LPAKBBIADNC": "RootNode"
+    "$type": "GHFIPBIFJDP",
+    "positionModifyState": "None",
+    "destroyRockWhenInit": true,
+    "KJBPBOFPFBE": "RootNode"
   },
   "audio": {
-    "LKJIHNLBIJL": "",
+    "overrideEmitterName": "",
     "animAudio": {
       "onTransitionIn": [
         {
@@ -2256,45 +2587,45 @@
       ]
     }
   },
-  "cameraAdjust": {
+  "cameraAdjustMap": {
     "default": {
-      "$type": "LEOHKCFLBEB",
+      "$type": "PKGCJJAHCIO",
       "priority": 1.0,
-      "BPJMGLDEBOP": 30.0,
-      "OEFDKGHGFOF": 35.0,
-      "NHCPBJMKJFD": 0.75,
-      "FHGOFJGGPPH": 45.0,
-      "LFPMADFBMMD": 8.0,
-      "PNPIIBEIKLC": 10.0,
-      "FFBIAKHMFCM": false,
-      "AABCBFLFOOC": 79.0,
-      "FCEMCMPDACC": 99.0,
-      "FMIFMBHNLGN": 50.0,
-      "EHPJLOAAGGD": 40.0,
-      "GBIIHFCMCNA": 100.0,
-      "EPJDLHHOCFF": 145.0,
-      "KDLPBJIAALA": "CircleR30",
-      "KLHLNABBJME": "CircleR35"
+      "enterRadius": 30.0,
+      "exitRadius": 35.0,
+      "heightAdjust": 0.75,
+      "fov": 45.0,
+      "zoom": 8.0,
+      "sphericalY": 10.0,
+      "lockSphericalY": false,
+      "sphericalYUp": 79.0,
+      "sphericalYDown": 99.0,
+      "autoTurnStartMin": 50.0,
+      "autoTurnStartMax": 40.0,
+      "autoTurnEndMin": 100.0,
+      "autoTurnEndMax": 145.0,
+      "enterShape": "CircleR30",
+      "exitShape": "CircleR35"
     },
     "ReviveState_Activity_CloseRange": {
-      "$type": "KBLHFHGBJON",
+      "$type": "MFGNOKAEFGG",
       "priority": 1.0,
-      "FHGOFJGGPPH": 45.0,
-      "PNPIIBEIKLC": 40.0,
-      "KDLPBJIAALA": "CircleR150",
-      "KLHLNABBJME": "CircleR150",
-      "MLFKNPOLALN": {
+      "fov": 45.0,
+      "sphericalY": 40.0,
+      "enterShape": "CircleR150",
+      "exitShape": "CircleR150",
+      "shapeCenterOffset": {
         "y": -1.0
       },
-      "NLGFANBKJIG": "RootNode",
-      "PMJIEFPHMIB": 15.0,
-      "ACCDDPMFEOM": 45.0,
-      "HJIHJKJOMEA": 180.0,
-      "PIPDLHHJOBJ": 360.0,
-      "PENNDBMOEFM": 0.20000000298023224,
-      "HPJPFLJPAFK": 12.0,
-      "HLODJCJBLGE": 12.0,
-      "PKOKFANFIME": 2.0
+      "lockPoint": "RootNode",
+      "forwardMaxAngle": 15.0,
+      "forwardMaxAngleExtra": 45.0,
+      "forwardAdjustMinSpeed": 180.0,
+      "forwardAdjustMaxSpeed": 360.0,
+      "enemyWeight": 0.20000000298023224,
+      "zoomMin": 12.0,
+      "zoomMax": 12.0,
+      "enemyPosTolerateRange": 2.0
     }
   }
 }

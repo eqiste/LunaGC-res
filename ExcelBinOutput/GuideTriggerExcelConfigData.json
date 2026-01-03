@@ -1,452 +1,752 @@
 [
   {
     "guideName": "GuideWeaponChange",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_WEAPON_CHANGE_GUIDE"
+    "openState": "OPEN_STATE_WEAPON_CHANGE_GUIDE",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideAvatarUpgrade",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_PLAYER_LVUP_GUIDE"
+    "openState": "OPEN_STATE_PLAYER_LVUP_GUIDE",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideRelic",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_RELIC"
+    "openState": "OPEN_STATE_GUIDE_RELIC",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideWeaponUpgrade",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_WEAPON_PROMOTE_GUIDE"
+    "openState": "OPEN_STATE_WEAPON_PROMOTE_GUIDE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTalent",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_TALENT"
+    "openState": "OPEN_STATE_GUIDE_TALENT",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRelicPromote",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_RELIC_PROM"
+    "openState": "OPEN_STATE_GUIDE_RELIC_PROM",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideGacha",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_GACHA"
+    "openState": "OPEN_STATE_GUIDE_GACHA",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTeam",
-    "type": "HAS_AVATAR_NUM",
-    "param1": 5
+    "openState": "OPEN_STATE_NONE",
+    "param1": 5,
+    "type": "HAS_AVATAR_NUM"
   },
   {
     "guideName": "GuideAvatarPromote",
-    "type": "ANY_AVATAR_LEVEL",
-    "param1": 20
+    "openState": "OPEN_STATE_NONE",
+    "param1": 20,
+    "type": "ANY_AVATAR_LEVEL"
   },
   {
     "guideName": "GuideBag",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_BAG"
+    "openState": "OPEN_STATE_GUIDE_BAG",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideMultiplayer",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_MULTIPLAYER"
+    "openState": "OPEN_STATE_GUIDE_MULTIPLAYER",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideDungeonReward",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_DUNGEONREWARD"
+    "openState": "OPEN_STATE_GUIDE_DUNGEONREWARD",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuidePersonalLine",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_PERSONAL_LINE"
+    "openState": "OPEN_STATE_GUIDE_PERSONAL_LINE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideAppearance",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_APPEARANCE"
+    "openState": "OPEN_STATE_GUIDE_APPEARANCE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuidePersonalLineKey",
-    "type": "PERSONALLINE_KEY",
-    "openState": "OPEN_STATE_GUIDE_PERSONAL_LINE_KEY"
+    "openState": "OPEN_STATE_GUIDE_PERSONAL_LINE_KEY",
+    "param1": 0,
+    "type": "PERSONALLINE_KEY"
   },
   {
     "guideName": "GuideProcess",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_PROCESS"
+    "openState": "OPEN_STATE_GUIDE_PROCESS",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideWidget",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_WIDGET"
+    "openState": "OPEN_STATE_GUIDE_WIDGET",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideExitMultiplayer",
-    "type": "WORLDPLAYER_UPDATE",
-    "openState": "OPEN_STATE_GUIDE_EXITMULTIPLAYER"
+    "openState": "OPEN_STATE_GUIDE_EXITMULTIPLAYER",
+    "param1": 0,
+    "type": "WORLDPLAYER_UPDATE"
   },
   {
     "guideName": "GuideColdClimateEntry",
-    "type": "CLIMATE_TYPE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_COLDCLIMATE"
+    "openState": "OPEN_STATE_GUIDE_COLDCLIMATE",
+    "param1": 0,
+    "type": "CLIMATE_TYPE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusBuildios",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_BUILD"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_BUILD",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusRebuildios",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_REBUILD"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_REBUILD",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusCardios",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_CARD"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_CARD",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusMissionCheck",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_MISSION_CHECK"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_MISSION_CHECK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusBuildSelect",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_BUILD_SELECT"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_BUILD_SELECT",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusChallegeStart",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_CHALLENGE_START"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_CHALLENGE_START",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTheatreMachanicusMonsterios",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_MONSTER"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_MONSTER",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideSynthesisConvert",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_CONVERT"
+    "openState": "OPEN_STATE_GUIDE_CONVERT",
+    "param1": 20,
+    "type": "PLAYER_LEVEL"
   },
   {
     "guideName": "GuideTheatreMachanicusMultiplayerios",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_MULTIPLAYER"
+    "openState": "OPEN_STATE_GUIDE_THEATREMACHANICUS_MULTIPLAYER",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideCoopTask",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_COOP_TASK"
+    "openState": "OPEN_STATE_GUIDE_COOP_TASK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideAdeptiAbode",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_HOMEWORLD_ADEPTIABODE"
+    "openState": "OPEN_STATE_GUIDE_HOMEWORLD_ADEPTIABODE",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideChannellerSlabEquip",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_CHANNELLERSLAB_EQUIP"
+    "openState": "OPEN_STATE_GUIDE_CHANNELLERSLAB_EQUIP",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideChannellerSlabMpSolution",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_CHANNELLERSLAB_MP_SOLUTION"
+    "openState": "OPEN_STATE_GUIDE_CHANNELLERSLAB_MP_SOLUTION",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideChannellerSlabPower",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_CHANNELLERSLAB_POWER"
+    "openState": "OPEN_STATE_GUIDE_CHANNELLERSLAB_POWER",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideHomeMapList",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_HOMEWORLD_MAPLIST"
+    "openState": "OPEN_STATE_GUIDE_HOMEWORLD_MAPLIST",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRelicResolve",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_RELICRESOLVE"
+    "openState": "OPEN_STATE_GUIDE_RELICRESOLVE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideGguideHint",
-    "type": "PUSHTIPS_NOTIFY_FINISH",
-    "openState": "OPEN_STATE_GUIDE_GGUIDE_HINT"
+    "openState": "OPEN_STATE_GUIDE_GGUIDE_HINT",
+    "param1": 0,
+    "type": "PUSHTIPS_NOTIFY_FINISH"
   },
   {
     "guideName": "GuideGguide",
-    "type": "NEW_PUSHTIPS",
-    "openState": "OPEN_STATE_GUIDE_GGUIDE"
+    "openState": "OPEN_STATE_GUIDE_GGUIDE",
+    "param1": 0,
+    "type": "NEW_PUSHTIPS"
   },
   {
     "guideName": "GuidePlayerLvInfo",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_PAIMON_LVINFO"
+    "openState": "OPEN_STATE_GUIDE_PAIMON_LVINFO",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideFlyStart",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_FLY_SECOND"
+    "openState": "OPEN_STATE_GUIDE_FLY_SECOND",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideSumoTeamSkill",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_SUMO_TEAM_SKILL"
+    "openState": "OPEN_STATE_GUIDE_SUMO_TEAM_SKILL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideFishRecipe",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_FISH_RECIPE"
+    "openState": "OPEN_STATE_GUIDE_FISH_RECIPE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideQuickTeamMemberChange",
-    "type": "HAS_AVATAR_NUM",
+    "openState": "OPEN_STATE_GUIDE_QUICK_TEAMMEMBERCHANGE",
     "param1": 5,
-    "openState": "OPEN_STATE_GUIDE_QUICK_TEAMMEMBERCHANGE"
+    "type": "HAS_AVATAR_NUM"
   },
   {
     "guideName": "GuideFragileResin",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_FRAGILE_RESIN"
+    "openState": "OPEN_STATE_GUIDE_FRAGILE_RESIN",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideWidgetQuickSwitch1",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE"
+    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideWidgetQuickSwitch2ios",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE_IOS"
+    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE_IOS",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideWidgetQuickSwitch2PC",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE_PC"
+    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE_PC",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideWidgetQuickSwitch2PS",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE_PS"
+    "openState": "OPEN_STATE_WIDGET_QUICK_SWITCH_GUIDE_PS",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideDive",
-    "type": "CAN_DIVE_UNLOCK",
-    "openState": "OPEN_STATE_GUIDE_DIVE"
+    "openState": "OPEN_STATE_GUIDE_DIVE",
+    "param1": 0,
+    "type": "CAN_DIVE_UNLOCK"
   },
   {
     "guideName": "GuideAbilityFish",
-    "type": "CAN_DIVE_UNLOCK",
-    "openState": "OPEN_STATE_GUIDE_ABILITY_FISH"
+    "openState": "OPEN_STATE_GUIDE_ABILITY_FISH",
+    "param1": 0,
+    "type": "CAN_DIVE_UNLOCK"
   },
   {
     "guideName": "GuideRancourUpgrade",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_RANCOUR_UPGRADE"
+    "openState": "OPEN_STATE_GUIDE_RANCOUR_UPGRADE",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideRancourPromote",
-    "type": "GET_NEW_ITEM",
-    "openState": "OPEN_STATE_GUIDE_RANCOUR_PROMOTE"
+    "openState": "OPEN_STATE_GUIDE_RANCOUR_PROMOTE",
+    "param1": 0,
+    "type": "GET_NEW_ITEM"
   },
   {
     "guideName": "GuideWeaponUpgradeHighlevel",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_WEAPON_UPGRADE_HIGHLEVEL"
+    "openState": "OPEN_STATE_GUIDE_WEAPON_UPGRADE_HIGHLEVEL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideOceanCurrent",
-    "type": "CAN_DIVE_UNLOCK",
-    "openState": "OPEN_STATE_GUIDE_OCEANCURRENT"
+    "openState": "OPEN_STATE_GUIDE_OCEANCURRENT",
+    "param1": 0,
+    "type": "CAN_DIVE_UNLOCK"
   },
   {
     "guideName": "GuideDiveButton",
-    "type": "CAN_DIVE_UNLOCK",
-    "openState": "OPEN_STATE_GUIDE_DIVEAXISBUTTON"
+    "openState": "OPEN_STATE_GUIDE_DIVEAXISBUTTON",
+    "param1": 0,
+    "type": "CAN_DIVE_UNLOCK"
   },
   {
     "guideName": "GuideDailyAttendanceLevel",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_DAILY_ATTENDANCE_GUIDE_PRE"
+    "openState": "OPEN_STATE_DAILY_ATTENDANCE_GUIDE_PRE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideDailyAttendanceQuest",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_DAILY_ATTENDANCE_GUIDE_PRE"
+    "openState": "OPEN_STATE_DAILY_ATTENDANCE_GUIDE_PRE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideGCGHandbookButton",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GCG_HANDBOOK_GUIDE"
+    "openState": "OPEN_STATE_GCG_HANDBOOK_GUIDE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideGCGDeckCodeButton",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_GCG_DECKCODE"
+    "openState": "OPEN_STATE_GUIDE_GCG_DECKCODE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideNeuvilletteSkill",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_NEUVILLETTE_SKILL"
+    "openState": "OPEN_STATE_GUIDE_NEUVILLETTE_SKILL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideFungusFighterV3Setting",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_FUNGUSFIGHTERV3_CONTROL_SWITCH"
+    "openState": "OPEN_STATE_GUIDE_FUNGUSFIGHTERV3_CONTROL_SWITCH",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTrainGuideDailyFailTip",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_TRAINGUIDE_DAILY_FAIL_TIP_ISFINISHED"
+    "openState": "OPEN_STATE_TRAINGUIDE_DAILY_FAIL_TIP_ISFINISHED",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTrainGuideLevelBreakFail25",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_TRAINGUIDE_LEVELBREAK_FAIL_25_ISFINISHED"
+    "openState": "OPEN_STATE_TRAINGUIDE_LEVELBREAK_FAIL_25_ISFINISHED",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTrainGuideLevelBreakFail35",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_TRAINGUIDE_LEVELBREAK_FAIL_35_ISFINISHED"
+    "openState": "OPEN_STATE_TRAINGUIDE_LEVELBREAK_FAIL_35_ISFINISHED",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTrainGuideLevelBreakFail45",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_TRAINGUIDE_LEVELBREAK_FAIL_45_ISFINISHED"
+    "openState": "OPEN_STATE_TRAINGUIDE_LEVELBREAK_FAIL_45_ISFINISHED",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTrainGuideFirstLevelUp",
-    "param1": 12
+    "openState": "OPEN_STATE_NONE",
+    "param1": 12,
+    "type": "PLAYER_LEVEL"
   },
   {
     "guideName": "GuideTrainGuideCharacterEntryTip",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_TRAINGUIDE_CHARACTER_ENTRY_TIP"
+    "openState": "OPEN_STATE_TRAINGUIDE_CHARACTER_ENTRY_TIP",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideQuestFocusMode",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_QUEST_FOCUS_GUIDE"
+    "openState": "OPEN_STATE_QUEST_FOCUS_GUIDE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRemusDashSwitch",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_REMUS_DASH_QTE_SWITCH"
+    "openState": "OPEN_STATE_GUIDE_REMUS_DASH_QTE_SWITCH",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRoleCombat01",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_01"
+    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_01",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRoleCombat02",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_02"
+    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_02",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRoleCombat03",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_03"
+    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_03",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideReunionV2",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_REUNION_ENTRY"
+    "openState": "OPEN_STATE_GUIDE_REUNION_ENTRY",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideXilonenSkill",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_Xilonen_Skill"
+    "openState": "OPEN_STATE_GUIDE_Xilonen_Skill",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideCombineCalculate",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_COMBINE_CALCULATE"
+    "openState": "OPEN_STATE_COMBINE_CALCULATE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideRelicDust",
+    "openState": "OPEN_STATE_GUIDE_RELIC_DUST",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideRoleCombatBuild",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_ROLE_COMBAT_GUIDE_BUILD_CARD"
+    "openState": "OPEN_STATE_ROLE_COMBAT_GUIDE_BUILD_CARD",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideQuestAbyssWar",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_ABYSSWAR_MAP"
+    "openState": "OPEN_STATE_ABYSSWAR_MAP",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideBoltbugNet",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_BOLTBUG_NET"
+    "openState": "OPEN_STATE_BOLTBUG_NET",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideInstrumentSet",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_INSTRUMENT_SETTING"
+    "openState": "OPEN_STATE_INSTRUMENT_SETTING",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideMusicUgc_01",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_EDITOR_EDIT"
+    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_EDITOR_EDIT",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideMusicUgc_02",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_TIMELINE_EDIT"
+    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_TIMELINE_EDIT",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideMusicSetting",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_SETTING"
+    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_SETTING",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideMusicPerference",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_PERFERENCE"
+    "openState": "OPEN_STATE_GUIDE_MUSIC_GAME_BOOK_PERFERENCE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideCoChallenge",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_COCHALLENGE"
+    "openState": "OPEN_STATE_GUIDE_COCHALLENGE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideArtifactLock1",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_ARTIFACT_LOCK"
+    "openState": "OPEN_STATE_GUIDE_ARTIFACT_LOCK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideArtifactLock2",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_ARTIFACT_LOCK"
+    "openState": "OPEN_STATE_GUIDE_ARTIFACT_LOCK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideTaskSelectSwitch",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_TALK_SELECT_SWITCH"
+    "openState": "OPEN_STATE_GUIDE_TALK_SELECT_SWITCH",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideCharacterWeaponScreen1",
+    "openState": "OPEN_STATE_CHARACTER_WEAPON_SCREEN",
     "param1": 40,
-    "openState": "OPEN_STATE_CHARACTER_WEAPON_SCREEN"
+    "type": "PLAYER_LEVEL"
   },
   {
     "guideName": "GuideCharacterWeaponScreen2",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_CHARACTER_WEAPON_SCREEN"
+    "openState": "OPEN_STATE_CHARACTER_WEAPON_SCREEN",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideGreetingCard",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_GREETINGCARD"
+    "openState": "OPEN_STATE_GUIDE_GREETINGCARD",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   },
   {
     "guideName": "GuideFishingJoy",
-    "type": "OPENSTATE_CHANGE",
-    "openState": "OPEN_STATE_GUIDE_FISHINGJOY"
+    "openState": "OPEN_STATE_GUIDE_FISHINGJOY",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideTButtonContinuousClickPS",
+    "openState": "OPEN_STATE_GUIDE_T_BUTTON_CONTINUOUS_CLICK_PS",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBrickBreakerV2Tutorial",
+    "openState": "OPEN_STATE_GUIDE_BRICKBREAKERV2_TUTORIAL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideRoleCombatBuildPreview",
+    "openState": "OPEN_STATE_GUIDE_ROLE_COMBAT_BUILD_PREVIEW",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideDiversityBattle",
+    "openState": "OPEN_STATE_GUIDE_DIVERSITY_BATTLE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideThemeParkZoo1",
+    "openState": "OPEN_STATE_GUIDE_THEMEPARK_ZOO1",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideChatEmojiCollect",
+    "openState": "OPEN_STATE_GUIDE_CHAT_EMOJI",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideThemeParkRoleQuest",
+    "openState": "OPEN_STATE_GUIDE_THEMEPARK_AVATAR_QUEST",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideMvM2DEFEdit",
+    "openState": "OPEN_STATE_GUIDE_MVM2_DEF_EDIT",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideLeyLineChallengeBattleSelect",
+    "openState": "OPEN_STATE_GUIDE_LEYLINECHALLENGE_BATTLE_SELECT",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideLeyLineChallengeHardest",
+    "openState": "OPEN_STATE_GUIDE_LEYLINECHALLENGE_HARDEST",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideCoChallengeV2",
+    "openState": "OPEN_STATE_GUIDE_COCHALLENGEV2",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideRareGrowth",
+    "openState": "OPEN_STATE_GUIDE_RARE_GROWTH_MATERIAL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideGraffitiColorSwitch",
+    "openState": "OPEN_STATE_GUIDE_GRAFFITI_COLOR_SWITCH",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuidePresetTeam",
+    "openState": "OPEN_STATE_GUIDE_GENERAL_PRESET_TEAM",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideTrialAvatar_Click_A",
+    "openState": "OPEN_STATE_NONE",
+    "param1": 2,
+    "type": "ENTER_DUNGEON_PLAY_TYPE"
+  },
+  {
+    "guideName": "GuideTrialAvatar_Hold_A",
+    "openState": "OPEN_STATE_NONE",
+    "param1": 2,
+    "type": "ENTER_DUNGEON_PLAY_TYPE"
+  },
+  {
+    "guideName": "GuideTrialAvatar_Click_E",
+    "openState": "OPEN_STATE_NONE",
+    "param1": 2,
+    "type": "ENTER_DUNGEON_PLAY_TYPE"
+  },
+  {
+    "guideName": "GuideTrialAvatar_Hold_E",
+    "openState": "OPEN_STATE_NONE",
+    "param1": 2,
+    "type": "ENTER_DUNGEON_PLAY_TYPE"
+  },
+  {
+    "guideName": "GuideTrialAvatar_Click_Q",
+    "openState": "OPEN_STATE_NONE",
+    "param1": 2,
+    "type": "ENTER_DUNGEON_PLAY_TYPE"
+  },
+  {
+    "guideName": "GuideTrialAvatar_Hold_Q",
+    "openState": "OPEN_STATE_NONE",
+    "param1": 2,
+    "type": "ENTER_DUNGEON_PLAY_TYPE"
+  },
+  {
+    "guideName": "GuideBomberV3Bomb",
+    "openState": "OPEN_STATE_GUIDE_BOMBER_V3_BOMB",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBomberV3Kick",
+    "openState": "OPEN_STATE_GUIDE_BOMBER_V3_KICK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuidePhotographV7",
+    "openState": "OPEN_STATE_GUIDE_PHOTOGRAPHV7",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideQuestBartenderFormula",
+    "openState": "OPEN_STATE_GUIDE_QUEST_BARTENDER_FORMULA",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuidePaimonBeyondNew",
+    "openState": "OPEN_STATE_GUIDE_PAIMON_BEYOND_NEW",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondClothing",
+    "openState": "OPEN_STATE_GUIDE_BEYOND_CLOTHING_BUTTON",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondPrivateHall",
+    "openState": "OPEN_STATE_GUIDE_BEYOND_PRIVATE_HALL_CREATE",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondUnlock",
+    "openState": "OPEN_STATE_GUIDE_BEYOND_UNLOCK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondRecommend",
+    "openState": "OPEN_STARE_GUIDE_UGC_RECOMMEND",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondLevelLibrary",
+    "openState": "OPEN_STATE_LEVEL_LIBRARY_GET_LEVEL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondLevelLibraryUGCHALL",
+    "openState": "OPEN_STATE_LEVEL_LIBRARY_GET_LEVEL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondCompound",
+    "openState": "OPEN_STATE_GUIDE_BEYOND_COMPOUND",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideBeyondGacha",
+    "openState": "OPEN_STATE_GUIDE_BEYOND_GACHA_UNLOCK",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
+  },
+  {
+    "guideName": "GuideNeferSkill",
+    "openState": "OPEN_STATE_GUIDE_NEFER_SKILL",
+    "param1": 0,
+    "type": "OPENSTATE_CHANGE"
   }
 ]

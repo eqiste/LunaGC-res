@@ -1,21 +1,21 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_CatalystMuteHurt",
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_CatalystMuteHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": -100.0,
+              "actorElementReactionCriticalDelta": -100.0,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_CatalystMuteHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -26,12 +26,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_CATALYST"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_CATALYST"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_CatalystMuteHurt"
@@ -42,21 +44,21 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_SwordMuteHurt",
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_SwordMuteHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": -100.0,
+              "actorElementReactionCriticalDelta": -100.0,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_SwordMuteHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -67,12 +69,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_SWORD_ONE_HAND"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_SWORD_ONE_HAND"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_SwordMuteHurt"
@@ -83,21 +87,21 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ClaymoreMuteHurt",
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ClaymoreMuteHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": -100.0,
+              "actorElementReactionCriticalDelta": -100.0,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ClaymoreMuteHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -108,12 +112,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_CLAYMORE"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_CLAYMORE"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ClaymoreMuteHurt"
@@ -124,21 +130,21 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_PoleMuteHurt",
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_PoleMuteHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": -100.0,
+              "actorElementReactionCriticalDelta": -100.0,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_PoleMuteHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -149,12 +155,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_POLE"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_POLE"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_PoleMuteHurt"
@@ -165,21 +173,21 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_BowMuteHurt",
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_BowMuteHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": -100.0,
+              "actorElementReactionCriticalDelta": -100.0,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_BowMuteHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -190,12 +198,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_BOW"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_BOW"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_BowMuteHurt"
@@ -206,21 +216,23 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ExtraAttackMuteHurt",
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ExtraAttackMuteHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
-              "attackTags": ["ExtraAttack"],
-              "damagePercentageRatio": -100.0,
+              "$type": "POIOCOGFPHF",
+              "attackTags": [
+                "ExtraAttack"
+              ],
+              "actorElementReactionCriticalDelta": -100.0,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ExtraAttackMuteHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -231,8 +243,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ExtraAttackMuteHurt"
         }
       ],
@@ -241,7 +253,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_CatalystVulnerable",
       "abilitySpecials": {
         "Rate": 0.5
@@ -249,16 +261,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_CatalystVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_CatalystVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -269,12 +281,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_CATALYST"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_CATALYST"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_CatalystVulnerable"
@@ -285,7 +299,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_CatalystVulnerable_High",
       "abilitySpecials": {
         "Rate": 1.0
@@ -293,16 +307,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_CatalystVulnerable_High": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_CatalystVulnerable_High_ForHunting",
                   "ratio": 1.0
                 }
@@ -313,12 +327,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_CATALYST"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_CATALYST"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_CatalystVulnerable_High"
@@ -329,7 +345,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_SwordVulnerable",
       "abilitySpecials": {
         "Rate": 0.5
@@ -337,16 +353,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_SwordVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_SwordVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -357,12 +373,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_SWORD_ONE_HAND"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_SWORD_ONE_HAND"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_SwordVulnerable"
@@ -373,7 +391,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_SwordVulnerable_High",
       "abilitySpecials": {
         "Rate": 1.0
@@ -381,16 +399,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_SwordVulnerable_High": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_SwordVulnerable_High_ForHunting",
                   "ratio": 1.0
                 }
@@ -401,12 +419,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_SWORD_ONE_HAND"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_SWORD_ONE_HAND"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_SwordVulnerable_High"
@@ -417,7 +437,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ClaymoreVulnerable",
       "abilitySpecials": {
         "Rate": 0.5
@@ -425,16 +445,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ClaymoreVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ClaymoreVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -445,12 +465,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_CLAYMORE"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_CLAYMORE"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ClaymoreVulnerable"
@@ -461,7 +483,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ClaymoreVulnerable_High",
       "abilitySpecials": {
         "Rate": 1.0
@@ -469,16 +491,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ClaymoreVulnerable_High": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ClaymoreVulnerable_High_ForHunting",
                   "ratio": 1.0
                 }
@@ -489,12 +511,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_CLAYMORE"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_CLAYMORE"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ClaymoreVulnerable_High"
@@ -505,7 +529,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_PoleVulnerable",
       "abilitySpecials": {
         "Rate": 0.5
@@ -513,16 +537,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_PoleVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_PoleVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -533,12 +557,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_POLE"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_POLE"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_PoleVulnerable"
@@ -549,7 +575,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_PoleVulnerable_High",
       "abilitySpecials": {
         "Rate": 1.0
@@ -557,16 +583,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_PoleVulnerable_High": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_PoleVulnerable_High_ForHunting",
                   "ratio": 1.0
                 }
@@ -577,12 +603,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_POLE"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_POLE"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_PoleVulnerable_High"
@@ -593,7 +621,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_BowVulnerable",
       "abilitySpecials": {
         "Rate": 0.5
@@ -601,16 +629,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_BowVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_BowVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -621,12 +649,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_BOW"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_BOW"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_BowVulnerable"
@@ -637,7 +667,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_BowVulnerable_High",
       "abilitySpecials": {
         "Rate": 1.0
@@ -645,16 +675,16 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_BowVulnerable_High": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": "Rate",
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_BowVulnerable_High_ForHunting",
                   "ratio": 1.0
                 }
@@ -665,12 +695,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_BOW"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_BOW"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ReputationAbility_Hunting_BowVulnerable_High"
@@ -681,7 +713,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ExtraCritical",
       "abilitySpecials": {
         "Rate": 0.5
@@ -689,17 +721,17 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ExtraCritical": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": 0.0,
-              "MODFLPBMPKB": "Rate",
+              "actorElementReactionCriticalDelta": 0.0,
+              "actorIceSubHurtDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ExtraCritical_ForHunting",
                   "ratio": 1.0
                 }
@@ -710,8 +742,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ExtraCritical"
         }
       ],
@@ -720,7 +752,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ExtraCriticalHurt",
       "abilitySpecials": {
         "Rate": 1.0
@@ -728,17 +760,17 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ExtraCriticalHurt": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": 0.0,
-              "IHKMLHCAIIA": "Rate",
+              "actorElementReactionCriticalDelta": 0.0,
+              "HDNHGDLJIEG": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ExtraCriticalHurt_ForHunting",
                   "ratio": 1.0
                 }
@@ -749,8 +781,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ExtraCriticalHurt"
         }
       ],
@@ -759,7 +791,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ExtraAttackVulnerable",
       "abilitySpecials": {
         "Rate": 0.5
@@ -767,16 +799,18 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ExtraAttackVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
-              "attackTags": ["ExtraAttack"],
-              "damagePercentageRatio": "Rate",
+              "$type": "POIOCOGFPHF",
+              "attackTags": [
+                "ExtraAttack"
+              ],
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ExtraAttackVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -787,8 +821,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ExtraAttackVulnerable"
         }
       ],
@@ -797,7 +831,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_ExtraAttackVulnerable_High",
       "abilitySpecials": {
         "Rate": 1.0
@@ -805,16 +839,18 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_ExtraAttackVulnerable_High": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
-              "attackTags": ["ExtraAttack"],
-              "damagePercentageRatio": "Rate",
+              "$type": "POIOCOGFPHF",
+              "attackTags": [
+                "ExtraAttack"
+              ],
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_ExtraAttackVulnerable_High_ForHunting",
                   "ratio": 1.0
                 }
@@ -825,8 +861,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ReputationAbility_Hunting_ExtraAttackVulnerable_High"
         }
       ],
@@ -835,7 +871,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ReputationAbility_Hunting_FallingAttackVulnerable",
       "abilitySpecials": {
         "Rate": 7.5
@@ -843,16 +879,18 @@
       "modifiers": {
         "UNIQUE_ReputationAbility_Hunting_FallingAttackVulnerable": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
-              "attackTags": ["FallingAttack"],
-              "damagePercentageRatio": "Rate",
+              "$type": "POIOCOGFPHF",
+              "attackTags": [
+                "FallingAttack"
+              ],
+              "actorElementReactionCriticalDelta": "Rate",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTERAFFIX_FallingAttackVulnerable_ForHunting",
                   "ratio": 1.0
                 }
@@ -863,8 +901,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ReputationAbility_Hunting_FallingAttackVulnerable"
         }
       ],

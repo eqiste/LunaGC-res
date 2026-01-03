@@ -1,27 +1,27 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Oil_Interact",
       "modifiers": {
         "NormalModifier": {
           "modifierName": "",
           "elementType": "Wood",
-          "bonusCritical": 5.0,
+          "PBPPIFIOAMB": 5.0,
           "isElementDurabilityMutable": false,
           "onBeingHit": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Fire"
                 },
                 {
-                  "$type": "ByNot",
+                  "$type": "EFLLODNEDIH",
                   "predicates": [
                     {
-                      "$type": "OOKBGJPMLJC",
+                      "$type": "DBFKPNHMAKP",
                       "element": "Fire"
                     }
                   ]
@@ -30,17 +30,17 @@
               "modifierName": "Burning"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Fire"
                 },
                 {
-                  "$type": "ByNot",
+                  "$type": "EFLLODNEDIH",
                   "predicates": [
                     {
-                      "$type": "OOKBGJPMLJC",
+                      "$type": "DBFKPNHMAKP",
                       "element": "Fire"
                     }
                   ]
@@ -52,43 +52,44 @@
         },
         "On_Burning": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Delay"
             },
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_FireBasin_Smoke",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_FireBasin_Smoke",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 0.0
                 },
                 "attachPointName": "attachPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onBeingHit": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Water"
                 }
               ],
               "modifierName": "Check_Fire"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Ice"
                 }
               ],
@@ -98,17 +99,17 @@
         },
         "Check_Fire": {
           "modifierName": "",
-          "duration": 0.20000000298023224,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.20000000298023224,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "ByNot",
+                  "$type": "EFLLODNEDIH",
                   "predicates": [
                     {
-                      "$type": "OOKBGJPMLJC",
+                      "$type": "DBFKPNHMAKP",
                       "element": "Fire"
                     }
                   ]
@@ -120,40 +121,41 @@
         },
         "Check_Around": {
           "modifierName": "",
-          "duration": 0.20000000298023224,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.20000000298023224,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "OOKBGJPMLJC",
+                  "$type": "DBFKPNHMAKP",
                   "element": "Fire"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "DamageByAttackValue",
+                  "$type": "KENEHLJABEL",
                   "target": "Caster",
                   "attackInfo": {
                     "attackTag": "",
                     "attenuationTag": "",
                     "attenuationGroup": "default",
                     "attackProperty": {
-                      "damagePercentage": 0.10000000149011612,
-                      "damagePercentageRatio": 0.0,
+                      "actorElecSubHurtDelta": 0.10000000149011612,
+                      "actorElementReactionCriticalDelta": 0.0,
                       "elementType": "Fire",
-                      "bonusCritical": 40.0,
+                      "PBPPIFIOAMB": 40.0,
                       "strikeType": "Default",
-                      "FKGFPFNOJMN": 0.0
+                      "IPANOFPPPBC": 0.0
                     },
                     "hitPattern": {
                       "onHitEffectName": "default",
+                      "hitImpulseY": "",
                       "hitImpulseType": "",
                       "overrideHitImpulse": {
                         "hitLevel": "Air",
-                        "BLHKKKALNDK": 0.0,
-                        "hitImpulseY": 420.0
+                        "JLAOBKLMDMI": 0.0,
+                        "ENCDKNBLCCA": 420.0
                       },
                       "hitHaltTimeScale": 0.009999999776482582
                     }
@@ -165,17 +167,17 @@
         },
         "Delay": {
           "modifierName": "",
-          "duration": 4.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 4.5,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 3.0,
           "onThinkInterval": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "shapeName": "CircleR5",
                 "campTargetType": "SelfCamp",
-                "OBHNBNDMPFN": 1.0
+                "doOffStage": 1.0
               },
               "modifierName": "Check_Around"
             }
@@ -183,37 +185,38 @@
         },
         "Burning": {
           "modifierName": "",
-          "duration": 1.2000000476837158,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.2000000476837158,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "DamageByAttackValue",
+              "$type": "KENEHLJABEL",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "shapeName": "CircleR5",
                 "campTargetType": "SelfCamp",
-                "OBHNBNDMPFN": 1.0
+                "doOffStage": 1.0
               },
               "attackInfo": {
                 "attackTag": "",
                 "attenuationTag": "",
                 "attenuationGroup": "default",
                 "attackProperty": {
-                  "damagePercentage": 0.10000000149011612,
-                  "damagePercentageRatio": 0.0,
+                  "actorElecSubHurtDelta": 0.10000000149011612,
+                  "actorElementReactionCriticalDelta": 0.0,
                   "elementType": "Fire",
-                  "bonusCritical": 40.0,
+                  "PBPPIFIOAMB": 40.0,
                   "strikeType": "Default",
-                  "FKGFPFNOJMN": 0.0
+                  "IPANOFPPPBC": 0.0
                 },
                 "hitPattern": {
                   "onHitEffectName": "default",
+                  "hitImpulseY": "",
                   "hitImpulseType": "",
                   "overrideHitImpulse": {
                     "hitLevel": "Air",
-                    "BLHKKKALNDK": 0.0,
-                    "hitImpulseY": 420.0
+                    "JLAOBKLMDMI": 0.0,
+                    "ENCDKNBLCCA": 420.0
                   },
                   "hitHaltTimeScale": 0.009999999776482582
                 }
@@ -224,7 +227,7 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "NormalModifier"
         }
       ]

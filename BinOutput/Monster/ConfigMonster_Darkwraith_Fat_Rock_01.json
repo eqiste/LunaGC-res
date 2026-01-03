@@ -1,8 +1,8 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "CMIPFEGOJCH",
-      "EJAEFCDBDFB": "EffectMesh"
+      "$type": "GJLMDMJBELA",
+      "mesh": "EffectMesh"
     },
     "mass": 10000.0,
     "height": 2.4000000953674316,
@@ -13,15 +13,15 @@
     "scale": 1.1699999570846558,
     "useGrassDisplacement": true,
     "clearAIOnSetLightDeactive": true,
-    "DLFJJCMGIBH": true,
-    "NICGCIINMFJ": true
+    "reconnectSupport": true,
+    "recoverByInitPose": true
   },
   "headControl": {
-    "$type": "HLGPLMCNIFB",
+    "$type": "KLJDMKFFHOP",
     "useHeadControl": true,
-    "BADCMJGBCHM": 20.0,
-    "AIOGIMNHIGK": 5.0,
-    "GDIAFJFLHCE": [
+    "maxYawDegree": 20.0,
+    "maxPitchDegree": 5.0,
+    "animStates": [
       "NormalIdle/Standby",
       "NormalMove/WalkForward",
       "NormalMove/WalkBack",
@@ -39,7 +39,8 @@
   "model": {
     "bornEffect": "Eff_Monster_Common_Born",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 1.0
@@ -62,38 +63,38 @@
       "dieForceDisappearTime": 2.5,
       "dieDisappearEffect": "Eff_Death_Abyss_Common",
       "dieShaderData": "MonsterDie",
-      "LDOHFFOEPPI": true,
-      "BMOKGIFNILM": true,
-      "PHCLLDNDFNG": true,
-      "CHBAHMJGJBE": true,
-      "OPPHENIKFJA": true,
-      "CCNGAIMLPIJ": true
+      "muteHitBox": true,
+      "dieDenyLockOn": true,
+      "dieIsGhostToEnemy": true,
+      "dieIgnoreTriggerBullet": true,
+      "muteBillboard": true,
+      "mutePushCollider": true
     },
     "animEvents": {
       "AE_NormalAttack_01": {
         "attackPattern": {
-          "$type": "GGBJACPDDCM",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.27000001072883606,
-              "DPPJGBOHAAL": 2.3166000843048096,
-              "DDOAGBLBCEF": 1.6380000114440918
+              "PANGIELPECA": 0.27000001072883606,
+              "CJENFGKOOOO": 2.3166000843048096,
+              "HCMGOAIEFGL": 1.6380000114440918
             },
-            "GDHMBIJKMEF": {
-              "$type": "DFEHJKCDGHN",
-              "LAIBDKJCHJI": {
-                "HMHIOILIGBF": 0.0,
-                "DPPJGBOHAAL": -31.73900032043457,
-                "DDOAGBLBCEF": -12.770000457763672
+            "direction": {
+              "$type": "MEKFAPMPKCG",
+              "angleOffsetCorrect": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": -31.73900032043457,
+                "HCMGOAIEFGL": -12.770000457763672
               }
             }
           },
           "size": {
-            "HMHIOILIGBF": 2.5999999046325684,
-            "DPPJGBOHAAL": 5.570000171661377,
-            "DDOAGBLBCEF": 3.799999952316284
+            "PANGIELPECA": 2.5999999046325684,
+            "CJENFGKOOOO": 5.570000171661377,
+            "HCMGOAIEFGL": 3.799999952316284
           }
         },
         "attackInfo": {
@@ -101,15 +102,16 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 0.699999988079071,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 0.699999988079071,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 100.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTime": 0.07000000029802322,
             "hitHaltTimeScale": 0.05000000074505806
@@ -127,34 +129,35 @@
       },
       "AE_NormalAttack_02": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.5,
-              "DPPJGBOHAAL": 0.0,
-              "DDOAGBLBCEF": 0.5
+              "PANGIELPECA": -0.5,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.5
             }
           },
           "height": 2.0,
-          "NPLOANBGDOK": 200.0,
-          "DFMMIGEMOHH": 4.300000190734863
+          "fanAngle": 200.0,
+          "JNOPAOAHJAH": 4.300000190734863
         },
         "attackInfo": {
           "attackTag": "Darkwraith_Rock_Normal",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 0.8500000238418579,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 0.8500000238418579,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 150.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTime": 0.07000000029802322,
             "hitHaltTimeScale": 0.05000000074505806
@@ -163,20 +166,20 @@
       },
       "AE_NormalAttack_03": {
         "attackPattern": {
-          "$type": "GGBJACPDDCM",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.25999999046325684,
-              "DPPJGBOHAAL": 1.0499999523162842,
-              "DDOAGBLBCEF": 1.4900000095367432
+              "PANGIELPECA": -0.25999999046325684,
+              "CJENFGKOOOO": 1.0499999523162842,
+              "HCMGOAIEFGL": 1.4900000095367432
             }
           },
           "size": {
-            "HMHIOILIGBF": 2.799999952316284,
-            "DPPJGBOHAAL": 3.200000047683716,
-            "DDOAGBLBCEF": 2.799999952316284
+            "PANGIELPECA": 2.799999952316284,
+            "CJENFGKOOOO": 3.200000047683716,
+            "HCMGOAIEFGL": 2.799999952316284
           }
         },
         "attackInfo": {
@@ -184,15 +187,16 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV5",
             "retreatType": "ByAttackerForward"
           },
@@ -209,20 +213,20 @@
       },
       "AE_ShieldAttack": {
         "attackPattern": {
-          "$type": "GGBJACPDDCM",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.44999998807907104,
-              "DPPJGBOHAAL": 1.5,
-              "DDOAGBLBCEF": 1.350000023841858
+              "PANGIELPECA": -0.44999998807907104,
+              "CJENFGKOOOO": 1.5,
+              "HCMGOAIEFGL": 1.350000023841858
             }
           },
           "size": {
-            "HMHIOILIGBF": 2.5,
-            "DPPJGBOHAAL": 3.0,
-            "DDOAGBLBCEF": 1.600000023841858
+            "PANGIELPECA": 2.5,
+            "CJENFGKOOOO": 3.0,
+            "HCMGOAIEFGL": 1.600000023841858
           }
         },
         "attackInfo": {
@@ -230,21 +234,22 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "",
             "overrideHitImpulse": {
               "hitLevel": "Air",
-              "BLHKKKALNDK": 850.0,
-              "hitImpulseY": 550.0
+              "JLAOBKLMDMI": 850.0,
+              "ENCDKNBLCCA": 550.0
             },
             "retreatType": "ByAttackerForward"
           },
@@ -263,158 +268,162 @@
       },
       "AE_WhirlAttack_01": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.10000000149011612,
-              "DDOAGBLBCEF": 0.15000000596046448
+              "PANGIELPECA": -0.10000000149011612,
+              "HCMGOAIEFGL": 0.15000000596046448
             }
           },
           "height": 2.200000047683716,
-          "NPLOANBGDOK": 270.0,
-          "DFMMIGEMOHH": 4.360000133514404
+          "fanAngle": 270.0,
+          "JNOPAOAHJAH": 4.360000133514404
         },
         "attackInfo": {
           "attackTag": "Darkwraith_Rock_Normal",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 0.75,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 0.75,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 100.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3"
           }
         }
       },
       "AE_WhirlAttack_02": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.44999998807907104,
-              "DDOAGBLBCEF": -0.5
+              "PANGIELPECA": -0.44999998807907104,
+              "HCMGOAIEFGL": -0.5
             }
           },
           "height": 2.200000047683716,
-          "NPLOANBGDOK": 270.0,
-          "DFMMIGEMOHH": 5.409999847412109
+          "fanAngle": 270.0,
+          "JNOPAOAHJAH": 5.409999847412109
         },
         "attackInfo": {
           "attackTag": "Darkwraith_Rock_Normal",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 0.8500000238418579,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 0.8500000238418579,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4"
           }
         }
       },
       "AE_RageAttack01_01": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.11999999731779099,
-              "DDOAGBLBCEF": 0.800000011920929
+              "PANGIELPECA": -0.11999999731779099,
+              "HCMGOAIEFGL": 0.800000011920929
             }
           },
           "height": 2.200000047683716,
-          "NPLOANBGDOK": 270.0,
-          "DFMMIGEMOHH": 4.400000095367432
+          "fanAngle": 270.0,
+          "JNOPAOAHJAH": 4.400000095367432
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Darkwraith_Fat_Rock_Whirlwind",
           "attenuationGroup": "Darkwraith_Fat_Rock_Whirlwind",
           "attackProperty": {
-            "PCFAAPMOCGJ": 0.800000011920929,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 0.800000011920929,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Rock",
-            "bonusCritical": 50.0,
+            "PBPPIFIOAMB": 50.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV6"
           }
         }
       },
       "AE_RageAttack01_02": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.4000000059604645,
-              "DDOAGBLBCEF": 0.5400000214576721
+              "PANGIELPECA": -0.4000000059604645,
+              "HCMGOAIEFGL": 0.5400000214576721
             }
           },
           "height": 2.200000047683716,
-          "NPLOANBGDOK": 270.0,
-          "DFMMIGEMOHH": 5.300000190734863
+          "fanAngle": 270.0,
+          "JNOPAOAHJAH": 5.300000190734863
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Rock",
-            "bonusCritical": 50.0,
+            "PBPPIFIOAMB": 50.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV6"
           }
         }
       },
       "AE_RageAttack02": {
         "attackPattern": {
-          "$type": "GGBJACPDDCM",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": -0.30000001192092896,
-              "DPPJGBOHAAL": 1.5,
-              "DDOAGBLBCEF": 0.41999998688697815
+              "PANGIELPECA": -0.30000001192092896,
+              "CJENFGKOOOO": 1.5,
+              "HCMGOAIEFGL": 0.41999998688697815
             }
           },
           "size": {
-            "HMHIOILIGBF": 3.5999999046325684,
-            "DPPJGBOHAAL": 5.0,
-            "DDOAGBLBCEF": 4.519999980926514
+            "PANGIELPECA": 3.5999999046325684,
+            "CJENFGKOOOO": 5.0,
+            "HCMGOAIEFGL": 4.519999980926514
           }
         },
         "attackInfo": {
@@ -422,17 +431,18 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "PCFAAPMOCGJ": 1.0,
-            "LCCBNOKMNFG": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Rock",
-            "bonusCritical": 50.0,
+            "PBPPIFIOAMB": 50.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV5"
           }
         }
@@ -485,119 +495,178 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "KFHJINNNDPN",
-      "BOPIBFKFKCA": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "NormalIdle": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": [],
             "Born": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "WalkForward": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "WalkBack": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "WalkRight": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "WalkLeft": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "ShieldWalkForward": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "ShieldWalkBack": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "ShieldWalkRight": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "ShieldWalkLeft": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "Run": ["Audio_Monster_Darkwraith_Fat_Rock_01_Run"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "WalkForward": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "WalkBack": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "WalkRight": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "WalkLeft": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "ShieldWalkForward": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "ShieldWalkBack": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "ShieldWalkRight": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "ShieldWalkLeft": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "Run": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Run"
+            ]
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Turn": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "TurnLeft": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "TurnRight": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "TurnLeft": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "TurnRight": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ]
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_L": [],
-            "Hit_H": ["Audio_Monster_Darkwraith_Fat_Rock_01_Hit_H"]
+            "Hit_H": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Hit_H"
+            ]
           },
-          "PJFELLIJONH": ["BeHit"],
-          "ADPGACLPFHN": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "BeHitThrow": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "HitThrow": ["Audio_Monster_Darkwraith_Fat_Rock_01_HitThrow"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "HitThrow": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_HitThrow"
+            ],
             "HitThrowDrop": [],
             "HitThrowToGround": [
               "Audio_Monster_Darkwraith_Fat_Rock_01_HitThrowToGround"
             ]
           },
-          "PJFELLIJONH": ["BeHit", "HitAir2HitDrop"],
-          "ADPGACLPFHN": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Struggle": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Struggle": []
           },
-          "PJFELLIJONH": ["BeHit", "HitAir2HitDrop"],
-          "ADPGACLPFHN": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "HitAir2HitDrop"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "Die": ["Audio_Monster_Darkwraith_Fat_Rock_01_Die"],
-            "ShieldDie": ["Audio_Monster_Darkwraith_Fat_Rock_01_ShieldDie"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Die"
+            ],
+            "ShieldDie": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_ShieldDie"
+            ],
             "SwimDie": [],
             "AirDie": []
           },
-          "PJFELLIJONH": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ]
         },
         "Alert": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "Alert": ["Audio_Monster_Darkwraith_Fat_Rock_01_Alert"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Alert": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Alert"
+            ]
           }
         },
         "Alert_Turn": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "Alert_TurnRight": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"],
-            "Alert_TurnLeft": ["Audio_Monster_Darkwraith_Fat_Rock_01_Walk"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Alert_TurnRight": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ],
+            "Alert_TurnLeft": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Walk"
+            ]
           }
         },
         "Personality_9001": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_9001": [
               "Audio_Monster_Darkwraith_Fat_Rock_01_Personality9001"
             ]
           },
-          "KNOHBHKACHA": true
+          "canDoSkill": true
         },
         "Personality_9002": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_9002": []
           },
-          "KNOHBHKACHA": true
+          "canDoSkill": true
         },
         "SwitchToShield": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "RunToShield_AS": [
               "Monster_Darkwraith_Fat_Rock_SwitchToShield",
               "Audio_Monster_Darkwraith_Fat_Rock_01_RunToShield_AS"
@@ -607,13 +676,16 @@
               "Audio_Monster_Darkwraith_Fat_Rock_01_SwitchToShieldInPlace"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "RunToShield": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "RunToShield_BS": [
               "Monster_Darkwraith_Fat_Rock_SwitchToShield_BS",
               "Audio_Monster_Darkwraith_Fat_Rock_01_RunToShield_BS"
@@ -621,16 +693,21 @@
             "RunToShield_BS_Run": [
               "Audio_Monster_Darkwraith_Fat_Rock_01_RunToShield_Run"
             ],
-            "RunToShield_Loop": ["Audio_Monster_Darkwraith_Fat_Rock_01_Run"]
+            "RunToShield_Loop": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_Run"
+            ]
           },
-          "BAABNFCMKIO": true,
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canSyncMove": true,
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "SwitchToDualWielding": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "ExitToDualWielding": [
               "Monster_Darkwraith_Fat_Rock_SwitchToDualWielding",
               "Audio_Monster_Darkwraith_Fat_Rock_01_SwitchToDualWielding"
@@ -642,8 +719,8 @@
           }
         },
         "NormalAttack_01": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NormalAttack_01": [
               "Monster_Darkwraith_Fat_Rock_NormalAttack_01",
               "Audio_Monster_Darkwraith_Fat_Rock_01_NormalAttack_1"
@@ -652,13 +729,13 @@
           "setAnimatorFloat": [
             {
               "name": "WeaponType",
-              "ratio": 2.0
+              "value": 2.0
             }
           ]
         },
         "NormalAttack_02": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NormalAttack_02": [
               "Monster_Darkwraith_Fat_Rock_NormalAttack_02",
               "Audio_Monster_Darkwraith_Fat_Rock_01_NormalAttack_2"
@@ -670,13 +747,13 @@
           "setAnimatorFloat": [
             {
               "name": "WeaponType",
-              "ratio": 1.0
+              "value": 1.0
             }
           ]
         },
         "NormalAttack_03": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NormalAttack_03": [
               "Monster_Darkwraith_Fat_Rock_NormalAttack_03",
               "Audio_Monster_Darkwraith_Fat_Rock_01_NormalAttack_3"
@@ -685,13 +762,13 @@
           "setAnimatorFloat": [
             {
               "name": "WeaponType",
-              "ratio": 1.0
+              "value": 1.0
             }
           ]
         },
         "ShieldAttack_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "ShieldAttack_BS": [
               "Monster_Darkwraith_Fat_Rock_ShieldAttack_BS",
               "Audio_Monster_Darkwraith_Fat_Rock_01_ShieldAttack_BS"
@@ -699,8 +776,8 @@
           }
         },
         "ShieldAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "ShieldAttack": [
               "Monster_Darkwraith_Fat_Rock_ShieldAttack",
               "Audio_Monster_Darkwraith_Fat_Rock_01_ShieldAttack_Hit"
@@ -709,42 +786,49 @@
           "setAnimatorFloat": [
             {
               "name": "WeaponType",
-              "ratio": 2.0
+              "value": 2.0
             }
           ]
         },
         "ShieldAttack_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "ShieldAttack_AS": [
               "Monster_Darkwraith_Fat_Rock_ShieldAttack_AS",
               "Audio_Monster_Darkwraith_Fat_Rock_01_ShieldAttack_AS"
             ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "WhirlAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "WhirlAttack": [
               "Monster_Darkwraith_Fat_Rock_WhirlAttack",
               "Monster_Darkwraith_Fat_Rock_WhirlAttack_VFX",
               "Audio_Monster_Darkwraith_Fat_Rock_01_WhirlAttack"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
+          "addEndure": 0.0,
           "setAnimatorFloat": [
             {
               "name": "WeaponType",
-              "ratio": 3.0
+              "value": 3.0
             }
           ]
         },
         "HitShield": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "HitShieldL": ["Audio_Monster_Darkwraith_Fat_Rock_01_HitShield"],
-            "HitShieldR": ["Audio_Monster_Darkwraith_Fat_Rock_01_HitShield"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "HitShieldL": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_HitShield"
+            ],
+            "HitShieldR": [
+              "Audio_Monster_Darkwraith_Fat_Rock_01_HitShield"
+            ],
             "HitShieldRage": [
               "Monster_Darkwraith_Fat_Rock_HitShieldRage",
               "Audio_Monster_Darkwraith_Fat_Rock_01_HitShield_Rage"
@@ -754,12 +838,16 @@
               "Audio_Monster_Darkwraith_Fat_Rock_01_Rage_BS"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill", "HitShield"]
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "HitShield"
+          ]
         },
         "RageAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "RageAttack01_Trans": [
               "Audio_Monster_Darkwraith_Fat_Rock_01_RageAttack01_Trans"
             ],
@@ -770,23 +858,30 @@
               "Audio_Monster_Darkwraith_Fat_Rock_01_RageAttack02_Trans"
             ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "RageAttack01_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "RageAttack01_BS": ["Monster_Darkwraith_Fat_Rock_RageAttack01_01"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "RageAttack01_BS": [
+              "Monster_Darkwraith_Fat_Rock_RageAttack01_01"
+            ]
           }
         },
         "RageAttack01_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "RageAttack01_Loop": ["Monster_Darkwraith_Fat_Rock_RageAttack01_02"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "RageAttack01_Loop": [
+              "Monster_Darkwraith_Fat_Rock_RageAttack01_02"
+            ]
           }
         },
         "RageAttack01_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "RageAttack01_AS1": [
               "Monster_Darkwraith_Fat_Rock_RageAttack01_03",
               "Audio_Monster_Darkwraith_Fat_Rock_01_RageAttack01_AS1"
@@ -794,8 +889,8 @@
           }
         },
         "RageAttack02": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "RageAttack02": [
               "Monster_Darkwraith_Fat_Rock_RageAttack02",
               "Monster_Darkwraith_Fat_Rock_RageAttack02_VFX",
@@ -804,24 +899,50 @@
           }
         },
         "RageAttack_Exit": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
-            "RageAttack01_AS2": ["Monster_Darkwraith_Fat_Rock_RageAttack01_AS"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "RageAttack01_AS2": [
+              "Monster_Darkwraith_Fat_Rock_RageAttack01_AS"
+            ],
             "RageAttack02_AS": []
           }
+        },
+        "Crystallization": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Crystallization": []
+          },
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
+        },
+        "Alert_Crystallization": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Alert_Crystallization": []
+          },
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         }
       }
     }
   },
   "billboard": {
-    "$type": "HFEGKLAIGGI",
-    "IIKEHINGEME": "BillboardAttach",
+    "$type": "HODFBPFPGEF",
+    "attachPoint": "BillboardAttach",
     "offset": {
       "y": -0.20000000298023224
     },
-    "GEKOGJAPMMH": "Character",
-    "HECLHMINJII": 0.5,
-    "DMHOOGGGDKG": true,
+    "offsetType": "Character",
+    "radiusOffset": 0.5,
+    "showHPBar": true,
     "size": "Big"
   },
   "initialPoses": {
@@ -836,9 +957,11 @@
     "aiCombat": {
       "combatRole": "FIGHTER"
     },
-    "patrolFollowTactic": {
+    "buddySetting": {
       "enable": true,
-      "condition": [4013]
+      "buddyFeatureTagIDs": [
+        4013
+      ]
     },
     "sensing": {
       "settings": {
@@ -849,9 +972,12 @@
       }
     },
     "neurons": {
-      "DefaultSetting": ["HIT"]
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
     "threat": {
+      "specification": "",
       "clearThreatByLostPath": true,
       "clearThreatTimerByLostPath": 20.0,
       "viewAttenuation": [
@@ -900,12 +1026,37 @@
         "name": "OnAlert",
         "skillType": "OnAlert",
         "castCondition": {
-          "pose": [1]
+          "pose": [
+            1
+          ]
         },
         "publicCDGroup": "",
         "ignoreGCD": true,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Alert", "Alert_Turn"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Alert",
+          "Alert_Turn"
+        ],
+        "skillQueryingTime": 3.0,
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
+      },
+      "102": {
+        "name": "OnAlert",
+        "skillType": "OnAlert",
+        "castCondition": {
+          "pose": [
+            9003
+          ]
+        },
+        "publicCDGroup": "",
+        "triggerGCD": false,
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Alert_Crystallization"
+        ],
         "skillQueryingTime": 3.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -916,13 +1067,17 @@
         "name": "SwitchToDualWielding",
         "priority": 1,
         "castCondition": {
-          "pose": [200]
+          "pose": [
+            200
+          ]
         },
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["SwitchToDualWielding"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "SwitchToDualWielding"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "11",
         "flagSelfInZone": "11",
@@ -933,13 +1088,17 @@
         "skillType": "Free",
         "priority": 1,
         "castCondition": {
-          "pose": [200]
+          "pose": [
+            200
+          ]
         },
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["SwitchToDualWielding"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "SwitchToDualWielding"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -950,14 +1109,16 @@
         "combatSkillType": "MeleeAttack",
         "priority": 2,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "maxTargetAngleXZ": 150.0,
           "pickRangeMax": 4.75
         },
         "cd": 13.0,
         "publicCDGroup": "",
         "skillGroupCDID": 1,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NormalAttack_01",
           "NormalAttack_02",
@@ -981,9 +1142,11 @@
         "priority": 3,
         "enableSkillPrepare": true,
         "skillPrepareTimeout": 4.0,
-        "AIDBHGMIKGP": true,
+        "skillPrepareGiveUp": true,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 6.0,
           "pickRangeMax": 15.0,
           "castRangeMax": 6.0
@@ -991,7 +1154,7 @@
         "cd": 13.0,
         "publicCDGroup": "",
         "skillGroupCDID": 1,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NormalAttack_01",
           "NormalAttack_02",
@@ -1014,7 +1177,9 @@
         "combatSkillType": "MeleeAttack",
         "priority": 2,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMax": 5.0
         },
         "cd": 22.0,
@@ -1022,7 +1187,7 @@
         "initialCD": 7.0,
         "publicCDGroup": "",
         "skillGroupCDID": 2,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "WhirlAttack",
           "RageAttack",
@@ -1044,9 +1209,11 @@
         "priority": 3,
         "enableSkillPrepare": true,
         "skillPrepareTimeout": 4.0,
-        "AIDBHGMIKGP": true,
+        "skillPrepareGiveUp": true,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 6.0,
           "pickRangeMax": 15.0,
           "castRangeMax": 6.0
@@ -1056,7 +1223,7 @@
         "initialCD": 7.0,
         "publicCDGroup": "",
         "skillGroupCDID": 2,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "WhirlAttack",
           "RageAttack",
@@ -1077,14 +1244,16 @@
         "combatSkillType": "MeleeAttack",
         "priority": 2,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "maxTargetAngleXZ": 90.0,
           "pickRangeMax": 4.75
         },
         "cd": 17.0,
         "publicCDGroup": "",
         "skillGroupCDID": 3,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "ShieldAttack_BS",
           "ShieldAttack",
@@ -1108,9 +1277,11 @@
         "priority": 3,
         "enableSkillPrepare": true,
         "skillPrepareTimeout": 4.0,
-        "AIDBHGMIKGP": true,
+        "skillPrepareGiveUp": true,
         "castCondition": {
-          "pose": [101],
+          "pose": [
+            101
+          ],
           "pickRangeMin": 6.0,
           "pickRangeMax": 15.0,
           "castRangeMax": 6.0
@@ -1118,7 +1289,7 @@
         "cd": 17.0,
         "publicCDGroup": "",
         "skillGroupCDID": 3,
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "ShieldAttack_BS",
           "ShieldAttack",
@@ -1140,7 +1311,9 @@
         "name": "Personality_9001",
         "skillType": "Free",
         "castCondition": {
-          "pose": [1]
+          "pose": [
+            1
+          ]
         },
         "initialCD": 2.0,
         "initialCDUpperRange": 5.0,
@@ -1148,8 +1321,10 @@
         "ignoreGCD": true,
         "triggerGCD": false,
         "skillGroupCDID": 1,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Personality_9001"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_9001"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -1159,7 +1334,9 @@
         "name": "Personality_9002",
         "skillType": "Free",
         "castCondition": {
-          "pose": [1]
+          "pose": [
+            1
+          ]
         },
         "initialCD": 2.0,
         "initialCDUpperRange": 5.0,
@@ -1167,8 +1344,10 @@
         "ignoreGCD": true,
         "triggerGCD": false,
         "skillGroupCDID": 1,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Personality_9002"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_9002"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -1176,82 +1355,93 @@
       }
     },
     "skillGCD": 1.75,
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "KGAPELEPFEK",
+        "$type": "FDPMABFEPBO",
         "enable": true,
-        "NGIEOIGFFDH": {
-          "KFGFLKDKJON": 5.25,
-          "KOALECHIGHD": 5.0,
-          "LBDFIIPFPCO": 1.5,
-          "ODJCANIELOC": 0.30000001192092896,
-          "KHNBPJHNNOH": {
-            "BBDMIGLOPMD": 4.0,
-            "GODDCABFCMO": 80.0
+        "platformMap": {
+          "LHJLGKJPDII": 5.25,
+          "PEMLNMEAAPF": 5.0,
+          "JBMLFLKMFNE": 1.5,
+          "IKOIJFMMOJK": 0.30000001192092896,
+          "MDFOPLLFLNE": {
+            "HMLDFMHPJPL": 4.0,
+            "EFLPBNJAEDJ": 80.0
           },
-          "DILIDCMBDOA": 14.0,
-          "JCBIGJPNMGN": {
+          "LJAKFNKNCOH": 14.0,
+          "LGDHEEGCMCB": {
             "buddyScoring": {
               "distFactor": -1.0,
-              "roleScores": [0.0, 0.0, 2.0, 4.0]
+              "roleScores": [
+                0.0,
+                0.0,
+                2.0,
+                4.0
+              ]
             }
           }
         }
       },
       {
-        "$type": "KIMPOLMEFNK",
+        "$type": "AOANKGJLDJD",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [101]
+        "condition": {
+          "pose": [
+            101
+          ]
         },
-        "NGIEOIGFFDH": {
+        "platformMap": {
           "rangeMax": 5.0,
-          "ODLFCBFIAEG": {
-            "ACLMEMJMCHO": 1.5,
-            "LJGPLFGCHJM": 3.0,
-            "ODFJMMCNEHI": 1.5
+          "DLMHEAKPPDN": {
+            "DLGHEDFAPFM": 1.5,
+            "FAGCGPJJNBP": 3.0,
+            "IGJADOKHABD": 1.5
           },
-          "EOBOHLNDGNC": "1111",
-          "JFAHEKLBENF": "1111",
-          "FCFLCFFJKLO": ""
+          "CMPIAHEGPDJ": "1111",
+          "GLNJBFOMIPF": "1111",
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "HLPBLIEBJLM",
+        "$type": "PMEKLEHAIGN",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [101]
+        "condition": {
+          "pose": [
+            101
+          ]
         },
-        "NGIEOIGFFDH": {
-          "MONCHHKIDKL": 5.0,
-          "GPKNKJPPCOM": 10.0,
-          "FDNLEPNLLBP": 4.5,
-          "DANCMNIMNAM": 6.0,
-          "FCFLCFFJKLO": ""
+        "platformMap": {
+          "maxFileNum": 5.0,
+          "CMNLIHGBGFO": 10.0,
+          "AHNILABOBLA": 4.5,
+          "EGFJINAMAOM": 6.0,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "GJGILIGEJMO",
+        "$type": "CCGMBAAMCIC",
         "enable": true,
-        "NGIEOIGFFDH": {
-          "FCFLCFFJKLO": "",
-          "BKCOJDIDEGN": ""
+        "platformMap": {
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "IKIHDEMELGB",
+        "$type": "OMEJECJFGDI",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [1]
+        "condition": {
+          "pose": [
+            1
+          ]
         },
-        "NGIEOIGFFDH": {
-          "MONCHHKIDKL": 1.0,
-          "HOKGJAONGHG": 12.0,
-          "GJOBDMEBGLM": 7.0,
-          "KDLAOJIPGHP": 13.0,
-          "OEFFOIEOJNC": 4.0,
-          "HAHMEDHEBKE": 6.0,
-          "FCFLCFFJKLO": ""
+        "platformMap": {
+          "maxFileNum": 1.0,
+          "DEHJKJAMIKG": 12.0,
+          "CLMGGEMDIGP": 7.0,
+          "DGOPNNFDHNN": 13.0,
+          "KBCIAPABFBF": 4.0,
+          "AKPLIHCCDLC": 6.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
@@ -1279,15 +1469,15 @@
     }
   ],
   "move": {
-    "$type": "JKDLANFKJIL",
-    "ADKJOFPNHNO": "FourDirection",
-    "LDHGAEIKIEE": "StrongHumanoidType",
-    "FMOHEOLGBMD": "Walk",
-    "NKJKJFLNPPN": 3.75,
-    "LPAKBBIADNC": "RootNode"
+    "$type": "GHFIPBIFJDP",
+    "facingMove": "FourDirection",
+    "monsterSizeType": "StrongHumanoidType",
+    "positionModifyState": "Walk",
+    "yawSpeedRatio": 3.75,
+    "KJBPBOFPFBE": "RootNode"
   },
   "audio": {
-    "LKJIHNLBIJL": "",
+    "overrideEmitterName": "",
     "animAudio": {
       "onTransitionIn": [
         {
@@ -1295,7 +1485,9 @@
           "audioEvent": {
             "text": "Play_sfx_monster_Darkwraith_Fat_Rock_01_rageAttack01_Loop"
           },
-          "otherStateNames": ["RageAttack01_Loop"],
+          "otherStateNames": [
+            "RageAttack01_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1303,7 +1495,10 @@
           "audioEvent": {
             "text": "Play_sfx_monster_Darkwraith_Fat_Rock_01_rageAttack01_BS"
           },
-          "otherStateNames": ["RageAttack01_SelfTrans", "RageAttack02_Trans"],
+          "otherStateNames": [
+            "RageAttack01_SelfTrans",
+            "RageAttack02_Trans"
+          ],
           "usage": "Except"
         },
         {
@@ -1331,7 +1526,9 @@
           "audioEvent": {
             "text": "Stop_sfx_monster_Darkwraith_Fat_Rock_01_rageAttack01_Loop"
           },
-          "otherStateNames": ["RageAttack01_Loop"],
+          "otherStateNames": [
+            "RageAttack01_Loop"
+          ],
           "usage": "Except"
         }
       ]

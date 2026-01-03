@@ -1,26 +1,41 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "DynamicAbility_RogueDungeon_Level",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_ROGUE_BOMBREJECT",
-          "valueSteps": [0.5, 1.5],
-          "modifierNameSteps": ["BombRejectHandler"]
+          "valueSteps": [
+            0.5,
+            1.5
+          ],
+          "modifierNameSteps": [
+            "BombRejectHandler"
+          ]
         },
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_ROGUECURSE_MONSTERBUFF",
-          "valueSteps": [0.5, 1.5],
-          "modifierNameSteps": ["MonsterGetBuff"]
+          "valueSteps": [
+            0.5,
+            1.5
+          ],
+          "modifierNameSteps": [
+            "MonsterGetBuff"
+          ]
         },
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_ROGUECURSE_BOMBDAMAGE",
-          "valueSteps": [0.5, 1.5],
-          "modifierNameSteps": ["BombExtraDamage"]
+          "valueSteps": [
+            0.5,
+            1.5
+          ],
+          "modifierNameSteps": [
+            "BombExtraDamage"
+          ]
         }
       ],
       "abilitySpecials": {
@@ -49,87 +64,87 @@
       "modifiers": {
         "MonsterGetBuff": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_MonsterGetBuff_Effect": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
-              "cdDelta": true,
+              "$type": "ICIEIAFKCAO",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "GV_ROGUE_CURSEEFF",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
-              "cdDelta": true,
+              "$type": "ICIEIAFKCAO",
+              "musicSubStates": true,
               "ratio": -1.0,
               "key": "GV_ROGUE_CURSEEFF",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "BombExtraDamage": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_BombExtraDamage_Effect"
             }
           ]
         },
         "UNIQUE_BombExtraDamage_Effect": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
-              "cdDelta": true,
+              "$type": "ICIEIAFKCAO",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "GV_ROGUE_CURSEEFF",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
-              "cdDelta": true,
+              "$type": "ICIEIAFKCAO",
+              "musicSubStates": true,
               "ratio": -1.0,
               "key": "GV_ROGUE_CURSEEFF",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "AttackByLevelEntityHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_ATTACKBYLEVELENTITY",
               "actions": [
                 {
-                  "$type": "SetGlobalValueToOverrideMap",
+                  "$type": "OLOEGCPACDP",
                   "globalValueKey": "SGV_ROGUE_ATTACKBYLEVELENTITY",
                   "overrideMapKey": "attackbylevelentity_LV"
                 },
                 {
-                  "$type": "RemoveModifier",
+                  "$type": "LBCOJMOPBAB",
                   "modifierName": "AttackByLevelEntity_Manager"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "modifierName": "AttackByLevelEntity_Manager"
                 }
               ]
@@ -138,18 +153,18 @@
         },
         "AttackByLevelEntity_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_AttackByLevelEntity_Avatar"
             }
           ]
         },
         "UNIQUE_AttackByLevelEntity_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AddHurtDelta": [
               "PER_attackbylevelentity",
@@ -160,23 +175,23 @@
         },
         "ChargeSpeedByLevelEntityHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_CHARGEBYLEVELENTITY",
               "actions": [
                 {
-                  "$type": "SetGlobalValueToOverrideMap",
+                  "$type": "OLOEGCPACDP",
                   "globalValueKey": "SGV_ROGUE_CHARGEBYLEVELENTITY",
                   "overrideMapKey": "chargebylevelentity_LV"
                 },
                 {
-                  "$type": "RemoveModifier",
+                  "$type": "LBCOJMOPBAB",
                   "modifierName": "ChargeByLevelEntity_Manager"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "modifierName": "ChargeByLevelEntity_Manager"
                 }
               ]
@@ -185,18 +200,18 @@
         },
         "ChargeByLevelEntity_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_ChargeByLevelEntity_Avatar"
             }
           ]
         },
         "UNIQUE_ChargeByLevelEntity_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ChargeEfficiencyDelta": [
               "PER_chargebylevelentity",
@@ -207,17 +222,17 @@
         },
         "MuteHurtByLevelEntityHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
                       "ratio": "MAX_mutehurtbylevelentity_LV",
@@ -226,16 +241,16 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "SetGlobalValueToOverrideMap",
+                      "$type": "OLOEGCPACDP",
                       "globalValueKey": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
                       "overrideMapKey": "mutehurtbylevelentity_LV"
                     },
                     {
-                      "$type": "RemoveModifier",
+                      "$type": "LBCOJMOPBAB",
                       "modifierName": "MuteHurtByLevelEntity_Manager"
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "modifierName": "MuteHurtByLevelEntity_Manager"
                     }
                   ]
@@ -246,18 +261,18 @@
         },
         "MuteHurtByLevelEntity_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_MuteHurtByLevelEntity_Avatar"
             }
           ]
         },
         "UNIQUE_MuteHurtByLevelEntity_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_PhysicalSubHurtDelta": [
               "PER_mutehurtbylevelentity",
@@ -303,23 +318,23 @@
         },
         "DefenceByLevelEntityHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_DEFENCEBYLEVELENTITY",
               "actions": [
                 {
-                  "$type": "SetGlobalValueToOverrideMap",
+                  "$type": "OLOEGCPACDP",
                   "globalValueKey": "SGV_ROGUE_DEFENCEBYLEVELENTITY",
                   "overrideMapKey": "defencebylevelentity_LV"
                 },
                 {
-                  "$type": "RemoveModifier",
+                  "$type": "LBCOJMOPBAB",
                   "modifierName": "DefenceByLevelEntity_Manager"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "modifierName": "DefenceByLevelEntity_Manager"
                 }
               ]
@@ -328,18 +343,18 @@
         },
         "DefenceByLevelEntity_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_DefenceByLevelEntity_Avatar"
             }
           ]
         },
         "UNIQUE_DefenceByLevelEntity_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_DefenceRatio": [
               "PER_defencebylevelentity",
@@ -350,44 +365,44 @@
         },
         "BombRejectHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_BombReject_Avatar"
             }
           ]
         },
         "UNIQUE_BombReject_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "RejectAttackMixin",
+              "$type": "NGGDJPNPIEO",
               "attackTag": "Rogue_BombAttack"
             }
           ]
         },
         "MasteryByGearHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_MASTERYBYGEAR",
               "actions": [
                 {
-                  "$type": "SetGlobalValueToOverrideMap",
+                  "$type": "OLOEGCPACDP",
                   "globalValueKey": "SGV_ROGUE_MASTERYBYGEAR",
                   "overrideMapKey": "masterybygear_LV"
                 },
                 {
-                  "$type": "RemoveModifier",
+                  "$type": "LBCOJMOPBAB",
                   "modifierName": "MasteryByGear_Manager"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "modifierName": "MasteryByGear_Manager"
                 }
               ]
@@ -396,35 +411,39 @@
         },
         "MasteryByGear_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_MasteryByGear_Avatar"
             }
           ]
         },
         "UNIQUE_MasteryByGear_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
-            "Actor_ElemMasteryDelta": [10.0, "masterybygear_LV", "MUL"]
+            "Actor_ElemMasteryDelta": [
+              10.0,
+              "masterybygear_LV",
+              "MUL"
+            ]
           }
         },
         "ReviveRoomBuffHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_REVIVEROOMBUFF",
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "SGV_ROGUE_REVIVEROOMBUFF",
                       "ratio": 0.0,
@@ -433,16 +452,16 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "SetGlobalValueToOverrideMap",
+                      "$type": "OLOEGCPACDP",
                       "globalValueKey": "SGV_ROGUE_REVIVEROOMBUFF",
                       "overrideMapKey": "reviveroombuff_LV"
                     },
                     {
-                      "$type": "RemoveModifier",
+                      "$type": "LBCOJMOPBAB",
                       "modifierName": "ReviveRoomBuff_Manager"
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "modifierName": "ReviveRoomBuff_Manager"
                     }
                   ]
@@ -453,18 +472,18 @@
         },
         "ReviveRoomBuff_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_ReviveRoomBuff_Avatar"
             }
           ]
         },
         "UNIQUE_ReviveRoomBuff_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AddHurtDelta": [
               "PER_reviveroombuff",
@@ -477,17 +496,17 @@
         },
         "BattleRoomBuffHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionOnGlobalValueChangeMixin",
+              "$type": "OBOPGDKEOIF",
               "globalValueKey": "SGV_ROGUE_BATTLEROOMBUFF",
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "SGV_ROGUE_BATTLEROOMBUFF",
                       "ratio": 0.0,
@@ -496,16 +515,16 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "SetGlobalValueToOverrideMap",
+                      "$type": "OLOEGCPACDP",
                       "globalValueKey": "SGV_ROGUE_BATTLEROOMBUFF",
                       "overrideMapKey": "battleroombuff_LV"
                     },
                     {
-                      "$type": "RemoveModifier",
+                      "$type": "LBCOJMOPBAB",
                       "modifierName": "BattleRoomBuff_Manager"
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "modifierName": "BattleRoomBuff_Manager"
                     }
                   ]
@@ -516,18 +535,18 @@
         },
         "BattleRoomBuff_Manager": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UNIQUE_BattleRoomBuff_Avatar"
             }
           ]
         },
         "UNIQUE_BattleRoomBuff_Avatar": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AddHurtDelta": [
               "PER_battleroombuff",
@@ -541,90 +560,90 @@
       },
       "onAdded": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "AttackByLevelEntityHandler"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "ChargeSpeedByLevelEntityHandler"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "MuteHurtByLevelEntityHandler"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "DefenceByLevelEntityHandler"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "MasteryByGearHandler"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "ReviveRoomBuffHandler"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "BattleRoomBuffHandler"
         },
         {
-          "$type": "SetGlobalValueToOverrideMap",
+          "$type": "OLOEGCPACDP",
           "globalValueKey": "SGV_ROGUE_ATTACKBYLEVELENTITY",
           "overrideMapKey": "attackbylevelentity_LV"
         },
         {
-          "$type": "RemoveModifier",
+          "$type": "LBCOJMOPBAB",
           "modifierName": "AttackByLevelEntity_Manager"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "AttackByLevelEntity_Manager"
         },
         {
-          "$type": "SetGlobalValueToOverrideMap",
+          "$type": "OLOEGCPACDP",
           "globalValueKey": "SGV_ROGUE_CHARGEBYLEVELENTITY",
           "overrideMapKey": "chargebylevelentity_LV"
         },
         {
-          "$type": "RemoveModifier",
+          "$type": "LBCOJMOPBAB",
           "modifierName": "ChargeByLevelEntity_Manager"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "ChargeByLevelEntity_Manager"
         },
         {
-          "$type": "SetGlobalValueToOverrideMap",
+          "$type": "OLOEGCPACDP",
           "globalValueKey": "SGV_ROGUE_MUTEHURTBYLEVELENTITY",
           "overrideMapKey": "mutehurtbylevelentity_LV"
         },
         {
-          "$type": "RemoveModifier",
+          "$type": "LBCOJMOPBAB",
           "modifierName": "MuteHurtByLevelEntity_Manager"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "MuteHurtByLevelEntity_Manager"
         },
         {
-          "$type": "SetGlobalValueToOverrideMap",
+          "$type": "OLOEGCPACDP",
           "globalValueKey": "SGV_ROGUE_DEFENCEBYLEVELENTITY",
           "overrideMapKey": "defencebylevelentity_LV"
         },
         {
-          "$type": "RemoveModifier",
+          "$type": "LBCOJMOPBAB",
           "modifierName": "DefenceByLevelEntity_Manager"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "DefenceByLevelEntity_Manager"
         },
         {
-          "$type": "Predicated",
+          "$type": "BGNIHCGOFJH",
           "targetPredicates": [
             {
-              "$type": "ByTargetGlobalValue",
+              "$type": "CABGKHFDJGP",
               "target": "Team",
               "key": "SGV_ROGUE_REVIVEROOMBUFF",
               "ratio": 0.0,
@@ -633,25 +652,25 @@
           ],
           "successActions": [
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "globalValueKey": "SGV_ROGUE_REVIVEROOMBUFF",
               "overrideMapKey": "reviveroombuff_LV"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "ReviveRoomBuff_Manager"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "ReviveRoomBuff_Manager"
             }
           ]
         },
         {
-          "$type": "Predicated",
+          "$type": "BGNIHCGOFJH",
           "targetPredicates": [
             {
-              "$type": "ByTargetGlobalValue",
+              "$type": "CABGKHFDJGP",
               "target": "Team",
               "key": "SGV_ROGUE_BATTLEROOMBUFF",
               "ratio": 0.0,
@@ -660,16 +679,16 @@
           ],
           "successActions": [
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "globalValueKey": "SGV_ROGUE_BATTLEROOMBUFF",
               "overrideMapKey": "battleroombuff_LV"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "BattleRoomBuff_Manager"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "BattleRoomBuff_Manager"
             }
           ]

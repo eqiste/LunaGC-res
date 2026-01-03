@@ -1,172 +1,206 @@
 {
-  "MDJNFHAJPAD": {
-    "FAIKDMCHPEL": {
-      "$type": "DPGKNHENGLM",
+  "common": {
+    "effectAttachShape": {
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
-    "FINMNFLLAMB": 20.0,
-    "MECICKNEPGG": 0.5,
-    "MBMBBGOGNHF": true,
-    "DIEPJBNIPBG": true,
-    "FNLMEPDMMMD": 1.2000000476837158,
-    "CKECEGGMJOP": false
+    "mass": 20.0,
+    "viewSize": 0.5,
+    "affectedByWorld": true,
+    "checkInSurface": true,
+    "scale": 1.2000000476837158,
+    "canTriggerElementReactionText": false
   },
-  "PJEANIPCFFN": {
-    "CKAIGCFDCMG": "",
-    "KHGAHHAIJFJ": "",
-    "DFFKHFKJKEK": false
+  "model": {
+    "bornEffect": "",
+    "attachEffect": "",
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
-  "GKIMHOOMGHB": {
-    "DHBJGHDCMAA": {
-      "LDAHGACLHII": "Monster_Minion",
-      "LJGADHKDLLB": 30.0
+  "combat": {
+    "property": {
+      "endureType": "Monster_Minion",
+      "weight": 30.0
     },
-    "BPKIJDAHLGB": {
-      "LKMLEJGEHAP": "",
-      "LHMKDLOKKJG": true
+    "beHit": {
+      "hitBloodEffect": "",
+      "muteAllHitText": true
     },
-    "INCPHOFGIJA": {
-      "FGJIHAKMLBG": "CircleLockEnemy",
-      "BGMEKAEIOGA": "Animal_Lv2"
+    "combatLock": {
+      "lockShape": "CircleLockEnemy",
+      "lockType": "Animal_Lv2"
     },
-    "JCCJMILDEAM": {
-      "GKFDFDFJJFB": 0.009999999776482582,
-      "FNIJBPMPCHA": 10.0,
-      "BCHFMGGBEFN": "Eff_Animal_Common_Die"
+    "die": {
+      "dieEndTime": 0.009999999776482582,
+      "dieForceDisappearTime": 10.0,
+      "dieDisappearEffect": "Eff_Animal_Common_Die"
     }
   },
-  "GGIOJAMBNPO": {
+  "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
-      "LFGKIDDJIED": {
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
+      "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Born": ["Audio_Frog_Standby"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Born": [
+              "Audio_Frog_Standby"
+            ]
           },
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Standby": ["Audio_Frog_Standby"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Standby": [
+              "Audio_Frog_Standby"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Walk": ["Audio_Frog_Walk"],
-            "Run": ["Audio_Frog_Run"],
-            "Run_AS": ["Audio_Frog_Run"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Walk": [
+              "Audio_Frog_Walk"
+            ],
+            "Run": [
+              "Audio_Frog_Run"
+            ],
+            "Run_AS": [
+              "Audio_Frog_Run"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Hit_L": ["Audio_Frog_Standby"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Hit_L": [
+              "Audio_Frog_Standby"
+            ]
           },
-          "AJBLILDCLBO": ["BeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Disappear": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Disappear": ["Animal_Frog_Disappear", "Audio_Frog_Run"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Disappear": [
+              "Animal_Frog_Disappear",
+              "Audio_Frog_Run"
+            ]
           }
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Animal_Frog_Die", "Audio_Frog_Standby"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Animal_Frog_Die",
+              "Audio_Frog_Standby"
+            ]
           }
         }
       }
     }
   },
-  "IONIFBIBFNL": {
+  "initialPoses": {
     "Default": {}
   },
-  "PDCDMABCPOA": {
-    "ENLKMOKHELD": true,
-    "BBIKFBPEPKO": 1,
-    "OCBDDDCJANP": {
-      "IJOBKDKBEME": {
+  "aibeta": {
+    "enable": true,
+    "friendliness": 1,
+    "sensing": {
+      "settings": {
         "DefaultSetting": {
-          "FNIFPAHGINJ": false,
-          "BHOECAJIBOM": 7.5
+          "enableVision": false,
+          "feelRange": 7.5
         }
       }
     },
-    "OFEGONBLOGP": {
-      "DefaultSetting": ["HIT"]
+    "neurons": {
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
-    "EJOLGMGAECP": {
-      "KICEOILEEPP": 75.0,
-      "JEAMBMPMOAC": 1000.0,
-      "KNNHACDCGCF": 5.0,
-      "JGFOPCOIJOI": ""
+    "threat": {
+      "specification": "",
+      "viewThreatGrow": 75.0,
+      "feelThreatGrow": 1000.0,
+      "threatBroadcastRange": 5.0
     },
-    "PMNPDDIOHHJ": {
-      "OKMHHFALCCH": 100.0
+    "defendArea": {
+      "defendRange": 100.0
     },
-    "HEOOEKIGDAL": {
-      "GMFIDKOEKHA": false,
-      "FLMOHOODJBA": ""
+    "ui": {
+      "hasDirectionIndicator": false,
+      "MECOEANNABD": ""
     },
-    "JLKBBPGPEAA": {
-      "FMFBMENJLJF": "MinorAnimal"
+    "profiling": {
+      "lodStrategy": "MinorAnimal"
     },
-    "EEKEAKJCMJO": [
+    "birdCirclingTactic": [
       {
-        "$type": "GIMIMAJNOPH",
-        "ENLKMOKHELD": true,
-        "GMMKOLNMFJL": ["HIT"],
-        "LMMKNFEMOMG": {
-          "GEAICNICJAJ": 1.0,
-          "PAHIDIJLGPF": 0.0,
-          "OHLJIHFFMLB": 200.0,
-          "IFCLJHAJFHD": 90.0,
-          "GGIBBPIGEJF": 2,
-          "PKFMEOPIHEO": 3,
-          "NBBIJDCLJOF": 8.0,
-          "MHMMABHJIIA": 11.0,
-          "JOCOJHEICNA": ""
+        "$type": "GDHDBOLMIDA",
+        "enable": true,
+        "nerveTrigger": [
+          "HIT"
+        ],
+        "platformMap": {
+          "maxFileNum": 1.0,
+          "cd": 0.0,
+          "triggerDistance": 200.0,
+          "BECAHMJJGFB": 90.0,
+          "DFOENAEFIHA": 2,
+          "ELJCMKFHGCC": 3,
+          "MDJFBGIGOPL": 8.0,
+          "LGGOMDLBBPH": 11.0,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "KMHBGMELMKD",
-        "ENLKMOKHELD": true
+        "$type": "CCGMBAAMCIC",
+        "enable": true
       },
       {
-        "$type": "GGKADEIBMLG",
-        "ENLKMOKHELD": true,
-        "LMMKNFEMOMG": {
-          "JIFJFPJANHO": 20.0,
-          "CBKHBGCPFBG": 10.0,
-          "EKDHNAGGGAE": 10.0,
-          "BFEJAKFKKFP": 1.5,
-          "KOAMKCEFJED": 3.0,
-          "JOCOJHEICNA": ""
+        "$type": "OMEJECJFGDI",
+        "enable": true,
+        "platformMap": {
+          "DEHJKJAMIKG": 20.0,
+          "CLMGGEMDIGP": 10.0,
+          "DGOPNNFDHNN": 10.0,
+          "KBCIAPABFBF": 1.5,
+          "AKPLIHCCDLC": 3.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
   },
-  "KDLODKFKHPB": {
-    "HKPPCCONOFN": false,
-    "PIMGAEBNCBJ": false,
-    "JFBHPOLAAEJ": false
+  "animal": {
+    "hasAbility": false,
+    "tickAbilityElement": false,
+    "hasCharacterRenderering": false
   },
-  "EGGALDADMOL": {
-    "ILKLCFIONEC": {
-      "ABCJFMIGKJN": "Eff_SceneObj_CatchAnimal_CaughtSuccess"
+  "captureGroup": {
+    "defaultConfig": {
+      "captureEffect": "Eff_SceneObj_CatchAnimal_CaughtSuccess"
     }
   }
 }

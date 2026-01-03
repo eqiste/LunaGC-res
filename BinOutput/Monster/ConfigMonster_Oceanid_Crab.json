@@ -1,174 +1,187 @@
 {
-  "MDJNFHAJPAD": {
-    "FAIKDMCHPEL": {
-      "$type": "DPGKNHENGLM",
+  "common": {
+    "effectAttachShape": {
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
-    "FINMNFLLAMB": 999999.0,
-    "MECICKNEPGG": 1.5,
-    "FNLMEPDMMMD": 15.0
+    "mass": 999999.0,
+    "viewSize": 1.5,
+    "scale": 15.0
   },
-  "PJEANIPCFFN": {
-    "CKAIGCFDCMG": "Eff_Monster_Oceanid_AnimalBorn",
-    "KHGAHHAIJFJ": "",
-    "DFFKHFKJKEK": false
+  "model": {
+    "bornEffect": "Eff_Monster_Oceanid_AnimalBorn",
+    "attachEffect": "",
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
-  "MEMHBNEJBCL": {
-    "PJBCJPKPOLB": 3.0
+  "dither": {
+    "showDitherDuration": 3.0
   },
-  "GKIMHOOMGHB": {
-    "DHBJGHDCMAA": {
-      "LDAHGACLHII": "Monster_Boss_Other",
-      "LJGADHKDLLB": 150.0
+  "combat": {
+    "property": {
+      "endureType": "Monster_Boss_Other",
+      "weight": 150.0
     },
-    "BPKIJDAHLGB": {
-      "LKMLEJGEHAP": ""
+    "beHit": {
+      "hitBloodEffect": ""
     },
-    "INCPHOFGIJA": {
-      "FGJIHAKMLBG": "CircleLockEnemy",
-      "BGMEKAEIOGA": "Avatar&Monster_Lv4"
+    "combatLock": {
+      "lockShape": "CircleLockEnemy",
+      "lockType": "Avatar&Monster_Lv4"
     },
-    "JCCJMILDEAM": {
-      "ODGDMCPOMAJ": true,
-      "GKFDFDFJJFB": 2.0,
-      "FNIJBPMPCHA": 5.0,
-      "BCHFMGGBEFN": "",
-      "LEDBOLGDENF": true,
-      "IEAKKMEDNDE": true,
-      "AAEANOPIAAL": true,
-      "IBBHGBHIHCI": true,
-      "BKIBMIAJOHP": true,
-      "MOFPBPPGPCL": true
+    "die": {
+      "hasAnimatorDie": true,
+      "dieEndTime": 2.0,
+      "dieForceDisappearTime": 5.0,
+      "dieDisappearEffect": "",
+      "muteHitBox": true,
+      "dieDenyLockOn": true,
+      "dieIsGhostToEnemy": true,
+      "dieIgnoreTriggerBullet": true,
+      "muteBillboard": true,
+      "mutePushCollider": true
     }
   },
-  "IGPKOOHPBFG": [
+  "abilities": [
     {
-      "FPLENFAEDIB": "Monster_Oceanid_Crab_WaterBubble",
-      "KAJGDIHNKNE": "Monster_Oceanid_Crab_WaterBubble",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Monster_Oceanid_Crab_WaterBubble",
+      "abilityName": "Monster_Oceanid_Crab_WaterBubble",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Monster_Oceanid_Crab_ElementState",
-      "KAJGDIHNKNE": "Monster_Oceanid_Crab_ElementState",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Monster_Oceanid_Crab_ElementState",
+      "abilityName": "Monster_Oceanid_Crab_ElementState",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Monster_Common_WaterMuteHurt",
-      "KAJGDIHNKNE": "Monster_Common_WaterMuteHurt",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Monster_Common_WaterMuteHurt",
+      "abilityName": "Monster_Common_WaterMuteHurt",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Monster_Oceanid_Crab_BeingHit",
-      "KAJGDIHNKNE": "Monster_Oceanid_Crab_BeingHit",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Monster_Oceanid_Crab_BeingHit",
+      "abilityName": "Monster_Oceanid_Crab_BeingHit",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Monster_Oceanid_Animal_Die",
-      "KAJGDIHNKNE": "Monster_Oceanid_Animal_Die",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Monster_Oceanid_Animal_Die",
+      "abilityName": "Monster_Oceanid_Animal_Die",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "",
-      "KAJGDIHNKNE": "Monster_Oceanid_Affix_DeathExplode",
-      "BIAMBCDKJKP": ""
+      "abilityID": "",
+      "abilityName": "Monster_Oceanid_Affix_DeathExplode",
+      "abilityOverride": ""
     }
   ],
-  "GGIOJAMBNPO": {
+  "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
-      "LFGKIDDJIED": {
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
+      "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Walk": [],
             "Walk_Mirror": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Monster_Oceanid_Crab_Die"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Monster_Oceanid_Crab_Die"
+            ]
           }
         },
         "Alert": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Alert": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         }
       }
     }
   },
-  "IEFGNHABHFH": {
-    "$type": "PAOBAEKGGBC",
-    "JBKMLLFNHAL": "BillboardAttach",
-    "EMFFJPOKEKF": "Character",
-    "LOMMBJLKPHE": 0.25,
-    "KGHAGECNJPO": true,
-    "JLCJBGKPEEC": 50.0,
-    "MGLEAPLEHFN": "Big"
+  "billboard": {
+    "$type": "HODFBPFPGEF",
+    "attachPoint": "BillboardAttach",
+    "offsetType": "Character",
+    "radiusOffset": 0.25,
+    "showHPBar": true,
+    "forceShowDistance": 50.0,
+    "size": "Big"
   },
-  "IONIFBIBFNL": {
+  "initialPoses": {
     "Default": {},
     "Free": {
-      "JAAABLNBKAP": 2,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 2,
+      "initialPoseParams": {
+        "boolParams": {
           "Free": "true"
         }
       }
     }
   },
-  "PDCDMABCPOA": {
-    "ENLKMOKHELD": true,
-    "KGDGKFHPJPO": {
-      "KEBHJNMBPBJ": "Amphibious",
-      "NAHAOOOGKLG": false,
-      "NLGDNEMIKPE": "Undead01"
+  "aibeta": {
+    "enable": true,
+    "moveSetting": {
+      "moveCategory": "Amphibious",
+      "useNavMesh": false,
+      "navMeshAgentName": "Undead01"
     },
-    "OCBDDDCJANP": {
-      "IJOBKDKBEME": {
+    "sensing": {
+      "settings": {
         "DefaultSetting": {
-          "BHOECAJIBOM": 50.0
+          "feelRange": 50.0
         },
         "LowAlert": {
-          "FNIFPAHGINJ": false
+          "enableVision": false
         },
         "SpecialLowAlert": {
-          "BHOECAJIBOM": 8.0
+          "feelRange": 8.0
         },
         "OnlyHitAlert": {
-          "PHDIIPOBJGA": 0.0,
-          "IINDLMAAMGD": 0.0,
-          "BHOECAJIBOM": 0.0,
-          "GAENFGBFAHF": 30.0
+          "viewRange": 0.0,
+          "hearAttractionRange": 0.0,
+          "feelRange": 0.0,
+          "sourcelessHitAttractionRange": 30.0
         }
       },
-      "PKFGMCHOEBN": {
+      "templates": {
         "DefaultTemplate": {
           "DefaultPoses": "DefaultSetting",
           "2": "LowAlert"
@@ -182,82 +195,86 @@
         }
       }
     },
-    "EJOLGMGAECP": {
-      "JEAMBMPMOAC": 100.0,
-      "KDPOCNEHGBJ": 100.0,
-      "BJLBMJLOPIP": [
+    "threat": {
+      "specification": "",
+      "feelThreatGrow": 100.0,
+      "threatDecreaseSpeed": 100.0,
+      "viewAttenuation": [
         {
-          "LFALGCACJOF": 10.0,
-          "IOHOACGNJHO": 2.0
+          "x": 10.0,
+          "y": 2.0
         },
         {
-          "LFALGCACJOF": 15.0,
-          "IOHOACGNJHO": 1.25
+          "x": 15.0,
+          "y": 1.25
         },
         {
-          "LFALGCACJOF": 20.0,
-          "IOHOACGNJHO": 0.5
+          "x": 20.0,
+          "y": 0.5
         }
-      ],
-      "JGFOPCOIJOI": ""
+      ]
     },
-    "PMNPDDIOHHJ": {
-      "OKMHHFALCCH": 50.0
+    "defendArea": {
+      "defendRange": 50.0
     },
-    "EMBHEEALPLD": 3.0,
-    "EEKEAKJCMJO": [
+    "skillGCD": 3.0,
+    "birdCirclingTactic": [
       {
-        "$type": "EICAJECBLEL",
-        "ENLKMOKHELD": true,
-        "FJANPNOAAFK": {
-          "CEKMINILIFB": [101]
+        "$type": "DEMNFIPKMLC",
+        "enable": true,
+        "condition": {
+          "pose": [
+            101
+          ]
         },
-        "LMMKNFEMOMG": {
-          "GEAICNICJAJ": 2.5,
-          "HFEPPKJGGBD": 3.0,
-          "OEIOAOBHODM": 7.5,
-          "MEPJPCFNIGK": 2.5,
-          "ADNOJMPGJAF": 5.0,
-          "AJCEMHKIMHA": 1.5,
-          "JNMPGLIADPP": 2.5,
-          "BOOIJDDJCCN": 2.0
+        "platformMap": {
+          "maxFileNum": 2.5,
+          "DPCKDNAICDC": 3.0,
+          "NNKCKBANDEL": 7.5,
+          "FHOAILDLBKA": 2.5,
+          "LGHFGJGNIAF": 5.0,
+          "BNHFNBDJLGJ": 1.5,
+          "KHNHKCNKAHL": 2.5,
+          "JJIEEEGNGHI": 2.0
         }
       },
       {
-        "$type": "KMHBGMELMKD",
-        "ENLKMOKHELD": true,
-        "LMMKNFEMOMG": {
-          "KIHPEPHJMOG": 0,
-          "FKIKEIAEEBO": 1.0,
-          "BMLLGHNDPNE": 3.0,
-          "JOCOJHEICNA": "",
-          "DBIELIMGBMC": ""
+        "$type": "CCGMBAAMCIC",
+        "enable": true,
+        "platformMap": {
+          "autoChangeStep": 0,
+          "DABNKNHAGJA": 1.0,
+          "OINBNIHBNFB": 3.0,
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "GGKADEIBMLG",
-        "ENLKMOKHELD": true,
-        "FJANPNOAAFK": {
-          "CEKMINILIFB": [2]
+        "$type": "OMEJECJFGDI",
+        "enable": true,
+        "condition": {
+          "pose": [
+            2
+          ]
         },
-        "LMMKNFEMOMG": {
-          "JIFJFPJANHO": 3.0,
-          "CBKHBGCPFBG": 1.0,
-          "EKDHNAGGGAE": 10.0,
-          "BFEJAKFKKFP": 1.5,
-          "KOAMKCEFJED": 3.0,
-          "JOCOJHEICNA": ""
+        "platformMap": {
+          "DEHJKJAMIKG": 3.0,
+          "CLMGGEMDIGP": 1.0,
+          "DGOPNNFDHNN": 10.0,
+          "KBCIAPABFBF": 1.5,
+          "AKPLIHCCDLC": 3.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
   },
-  "ADIGBDHBCDP": {
-    "$type": "IIGPJJNGCLE",
-    "EIEIGIPKLAO": {
-      "FAHKNGPHIIP": true
+  "move": {
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
+      "muteAll": true
     },
-    "MEKENCHCEEN": false,
-    "MLKCNHIIMCE": true,
-    "FACNOEFNHIB": "RootNode"
+    "initWithGroundHitCheck": false,
+    "moveOnWater": true,
+    "KJBPBOFPFBE": "RootNode"
   }
 }

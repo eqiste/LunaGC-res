@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "ConfigEffectAttachSkinnedMesh",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 20.0,
@@ -16,7 +16,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "combat": {
     "property": {
@@ -41,59 +42,89 @@
   },
   "stateLayers": {
     "defaultLayer": {
-      "$type": "ConfigNormalStateLayer",
-      "FNPGDAEJAPJ": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Born": []
           },
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Standby": []
           },
           "canDoSkill": true,
           "canSyncMove": true,
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Walk": ["Audio_Crab_Run"],
-            "Walk_Water": ["Animal_Salamander_Walk", "Audio_Crab_Run"],
-            "Rush": ["Audio_Crab_Run"],
-            "Rush_Water": ["Animal_Salamander_Rush", "Audio_Crab_Run"],
-            "Run": ["Audio_Crab_Run"],
-            "Run_Water": ["Animal_Salamander_Run", "Audio_Crab_Run"],
-            "Run_AS": ["Audio_Crab_Run"]
+            "Walk": [
+              "Audio_Crab_Run"
+            ],
+            "Walk_Water": [
+              "Animal_Salamander_Walk",
+              "Audio_Crab_Run"
+            ],
+            "Rush": [
+              "Audio_Crab_Run"
+            ],
+            "Rush_Water": [
+              "Animal_Salamander_Rush",
+              "Audio_Crab_Run"
+            ],
+            "Run": [
+              "Audio_Crab_Run"
+            ],
+            "Run_Water": [
+              "Animal_Salamander_Run",
+              "Audio_Crab_Run"
+            ],
+            "Run_AS": [
+              "Audio_Crab_Run"
+            ]
           },
           "canDoSkill": true,
           "canSyncMove": true,
-          "resetAnimatorTriggerOnExit": ["DoSkill"],
-          "BHEPAJIOBDN": true
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Hit_L": []
           },
-          "resetAnimatorTriggerOnEnter": ["BeHit"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Disappear": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Disappear": []
           }
         },
         "Die": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Die": ["Animal_Salamander_Die"]
+            "Die": [
+              "Animal_Salamander_Die"
+            ]
           }
         }
       }
@@ -119,9 +150,12 @@
       }
     },
     "neurons": {
-      "DefaultSetting": ["HIT"]
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
     "threat": {
+      "specification": "",
       "viewThreatGrow": 75.0,
       "feelThreatGrow": 1000.0,
       "threatBroadcastRange": 5.0
@@ -130,15 +164,24 @@
       "defendRange": 100.0
     },
     "ui": {
-      "hasDirectionIndicator": false
+      "hasDirectionIndicator": false,
+      "MECOEANNABD": ""
     },
     "mixin": {
       "setControllerParameterOnBeHitByEntityType": [
         {
-          "poseIDs": [1, 102],
+          "poseIDs": [
+            1,
+            102
+          ],
           "settings": [
             {
-              "entityTypes": ["Avatar", "Monster", "Gadget", "Bullet"],
+              "entityTypes": [
+                "Avatar",
+                "Monster",
+                "Gadget",
+                "Bullet"
+              ],
               "onSuccess": {
                 "setPoseBool": [
                   {
@@ -160,49 +203,58 @@
         }
       ]
     },
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "EAOLOHCNMHK",
+        "$type": "GDHDBOLMIDA",
         "enable": true,
-        "nerveTrigger": ["HIT"],
-        "defaultSetting": {
+        "nerveTrigger": [
+          "HIT"
+        ],
+        "platformMap": {
           "cd": 0.0,
           "triggerDistance": 0.0,
-          "fleeAngle": 30.0,
-          "fleeNumberMin": 8,
-          "fleeNumberMax": 12,
-          "fleeDistanceMin": 3.299999952316284,
-          "fleeDistanceMax": 3.299999952316284,
-          "OLPDMOMEGIG": 3.0,
-          "FCFLCFFJKLO": ""
+          "BECAHMJJGFB": 30.0,
+          "DFOENAEFIHA": 8,
+          "ELJCMKFHGCC": 12,
+          "MDJFBGIGOPL": 3.299999952316284,
+          "LGGOMDLBBPH": 3.299999952316284,
+          "ONNOGKLIEDD": 3.0,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "GJGILIGEJMO"
+        "$type": "CCGMBAAMCIC"
       },
       {
-        "$type": "IKIHDEMELGB",
+        "$type": "OMEJECJFGDI",
         "enable": true,
         "condition": {
-          "pose": [1, 102]
+          "pose": [
+            1,
+            102
+          ]
         },
-        "JKBLODCMEPN": [0, 1, 2],
-        "defaultSetting": {
-          "HOKGJAONGHG": 120.0,
-          "GJOBDMEBGLM": 60.0,
-          "KDLAOJIPGHP": 10.0,
-          "OEFFOIEOJNC": 1.5,
-          "HAHMEDHEBKE": 3.0,
-          "FCFLCFFJKLO": ""
+        "DBJHOGJCNAE": [
+          0,
+          1,
+          2
+        ],
+        "platformMap": {
+          "DEHJKJAMIKG": 120.0,
+          "CLMGGEMDIGP": 60.0,
+          "DGOPNNFDHNN": 10.0,
+          "KBCIAPABFBF": 1.5,
+          "AKPLIHCCDLC": 3.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
   },
   "move": {
-    "$type": "PLMNMICDOHN",
-    "COJFNGPJCCL": true,
-    "MFCPGGKALCM": 1.5,
-    "LPAKBBIADNC": "RootNode"
+    "$type": "GHFIPBIFJDP",
+    "moveOnWater": true,
+    "moveOnWaterDepth": 1.5,
+    "KJBPBOFPFBE": "RootNode"
   },
   "animal": {
     "hasAbility": false,

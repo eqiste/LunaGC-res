@@ -1,22 +1,22 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Raining",
       "modifiers": {
         "Raining": {
           "modifierName": "",
-          "duration": 8.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 8.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.10000000149011612,
           "onThinkInterval": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "shapeName": "CircleR5",
                 "campTargetType": "All",
-                "OBHNBNDMPFN": 1.0
+                "doOffStage": 1.0
               },
               "modifierName": "WetModifier"
             }
@@ -24,22 +24,23 @@
         },
         "WetModifier": {
           "modifierName": "",
-          "duration": 8.0,
+          "FOAFPGCJHHF": 8.0,
           "elementType": "Water",
-          "bonusCritical": 40.0,
+          "PBPPIFIOAMB": 40.0,
           "overrideWeaponElement": true,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Element_Wet",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Element_Wet",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Raining"
         }
       ]
@@ -47,24 +48,24 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Test_KapokFlower_Interact",
       "modifiers": {
         "ElementWaterModifier": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Grow"
             }
           ],
           "onBeingHit": [
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Water"
                 }
               ],
@@ -72,10 +73,10 @@
               "ratio": true
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Water"
                 }
               ],
@@ -85,25 +86,26 @@
         },
         "Grow": {
           "modifierName": "",
-          "duration": 1.100000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.100000023841858,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_ItemFlower_Bloom",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_ItemFlower_Bloom",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "TriggerGadgetInteractive"
+              "$type": "HPJAPMNLECO"
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "ElementWaterModifier"
         }
       ]

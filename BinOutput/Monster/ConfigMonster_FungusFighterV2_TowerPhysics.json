@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "DPGKNHENGLM",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 80.0,
@@ -15,7 +15,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 1.0
@@ -44,32 +45,33 @@
     "animEvents": {
       "RushAtk": {
         "attackPattern": {
-          "$type": "JIOCECPEDFM",
+          "$type": "FDBKEGJJIBF",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.5,
-              "CLBCHJICOKH": 0.25
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.5,
+              "HCMGOAIEFGL": 0.25
             }
           },
-          "LOACHGCADCO": 0.6000000238418579
+          "JNOPAOAHJAH": 0.6000000238418579
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 1.0,
-            "BAPILBAGBOJ": 0.0,
-            "bonusCriticalHurt": 100.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "retreatType": "ByTangent",
             "canBeDefenceHalt": true
@@ -112,43 +114,56 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Attack": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Attack": ["Monster_FungusFighterV2_TowerPhysics_NormalAttack"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Attack": [
+              "Monster_FungusFighterV2_TowerPhysics_NormalAttack"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Skill": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Skill": ["Monster_FungusFighterV2_TowerPhysics_ReleaseSkill"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Skill": [
+              "Monster_FungusFighterV2_TowerPhysics_ReleaseSkill"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         }
       }
     }
@@ -156,24 +171,24 @@
   "partControl": {
     "parts": [
       {
-        "$type": "CPNBDNFHDHF",
+        "$type": "CFHGCDHHFCB",
         "angularSpeed": 360.0,
-        "FKKOFBENLDH": "ShootPoint",
-        "PCDAJCPIMMC": "RotateToForward",
-        "HJECIEPIAGL": "",
-        "ILHJAKDAGEM": 360.0,
-        "HIIKALDNNJI": 360.0
+        "partRootName": "ShootPoint",
+        "doOnUnEabled": "RotateToForward",
+        "forwardByTransName": "",
+        "limitHorizontal": 360.0,
+        "limitVertical": 360.0
       }
     ]
   },
   "billboard": {
-    "$type": "PAOBAEKGGBC",
+    "$type": "HODFBPFPGEF",
     "attachPoint": "BillboardAttach",
-    "EMFFJPOKEKF": "Character",
+    "offsetType": "Character",
     "showDistance": 100.0,
-    "CCFHLFLEJDN": true,
-    "KGHAGECNJPO": true,
-    "musicSubStates": "Big"
+    "elementStickUseShowDistanceInDungeon": true,
+    "showHPBar": true,
+    "size": "Big"
   },
   "initialPoses": {
     "Default": {}
@@ -192,6 +207,7 @@
       }
     },
     "threat": {
+      "specification": "",
       "feelThreatGrow": 1000.0,
       "threatDecreaseSpeed": 500.0,
       "viewAttenuation": [
@@ -208,17 +224,16 @@
           "y": 0.5
         }
       ],
-      "JGFOPCOIJOI": "",
       "abilityGlobalValueScoreSystem": {
         "weight": 70,
         "max": 1.0,
-        "ECKAPCALPJJ": "Greater",
+        "compareOperation": "Greater",
         "enable": true,
-        "CCMKKIKIMGI": "_IS_LOCKED_BY_PHYSICS_TOWER"
+        "caredGlobalValueName": "_IS_LOCKED_BY_PHYSICS_TOWER"
       },
       "targetDistanceScoreSystem": {
         "weight": 30,
-        "ratio": 8.0,
+        "value": 8.0,
         "max": 30.0,
         "enable": true
       }
@@ -228,12 +243,17 @@
     },
     "ui": {
       "hasDirectionIndicator": false,
-      "FLMOHOODJBA": ""
+      "MECOEANNABD": ""
     },
     "skillSetting": {
       "skillEliteSet": {
-        "1": [101, 102],
-        "2": [102]
+        "1": [
+          101,
+          102
+        ],
+        "2": [
+          102
+        ]
       }
     },
     "skills": {
@@ -245,8 +265,10 @@
         "initialCD": 3.0,
         "initialCDUpperRange": 2.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Attack"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Attack"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -256,15 +278,19 @@
         "name": "Skill",
         "priority": 1,
         "castCondition": {
-          "pose": [102]
+          "pose": [
+            102
+          ]
         },
         "cd": 15.0,
         "cdUpperRange": 5.0,
         "initialCD": 5.0,
         "initialCDUpperRange": 7.0,
         "publicCDGroup": "Shaman_CreatePillar",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Skill"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Skill"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -285,10 +311,10 @@
     }
   ],
   "move": {
-    "$type": "IIGPJJNGCLE",
-    "EIEIGIPKLAO": {
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
       "muteAll": true
     },
-    "FACNOEFNHIB": "RootNode"
+    "KJBPBOFPFBE": "RootNode"
   }
 }

@@ -1,95 +1,106 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Gadget_Gear_Spray_Fire_Test",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Start"],
-          "modifierName": "FireSpray"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Start"
+          ],
+          "modifierName": "FireSpray",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Stop"],
-          "modifierName": "FireStop"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Stop"
+          ],
+          "modifierName": "FireStop",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "FireStop": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "FireSpray"
             }
           ]
         },
         "FireSpray": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.20000000298023224,
           "onAdded": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "FireStop"
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray2",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray2",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray3",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray3",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray4",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray4",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "TriggerAttackEvent",
-              "cdDelta": true,
+              "$type": "LAHLFGKNGGA",
+              "musicSubStates": true,
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GGBJACPDDCM",
+                  "$type": "NHOLNMDNDHH",
                   "triggerType": "TriggerNoRepeat",
-                  "MMLJIFPBPOD": "Both",
+                  "checkHitLayerType": "Both",
                   "born": {
-                    "$type": "ConfigBornByAttachPoint",
+                    "$type": "HCPLIKKENJE",
                     "attachPointName": "WeaponR"
                   },
                   "size": {
-                    "x": 1.399999976158142,
-                    "y": 1.399999976158142,
-                    "z": 8.0
+                    "PANGIELPECA": 1.399999976158142,
+                    "CJENFGKOOOO": 1.399999976158142,
+                    "HCMGOAIEFGL": 8.0
                   },
-                  "OFPHDGKGMPA": true
+                  "muteHitBehindScene": true
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 0.20000000298023224,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 0.20000000298023224,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Fire",
-                    "bonusCritical": 30.0,
+                    "PBPPIFIOAMB": 30.0,
                     "strikeType": "Default",
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV1",
                     "hitHaltTimeScale": 0.2199999988079071
                   }
@@ -104,74 +115,79 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Gadget_Gear_Spray_Fire_Single_Test",
       "modifiers": {
         "FireSpray_Single": {
           "modifierName": "",
-          "duration": 10.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 10.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.20000000298023224,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray2",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray2",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray3",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray3",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Fire_Spray4",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Fire_Spray4",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "TriggerAttackEvent",
-              "cdDelta": true,
+              "$type": "LAHLFGKNGGA",
+              "musicSubStates": true,
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GGBJACPDDCM",
+                  "$type": "NHOLNMDNDHH",
                   "triggerType": "TriggerNoRepeat",
-                  "MMLJIFPBPOD": "Both",
+                  "checkHitLayerType": "Both",
                   "born": {
-                    "$type": "ConfigBornBySelf",
+                    "$type": "ONAGPPKOMPD",
                     "offset": {
-                      "x": 0.0,
-                      "y": 1.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 1.0,
+                      "HCMGOAIEFGL": 0.0
                     }
                   },
                   "size": {
-                    "x": 1.399999976158142,
-                    "y": 1.399999976158142,
-                    "z": 8.0
+                    "PANGIELPECA": 1.399999976158142,
+                    "CJENFGKOOOO": 1.399999976158142,
+                    "HCMGOAIEFGL": 8.0
                   },
-                  "OFPHDGKGMPA": true
+                  "muteHitBehindScene": true
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 0.25,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 0.25,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Fire",
-                    "bonusCritical": 30.0,
+                    "PBPPIFIOAMB": 30.0,
                     "strikeType": "Default",
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV1",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -184,11 +200,11 @@
       },
       "onAbilityStart": [
         {
-          "$type": "DebugLog",
+          "$type": "KPFAIJPLCBC",
           "content": "Gadget_Gear_Spray_Fire_Single_Test"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "FireSpray_Single"
         }
       ]
@@ -196,52 +212,53 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Gadget_Gear_Spray_Ice_Single_Test",
       "modifiers": {
         "FireSpray_Single": {
           "modifierName": "",
-          "duration": 10.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 10.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.20000000298023224,
           "onThinkInterval": [
             {
-              "$type": "TriggerAttackEvent",
-              "cdDelta": true,
+              "$type": "LAHLFGKNGGA",
+              "musicSubStates": true,
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GGBJACPDDCM",
+                  "$type": "NHOLNMDNDHH",
                   "triggerType": "TriggerNoRepeat",
-                  "MMLJIFPBPOD": "Both",
+                  "checkHitLayerType": "Both",
                   "born": {
-                    "$type": "ConfigBornBySelf",
+                    "$type": "ONAGPPKOMPD",
                     "offset": {
-                      "x": 0.0,
-                      "y": 1.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 1.0,
+                      "HCMGOAIEFGL": 0.0
                     }
                   },
                   "size": {
-                    "x": 1.399999976158142,
-                    "y": 1.399999976158142,
-                    "z": 8.0
+                    "PANGIELPECA": 1.399999976158142,
+                    "CJENFGKOOOO": 1.399999976158142,
+                    "HCMGOAIEFGL": 8.0
                   },
-                  "OFPHDGKGMPA": true
+                  "muteHitBehindScene": true
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 0.25,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 0.25,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Ice",
-                    "bonusCritical": 30.0,
+                    "PBPPIFIOAMB": 30.0,
                     "strikeType": "Default",
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV1",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -254,7 +271,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "FireSpray_Single"
         }
       ]
@@ -262,30 +279,31 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Gear_Electric_ElectricBall_Loop",
       "modifiers": {
         "Gear_ElectricBall_Loop": {
           "modifierName": "",
           "elementType": "Electric",
-          "bonusCritical": 50.0,
+          "PBPPIFIOAMB": 50.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_KanriahMech_ElectricBall_Shoot",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_KanriahMech_ElectricBall_Shoot",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "KillSelf"
+              "$type": "OHBGKFFNCEA"
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Gear_ElectricBall_Loop"
         }
       ]

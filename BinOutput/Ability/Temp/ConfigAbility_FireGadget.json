@@ -1,79 +1,93 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "DropLight_Interact",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMutexMixin",
-          "gadgetStates": [0, 201],
-          "modifierNames": [["Fire_Off"], ["Fire_On"]]
+          "$type": "JLKPODILBAI",
+          "gadgetStates": [
+            0,
+            201
+          ],
+          "modifierNames": [
+            [
+              "Fire_Off"
+            ],
+            [
+              "Fire_On"
+            ]
+          ]
         }
       ],
       "modifiers": {
         "Trigger_Bullet": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_WoodenObject_Broken",
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_WoodenObject_Broken",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "EffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerBullet",
+              "$type": "NIMBMIFEBKH",
               "bulletID": 70950002,
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "ShootPoint"
               }
             },
             {
-              "$type": "KillSelf"
+              "$type": "OHBGKFFNCEA"
             }
           ]
         },
         "Trigger_Bullet02": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_WoodenObject_Broken",
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_WoodenObject_Broken",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "EffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerBullet",
+              "$type": "NIMBMIFEBKH",
               "bulletID": 70950003,
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "ShootPoint"
               }
             },
             {
-              "$type": "KillSelf"
+              "$type": "OHBGKFFNCEA"
             }
           ]
         },
         "Fire_Off": {
           "modifierName": "",
           "elementType": "Wood",
-          "bonusCritical": 1.0,
+          "PBPPIFIOAMB": 1.0,
           "onBeingHit": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "predicates": [
                 {
-                  "$type": "PKMCAOOABDO",
-                  "hitBoxNames": ["RopeHitbox"]
+                  "$type": "DOBICIOKDGN",
+                  "hitBoxNames": [
+                    "RopeHitbox"
+                  ]
                 }
               ],
               "modifierName": "Trigger_Bullet02"
@@ -83,40 +97,44 @@
         "Fire_On": {
           "modifierName": "",
           "elementType": "Fire",
-          "bonusCritical": 1.0,
+          "PBPPIFIOAMB": 1.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Burning"
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Burning"
             }
           ],
           "onBeingHit": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "PKMCAOOABDO",
-                  "hitBoxNames": ["LightHitBox"]
+                  "$type": "DOBICIOKDGN",
+                  "hitBoxNames": [
+                    "LightHitBox"
+                  ]
                 },
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Wind"
                 }
               ],
               "modifierName": "Burning"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "predicates": [
                 {
-                  "$type": "PKMCAOOABDO",
-                  "hitBoxNames": ["RopeHitbox"]
+                  "$type": "DOBICIOKDGN",
+                  "hitBoxNames": [
+                    "RopeHitbox"
+                  ]
                 }
               ],
               "modifierName": "Trigger_Bullet"
@@ -126,12 +144,13 @@
         "Burning": {
           "modifierName": "",
           "elementType": "Fire",
-          "bonusCritical": 15.0,
+          "PBPPIFIOAMB": 15.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_FireBasin_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_FireBasin_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -140,25 +159,26 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "DropLight_Bullet",
       "modifiers": {
         "DropLight_Bullet": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.05000000074505806,
           "onThinkInterval": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_BombBarrel_01_Explode",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_BombBarrel_01_Explode",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "DropLight_Bullet"
         }
       ]
@@ -166,54 +186,56 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "DropLight_Crash",
       "modifiers": {
         "DropLight_Crash": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "Owner",
               "modifierName": "UnlockIntee"
             },
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_BombBarrel_01_Explode",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_BombBarrel_01_Explode",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 2.0
+                  "JNOPAOAHJAH": 2.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 1.0,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 1.0,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Fire",
-                    "bonusCritical": 20.0,
+                    "PBPPIFIOAMB": 20.0,
                     "strikeType": "Default",
                     "enBreak": 200.0,
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV6",
                     "overrideHitImpulse": {
                       "hitLevel": "Air",
-                      "BLHKKKALNDK": 700.0,
-                      "hitImpulseY": 400.0
+                      "JLAOBKLMDMI": 700.0,
+                      "ENCDKNBLCCA": 400.0
                     },
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -222,20 +244,20 @@
               "targetType": "All"
             },
             {
-              "$type": "KillSelf"
+              "$type": "OHBGKFFNCEA"
             }
           ]
         },
         "UnlockIntee": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "EnableGadgetIntee",
+              "$type": "JJNLIKIOMJA",
               "enable": true
             },
             {
-              "$type": "ExecuteGadgetLua",
+              "$type": "FIMGPMAMKHG",
               "param1": 1
             }
           ]
@@ -243,7 +265,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "DropLight_Crash"
         }
       ]
@@ -251,52 +273,54 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "DropLight_Crash02",
       "modifiers": {
         "DropLight_Crash": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_WoodenObject_Broken",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_WoodenObject_Broken",
               "born": {
-                "$type": "ConfigBornByTarget"
+                "$type": "DNEGODCNNPL"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 0.5
+                  "JNOPAOAHJAH": 0.5
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 1.0,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 1.0,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Fire",
-                    "bonusCritical": 20.0,
+                    "PBPPIFIOAMB": 20.0,
                     "strikeType": "Default",
                     "enBreak": 200.0,
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV6",
                     "overrideHitImpulse": {
                       "hitLevel": "Air",
-                      "BLHKKKALNDK": 700.0,
-                      "hitImpulseY": 400.0
+                      "JLAOBKLMDMI": 700.0,
+                      "ENCDKNBLCCA": 400.0
                     },
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -305,14 +329,14 @@
               "targetType": "All"
             },
             {
-              "$type": "KillSelf"
+              "$type": "OHBGKFFNCEA"
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "DropLight_Crash"
         }
       ]
@@ -320,15 +344,15 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "GearWater_Interact",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "modifierName": "Switch_Close"
         },
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 201,
           "modifierName": "Swtich_Open"
         }
@@ -337,30 +361,30 @@
         "Switch_Close": {
           "modifierName": "",
           "elementType": "Wood",
-          "bonusCritical": 1.0
+          "PBPPIFIOAMB": 1.0
         },
         "Swtich_Open": {
           "modifierName": "",
           "elementType": "Water",
-          "bonusCritical": 1.0,
+          "PBPPIFIOAMB": 1.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Burning"
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Burning"
             }
           ],
           "onBeingHit": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Fire"
                 }
               ],
@@ -371,42 +395,43 @@
         "Burning": {
           "modifierName": "",
           "elementType": "Fire",
-          "bonusCritical": 15.0,
+          "PBPPIFIOAMB": 15.0,
           "thinkInterval": 1.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_FireBasin_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_FireBasin_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "TriggerAttackEvent",
-              "cdDelta": true,
+              "$type": "LAHLFGKNGGA",
+              "musicSubStates": true,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_FIRE_GADGET_ATTACK",
                   "ratio": 1.0
                 }
               ],
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GGBJACPDDCM",
+                  "$type": "NHOLNMDNDHH",
                   "triggerType": "TriggerNoRepeat",
-                  "MMLJIFPBPOD": "Both",
+                  "checkHitLayerType": "Both",
                   "born": {
-                    "$type": "ConfigBornByAttachPoint",
+                    "$type": "HCPLIKKENJE",
                     "offset": {
-                      "z": -0.5
+                      "HCMGOAIEFGL": -0.5
                     },
                     "attachPointName": "attachPoint"
                   },
                   "size": {
-                    "x": 1.0,
-                    "y": 1.0,
-                    "z": 1.0
+                    "PANGIELPECA": 1.0,
+                    "CJENFGKOOOO": 1.0,
+                    "HCMGOAIEFGL": 1.0
                   }
                 },
                 "attackInfo": {
@@ -414,15 +439,16 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 1.0,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 1.0,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Fire",
-                    "bonusCritical": 100.0,
+                    "PBPPIFIOAMB": 100.0,
                     "strikeType": "Default",
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "none",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV1",
                     "hitHaltTimeScale": 0.5
                   }
@@ -435,32 +461,32 @@
       },
       "onAdded": [
         {
-          "$type": "AddGlobalValue",
+          "$type": "ICIEIAFKCAO",
           "ratio": 0.0,
           "key": "_FIRE_GADGET_ATTACK",
           "useLimitRange": true,
-          "maxValue": 1.0,
-          "minValue": -1.0
+          "param2": 1.0,
+          "JHDOLIIOACK": -1.0
         }
       ],
       "onFieldEnter": [
         {
-          "$type": "AddGlobalValue",
+          "$type": "ICIEIAFKCAO",
           "ratio": 2.0,
           "key": "_FIRE_GADGET_ATTACK",
           "useLimitRange": true,
-          "maxValue": 1.0,
-          "minValue": -1.0
+          "param2": 1.0,
+          "JHDOLIIOACK": -1.0
         }
       ],
       "onFieldExit": [
         {
-          "$type": "AddGlobalValue",
+          "$type": "ICIEIAFKCAO",
           "ratio": -2.0,
           "key": "_FIRE_GADGET_ATTACK",
           "useLimitRange": true,
-          "maxValue": 1.0,
-          "minValue": -1.0
+          "param2": 1.0,
+          "JHDOLIIOACK": -1.0
         }
       ]
     }

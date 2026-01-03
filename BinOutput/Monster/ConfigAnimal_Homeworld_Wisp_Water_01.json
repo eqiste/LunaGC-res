@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "ConfigEffectAttachSkinnedMesh",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 10.0,
@@ -13,7 +13,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "Eff_Animal_Wisp_Water_Fly",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "combat": {
     "property": {
@@ -39,49 +40,76 @@
   },
   "stateLayers": {
     "defaultLayer": {
-      "$type": "ConfigNormalStateLayer",
-      "FNPGDAEJAPJ": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Born": ["Audio_Wisp_Wind_Standby"]
+            "Born": [
+              "Audio_Wisp_Wind_Standby"
+            ]
           },
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Standby": ["Audio_Wisp_Wind_Standby"]
+            "Standby": [
+              "Audio_Wisp_Wind_Standby"
+            ]
           },
           "canDoSkill": true,
           "canSyncMove": true,
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Walk": ["Audio_Wisp_Wind_Walk"],
-            "Run": ["Audio_Wisp_Wind_Walk"],
-            "Disappear": ["Animal_Wisp_Water_Disappear", "Audio_Wisp_Wind_Walk"]
+            "Walk": [
+              "Audio_Wisp_Wind_Walk"
+            ],
+            "Run": [
+              "Audio_Wisp_Wind_Walk"
+            ],
+            "Disappear": [
+              "Animal_Wisp_Water_Disappear",
+              "Audio_Wisp_Wind_Walk"
+            ]
           },
           "canDoSkill": true,
           "canSyncMove": true,
-          "resetAnimatorTriggerOnExit": ["DoSkill"],
-          "BHEPAJIOBDN": true
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Hit_L": ["Animal_Wisp_Water_Die"]
+            "Hit_L": [
+              "Animal_Wisp_Water_Die"
+            ]
           },
-          "resetAnimatorTriggerOnEnter": ["BeHit"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "ConfigMonsterStateIDInfo",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Die": ["Animal_Wisp_Water_Die", "Audio_Wisp_Wind_Die"]
+            "Die": [
+              "Animal_Wisp_Water_Die",
+              "Audio_Wisp_Wind_Die"
+            ]
           }
         }
       }
@@ -107,9 +135,12 @@
       }
     },
     "neurons": {
-      "DefaultSetting": ["HIT"]
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
     "threat": {
+      "specification": "",
       "feelThreatGrow": 1000.0,
       "threatBroadcastRange": 5.0
     },
@@ -118,59 +149,70 @@
     },
     "fly": {
       "enable": true,
-      "floatingPoses": [201]
+      "floatingPoses": [
+        201
+      ]
     },
     "ui": {
-      "hasDirectionIndicator": false
+      "hasDirectionIndicator": false,
+      "MECOEANNABD": ""
     },
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "ACEHNCFMBOH",
+        "$type": "OPIKHKEIOEN",
         "enable": true,
         "condition": {
-          "pose": [201]
+          "pose": [
+            201
+          ]
         },
-        "nerveTrigger": ["HIT"],
-        "defaultSetting": {
+        "nerveTrigger": [
+          "HIT"
+        ],
+        "platformMap": {
           "triggerDistance": 0.0,
-          "OLPDMOMEGIG": 6.0,
-          "LBMBHMLKFGO": ""
+          "ONNOGKLIEDD": 6.0,
+          "FMMDAKICPCA": ""
         }
       },
       {
-        "$type": "DCLDANBAMMK",
+        "$type": "HKBMCKAOIIH",
         "enable": true,
         "condition": {
-          "pose": [201]
+          "pose": [
+            201
+          ]
         },
-        "defaultSetting": {
-          "DJLKEFHINHG": 1.0,
-          "EDFNFFEIKGL": 3.0,
-          "FCFLCFFJKLO": ""
+        "platformMap": {
+          "BKPOFEPLOBJ": 1.0,
+          "CEMDNGFBEAJ": 3.0,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "ILIHLOHHPMG",
+        "$type": "MPAALBBIICJ",
         "enable": true,
         "condition": {
-          "pose": [201]
+          "pose": [
+            201
+          ]
         },
-        "defaultSetting": {
-          "turnSpeedOverride": 0.30000001192092896,
-          "GKKCIGCOFMC": 1.0,
-          "HFLEMFMIBLP": 3.0,
-          "KDLAOJIPGHP": 30.0,
-          "OEFFOIEOJNC": 3.0,
-          "HAHMEDHEBKE": 5.0,
-          "FCFLCFFJKLO": "",
-          "BKCOJDIDEGN": ""
+        "platformMap": {
+          "maxFileNum": 0.30000001192092896,
+          "OPHKKFFGLNA": 1.0,
+          "GPKEKFKMEEM": 3.0,
+          "DGOPNNFDHNN": 30.0,
+          "KBCIAPABFBF": 3.0,
+          "AKPLIHCCDLC": 5.0,
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       }
     ]
   },
   "move": {
-    "$type": "PLMNMICDOHN",
-    "EINCMKOBBEG": {
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
       "excludeForces": [
         "RetreatType",
         "RetreatAirType",
@@ -178,7 +220,7 @@
         "AirflowType"
       ]
     },
-    "LPAKBBIADNC": "RootNode"
+    "KJBPBOFPFBE": "RootNode"
   },
   "animal": {
     "hasAbility": false,

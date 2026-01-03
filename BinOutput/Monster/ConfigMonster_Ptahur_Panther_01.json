@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "DPGKNHENGLM",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 10000.0,
@@ -14,19 +14,19 @@
     "clearAIOnSetLightDeactive": true,
     "reconnectSupport": true,
     "recoverByInitPose": true,
-    "elementReactionScale": [
+    "meshEffectNodeList": [
       {
-        "HBFPHCHJMDP": "EffectMesh01Point",
-        "NPHCJACKFPF": "EffectMesh01"
+        "followTargetPath": "EffectMesh01Point",
+        "attachMeshName": "EffectMesh01"
       },
       {
-        "HBFPHCHJMDP": "EffectMesh02Point",
-        "NPHCJACKFPF": "EffectMesh02"
+        "followTargetPath": "EffectMesh02Point",
+        "attachMeshName": "EffectMesh02"
       }
     ]
   },
   "headControl": {
-    "$type": "NJIKCGBDNDF",
+    "$type": "KLJDMKFFHOP",
     "useHeadControl": true,
     "maxYawDegree": 45.0,
     "maxPitchDegree": 10.0,
@@ -54,12 +54,15 @@
     "elementPendant": "",
     "elementDrop": "RootNode",
     "bulletAim": "Knee",
-    "selectedPoints": ["SelectedPoint1"],
+    "selectedPoints": [
+      "SelectedPoint1"
+    ],
     "selectedPointRadius": 0.5
   },
   "model": {
     "bornEffect": "Eff_Monster_Common_Born",
-    "attachEffect": ""
+    "attachEffect": "",
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 2.0
@@ -92,33 +95,34 @@
     "animEvents": {
       "AtkNo": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": -0.5
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": -0.5
             }
           },
-          "IAMPMDAOKJL": 60.0,
-          "LOACHGCADCO": 1.5
+          "fanAngle": 60.0,
+          "JNOPAOAHJAH": 1.5
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.5,
-            "BAPILBAGBOJ": 0.0,
-            "bonusCriticalHurt": 100.0,
+            "actorElecSubHurtDelta": 0.5,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV2",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -126,36 +130,37 @@
       },
       "Atk01_1": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "height": 3.0,
-          "IAMPMDAOKJL": 90.0,
-          "LOACHGCADCO": 6.0
+          "fanAngle": 90.0,
+          "JNOPAOAHJAH": 6.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.30000001192092896,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.30000001192092896,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -163,36 +168,37 @@
       },
       "Atk01_2": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "height": 3.0,
-          "IAMPMDAOKJL": 90.0,
-          "LOACHGCADCO": 6.0
+          "fanAngle": 90.0,
+          "JNOPAOAHJAH": 6.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.4000000059604645,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.4000000059604645,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -200,20 +206,20 @@
       },
       "SacredAttack01_Hit1": {
         "attackPattern": {
-          "$type": "HGDDHLFAONH",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": 1.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 1.0
             }
           },
-          "musicSubStates": {
-            "GNGDNIIPPNL": 2.0,
-            "GIIMFINHIED": 4.0,
-            "CLBCHJICOKH": 2.0
+          "size": {
+            "PANGIELPECA": 2.0,
+            "CJENFGKOOOO": 4.0,
+            "HCMGOAIEFGL": 2.0
           }
         },
         "attackInfo": {
@@ -221,17 +227,18 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.30000001192092896,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.30000001192092896,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -239,36 +246,37 @@
       },
       "SacredAttack01_Hit2": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": -1.0,
-              "CLBCHJICOKH": 1.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": -1.0,
+              "HCMGOAIEFGL": 1.0
             }
           },
           "height": 4.0,
-          "IAMPMDAOKJL": 120.0,
-          "LOACHGCADCO": 4.0
+          "fanAngle": 120.0,
+          "JNOPAOAHJAH": 4.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.5,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.5,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTimeScale": 0.009999999776482582,
             "forceRetreat": true
@@ -277,36 +285,37 @@
       },
       "SacredAttack01_Hit3": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": -1.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": -1.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "height": 4.0,
-          "IAMPMDAOKJL": 240.0,
-          "LOACHGCADCO": 5.0
+          "fanAngle": 240.0,
+          "JNOPAOAHJAH": 5.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.699999988079071,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.699999988079071,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -314,20 +323,20 @@
       },
       "SacredAttack02_NearHit": {
         "attackPattern": {
-          "$type": "HGDDHLFAONH",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
-          "musicSubStates": {
-            "GNGDNIIPPNL": 8.0,
-            "GIIMFINHIED": 4.0,
-            "CLBCHJICOKH": 6.0
+          "size": {
+            "PANGIELPECA": 8.0,
+            "CJENFGKOOOO": 4.0,
+            "HCMGOAIEFGL": 6.0
           }
         },
         "attackInfo": {
@@ -335,16 +344,17 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 1.0,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV5",
             "hitHaltTimeScale": 0.05000000074505806
           }
@@ -352,36 +362,37 @@
       },
       "SacredAttack03_Hit1": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": -1.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": -1.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "height": 4.0,
-          "IAMPMDAOKJL": 120.0,
-          "LOACHGCADCO": 4.199999809265137
+          "fanAngle": 120.0,
+          "JNOPAOAHJAH": 4.199999809265137
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.6000000238418579,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.6000000238418579,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -389,20 +400,20 @@
       },
       "SacredAttack03_Hit2": {
         "attackPattern": {
-          "$type": "HGDDHLFAONH",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 1.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": 1.0
+              "PANGIELPECA": 1.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 1.0
             }
           },
-          "musicSubStates": {
-            "GNGDNIIPPNL": 4.0,
-            "GIIMFINHIED": 6.0,
-            "CLBCHJICOKH": 3.0
+          "size": {
+            "PANGIELPECA": 4.0,
+            "CJENFGKOOOO": 6.0,
+            "HCMGOAIEFGL": 3.0
           }
         },
         "attackInfo": {
@@ -410,17 +421,18 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.699999988079071,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.699999988079071,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -428,20 +440,20 @@
       },
       "SacredAttack04_PreHit": {
         "attackPattern": {
-          "$type": "HGDDHLFAONH",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 0.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
-          "musicSubStates": {
-            "GNGDNIIPPNL": 2.0,
-            "GIIMFINHIED": 4.0,
-            "CLBCHJICOKH": 3.0
+          "size": {
+            "PANGIELPECA": 2.0,
+            "CJENFGKOOOO": 4.0,
+            "HCMGOAIEFGL": 3.0
           }
         },
         "attackInfo": {
@@ -449,16 +461,17 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.10000000149011612,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.10000000149011612,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "retreatType": "ByTangent",
             "hitHaltTimeScale": 0.05000000074505806
@@ -467,35 +480,36 @@
       },
       "SacredAttack04_Hit": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": -1.0,
-              "CLBCHJICOKH": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": -1.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "height": 4.0,
-          "LOACHGCADCO": 4.5
+          "JNOPAOAHJAH": 4.5
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.800000011920929,
-            "BAPILBAGBOJ": 0.0,
+            "actorElecSubHurtDelta": 0.800000011920929,
+            "actorElementReactionCriticalDelta": 0.0,
             "elementType": "Grass",
-            "bonusCriticalHurt": 30.0,
+            "PBPPIFIOAMB": 30.0,
             "strikeType": "Blunt",
             "enBreak": 200.0,
             "attackType": "Melee",
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3",
             "hitHaltTimeScale": 0.009999999776482582
           }
@@ -505,188 +519,229 @@
   },
   "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": [],
             "Born": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Sit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Sit": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Lying": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Lying": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Run": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Run": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Walk": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "WalkForward": [],
             "WalkBack": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Front_Jump": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Front_Jump": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Back_Jump": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Back_Jump": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NoTurn": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NoTurn": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TurnLeft": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TurnLeft": []
           },
-          "POLKCLOHPOO": true,
-          "DJOGMGLGAEN": 0.10000000149011612,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canDoSkillEnd": 0.10000000149011612,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TurnRight": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TurnRight": []
           },
-          "POLKCLOHPOO": true,
-          "DJOGMGLGAEN": 0.10000000149011612,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canDoSkillEnd": 0.10000000149011612,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TurnBack": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TurnBack": []
           },
-          "POLKCLOHPOO": true,
-          "DJOGMGLGAEN": 0.10000000149011612,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true,
-          "ODINBNMGLGA": true
+          "canDoSkill": true,
+          "canDoSkillEnd": 0.10000000149011612,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true,
+          "followAnimRotation": true
         },
         "BeHit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_L": []
           },
-          "AJBLILDCLBO": ["BeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Die": []
           },
-          "AJBLILDCLBO": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "DoSkill"
+          ]
         },
         "Personality1": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality1": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Sacred_Attack04_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Sacred_Attack04_BS": []
           },
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "OGNDLAMHMPB": 0.009999999776482582,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "addEndure": 0.009999999776482582,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Sacred_Attack04_Loop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Sacred_Attack04_Loop": []
           },
-          "LAKHIBAPNAB": true,
-          "OGNDLAMHMPB": 0.009999999776482582,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "addEndure": 0.009999999776482582,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Sacred_Attack04_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Sacred_Attack04_AS": []
           },
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "OGNDLAMHMPB": 0.009999999776482582,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "addEndure": 0.009999999776482582,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         }
       }
     }
   },
   "billboard": {
-    "$type": "PAOBAEKGGBC",
+    "$type": "HODFBPFPGEF",
     "attachPoint": "BillboardAttach",
     "offset": {
       "x": -0.30000001192092896,
       "y": -0.5
     },
-    "EMFFJPOKEKF": "Character",
+    "offsetType": "Character",
     "showDistance": 48.0,
-    "musicSubStates": "Grand"
+    "size": "Grand"
   },
   "initialPoses": {
     "Default": {
@@ -712,6 +767,7 @@
       }
     },
     "threat": {
+      "specification": "",
       "clearThreatEdgeDistance": 2.0,
       "clearThreatByLostPath": true,
       "viewAttenuation": [
@@ -736,12 +792,13 @@
           "y": 0.20000000298023224
         }
       ],
-      "resistTauntLevel": "Monster_TauntLevel_3",
-      "JGFOPCOIJOI": ""
+      "resistTauntLevel": "Monster_TauntLevel_3"
     },
     "order": {
       "commandSetting": {
-        "DFPEGKHHOIC": [90301]
+        "acceptCommandIDs": [
+          90301
+        ]
       }
     },
     "defendArea": {
@@ -754,14 +811,18 @@
       "501": {
         "name": "Front_Jump",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "pickRangeMin": 9.0
         },
         "cd": 8.0,
         "cdUpperRange": 4.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Front_Jump"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Front_Jump"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "11",
         "flagSelfInZone": "11",
@@ -770,14 +831,18 @@
       "502": {
         "name": "Back_Jump",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "pickRangeMax": 4.0
         },
         "cd": 8.0,
         "cdUpperRange": 4.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Back_Jump"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Back_Jump"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "11",
         "flagSelfInZone": "11",
@@ -787,13 +852,15 @@
         "name": "Sacred_Attack04",
         "combatSkillType": "RangedAttack",
         "castCondition": {
-          "pose": [201],
+          "pose": [
+            201
+          ],
           "pickRangeMax": 99.0
         },
         "cd": 99.0,
         "cdUpperRange": 4.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "Sacred_Attack04_BS",
           "Sacred_Attack04_Loop",
@@ -806,38 +873,40 @@
         "flagTargetInZone": "11"
       }
     },
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "BBIOKOJBHFG",
+        "$type": "JCCLICJFADC",
         "enable": true,
-        "LMMKNFEMOMG": {
-          "KIHPEPHJMOG": 1,
-          "IFCLJHAJFHD": 75.0,
-          "NBBIJDCLJOF": 4.0,
-          "MHMMABHJIIA": 6.0,
-          "NLEBDDJGDAA": 0.5,
-          "JOCOJHEICNA": ""
+        "platformMap": {
+          "autoChangeStep": 1,
+          "BECAHMJJGFB": 75.0,
+          "MDJFBGIGOPL": 4.0,
+          "LGGOMDLBBPH": 6.0,
+          "ANABJJEDCKL": 0.5,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "DIIPKNMAPAC",
+        "$type": "AOANKGJLDJD",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [201]
+        "condition": {
+          "pose": [
+            201
+          ]
         },
-        "LMMKNFEMOMG": {
+        "platformMap": {
           "rangeMin": 18.0,
           "rangeMax": 45.0,
-          "MMKHHBIBJEN": {
-            "GECJAGFGHKL": 2.0,
-            "GEECPOOOMFC": 0.5,
-            "NFMBIOFFKGK": 0.5,
-            "JNJFKLDABCB": 0.0,
-            "BEJLOBBENJJ": 0.0
+          "DLMHEAKPPDN": {
+            "DLGHEDFAPFM": 2.0,
+            "NNNLDBMPEDD": 0.5,
+            "OFCFDJHFCFC": 0.5,
+            "FAGCGPJJNBP": 0.0,
+            "IGJADOKHABD": 0.0
           },
-          "HEGPGPBKGFH": "1111",
-          "AFCLIFKCEKM": "1111",
-          "JOCOJHEICNA": ""
+          "CMPIAHEGPDJ": "1111",
+          "GLNJBFOMIPF": "1111",
+          "KJNBPEOBHNE": ""
         }
       }
     ]
@@ -855,17 +924,19 @@
     }
   ],
   "move": {
-    "$type": "IIGPJJNGCLE",
-    "EIEIGIPKLAO": {
-      "excludeForces": ["RetreatAirType"]
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
+      "excludeForces": [
+        "RetreatAirType"
+      ]
     },
-    "MIPNOGBEANL": "ForwardBackward",
-    "OMMMNBNJHAI": true,
-    "ELNPBLONMHJ": true,
-    "FACNOEFNHIB": "RootNode"
+    "facingMove": "ForwardBackward",
+    "positionModifyExtra": true,
+    "rotationModifyExtra": true,
+    "KJBPBOFPFBE": "RootNode"
   },
   "audio": {
-    "KEEAIACIJBN": "",
+    "overrideEmitterName": "",
     "animAudio": {}
   }
 }

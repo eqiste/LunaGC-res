@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "DPGKNHENGLM",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 9999999.0,
@@ -16,7 +16,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 2.0
@@ -51,144 +52,222 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Born": ["Audio_Crane_FlyDown"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Born": [
+              "Audio_Crane_FlyDown"
+            ]
           },
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Standby": ["Audio_Crane_Standby"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Standby": [
+              "Audio_Crane_Standby"
+            ],
             "Standby_Aware": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Walk": ["Audio_Crane_Walk"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Walk": [
+              "Audio_Crane_Walk"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "FlyDown": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "FlyDown": ["Audio_Crane_FlyDown"],
-            "Land": ["Audio_Crane_Land"],
-            "LandToGround": ["Audio_Crane_LandToGround"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "FlyDown": [
+              "Audio_Crane_FlyDown"
+            ],
+            "Land": [
+              "Audio_Crane_Land"
+            ],
+            "LandToGround": [
+              "Audio_Crane_LandToGround"
+            ]
           },
-          "PGKCBIHGAOC": true,
-          "AJBLILDCLBO": ["HitAir2HitDrop"],
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnEnter": [
+            "HitAir2HitDrop"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "FlyUp": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TakeOff": [
               "Animal_Homeworld_Crane_TakeOff",
               "Audio_Crane_TakeOff"
             ],
-            "FlyUpNear": ["Audio_Crane_FlyUp"],
-            "FlyUp": ["Audio_Crane_FlyUp"],
-            "Disappear": ["Audio_Crane_FlyUp"]
+            "FlyUpNear": [
+              "Audio_Crane_FlyUp"
+            ],
+            "FlyUp": [
+              "Audio_Crane_FlyUp"
+            ],
+            "Disappear": [
+              "Audio_Crane_FlyUp"
+            ]
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Hit_L": ["Audio_Crane_Alert_Scared"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Hit_L": [
+              "Audio_Crane_Alert_Scared"
+            ]
           },
-          "AJBLILDCLBO": ["BeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Animal_Homeworld_Crane_Die", "Audio_Crane_Land"],
-            "Die_Disappear": ["Audio_Crane_FlyUp"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Animal_Homeworld_Crane_Die",
+              "Audio_Crane_Land"
+            ],
+            "Die_Disappear": [
+              "Audio_Crane_FlyUp"
+            ]
           }
         },
         "Aware": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Aware": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Alert": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Alert": [],
             "Alert_Scared": [
               "Animal_Homeworld_Crane_Alert",
               "Audio_Crane_Alert_Scared"
             ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "ToWander": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "ToWander": ["Audio_Crane_Standby"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "ToWander": [
+              "Audio_Crane_Standby"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "ToIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "ToIdle": ["Audio_Crane_Standby"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "ToIdle": [
+              "Audio_Crane_Standby"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_101": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Personality_101": ["Audio_Crane_Personality_101"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Personality_101": [
+              "Audio_Crane_Personality_101"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_102": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Personality_102": ["Audio_Crane_Personality_102"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Personality_102": [
+              "Audio_Crane_Personality_102"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_103": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Personality_103": ["Audio_Crane_Personality_103"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Personality_103": [
+              "Audio_Crane_Personality_103"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_104": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Personality_104": ["Audio_Crane_Personality_104"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Personality_104": [
+              "Audio_Crane_Personality_104"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         }
       }
     }
@@ -229,9 +308,12 @@
       }
     },
     "neurons": {
-      "DefaultSetting": ["HIT"]
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
     "threat": {
+      "specification": "",
       "clearThreatTargetDistance": 10.0,
       "feelThreatGrow": 1000.0,
       "viewAttenuation": [
@@ -243,15 +325,17 @@
           "x": 20.0,
           "y": 0.4000000059604645
         }
-      ],
-      "JGFOPCOIJOI": ""
+      ]
     },
     "defendArea": {
       "defendRange": 100.0
     },
     "fly": {
       "enable": true,
-      "floatingPoses": [901, 903]
+      "floatingPoses": [
+        901,
+        903
+      ]
     },
     "poseControl": {
       "items": [
@@ -259,28 +343,34 @@
           "minTime": 3.0,
           "maxTime": 13.0,
           "poseID": 1,
-          "RandomPose": [2],
+          "randomPose": [
+            2
+          ],
           "switchOnlyInCanDoSkillState": true
         },
         {
           "minTime": 10.0,
           "maxTime": 100.0,
           "poseID": 2,
-          "RandomPose": [1],
+          "randomPose": [
+            1
+          ],
           "switchOnlyInCanDoSkillState": true
         }
       ]
     },
     "ui": {
       "hasDirectionIndicator": false,
-      "FLMOHOODJBA": ""
+      "MECOEANNABD": ""
     },
     "skills": {
       "101": {
         "name": "Personality_101",
         "skillType": "Free",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 15.0,
@@ -288,8 +378,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_101"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_101"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -299,7 +391,9 @@
         "name": "Personality_102",
         "skillType": "Free",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 60.0,
@@ -307,8 +401,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_102"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_102"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -318,7 +414,9 @@
         "name": "Personality_103",
         "skillType": "Free",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 30.0,
@@ -326,8 +424,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_103"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_103"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -337,7 +437,9 @@
         "name": "Personality_104",
         "skillType": "Free",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 30.0,
@@ -345,8 +447,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_104"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_104"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -355,7 +459,9 @@
       "201": {
         "name": "Personality_101",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 15.0,
@@ -363,8 +469,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_101"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_101"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -373,7 +481,9 @@
       "202": {
         "name": "Personality_102",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 60.0,
@@ -381,8 +491,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_102"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_102"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -391,7 +503,9 @@
       "203": {
         "name": "Personality_103",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 30.0,
@@ -399,8 +513,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_103"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_103"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -409,7 +525,9 @@
       "204": {
         "name": "Personality_104",
         "castCondition": {
-          "pose": [2],
+          "pose": [
+            2
+          ],
           "needReInitCD": true
         },
         "cd": 30.0,
@@ -417,8 +535,10 @@
         "initialCD": 7.5,
         "initialCDUpperRange": 25.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Personality_104"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_104"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -426,69 +546,84 @@
       }
     },
     "skillGCD": 7.5,
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "EBLOGIMNNJB"
+        "$type": "CLOLMOIFOPP"
       },
       {
-        "$type": "PKJINFHNMGA",
+        "$type": "OPIKHKEIOEN",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [1, 2, 903]
+        "condition": {
+          "pose": [
+            1,
+            2,
+            903
+          ]
         },
-        "nerveTrigger": ["HIT"],
-        "LMMKNFEMOMG": {
-          "BOHHFDAKEMJ": 45.0,
-          "CLIHGAMNGJN": 30.0,
+        "nerveTrigger": [
+          "HIT"
+        ],
+        "platformMap": {
+          "KNNAEKBBOOE": 45.0,
+          "KGLFHBIAJGK": 30.0,
           "triggerDistance": 0.0,
-          "DPDMGFACKOP": 4.0,
-          "GGPCLEBKNNO": ""
+          "ONNOGKLIEDD": 4.0,
+          "FMMDAKICPCA": ""
         }
       },
       {
-        "$type": "KABOKMNOKCB",
+        "$type": "OCOLHIIMFFA",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [901, 902]
+        "condition": {
+          "pose": [
+            901,
+            902
+          ]
         },
-        "LMMKNFEMOMG": {
-          "KIHPEPHJMOG": 2,
-          "KPBDJNIPFPP": 75.0,
-          "AFLKCLJPIEH": 60.0,
-          "KFOJKBALNIC": 3.5
+        "platformMap": {
+          "autoChangeStep": 2,
+          "IGGCGNMDGAM": 75.0,
+          "LEPMMIPFAMC": 60.0,
+          "KBDIJHALKHO": 3.5
         }
       },
       {
-        "$type": "KMHBGMELMKD"
+        "$type": "CCGMBAAMCIC"
       },
       {
-        "$type": "GGKADEIBMLG",
+        "$type": "OMEJECJFGDI",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [1]
+        "condition": {
+          "pose": [
+            1
+          ]
         },
-        "FDIIDHNBFFE": [0, 1, 2],
-        "LMMKNFEMOMG": {
-          "GEAICNICJAJ": 0.25,
-          "EKDHNAGGGAE": 10.0,
-          "BFEJAKFKKFP": 3.0,
-          "KOAMKCEFJED": 5.0,
-          "JOCOJHEICNA": ""
+        "DBJHOGJCNAE": [
+          0,
+          1,
+          2
+        ],
+        "platformMap": {
+          "maxFileNum": 0.25,
+          "DGOPNNFDHNN": 10.0,
+          "KBCIAPABFBF": 3.0,
+          "AKPLIHCCDLC": 5.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
   },
   "move": {
-    "$type": "IIGPJJNGCLE",
-    "KCPLNKCIOCI": "Walk",
-    "JNDKCMPKBIK": {
+    "$type": "GHFIPBIFJDP",
+    "positionModifyState": "Walk",
+    "positionModifyStateMap": {
       "1": "Walk",
       "2": "Walk",
       "901": "Run",
       "902": "Run",
       "903": "Run"
     },
-    "FACNOEFNHIB": "RootNode"
+    "KJBPBOFPFBE": "RootNode"
   },
   "animal": {
     "tickAbilityElement": false,

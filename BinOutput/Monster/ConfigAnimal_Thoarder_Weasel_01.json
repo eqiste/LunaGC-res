@@ -1,94 +1,96 @@
 {
-  "MDJNFHAJPAD": {
-    "FAIKDMCHPEL": {
-      "$type": "DPGKNHENGLM",
+  "common": {
+    "effectAttachShape": {
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
-    "FINMNFLLAMB": 30.0,
-    "NEBDNCNFDJC": 0.75,
-    "MBMBBGOGNHF": true,
-    "DIEPJBNIPBG": true,
-    "CKECEGGMJOP": false,
-    "JBIPDEEPIMN": true,
-    "GJKLEPPOKDJ": true
+    "mass": 30.0,
+    "height": 0.75,
+    "affectedByWorld": true,
+    "checkInSurface": true,
+    "canTriggerElementReactionText": false,
+    "clearAnimatorOnSetLightDeactive": true,
+    "clearAIOnSetLightDeactive": true
   },
-  "PJEANIPCFFN": {
-    "CKAIGCFDCMG": "",
-    "KHGAHHAIJFJ": "",
-    "DFFKHFKJKEK": false
+  "model": {
+    "bornEffect": "",
+    "attachEffect": "",
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
-  "MEMHBNEJBCL": {
-    "PJBCJPKPOLB": 1.0
+  "dither": {
+    "showDitherDuration": 1.0
   },
-  "GKIMHOOMGHB": {
-    "DHBJGHDCMAA": {
-      "LDAHGACLHII": "Monster_Minion",
-      "LJGADHKDLLB": 30.0
+  "combat": {
+    "property": {
+      "endureType": "Monster_Minion",
+      "weight": 30.0
     },
-    "BPKIJDAHLGB": {
-      "LKMLEJGEHAP": "",
-      "LHMKDLOKKJG": true
+    "beHit": {
+      "hitBloodEffect": "",
+      "muteAllHitText": true
     },
-    "INCPHOFGIJA": {
-      "FGJIHAKMLBG": "CircleLockEnemy",
-      "BGMEKAEIOGA": "Avatar&Monster_Lv4"
+    "combatLock": {
+      "lockShape": "CircleLockEnemy",
+      "lockType": "Avatar&Monster_Lv4"
     },
-    "JCCJMILDEAM": {
-      "GKFDFDFJJFB": 2.0,
-      "FNIJBPMPCHA": 10.0,
-      "BCHFMGGBEFN": ""
+    "die": {
+      "dieEndTime": 2.0,
+      "dieForceDisappearTime": 10.0,
+      "dieDisappearEffect": ""
     }
   },
-  "IGPKOOHPBFG": [
+  "abilities": [
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_Alert",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_Alert",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_Alert",
+      "abilityName": "Animal_Thoarder_Weasel_Alert",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_Drill",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_Drill",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_Drill",
+      "abilityName": "Animal_Thoarder_Weasel_Drill",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_Jump",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_Jump",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_Jump",
+      "abilityName": "Animal_Thoarder_Weasel_Jump",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_Flee",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_Flee",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_Flee",
+      "abilityName": "Animal_Thoarder_Weasel_Flee",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_ToWander",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_ToWander",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_ToWander",
+      "abilityName": "Animal_Thoarder_Weasel_ToWander",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_ToIdle",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_ToIdle",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_ToIdle",
+      "abilityName": "Animal_Thoarder_Weasel_ToIdle",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "Animal_Thoarder_Weasel_State",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_State",
-      "BIAMBCDKJKP": ""
+      "abilityID": "Animal_Thoarder_Weasel_State",
+      "abilityName": "Animal_Thoarder_Weasel_State",
+      "abilityOverride": ""
     },
     {
-      "FPLENFAEDIB": "",
-      "KAJGDIHNKNE": "Animal_Thoarder_Weasel_Drill_Exit",
-      "BIAMBCDKJKP": ""
+      "abilityID": "",
+      "abilityName": "Animal_Thoarder_Weasel_Drill_Exit",
+      "abilityOverride": ""
     }
   ],
-  "GGIOJAMBNPO": {
+  "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
-      "LFGKIDDJIED": {
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
+      "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born_Emergy": [
               "Animal_Thoarder_Weasel_Born",
               "Audio_Animal_Marten_Born"
@@ -98,74 +100,110 @@
               "Audio_Animal_Marten_Alert"
             ]
           },
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Standby": ["Audio_Creature_Weasel_Standby"],
-            "Standby_Special": ["Audio_Creature_Weasel_Standby"],
-            "Standby_Walk": ["Audio_Creature_Weasel_run"],
-            "WalkToStandby": ["Animal_Thoarder_Weasel_ToIdle"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Standby": [
+              "Audio_Creature_Weasel_Standby"
+            ],
+            "Standby_Special": [
+              "Audio_Creature_Weasel_Standby"
+            ],
+            "Standby_Walk": [
+              "Audio_Creature_Weasel_run"
+            ],
+            "WalkToStandby": [
+              "Animal_Thoarder_Weasel_ToIdle"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Walk": ["Audio_Creature_Weasel_run"],
-            "Run": ["Audio_Creature_Weasel_run"],
-            "Disappear": ["Audio_Creature_Weasel_run"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Walk": [
+              "Audio_Creature_Weasel_run"
+            ],
+            "Run": [
+              "Audio_Creature_Weasel_run"
+            ],
+            "Disappear": [
+              "Audio_Creature_Weasel_run"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Animal_Thoarder_Weasel_Die", "Audio_Creature_Weasel_Die"],
-            "Die_Disappear": ["Animal_Thoarder_Weasel_Disappear"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Animal_Thoarder_Weasel_Die",
+              "Audio_Creature_Weasel_Die"
+            ],
+            "Die_Disappear": [
+              "Animal_Thoarder_Weasel_Disappear"
+            ]
           }
         },
         "Alert": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Alert": [
               "Animal_Thoarder_Weasel_Alert",
               "Audio_Animal_Marten_Alert"
             ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"],
-          "LIPMJPLGIKD": true,
-          "ODINBNMGLGA": true
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true,
+          "followAnimRotation": true
         },
         "Personality_1": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_1": [
               "Animal_Thoarder_Weasel_Personality1",
               "Audio_Creature_Weasel_Personality_1"
             ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_2": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Personality_2": ["Audio_Creature_Weasel_Personality_2"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Personality_2": [
+              "Audio_Creature_Weasel_Personality_2"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Drill": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Drill": [
               "Animal_Thoarder_Weasel_Drill",
               "Audio_Creature_Weasel_Drill"
@@ -175,29 +213,37 @@
               "Audio_Creature_Weasel_Drill"
             ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "ToWander": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "ToWander": ["Animal_Thoarder_Weasel_ToWander"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "ToWander": [
+              "Animal_Thoarder_Weasel_ToWander"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         }
       }
     }
   },
-  "IEFGNHABHFH": {
-    "$type": "PAOBAEKGGBC",
-    "JBKMLLFNHAL": "BillboardAttach"
+  "billboard": {
+    "$type": "HODFBPFPGEF",
+    "attachPoint": "BillboardAttach"
   },
-  "IONIFBIBFNL": {
+  "initialPoses": {
     "Default": {},
     "Normal": {
-      "JAAABLNBKAP": 1,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 1,
+      "initialPoseParams": {
+        "boolParams": {
           "FleeState": "false",
           "Jump": "false",
           "Wander": "false",
@@ -208,9 +254,9 @@
       }
     },
     "OnlyFlee": {
-      "JAAABLNBKAP": 9,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 9,
+      "initialPoseParams": {
+        "boolParams": {
           "FleeState": "false",
           "Jump": "false",
           "Wander": "false",
@@ -221,9 +267,9 @@
       }
     },
     "Jump": {
-      "JAAABLNBKAP": 3,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 3,
+      "initialPoseParams": {
+        "boolParams": {
           "FleeState": "true",
           "Jump": "true",
           "Wander": "false",
@@ -234,9 +280,9 @@
       }
     },
     "OnlyFlee_AIFight": {
-      "JAAABLNBKAP": 911,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 911,
+      "initialPoseParams": {
+        "boolParams": {
           "FleeState": "false",
           "Jump": "false",
           "Wander": "false",
@@ -247,9 +293,9 @@
       }
     },
     "Customized_Loot": {
-      "JAAABLNBKAP": 921,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 921,
+      "initialPoseParams": {
+        "boolParams": {
           "FleeState": "false",
           "Jump": "false",
           "Wander": "false",
@@ -260,9 +306,9 @@
       }
     },
     "Drill_Exit": {
-      "JAAABLNBKAP": 102,
-      "PIEEIAOKMJB": {
-        "GKGFCNLPILF": {
+      "initialPoseID": 102,
+      "initialPoseParams": {
+        "boolParams": {
           "FleeState": "false",
           "Jump": "false",
           "Wander": "false",
@@ -273,25 +319,25 @@
       }
     }
   },
-  "PDCDMABCPOA": {
-    "ENLKMOKHELD": true,
-    "BBIKFBPEPKO": 1,
-    "KGDGKFHPJPO": {
-      "NLGDNEMIKPE": "Undead01"
+  "aibeta": {
+    "enable": true,
+    "friendliness": 1,
+    "moveSetting": {
+      "navMeshAgentName": "Undead01"
     },
-    "OCBDDDCJANP": {
-      "IJOBKDKBEME": {
+    "sensing": {
+      "settings": {
         "Normal": {
-          "PHDIIPOBJGA": 15.0,
-          "COENEFGMPFK": 90.0,
-          "MPEJKBDNFGB": 45.0,
-          "BHOECAJIBOM": 10.0
+          "viewRange": 15.0,
+          "horizontalFov": 90.0,
+          "verticalFov": 45.0,
+          "feelRange": 10.0
         },
         "Jump": {
-          "BHOECAJIBOM": 40.0
+          "feelRange": 40.0
         }
       },
-      "PKFGMCHOEBN": {
+      "templates": {
         "DefaultTemplate": {
           "1": "Normal",
           "2": "Normal",
@@ -300,196 +346,234 @@
         }
       }
     },
-    "OFEGONBLOGP": {
-      "DefaultSetting": ["HIT"]
+    "neurons": {
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
-    "EJOLGMGAECP": {
-      "KICEOILEEPP": 50.0,
-      "KDPOCNEHGBJ": 500.0,
-      "JGFOPCOIJOI": ""
+    "threat": {
+      "specification": "",
+      "viewThreatGrow": 50.0,
+      "threatDecreaseSpeed": 500.0
     },
-    "PMNPDDIOHHJ": {
-      "OKMHHFALCCH": 50.0
+    "defendArea": {
+      "defendRange": 50.0
     },
-    "HEOOEKIGDAL": {
-      "GMFIDKOEKHA": false,
-      "FLMOHOODJBA": ""
+    "ui": {
+      "hasDirectionIndicator": false,
+      "MECOEANNABD": ""
     },
-    "BNIENJNLAIJ": {
+    "skills": {
       "1": {
-        "NOKKDDHKGAK": "OnAlert",
-        "IKMCLKEPDFP": "OnAlert",
-        "NOPNCNPCPJE": "",
-        "LLNBBNIEGGO": true,
-        "IDPMFPAPNCE": false,
-        "HGAMDGAEIGO": "",
-        "LFGKIDDJIED": ["Alert"],
-        "PGPDNPMFFAG": "10",
-        "CCEAGFDONFH": "01",
-        "OKOFHICILMD": "10",
-        "CCFFFOIDOLP": "11"
+        "name": "OnAlert",
+        "skillType": "OnAlert",
+        "publicCDGroup": "",
+        "ignoreGCD": true,
+        "triggerGCD": false,
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Alert"
+        ],
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
       },
       "101": {
-        "NOKKDDHKGAK": "PersonalitySit1",
-        "IKMCLKEPDFP": "Free",
-        "ENKLFBHHOJI": {
-          "CEKMINILIFB": [1, 9]
+        "name": "PersonalitySit1",
+        "skillType": "Free",
+        "castCondition": {
+          "pose": [
+            1,
+            9
+          ]
         },
-        "PAHIDIJLGPF": 25.0,
-        "GPMLADFJAAH": 25.0,
-        "LKCFDIOMLCM": 20.0,
-        "KKAEGIJIDLG": 20.0,
-        "NOPNCNPCPJE": "",
-        "HGAMDGAEIGO": "",
-        "LFGKIDDJIED": ["Personality_1"],
-        "PGPDNPMFFAG": "10",
-        "CCEAGFDONFH": "01",
-        "OKOFHICILMD": "10",
-        "CCFFFOIDOLP": "11"
+        "cd": 25.0,
+        "cdUpperRange": 25.0,
+        "initialCD": 20.0,
+        "initialCDUpperRange": 20.0,
+        "publicCDGroup": "",
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_1"
+        ],
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
       },
       "201": {
-        "NOKKDDHKGAK": "PersonalitySit2",
-        "IKMCLKEPDFP": "Free",
-        "ENKLFBHHOJI": {
-          "CEKMINILIFB": [1, 9]
+        "name": "PersonalitySit2",
+        "skillType": "Free",
+        "castCondition": {
+          "pose": [
+            1,
+            9
+          ]
         },
-        "PAHIDIJLGPF": 20.0,
-        "GPMLADFJAAH": 15.0,
-        "LKCFDIOMLCM": 10.0,
-        "KKAEGIJIDLG": 10.0,
-        "NOPNCNPCPJE": "",
-        "HGAMDGAEIGO": "",
-        "LFGKIDDJIED": ["Personality_2"],
-        "PGPDNPMFFAG": "10",
-        "CCEAGFDONFH": "01",
-        "OKOFHICILMD": "10",
-        "CCFFFOIDOLP": "11"
+        "cd": 20.0,
+        "cdUpperRange": 15.0,
+        "initialCD": 10.0,
+        "initialCDUpperRange": 10.0,
+        "publicCDGroup": "",
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality_2"
+        ],
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
       },
       "301": {
-        "NOKKDDHKGAK": "ToWander",
-        "IKMCLKEPDFP": "Free",
-        "ENKLFBHHOJI": {
-          "CEKMINILIFB": [1, 9]
+        "name": "ToWander",
+        "skillType": "Free",
+        "castCondition": {
+          "pose": [
+            1,
+            9
+          ]
         },
-        "PAHIDIJLGPF": 12.5,
-        "GPMLADFJAAH": 7.5,
-        "LKCFDIOMLCM": 5.0,
-        "KKAEGIJIDLG": 5.0,
-        "NOPNCNPCPJE": "",
-        "HGAMDGAEIGO": "",
-        "LFGKIDDJIED": ["ToWander"],
-        "PGPDNPMFFAG": "10",
-        "CCEAGFDONFH": "01",
-        "OKOFHICILMD": "10",
-        "CCFFFOIDOLP": "11"
+        "cd": 12.5,
+        "cdUpperRange": 7.5,
+        "initialCD": 5.0,
+        "initialCDUpperRange": 5.0,
+        "publicCDGroup": "",
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "ToWander"
+        ],
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
       },
       "401": {
-        "NOKKDDHKGAK": "Drill",
-        "IKMCLKEPDFP": "ActionPoint",
-        "ENKLFBHHOJI": {
-          "CEKMINILIFB": [101]
+        "name": "Drill",
+        "skillType": "ActionPoint",
+        "castCondition": {
+          "pose": [
+            101
+          ]
         },
-        "NOPNCNPCPJE": "",
-        "HGAMDGAEIGO": "",
-        "LFGKIDDJIED": ["Drill"],
-        "PGPDNPMFFAG": "10",
-        "CCEAGFDONFH": "01",
-        "OKOFHICILMD": "10",
-        "CCFFFOIDOLP": "11"
+        "publicCDGroup": "",
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Drill"
+        ],
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
       },
       "402": {
-        "NOKKDDHKGAK": "Drill_Disappear",
-        "IKMCLKEPDFP": "ActionPoint",
-        "ENKLFBHHOJI": {
-          "CEKMINILIFB": [102]
+        "name": "Drill_Disappear",
+        "skillType": "ActionPoint",
+        "castCondition": {
+          "pose": [
+            102
+          ]
         },
-        "NOPNCNPCPJE": "",
-        "HGAMDGAEIGO": "",
-        "LFGKIDDJIED": ["Drill_Disappear"],
-        "PGPDNPMFFAG": "10",
-        "CCEAGFDONFH": "01",
-        "OKOFHICILMD": "10",
-        "CCFFFOIDOLP": "11"
+        "publicCDGroup": "",
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Drill_Disappear"
+        ],
+        "flagTargetReachable": "10",
+        "flagSelfOnTemplateCollider": "01",
+        "flagSelfInZone": "10",
+        "flagTargetInZone": "11"
       }
     },
-    "EMBHEEALPLD": 5.0,
-    "EEKEAKJCMJO": [
+    "skillGCD": 5.0,
+    "birdCirclingTactic": [
       {
-        "$type": "JLGOMJEEEOD",
-        "ENLKMOKHELD": true,
-        "FJANPNOAAFK": {
-          "CEKMINILIFB": [101, 102]
+        "$type": "FONFGHPLKII",
+        "enable": true,
+        "condition": {
+          "pose": [
+            101,
+            102
+          ]
         },
-        "GMMKOLNMFJL": ["HIT"],
-        "LMMKNFEMOMG": {
-          "LPJONBJGEKP": "MoleHolePoint",
-          "KIHPEPHJMOG": 2,
-          "GEAICNICJAJ": 2.5,
-          "FCCFALOMHGM": 30.0,
-          "DDMLFHAHADI": 10.0,
-          "DMEANKABKMP": 401
+        "nerveTrigger": [
+          "HIT"
+        ],
+        "platformMap": {
+          "pointType": "MoleHolePoint",
+          "autoChangeStep": 2,
+          "maxFileNum": 2.5,
+          "detectDistance": 30.0,
+          "HOLFPCJHPHP": 10.0,
+          "skillID": 401
         },
-        "BIDHHBJEKHM": {
+        "levelMap": {
           "102": {
-            "LPJONBJGEKP": "MoleHolePoint",
-            "KIHPEPHJMOG": 2,
-            "GEAICNICJAJ": 2.5,
-            "FCCFALOMHGM": 30.0,
-            "DDMLFHAHADI": 10.0,
-            "DMEANKABKMP": 402
+            "pointType": "MoleHolePoint",
+            "autoChangeStep": 2,
+            "maxFileNum": 2.5,
+            "detectDistance": 30.0,
+            "HOLFPCJHPHP": 10.0,
+            "skillID": 402
           }
         }
       },
       {
-        "$type": "GIMIMAJNOPH",
-        "ENLKMOKHELD": true,
-        "FJANPNOAAFK": {
-          "CEKMINILIFB": [901, 911, 921]
+        "$type": "GDHDBOLMIDA",
+        "enable": true,
+        "condition": {
+          "pose": [
+            901,
+            911,
+            921
+          ]
         },
-        "LMMKNFEMOMG": {
-          "GEAICNICJAJ": 2.5,
-          "PAHIDIJLGPF": 3.0,
-          "OHLJIHFFMLB": 100.0,
-          "IFCLJHAJFHD": 75.0,
-          "GGIBBPIGEJF": 5,
-          "PKFMEOPIHEO": 6,
-          "NBBIJDCLJOF": 6.0,
-          "MHMMABHJIIA": 8.0,
-          "JHFLNKPOHHO": true,
-          "JOCOJHEICNA": ""
+        "platformMap": {
+          "maxFileNum": 2.5,
+          "cd": 3.0,
+          "triggerDistance": 100.0,
+          "BECAHMJJGFB": 75.0,
+          "DFOENAEFIHA": 5,
+          "ELJCMKFHGCC": 6,
+          "MDJFBGIGOPL": 6.0,
+          "LGGOMDLBBPH": 8.0,
+          "MAAKBNGLJNJ": true,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "KMHBGMELMKD",
-        "ENLKMOKHELD": true
+        "$type": "CCGMBAAMCIC",
+        "enable": true
       },
       {
-        "$type": "GGKADEIBMLG",
-        "ENLKMOKHELD": true,
-        "FJANPNOAAFK": {
-          "CEKMINILIFB": [2]
+        "$type": "OMEJECJFGDI",
+        "enable": true,
+        "condition": {
+          "pose": [
+            2
+          ]
         },
-        "LMMKNFEMOMG": {
-          "GEAICNICJAJ": 2.0,
-          "JIFJFPJANHO": 5.0,
-          "CBKHBGCPFBG": 3.0,
-          "EKDHNAGGGAE": 5.0,
-          "KOAMKCEFJED": 3.5,
-          "JOCOJHEICNA": ""
+        "platformMap": {
+          "maxFileNum": 2.0,
+          "DEHJKJAMIKG": 5.0,
+          "CLMGGEMDIGP": 3.0,
+          "DGOPNNFDHNN": 5.0,
+          "AKPLIHCCDLC": 3.5,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
   },
-  "GIBHCHHOJFI": [
+  "inputKeys": [
     {
-      "NPDDCIDNKMH": 101,
-      "KCAOBJOPJIC": 257,
-      "KAJGDIHNKNE": ""
+      "keyID": 101,
+      "inputKeyCode": 257,
+      "abilityName": ""
     },
     {
-      "NPDDCIDNKMH": 201,
-      "KCAOBJOPJIC": 258,
-      "KAJGDIHNKNE": ""
+      "keyID": 201,
+      "inputKeyCode": 258,
+      "abilityName": ""
     }
   ]
 }

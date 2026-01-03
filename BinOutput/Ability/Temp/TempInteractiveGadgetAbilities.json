@@ -1,36 +1,36 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Test_OreIron_Interact",
       "modifiers": {
         "ElementRockModifier": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onBeingHit": [
             {
-              "$type": "TriggerGadgetInteractive",
+              "$type": "HPJAPMNLECO",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Fire"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_HIT_TIMES_LEFT",
                   "ratio": 1.0
                 }
               ]
             },
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "predicates": [
                 {
-                  "$type": "ByHitElement",
+                  "$type": "FFPHGMJIGFE",
                   "element": "Fire"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_HIT_TIMES_LEFT",
                   "ratio": 0.0,
                   "compareType": "MoreThan"
@@ -39,24 +39,24 @@
               "ratio": -1.0,
               "key": "_HIT_TIMES_LEFT",
               "useLimitRange": true,
-              "maxValue": 3.0,
-              "minValue": 0.0
+              "param2": 3.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "ElementRockModifier"
         },
         {
-          "$type": "AddGlobalValue",
+          "$type": "ICIEIAFKCAO",
           "ratio": 1.0,
           "key": "_HIT_TIMES_LEFT",
           "useLimitRange": true,
-          "maxValue": 1.0,
-          "minValue": 0.0
+          "param2": 1.0,
+          "JHDOLIIOACK": 0.0
         }
       ]
     }

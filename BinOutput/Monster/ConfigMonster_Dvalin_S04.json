@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "DPGKNHENGLM",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 100000.0,
@@ -13,12 +13,17 @@
     "elementPendant": "",
     "elementDrop": "RootNode",
     "bulletAim": "RootNode",
-    "hitPoints": ["LargeScaleMonster_PredicatePoint", "ClawRight", "ClawLeft"]
+    "hitPoints": [
+      "LargeScaleMonster_PredicatePoint",
+      "ClawRight",
+      "ClawLeft"
+    ]
   },
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "normalBetweenCamera": {
@@ -26,7 +31,9 @@
     }
   },
   "globalValue": {
-    "serverGlobalValues": ["SGV_DungeonDifficulty"]
+    "serverGlobalValues": [
+      "SGV_DungeonDifficulty"
+    ]
   },
   "combat": {
     "property": {
@@ -56,22 +63,22 @@
     "animEvents": {
       "Weak": {
         "attackPattern": {
-          "$type": "HGDDHLFAONH",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "PELLOJMAAMM",
+            "$type": "HCPLIKKENJE",
             "offset": {
-              "GNGDNIIPPNL": 0.0,
-              "GIIMFINHIED": 4.0,
-              "CLBCHJICOKH": -20.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 4.0,
+              "HCMGOAIEFGL": -20.0
             },
             "attachPointName": "ClimbColliderAttachPoint",
-            "EJOIMDFPALP": "Self"
+            "attachPointTargetType": "Self"
           },
-          "musicSubStates": {
-            "GNGDNIIPPNL": 15.0,
-            "GIIMFINHIED": 8.0,
-            "CLBCHJICOKH": 30.0
+          "size": {
+            "PANGIELPECA": 15.0,
+            "CJENFGKOOOO": 8.0,
+            "HCMGOAIEFGL": 30.0
           }
         },
         "attackInfo": {
@@ -79,17 +86,18 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "HOGNHNAHNML": 0.0,
-            "BAPILBAGBOJ": 0.0,
-            "bonusCriticalHurt": 100.0,
+            "actorElecSubHurtDelta": 0.0,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 9999999.0,
             "attackType": "Melee",
             "ignoreLevelDiff": true,
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "none",
+            "hitImpulseY": "",
             "hitImpulseType": "LV0",
             "canBeDefenceHalt": true
           }
@@ -271,45 +279,56 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "IdleCenter": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "IdleCenter": ["Audio_Monster_Dvalin_S04_Idle"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "IdleCenter": [
+              "Audio_Monster_Dvalin_S04_Idle"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "IdleEdge": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "IdleEdge": ["Audio_Monster_Dvalin_S04_Idle"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "IdleEdge": [
+              "Audio_Monster_Dvalin_S04_Idle"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Gnaw": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "GnawLeft": [
               "Monster_Dvalin_S04_GnawLeft",
               "Audio_Monster_Dvalin_S04_Gnaw"
@@ -319,13 +338,15 @@
               "Audio_Monster_Dvalin_S04_Gnaw"
             ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Breathe": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "BreatheBS": [
               "Monster_Dvalin_S04_BreatheLeft",
               "Audio_Monster_Dvalin_S04_Breathe"
@@ -339,13 +360,15 @@
               "Audio_Monster_Dvalin_S04_Breathe"
             ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Ascent": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Ascent_BS_Center": [
               "Monster_Dvalin_S04_Ascent_Center",
               "Audio_Monster_Dvalin_S04_Ascent"
@@ -358,16 +381,20 @@
               "Monster_Dvalin_S04_Ascent_Edge",
               "Audio_Monster_Dvalin_S04_Ascent"
             ],
-            "Ascent_AS": ["Audio_Monster_Dvalin_S04_Ascent"]
+            "Ascent_AS": [
+              "Audio_Monster_Dvalin_S04_Ascent"
+            ]
           },
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Roar_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Roar_BS_Center": [
               "Monster_Dvalin_S04_RoarBS",
               "Audio_Monster_Dvalin_S04_StarFall"
@@ -381,13 +408,15 @@
               "Audio_Monster_Dvalin_S04_TwistedWind"
             ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Roar": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Roar_Center": [
               "Monster_Dvalin_S04_Roar",
               "Audio_Monster_Dvalin_S04_StarFall"
@@ -397,51 +426,63 @@
               "Audio_Monster_Dvalin_S04_StarFall"
             ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Roar_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Roar_AS_Edge": ["Audio_Monster_Dvalin_S04_Idle"],
-            "Roar_AS_Center": ["Audio_Monster_Dvalin_S04_Idle"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Roar_AS_Edge": [
+              "Audio_Monster_Dvalin_S04_Idle"
+            ],
+            "Roar_AS_Center": [
+              "Audio_Monster_Dvalin_S04_Idle"
+            ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "DeathCannon_Center": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "DeathCannon_Center": [
               "Monster_Dvalin_S04_DeathCannon",
               "Audio_Monster_Dvalin_S04_DeathCannon",
               "Monster_Dvalin_S04_CreateWindSeed"
             ]
           },
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "StarFall": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "StarFall_BS": [
               "Monster_Dvalin_S04_StarFall",
               "Audio_Monster_Dvalin_S04_Hurricane"
             ],
             "StarFall_AS": []
           },
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TwistedWind": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TwistedWind": [
               "Monster_Dvalin_S04_TwistedWind",
               "Audio_Monster_Dvalin_S04_TwistedWind"
@@ -455,56 +496,71 @@
               "Audio_Monster_Dvalin_S04_TwistedWind"
             ]
           },
-          "PGKCBIHGAOC": true,
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "WeakStartBS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "WeakStartBS": [
               "Monster_Dvalin_S04_WeakStart",
               "Audio_Monster_Dvalin_S04_WeakStart"
             ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "WeakStartAS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "WeakStartAS": []
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "WeakLoop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "WeakLoop": ["Audio_Monster_Dvalin_S04_WeakLoop"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "WeakLoop": [
+              "Audio_Monster_Dvalin_S04_WeakLoop"
+            ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "WeakEnd": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "WeakEnd": [
               "Monster_Dvalin_S04_WeakEnd",
               "Audio_Monster_Dvalin_S04_WeakEnd"
             ]
           },
-          "LAKHIBAPNAB": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "cullingModelAlwaysAnimate": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Monster_Dvalin_S04_Die", "Audio_Monster_Dvalin_S04_Die"],
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Monster_Dvalin_S04_Die",
+              "Audio_Monster_Dvalin_S04_Die"
+            ],
             "SwimDie_AS": []
           }
         }
@@ -512,13 +568,13 @@
     }
   },
   "billboard": {
-    "$type": "PAOBAEKGGBC",
+    "$type": "HODFBPFPGEF",
     "attachPoint": "BillboardAttach",
-    "LOMMBJLKPHE": 75.0,
-    "FMJAGHIMLEI": true,
+    "radiusOffset": 75.0,
+    "enableSelfAdapt": true,
     "showDistance": 200.0,
-    "KGHAGECNJPO": true,
-    "musicSubStates": "Grand"
+    "showHPBar": true,
+    "size": "Grand"
   },
   "initialPoses": {
     "Default": {}
@@ -534,17 +590,17 @@
       }
     },
     "threat": {
+      "specification": "",
       "clearThreatTargetDistance": 1000.0,
       "clearThreatTimerByLostPath": 1000.0,
-      "resistTauntLevel": "Monster_TauntLevel_5",
-      "JGFOPCOIJOI": ""
+      "resistTauntLevel": "Monster_TauntLevel_5"
     },
     "defendArea": {
       "enable": false
     },
     "ui": {
       "hasDirectionIndicator": false,
-      "FLMOHOODJBA": ""
+      "MECOEANNABD": ""
     },
     "network": {
       "syncSkill": true,
@@ -585,15 +641,22 @@
         "name": "Gnaw",
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [2, 12, 22, 32],
+          "pose": [
+            2,
+            12,
+            22,
+            32
+          ],
           "maxTargetAngleXZ": 20.0
         },
         "cd": 5.0,
         "cdUpperRange": 2.5,
         "initialCD": 5.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Gnaw"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Gnaw"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -603,15 +666,22 @@
         "name": "Breathe",
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [2, 12, 22, 32],
+          "pose": [
+            2,
+            12,
+            22,
+            32
+          ],
           "maxTargetAngleXZ": 20.0
         },
         "cd": 5.0,
         "cdUpperRange": 2.5,
         "initialCD": 5.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Breathe"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Breathe"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -622,13 +692,20 @@
         "priority": 6,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [1, 11, 21, 31]
+          "pose": [
+            1,
+            11,
+            21,
+            31
+          ]
         },
         "cd": 3.0,
         "initialCD": 1.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Ascent"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Ascent"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -639,14 +716,21 @@
         "priority": 6,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [2, 12, 22, 32],
+          "pose": [
+            2,
+            12,
+            22,
+            32
+          ],
           "minTargetAngleXZ": 20.0
         },
         "cd": 1.0,
         "initialCD": 3.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Ascent"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Ascent"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -657,14 +741,18 @@
         "priority": 4,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [2]
+          "pose": [
+            2
+          ]
         },
         "cd": 45.0,
         "cdUpperRange": 5.0,
         "initialCD": 45.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Ascent"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Ascent"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -675,14 +763,18 @@
         "priority": 4,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [12]
+          "pose": [
+            12
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 200.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Ascent"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Ascent"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -693,14 +785,18 @@
         "priority": 4,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [22]
+          "pose": [
+            22
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 260.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Ascent"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Ascent"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -711,14 +807,18 @@
         "priority": 4,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [32]
+          "pose": [
+            32
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 200.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Ascent"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Ascent"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -729,15 +829,19 @@
         "priority": 3,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [11]
+          "pose": [
+            11
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 115.0,
         "publicCDGroup": "",
         "skillGroupCDID": 4,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["DeathCannon_Center"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "DeathCannon_Center"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -748,15 +852,19 @@
         "priority": 3,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [21]
+          "pose": [
+            21
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 175.0,
         "publicCDGroup": "",
         "skillGroupCDID": 5,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["DeathCannon_Center"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "DeathCannon_Center"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -767,15 +875,19 @@
         "priority": 3,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [31]
+          "pose": [
+            31
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 115.0,
         "publicCDGroup": "",
         "skillGroupCDID": 6,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["DeathCannon_Center"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "DeathCannon_Center"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -786,15 +898,20 @@
         "priority": 3,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [12]
+          "pose": [
+            12
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 115.0,
         "publicCDGroup": "",
         "skillGroupCDID": 4,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["TwistedWind", "DeathCannon_Center"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "TwistedWind",
+          "DeathCannon_Center"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -805,15 +922,20 @@
         "priority": 3,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [22]
+          "pose": [
+            22
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 175.0,
         "publicCDGroup": "",
         "skillGroupCDID": 5,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["TwistedWind", "DeathCannon_Center"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "TwistedWind",
+          "DeathCannon_Center"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -824,15 +946,20 @@
         "priority": 3,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [32]
+          "pose": [
+            32
+          ]
         },
         "cd": 110.0,
         "cdUpperRange": 10.0,
         "initialCD": 115.0,
         "publicCDGroup": "",
         "skillGroupCDID": 6,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["TwistedWind", "DeathCannon_Center"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "TwistedWind",
+          "DeathCannon_Center"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -843,14 +970,18 @@
         "priority": 2,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [21]
+          "pose": [
+            21
+          ]
         },
         "cd": 9999999.0,
         "initialCD": 105.0,
         "publicCDGroup": "",
         "skillGroupCDID": 3,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["StarFall"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "StarFall"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -861,14 +992,19 @@
         "priority": 2,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [22]
+          "pose": [
+            22
+          ]
         },
         "cd": 999999.0,
         "initialCD": 105.0,
         "publicCDGroup": "",
         "skillGroupCDID": 3,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["TwistedWind", "StarFall"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "TwistedWind",
+          "StarFall"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -879,15 +1015,20 @@
         "priority": 1,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [11]
+          "pose": [
+            11
+          ]
         },
         "cd": 999999.0,
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerCDOnStart": true,
         "skillGroupCDID": 0,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Roar", "Roar_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Roar",
+          "Roar_AS"
+        ],
         "skillQueryingTime": 17.5,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -899,15 +1040,20 @@
         "priority": 1,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [21]
+          "pose": [
+            21
+          ]
         },
         "cd": 999999.0,
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerCDOnStart": true,
         "skillGroupCDID": 1,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Roar", "Roar_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Roar",
+          "Roar_AS"
+        ],
         "skillQueryingTime": 17.5,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -919,15 +1065,20 @@
         "priority": 1,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [31]
+          "pose": [
+            31
+          ]
         },
         "cd": 999999.0,
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerCDOnStart": true,
         "skillGroupCDID": 2,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Roar", "Roar_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Roar",
+          "Roar_AS"
+        ],
         "skillQueryingTime": 17.5,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -939,15 +1090,20 @@
         "priority": 1,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [12]
+          "pose": [
+            12
+          ]
         },
         "cd": 999999.0,
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerCDOnStart": true,
         "skillGroupCDID": 0,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Roar", "Roar_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Roar",
+          "Roar_AS"
+        ],
         "skillQueryingTime": 17.5,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -959,15 +1115,20 @@
         "priority": 1,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [22]
+          "pose": [
+            22
+          ]
         },
         "cd": 999999.0,
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerCDOnStart": true,
         "skillGroupCDID": 1,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Roar", "Roar_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Roar",
+          "Roar_AS"
+        ],
         "skillQueryingTime": 17.5,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -979,15 +1140,20 @@
         "priority": 1,
         "canUseIfTargetInactive": true,
         "castCondition": {
-          "pose": [32]
+          "pose": [
+            32
+          ]
         },
         "cd": 999999.0,
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerCDOnStart": true,
         "skillGroupCDID": 2,
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["Roar", "Roar_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Roar",
+          "Roar_AS"
+        ],
         "skillQueryingTime": 17.5,
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
@@ -999,8 +1165,12 @@
         "cd": 2.0,
         "initialCD": 9999990.0,
         "publicCDGroup": "",
-        "HGAMDGAEIGO": "",
-        "stateIDs": ["WeakStart", "WeakLoop", "WeakEnd"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "WeakStart",
+          "WeakLoop",
+          "WeakEnd"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -1051,22 +1221,22 @@
     }
   ],
   "move": {
-    "$type": "IIGPJJNGCLE",
-    "EIEIGIPKLAO": {
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
       "muteAll": true
     },
-    "MEKENCHCEEN": false,
-    "CNDANDFLGDN": {
-      "GOEFBCNDLEO": 25.0,
-      "MPOJMBFDPEI": 5.0,
-      "JBDACPJEELA": 20.0,
-      "NBODAPNKCKC": 10.0,
-      "OABAGNCCNEJ": 30.0
+    "initWithGroundHitCheck": false,
+    "smoothedSpeed": {
+      "maxSpeed": 25.0,
+      "accelerationXZ": 5.0,
+      "accelerationY": 20.0,
+      "zeroingSpeedXZ": 10.0,
+      "zeroingSpeedY": 30.0
     },
-    "FACNOEFNHIB": "RootNode"
+    "KJBPBOFPFBE": "RootNode"
   },
   "audio": {
-    "KEEAIACIJBN": "",
+    "overrideEmitterName": "",
     "animAudio": {
       "onTransitionIn": [
         {

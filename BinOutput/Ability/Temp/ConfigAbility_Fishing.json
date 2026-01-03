@@ -1,11 +1,11 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Fishing_Choose",
             "Fishing_Cast_BS",
@@ -16,10 +16,11 @@
             "Fishing_Battle",
             "Fishing_End"
           ],
-          "modifierName": "Avatar_Fishing_StateTag"
+          "modifierName": "Avatar_Fishing_StateTag",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Fishing_Choose",
             "Fishing_Cast_BS",
@@ -27,15 +28,19 @@
             "Fishing_Pull",
             "Fishing_Cast_AS"
           ],
-          "modifierName": "Avatar_Fishing_ChangeButton_Choose"
+          "modifierName": "Avatar_Fishing_ChangeButton_Choose",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Wait"],
-          "modifierName": "UNIQUE_Avatar_Fishing_ChangeButton_Wait"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Wait"
+          ],
+          "modifierName": "UNIQUE_Avatar_Fishing_ChangeButton_Wait",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Fishing_Choose",
             "Fishing_Cast_BS",
@@ -45,58 +50,59 @@
             "Fishing_Pull",
             "Fishing_Battle"
           ],
-          "modifierName": "Avatar_Fishing_ChangeButton_Exit"
+          "modifierName": "Avatar_Fishing_ChangeButton_Exit",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Avatar_Fishing_Start": {
           "modifierName": "",
-          "duration": 0.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.5,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "triggerID": "PRIVATE_Fishing_Start"
             }
           ]
         },
         "Avatar_Fishing_ChangePlayMode": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "HideActionSlotMixin",
-              "MGEIMONNADI": "SlotQuickUse"
+              "$type": "NENNGJGECBO",
+              "slotType": "SlotQuickUse"
             }
           ],
           "onAdded": [
             {
-              "$type": "ChangePlayMode",
-              "cdDelta": true,
+              "$type": "GBLMKGBHIAB",
+              "musicSubStates": true,
               "muteRemoteAction": true,
               "toPlayMode": "Fishing"
             }
           ],
           "onRemoved": [
             {
-              "$type": "ChangePlayMode",
-              "cdDelta": true,
+              "$type": "GBLMKGBHIAB",
+              "musicSubStates": true,
               "muteRemoteAction": true,
-              "DLEICBJFEKN": "Fishing"
+              "BCKOFAHAHLD": "Fishing"
             }
           ]
         },
         "Avatar_Fishing_ChangeButton_Choose": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Playmode",
               "skillID": 20311
             },
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Playmode",
               "skillIndex": 2,
               "skillID": 20316
@@ -105,11 +111,11 @@
         },
         "UNIQUE_Avatar_Fishing_ChangeButton_Wait": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Playmode",
               "skillID": 20314
             }
@@ -117,10 +123,10 @@
         },
         "Avatar_Fishing_ChangeButton_Exit": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Playmode",
               "skillIndex": 3,
               "skillID": 20315
@@ -129,93 +135,93 @@
         },
         "Avatar_Fishing_AddSkillInfo": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 20310
             },
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 20311
             },
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 20314
             },
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 20315
             },
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 20316
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 20310
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 20311
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 20314
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 20315
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 20316
             }
           ]
         },
         "Avatar_Fishing_StateTag": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "_ABILITY_Fishing_Tag",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 0.0,
               "key": "_ABILITY_Fishing_Tag",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "Avatar_Fishing_Invincible_Buff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 2.0,
           "state": "Invincible",
           "onAdded": [
             {
-              "$type": "AttachAbilityStateResistance",
+              "$type": "LIEKGJAFBPD",
               "resistanceListID": 11002
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_Fishing_Tag",
                   "ratio": 0.0
                 }
@@ -226,15 +232,15 @@
         },
         "Avatar_Fishing_DenyLock_Buff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 2.0,
           "state": "DenyLockOn",
           "onThinkInterval": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_Fishing_Tag",
                   "ratio": 0.0
                 }
@@ -245,15 +251,15 @@
         },
         "Avatar_Fishing_Ghost_Buff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 2.0,
           "state": "IsGhostToEnemy",
           "onThinkInterval": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_Fishing_Tag",
                   "ratio": 0.0
                 }
@@ -265,27 +271,27 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_AddSkillInfo"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_ChangePlayMode"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_Start"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_Invincible_Buff"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_DenyLock_Buff"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_Ghost_Buff"
         }
       ],
@@ -294,101 +300,110 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Cast",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Fishing_Cast_BS",
             "Fishing_Cast_Loop",
             "Fishing_Cast_AS"
           ],
-          "modifierName": "Fishing_Cast_Focus"
+          "modifierName": "Fishing_Cast_Focus",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Cast_BS", "Fishing_Cast_Loop"],
-          "modifierName": "Fishing_Aim"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Cast_BS",
+            "Fishing_Cast_Loop"
+          ],
+          "modifierName": "Fishing_Aim",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToNormalizedTimeMixin",
+          "$type": "GGGLBLJDCOJ",
           "stateID": "Fishing_Cast_AS",
           "modifierName": "Fishing_Cast_TriggerBullet",
-          "normalizeStart": 0.25999999046325684
+          "normalizeStart": 0.25999999046325684,
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "ButtonHoldChargeMixin",
+          "$type": "KDGKLCCFCDO",
           "skillID": 20311,
           "chargeTime": 99999.0,
-          "secondChargeTime": 999999.0,
-          "OnBeginUncharged": [
+          "EMCDBOEFBPM": 999999.0,
+          "onBeginUncharged": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_Fishing_IsBaitEnough",
                   "ratio": 1.0
                 }
               ],
               "successActions": [
                 {
-                  "$type": "SetAnimatorTrigger",
+                  "$type": "BBPLJACIMJN",
                   "triggerID": "PRIVATE_Fishing_Cast"
                 }
               ],
               "failActions": [
                 {
-                  "$type": "FireFishingEvent",
+                  "$type": "CEIFPHJNMHI",
                   "eventType": "NotifyBait"
                 }
               ]
             },
             {
-              "$type": "ResetAnimatorTrigger",
+              "$type": "GDDNAMABAAL",
               "triggerID": "EndHoldTrigger"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Delay_SetTrigger"
             }
           ],
-          "OnReleaseUncharged": [
+          "onReleaseUncharged": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "triggerID": "EndHoldTrigger"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Delay_SetTrigger"
             },
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "抛竿"
             }
           ],
-          "chargeStateIDs": ["Fishing_Cast_BS", "Fishing_Cast_Loop"]
+          "chargeStateIDs": [
+            "Fishing_Cast_BS",
+            "Fishing_Cast_Loop"
+          ]
         }
       ],
       "modifiers": {
         "Delay_SetTrigger": {
           "modifierName": "",
-          "duration": 0.6000000238418579,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.6000000238418579,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "triggerID": "EndHoldTrigger"
             }
           ]
         },
         "Fishing_Cast_Focus": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AvatarEnterFocus",
+              "$type": "AOACLFBGECH",
               "cameraFollowLower": {
                 "x": 0.800000011920929,
                 "y": 1.0,
@@ -401,7 +416,8 @@
               "cameraFastFocusMode": true,
               "dragButtonName": "Skill1",
               "assistance": {
-                "ps4": {},
+                "DAKBHOIGCBK": {},
+                "PMMBLIONMOE": {},
                 "ps5": {},
                 "other": {
                   "useGyro": true
@@ -409,68 +425,71 @@
               },
               "canMove": false,
               "showCrosshair": false,
-              "vcamFov": 20.0
+              "vcamFov": 20.0,
+              "DPAKKONMAJJ": "",
+              "GIOJBGEGKLN": ""
             },
             {
-              "$type": "PlayEmoSync",
+              "$type": "JJBCDKGGPDO",
               "emoSyncAssetPath": "Cutscene/ShortDialog/Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Common_Bow_Fight_Aim"
             },
             {
-              "$type": "ControlEmotion",
+              "$type": "AJCHNOKGCFP",
               "toggleBlink": false
             }
           ],
           "onRemoved": [
             {
-              "$type": "AvatarExitFocus",
+              "$type": "ABNPFHKCJNA",
               "keepRotation": true
             },
             {
-              "$type": "PlayEmoSync",
+              "$type": "JJBCDKGGPDO",
               "emoSyncAssetPath": "Cutscene/ShortDialog/Cs_Emo_Avatar_Simple_Common_Set/Cs_Emo_Avatar_Common_Normal"
             },
             {
-              "$type": "ControlEmotion"
+              "$type": "AJCHNOKGCFP"
             }
           ]
         },
         "Fishing_Aim": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "FishingAimParabolaMixin",
+              "$type": "GEEGGMIGEHM",
               "minAngle": -60.0,
               "minRange": 2.0,
               "maxRange": 15.0,
               "globalValueKey": "_ABILITY_Fishing_Aim_Length",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               }
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "$type": "LMPIJGNENAI",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Aim_Line",
-              "effectTempleteID": -1.0
+              "rotationDampTime": "Eff_Avatar_Fishing_Aim_Line",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobalPos",
+              "$type": "IHAJBJGDAGC",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "key": "_ABILITY_FishingRod_Pos",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "LinePoint"
               },
               "setTarget": false
@@ -479,19 +498,19 @@
         },
         "Fishing_Cast_TriggerBullet": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "TriggerBullet",
+              "$type": "NIMBMIFEBKH",
               "bulletID": 42000001,
               "born": {
-                "$type": "LBFHLMJGELJ",
-                "LDPAKEFHAOK": "_ABILITY_FishingRod_Pos",
-                "IDGILJNLJGN": ""
+                "$type": "IEECEGJDPNG",
+                "positionKey": "_ABILITY_FishingRod_Pos",
+                "directionKey": ""
               }
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Fishing_Cast_Focus"
             }
           ]
@@ -499,25 +518,25 @@
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_ABILITY_Fishing_Aim_Length",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_ABILITY_Fishing_Pool_Legal",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_ABILITY_Fishing_IsBaitEnough",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -525,27 +544,27 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_CreateAnchor",
       "onAbilityStart": [
         {
-          "$type": "CreateGadget",
+          "$type": "GIENONHPGIL",
           "born": {
-            "$type": "LBFHLMJGELJ",
+            "$type": "IEECEGJDPNG",
             "offset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             },
-            "LDPAKEFHAOK": "_ABILITY_Fishing_AnchorPoint",
-            "IDGILJNLJGN": ""
+            "positionKey": "_ABILITY_Fishing_AnchorPoint",
+            "directionKey": ""
           },
           "gadgetID": 42000002,
           "campID": 1001,
           "campTargetType": "Enemy"
         },
         {
-          "$type": "FireFishingEvent",
+          "$type": "CEIFPHJNMHI",
           "eventType": "CastAnchorPoint"
         }
       ],
@@ -554,11 +573,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_SelectBait",
       "onAbilityStart": [
         {
-          "$type": "FireFishingEvent",
+          "$type": "CEIFPHJNMHI",
           "eventType": "SelectBait"
         }
       ],
@@ -567,17 +586,17 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Cast_Bullet",
       "modifiers": {
         "Avatar_Fishing_Cast_OnAvatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "modifierName": "Avatar_Fishing_Cast_OnRod"
@@ -586,90 +605,93 @@
         },
         "Avatar_Fishing_Cast_OnRod": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "$type": "LMPIJGNENAI",
               "target": "Caster",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Line_01",
-              "effectTempleteID": -1.0,
-              "BNEDICIJIKE": true
+              "rotationDampTime": "Eff_Avatar_Fishing_Line_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0,
+              "setSelfAsEffectPluginTarget": true
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "SetAnimatorBool",
+          "$type": "BMIKALFADPH",
           "target": "OriginOwner",
           "boolID": "PRIVATE_Fishing_CanPullRod"
         },
         {
-          "$type": "AttachEffect",
-          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Cast_Bullet",
-          "effectTempleteID": -1.0
+          "$type": "LMPIJGNENAI",
+          "rotationDampTime": "Eff_Avatar_Fishing_Cast_Bullet",
+          "NEGDPOAEJFL": 1.0,
+          "CCLMIJIBGDK": -1.0
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "SetGlobalPos",
+          "$type": "IHAJBJGDAGC",
           "target": "OriginOwner",
           "key": "_ABILITY_Fishing_AnchorPoint",
           "born": {
-            "$type": "ConfigBornByCollisionPoint",
+            "$type": "BBOPPIBMHDE",
             "offset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             },
-            "CJKCLAIPMHH": true,
-            "JNDJNDJCGGC": true
+            "onGround": true,
+            "alongGround": true
           }
         },
         {
-          "$type": "SetGlobalPos",
+          "$type": "IHAJBJGDAGC",
           "key": "_ABILITY_Fishing_AnchorPoint",
           "born": {
-            "$type": "ConfigBornByCollisionPoint",
+            "$type": "BBOPPIBMHDE",
             "offset": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             },
-            "CJKCLAIPMHH": true,
-            "JNDJNDJCGGC": true
+            "onGround": true,
+            "alongGround": true
           }
         },
         {
-          "$type": "FireHitEffect",
+          "$type": "BKOMCGCOAGI",
           "hitEntity": "",
           "hitScene": {
             "defaultEffect": "Eff_Avatar_Fishing_Cork_HitScene",
             "surfaceEffect": {
-              "Water": "Eff_Avatar_Fishing_Cork_Bloom"
+              "Water": "Eff_Avatar_Fishing_Cork_Bloom",
+              "LiquidPhlogiston": "Eff_SceneObj_Fishing_Magma_06"
             }
           }
         },
         {
-          "$type": "Predicated",
+          "$type": "BGNIHCGOFJH",
           "target": "OriginOwner",
           "targetPredicates": [
             {
-              "$type": "ByTargetGlobalValue",
+              "$type": "CABGKHFDJGP",
               "key": "_ABILITY_Fishing_Pool_Legal",
               "ratio": 1.0
             }
           ],
           "successActions": [
             {
-              "$type": "TriggerAbility",
+              "$type": "BMEHDKMCIAD",
               "target": "OriginOwner",
               "abilityName": "Avatar_Common_Fishing_CreateAnchor"
             }
           ],
           "failActions": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "target": "OriginOwner",
               "triggerID": "PRIVATE_Fishing_Pull"
             }
@@ -680,18 +702,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Cork",
       "modifiers": {
         "UNIQUE_Avatar_Fishing_Waiting_LineEffect": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "modifierName": "Avatar_Fishing_Waiting_LineEffect_OnWeapon"
@@ -700,37 +722,38 @@
         },
         "Avatar_Fishing_Waiting_LineEffect_OnWeapon": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "$type": "LMPIJGNENAI",
               "target": "Caster",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Line_01",
-              "effectTempleteID": -1.0,
-              "BNEDICIJIKE": true
+              "rotationDampTime": "Eff_Avatar_Fishing_Line_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0,
+              "setSelfAsEffectPluginTarget": true
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "SetAnimatorTrigger",
+          "$type": "BBPLJACIMJN",
           "target": "OriginOwner",
           "predicates": [
             {
-              "$type": "ByAny",
+              "$type": "DEHGJIGOLBJ",
               "target": "Self",
               "predicates": [
                 {
-                  "$type": "ByTargetAltitude",
+                  "$type": "KJEOOFBJBPG",
                   "logic": "Lesser",
                   "ratio": 0.30000001192092896,
-                  "PAFBGHKMCLE": "GroundOnly"
+                  "targetAltitudeType": "GroundOnly"
                 },
                 {
-                  "$type": "ByTargetAltitude",
+                  "$type": "KJEOOFBJBPG",
                   "ratio": 0.30000001192092896,
-                  "PAFBGHKMCLE": "WaterOnly"
+                  "targetAltitudeType": "WaterOnly"
                 }
               ]
             }
@@ -738,22 +761,23 @@
           "triggerID": "PRIVATE_Fishing_Pull"
         },
         {
-          "$type": "AttachEffect",
-          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Cork",
-          "effectTempleteID": -1.0
+          "$type": "LMPIJGNENAI",
+          "rotationDampTime": "Eff_Avatar_Fishing_Cork",
+          "NEGDPOAEJFL": 1.0,
+          "CCLMIJIBGDK": -1.0
         },
         {
-          "$type": "TriggerAbility",
+          "$type": "BMEHDKMCIAD",
           "target": "OriginOwner",
           "abilityName": "Avatar_Common_FishingLine_Manager"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "target": "OriginOwner",
           "modifierName": "UNIQUE_Avatar_Fishing_Waiting_LineEffect"
         },
         {
-          "$type": "SetAnimatorBool",
+          "$type": "BMIKALFADPH",
           "target": "OriginOwner",
           "boolID": "PRIVATE_Fishing_CanPullRod",
           "ratio": true
@@ -761,173 +785,189 @@
       ],
       "onAbilityStart": [
         {
-          "$type": "KillSelf"
+          "$type": "OHBGKFFNCEA"
         }
       ],
       "onKill": [
         {
-          "$type": "FireEffect",
-          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Cork_Pull",
+          "$type": "HPOJEFINJEP",
+          "rotationDampTime": "Eff_Avatar_Fishing_Cork_Pull",
           "born": {
-            "$type": "ConfigBornBySelf"
+            "$type": "ONAGPPKOMPD"
           },
-          "effectTempleteID": -1.0
+          "NEGDPOAEJFL": 1.0,
+          "CCLMIJIBGDK": -1.0
         }
       ]
     }
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Waiting",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Wait", "Fishing_Battle"],
-          "modifierName": "Avatar_Fishing_RemoveChangeSkill"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Wait",
+            "Fishing_Battle"
+          ],
+          "modifierName": "Avatar_Fishing_RemoveChangeSkill",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToAnimatorStateIDMixin",
-          "stateIDs": ["Fishing_Pull_01"],
-          "modifierName": "Avatar_Fishing_Pull"
+          "$type": "CINOKAMLEJJ",
+          "stateIDs": [
+            "Fishing_Pull_01"
+          ],
+          "modifierName": "Avatar_Fishing_Pull",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Cast_AS", "Fishing_Wait", "Fishing_Battle"],
-          "modifierName": "Avatar_Fishing_Camera_FocusBias_Waiting"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Cast_AS",
+            "Fishing_Wait",
+            "Fishing_Battle"
+          ],
+          "modifierName": "Avatar_Fishing_Camera_FocusBias_Waiting",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Battle"],
-          "modifierName": "Avatar_Fishing_Camera_FocusBias_Battle"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Battle"
+          ],
+          "modifierName": "Avatar_Fishing_Camera_FocusBias_Battle",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Avatar_Fishing_AddBattleSkill": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 20313
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 20313
             }
           ]
         },
         "Avatar_Fishing_ChangeButton_Battle": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Playmode",
               "skillID": 20313
             }
           ],
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 0.0,
               "key": "_ABILITY_Fishing_IsBattle",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "Avatar_Fishing_RemoveChangeSkill": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
-              "cdDelta": true,
+              "$type": "LBCOJMOPBAB",
+              "musicSubStates": true,
               "modifierName": "Avatar_Fishing_ChangeButton_Battle"
             }
           ]
         },
         "Avatar_Fishing_Pull": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireFishingEvent",
+              "$type": "CEIFPHJNMHI",
               "eventType": "Pull"
             }
           ]
         },
         "Avatar_Fishing_Camera_FocusBias_Waiting": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AvatarEnterViewBias",
-              "LPFOANHLGCM": 45.0,
-              "JDHMMEMKLCH": 75.0,
-              "OLLDFKJBDIL": 2.0,
-              "HEOAMMOGBGF": 48.0,
-              "DKAPNPMLNOO": 45.0,
-              "PACFKHPNHDD": true,
-              "DPGLJAACKID": true
+              "$type": "MLKNDBJOKFJ",
+              "sphereBiasPole": 45.0,
+              "sphereBiasElev": 75.0,
+              "sphereRadius": 2.0,
+              "postForwardPoleDeltaAngle": 48.0,
+              "postForwardElevDeltaAngle": 45.0,
+              "lockZoom": true,
+              "lockResetBack": true
             }
           ],
           "onRemoved": [
             {
-              "$type": "AvatarExitViewBias",
-              "cdDelta": true,
-              "FMBMILLDDNP": 0.5
+              "$type": "HPGDCOFGFGL",
+              "musicSubStates": true,
+              "lerpDuration": 0.5
             }
           ]
         },
         "Avatar_Fishing_Camera_FocusBias_Battle": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AvatarEnterViewBias",
-              "LPFOANHLGCM": 45.0,
-              "JDHMMEMKLCH": 20.0,
-              "OLLDFKJBDIL": 4.0,
-              "HEOAMMOGBGF": 23.0,
-              "DPGLJAACKID": true
+              "$type": "MLKNDBJOKFJ",
+              "sphereBiasPole": 45.0,
+              "sphereBiasElev": 20.0,
+              "sphereRadius": 4.0,
+              "postForwardPoleDeltaAngle": 23.0,
+              "lockResetBack": true
             }
           ],
           "onRemoved": [
             {
-              "$type": "AvatarExitViewBias",
-              "cdDelta": true,
-              "FMBMILLDDNP": 0.5
+              "$type": "HPGDCOFGFGL",
+              "musicSubStates": true,
+              "lerpDuration": 0.5
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_AddBattleSkill"
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "modifierName": "UNIQUE_Avatar_Fishing_ChangeButton_Wait"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Avatar_Fishing_ChangeButton_Battle"
         },
         {
-          "$type": "SetSelfAttackTarget",
+          "$type": "MOPFKJOIAHG",
           "target": "Other"
         },
         {
-          "$type": "TriggerAbility",
+          "$type": "BMEHDKMCIAD",
           "otherTargets": {
-            "$type": "FJHPPAFMCAK",
+            "$type": "BINLPKEGGGE",
             "entityType": "FishRod"
           },
           "abilityName": "Avatar_Common_FishingRod",
@@ -939,11 +979,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Delay",
       "onAbilityStart": [
         {
-          "$type": "SetAnimatorTrigger",
+          "$type": "BBPLJACIMJN",
           "triggerID": "PRIVATE_Fishing_Pull"
         }
       ],
@@ -952,25 +992,28 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Battle",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Battle"],
-          "modifierName": "Avatar_Fishing_Battle"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Battle"
+          ],
+          "modifierName": "Avatar_Fishing_Battle",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "ButtonHoldChargeMixin",
+          "$type": "KDGKLCCFCDO",
           "skillID": 20313,
           "chargeTime": 999999.0,
-          "secondChargeTime": 999999.0,
-          "OnBeginUncharged": [
+          "EMCDBOEFBPM": 999999.0,
+          "onBeginUncharged": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_Fishing_IsBattle",
                   "ratio": 0.0
                 }
@@ -978,25 +1021,27 @@
               "modifierName": "Avatar_Fishing_Battle_Start"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Avatar_Fishing_Battle_QteHandler"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Avatar_Fishing_Battle_ReduceBlend"
             }
           ],
-          "OnReleaseUncharged": [
+          "onReleaseUncharged": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Avatar_Fishing_Battle_QteHandler"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Avatar_Fishing_Battle_ReduceBlend"
             }
           ],
-          "chargeStateIDs": ["Fishing_Battle"]
+          "chargeStateIDs": [
+            "Fishing_Battle"
+          ]
         }
       ],
       "abilitySpecials": {
@@ -1005,39 +1050,39 @@
       "modifiers": {
         "Avatar_Fishing_Battle": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireFishingEvent",
+              "$type": "CEIFPHJNMHI",
               "eventType": "QteStart"
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
-              "cdDelta": true,
+              "$type": "LBCOJMOPBAB",
+              "musicSubStates": true,
               "modifierName": "Avatar_Fishing_Battle_QteHandler"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "Avatar_Fishing_Battle_ReduceBlend"
             },
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 0.0,
               "key": "_ABILITY_Fishing_BattleBlend",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetAnimatorFloat",
+              "$type": "AGGBCLFDLGD",
               "floatID": "Fishing_BattleBlend",
               "ratio": 0.0
             },
             {
-              "$type": "SetAnimatorFloat",
+              "$type": "AGGBCLFDLGD",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "floatID": "Blend",
@@ -1047,101 +1092,101 @@
         },
         "Avatar_Fishing_Battle_Start": {
           "modifierName": "",
-          "duration": 0.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.5,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ABILITY_Fishing_IsBattle",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "triggerID": "PRIVATE_Fishing_QteStart"
             }
           ]
         },
         "Avatar_Fishing_Battle_QteHandler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.07000000029802322,
           "onAdded": [
             {
-              "$type": "FireFishingEvent",
+              "$type": "CEIFPHJNMHI",
               "eventType": "QteTrigger"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "FireFishingEvent",
+              "$type": "CEIFPHJNMHI",
               "eventType": "QteTrigger"
             },
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": 0.11999999731779099,
               "key": "_ABILITY_Fishing_BattleBlend",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "globalValueKey": "_ABILITY_Fishing_BattleBlend",
               "overrideMapKey": "Override_Fishing_Blend"
             },
             {
-              "$type": "SetAnimatorFloat",
+              "$type": "AGGBCLFDLGD",
               "floatID": "Fishing_BattleBlend",
               "ratio": "Override_Fishing_Blend",
-              "LBJFHNAOPHB": 0.10000000149011612
+              "transitionTime": 0.10000000149011612
             },
             {
-              "$type": "SetAnimatorFloat",
+              "$type": "AGGBCLFDLGD",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "floatID": "Blend",
               "ratio": "Override_Fishing_Blend",
-              "LBJFHNAOPHB": 0.10000000149011612
+              "transitionTime": 0.10000000149011612
             }
           ]
         },
         "Avatar_Fishing_Battle_ReduceBlend": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.10000000149011612,
           "onThinkInterval": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": -0.10000000149011612,
               "key": "_ABILITY_Fishing_BattleBlend",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "globalValueKey": "_ABILITY_Fishing_BattleBlend",
               "overrideMapKey": "Override_Fishing_Blend"
             },
             {
-              "$type": "SetAnimatorFloat",
+              "$type": "AGGBCLFDLGD",
               "floatID": "Fishing_BattleBlend",
               "ratio": "Override_Fishing_Blend",
-              "LBJFHNAOPHB": 0.10000000149011612
+              "transitionTime": 0.10000000149011612
             },
             {
-              "$type": "SetAnimatorFloat",
+              "$type": "AGGBCLFDLGD",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "floatID": "Blend",
               "ratio": "Override_Fishing_Blend",
-              "LBJFHNAOPHB": 0.10000000149011612
+              "transitionTime": 0.10000000149011612
             }
           ]
         }
@@ -1151,15 +1196,15 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_QteSuccess",
       "onAbilityStart": [
         {
-          "$type": "SetAnimatorTrigger",
+          "$type": "BBPLJACIMJN",
           "triggerID": "PRIVATE_Fishing_QteSuccess"
         },
         {
-          "$type": "DebugLog",
+          "$type": "KPFAIJPLCBC",
           "content": "QTE成功"
         }
       ],
@@ -1168,15 +1213,15 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_QteFail",
       "onAbilityStart": [
         {
-          "$type": "SetAnimatorTrigger",
+          "$type": "BBPLJACIMJN",
           "triggerID": "PRIVATE_Fishing_QteFail"
         },
         {
-          "$type": "DebugLog",
+          "$type": "KPFAIJPLCBC",
           "content": "QTE失败"
         }
       ],
@@ -1185,11 +1230,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_RequestQuit",
       "onAbilityStart": [
         {
-          "$type": "FireFishingEvent",
+          "$type": "CEIFPHJNMHI",
           "eventType": "RequestQuit"
         }
       ],
@@ -1198,19 +1243,19 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_Quit",
       "onRemoved": [
         {
-          "$type": "SetAnimatorTrigger",
-          "cdDelta": true,
+          "$type": "BBPLJACIMJN",
+          "musicSubStates": true,
           "triggerID": "PRIVATE_Fishing_End"
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "SetAnimatorTrigger",
-          "cdDelta": true,
+          "$type": "BBPLJACIMJN",
+          "musicSubStates": true,
           "triggerID": "PRIVATE_Fishing_End"
         }
       ],
@@ -1219,30 +1264,30 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_Fishing_OnTeam",
       "modifiers": {
         "Team_Fishing_Recovery": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ChangePlayMode",
-              "cdDelta": true,
+              "$type": "GBLMKGBHIAB",
+              "musicSubStates": true,
               "muteRemoteAction": true,
-              "DLEICBJFEKN": "Fishing"
+              "BCKOFAHAHLD": "Fishing"
             },
             {
-              "$type": "AvatarExitViewBias",
-              "cdDelta": true,
-              "FMBMILLDDNP": 0.5
+              "$type": "HPGDCOFGFGL",
+              "musicSubStates": true,
+              "lerpDuration": 0.5
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Team_Fishing_Recovery"
         }
       ]
@@ -1250,11 +1295,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_FishingRod_Manager",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Fishing_Choose",
             "Fishing_Cast_BS",
@@ -1265,68 +1310,93 @@
             "Fishing_Pull",
             "Fishing_End"
           ],
-          "modifierName": "Avatar_FishingRod_Handler"
+          "modifierName": "Avatar_FishingRod_Handler",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Choose"],
-          "modifierName": "FishingRod_Trigger_Choose"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Choose"
+          ],
+          "modifierName": "FishingRod_Trigger_Choose",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Cast_BS", "Fishing_Cast_Loop"],
-          "modifierName": "FishingRod_Trigger_Cast"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Cast_BS",
+            "Fishing_Cast_Loop"
+          ],
+          "modifierName": "FishingRod_Trigger_Cast",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Cast_AS"],
-          "modifierName": "FishingRod_Trigger_Cast_AS"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Cast_AS"
+          ],
+          "modifierName": "FishingRod_Trigger_Cast_AS",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Battle"],
-          "modifierName": "FishingRod_Trigger_Battle"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Battle"
+          ],
+          "modifierName": "FishingRod_Trigger_Battle",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToAnimatorStateIDMixin",
-          "stateIDs": ["Fishing_Pull_01", "Fishing_Pull_02"],
-          "modifierName": "FishingRod_Trigger_Pull"
+          "$type": "CINOKAMLEJJ",
+          "stateIDs": [
+            "Fishing_Pull_01",
+            "Fishing_Pull_02"
+          ],
+          "modifierName": "FishingRod_Trigger_Pull",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToAnimatorStateIDMixin",
-          "stateIDs": ["Fishing_Pull_Fail"],
-          "modifierName": "FishingRod_Trigger_Pull_Fail"
+          "$type": "CINOKAMLEJJ",
+          "stateIDs": [
+            "Fishing_Pull_Fail"
+          ],
+          "modifierName": "FishingRod_Trigger_Pull_Fail",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_End"],
-          "modifierName": "FishingRod_Trigger_End"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_End"
+          ],
+          "modifierName": "FishingRod_Trigger_End",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Avatar_FishingRod_Handler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Rod_Disappear",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Avatar_Fishing_Rod_Disappear",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "WeaponR"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "FishingRod_Trigger_Choose": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_Choose"
@@ -1335,12 +1405,12 @@
         },
         "FishingRod_Trigger_Cast": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_Cast"
@@ -1349,12 +1419,12 @@
         },
         "FishingRod_Trigger_Cast_AS": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_Cast_AS"
@@ -1363,12 +1433,12 @@
         },
         "FishingRod_Trigger_Battle": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_Battle"
@@ -1377,12 +1447,12 @@
         },
         "FishingRod_Trigger_Pull": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_Pull"
@@ -1391,12 +1461,12 @@
         },
         "FishingRod_Trigger_Pull_Fail": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_Pull_Fail"
@@ -1405,12 +1475,12 @@
         },
         "FishingRod_Trigger_End": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorTrigger",
+              "$type": "BBPLJACIMJN",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
               "triggerID": "Fishing_End"
@@ -1423,80 +1493,89 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_FishingLine_Manager",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Cast_AS", "Fishing_Wait"],
-          "modifierName": "UNIQUE_Avatar_Fishing_RemoveCork"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Cast_AS",
+            "Fishing_Wait"
+          ],
+          "modifierName": "UNIQUE_Avatar_Fishing_RemoveCork",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Fishing_Wait", "Fishing_Battle"],
-          "modifierName": "UNIQUE_Avatar_Fishing_RemoveBattleLine"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Fishing_Wait",
+            "Fishing_Battle"
+          ],
+          "modifierName": "UNIQUE_Avatar_Fishing_RemoveBattleLine",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToNormalizedTimeMixin",
+          "$type": "GGGLBLJDCOJ",
           "stateID": "Fishing_Pull_01",
           "modifierName": "Delay_RemoveBattleLine",
-          "normalizeStart": 0.10000000149011612
+          "normalizeStart": 0.10000000149011612,
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "UNIQUE_Avatar_Fishing_RemoveCork": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "KillGadget",
-              "cdDelta": true,
+              "$type": "PDMAPNIMBBO",
+              "musicSubStates": true,
               "gadgetInfo": {
                 "configID": 42000002
               }
             },
             {
-              "$type": "RemoveUniqueModifier",
-              "cdDelta": true,
+              "$type": "DLACOGBKNLA",
+              "musicSubStates": true,
               "modifierName": "UNIQUE_Avatar_Fishing_Waiting_LineEffect"
             }
           ]
         },
         "UNIQUE_Avatar_Fishing_RemoveBattleLine": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "KillGadget",
-              "cdDelta": true,
+              "$type": "PDMAPNIMBBO",
+              "musicSubStates": true,
               "gadgetInfo": {
                 "configID": 42000002
               }
             },
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "UNIQUE_Avatar_Fishing_Battle_LineEffect"
             }
           ]
         },
         "Delay_RemoveBattleLine": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "otherTargets": {
-                "$type": "FJHPPAFMCAK",
+                "$type": "BINLPKEGGGE",
                 "entityType": "FishRod"
               },
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "UNIQUE_Avatar_Fishing_Battle_LineEffect"
             }
           ]
@@ -1507,45 +1586,46 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Common_FishingRod",
       "modifiers": {
         "UNIQUE_Avatar_Fishing_Battle_LineEffect": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "$type": "LMPIJGNENAI",
               "target": "SelfAttackTarget",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Fishing_Line_02",
-              "effectTempleteID": -1.0,
-              "BNEDICIJIKE": true
+              "rotationDampTime": "Eff_Avatar_Fishing_Line_02",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0,
+              "setSelfAsEffectPluginTarget": true
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_ABILITY_Fishing_Aim_Length",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "OriginOwner",
           "modifierName": "UNIQUE_Avatar_Fishing_RemoveCork"
         },
         {
-          "$type": "SetSelfAttackTarget",
+          "$type": "MOPFKJOIAHG",
           "target": "Target"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "UNIQUE_Avatar_Fishing_Battle_LineEffect"
         }
       ]

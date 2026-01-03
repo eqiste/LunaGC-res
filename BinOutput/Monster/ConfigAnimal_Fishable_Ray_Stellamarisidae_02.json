@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "DPGKNHENGLM",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 20.0,
@@ -17,7 +17,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "startDitherAction": {
@@ -59,57 +60,70 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "CFGLPEBAODG": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "forceSetAirMove": true
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Walk": [],
             "Run": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Turn": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Turn_Walk": [],
             "Turn_Run": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_L": []
           },
-          "AJBLILDCLBO": ["BeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Die": []
           }
         }
@@ -137,31 +151,48 @@
       }
     },
     "neurons": {
-      "DefaultSetting": ["HIT"]
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
     "threat": {
+      "specification": "",
       "feelThreatGrow": 1000.0,
-      "threatBroadcastRange": 5.0,
-      "JGFOPCOIJOI": ""
+      "threatBroadcastRange": 5.0
     },
     "defendArea": {
       "defendRange": 100.0
     },
     "fly": {
       "enable": true,
-      "floatingPoses": [101, 102, 201]
+      "floatingPoses": [
+        101,
+        102,
+        201
+      ]
     },
     "ui": {
       "hasDirectionIndicator": false,
-      "FLMOHOODJBA": ""
+      "MECOEANNABD": ""
     },
     "mixin": {
       "setControllerParameterOnBeHitByEntityType": [
         {
-          "poseIDs": [1, 2, 101, 201, 401],
+          "poseIDs": [
+            1,
+            2,
+            101,
+            201,
+            401
+          ],
           "settings": [
             {
-              "entityTypes": ["Bullet", "Avatar", "Field", "Gadget"],
+              "entityTypes": [
+                "Bullet",
+                "Avatar",
+                "Field",
+                "Gadget"
+              ],
               "onSuccess": {
                 "setPoseBool": [
                   {
@@ -183,36 +214,41 @@
         }
       ]
     },
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "PKJINFHNMGA",
+        "$type": "OPIKHKEIOEN",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [201]
+        "condition": {
+          "pose": [
+            201
+          ]
         },
-        "LMMKNFEMOMG": {
-          "GGPCLEBKNNO": ""
+        "platformMap": {
+          "FMMDAKICPCA": ""
         }
       },
       {
-        "$type": "CMCHFECOPPI",
+        "$type": "NIHHBFCJMEM",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [101, 102]
+        "condition": {
+          "pose": [
+            101,
+            102
+          ]
         },
-        "LMMKNFEMOMG": {
-          "DCEODHLDKCJ": 0.800000011920929,
-          "GAHPENGCPFA": 0.800000011920929,
-          "JOCGOKPMCKI": "Spacial",
-          "JOCOJHEICNA": "",
-          "DBIELIMGBMC": ""
+        "platformMap": {
+          "IKOIJFMMOJK": 0.800000011920929,
+          "PMONNAAPPMJ": 0.800000011920929,
+          "LFHJBHMECDO": "Spacial",
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       }
     ]
   },
   "move": {
-    "$type": "IIGPJJNGCLE",
-    "EIEIGIPKLAO": {
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
       "excludeForces": [
         "RetreatType",
         "RetreatAirType",
@@ -220,7 +256,7 @@
         "AirflowType"
       ]
     },
-    "FACNOEFNHIB": "RootNode"
+    "KJBPBOFPFBE": "RootNode"
   },
   "animal": {
     "hasCharacterRenderering": false

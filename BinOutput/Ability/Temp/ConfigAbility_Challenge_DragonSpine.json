@@ -1,7 +1,7 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ChallengeAbility_DragonSpine_MoveSpeed",
       "abilitySpecials": {
         "MoveSpeedRatio": 0.25
@@ -10,8 +10,8 @@
         "UNIQUE_ChallengeAbility_DragonSpine_MoveSpeed": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Animator_MoveSpeedRatio": "MoveSpeedRatio"
           },
@@ -20,8 +20,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ChallengeAbility_DragonSpine_MoveSpeed"
         }
       ],
@@ -30,7 +30,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ChallengeAbility_DragonSpine_HealHp",
       "abilitySpecials": {
         "BuffDuration": 120.0,
@@ -40,20 +40,20 @@
         "UNIQUE_ChallengeAbility_DragonSpine_HealHp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "BuffDuration",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "BuffDuration",
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 5.0,
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "Heal"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "Heal"
             }
@@ -62,19 +62,20 @@
         "Heal": {
           "stacking": "Multiple",
           "modifierName": "",
-          "duration": 0.10000000149011612,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.10000000149011612,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "HealHP",
-              "GGLMMJHNGMO": "HpRatio"
+              "$type": "JMEOFOGONAK",
+              "OJBDHICLDEM": "HpRatio",
+              "cdRatio": ""
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "target": "Team",
           "modifierName": "UNIQUE_ChallengeAbility_DragonSpine_HealHp"
         }
@@ -84,7 +85,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ChallengeAbility_DragonSpine_AttackUp",
       "abilitySpecials": {
         "AttackRatio": 0.4000000059604645
@@ -93,8 +94,8 @@
         "UNIQUE_ChallengeAbility_DragonSpine_AttackUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "AttackRatio"
           },
@@ -103,8 +104,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ChallengeAbility_DragonSpine_AttackUp"
         }
       ],
@@ -113,7 +114,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ChallengeAbility_DragonSpine_AttackSpeed",
       "abilitySpecials": {
         "AttackSpeedRatio": 0.25
@@ -122,8 +123,8 @@
         "UNIQUE_ChallengeAbility_DragonSpine_AttackSpeed": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Animator_AttackSpeedRatio": "AttackSpeedRatio"
           },
@@ -132,8 +133,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ChallengeAbility_DragonSpine_AttackSpeed"
         }
       ],

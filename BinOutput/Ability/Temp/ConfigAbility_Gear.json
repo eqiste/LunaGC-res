@@ -1,136 +1,165 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_MengDe01",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["UnderLevel", "ReachLevel", "Inactive"],
-          "modifierName": "RedTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "UnderLevel",
+            "ReachLevel",
+            "Inactive"
+          ],
+          "modifierName": "RedTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Lock"
+          ],
+          "modifierName": "BlueTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ReachLevel", "Inactive"],
-          "modifierName": "ReachLevel"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ReachLevel",
+            "Inactive"
+          ],
+          "modifierName": "ReachLevel",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["UnderLevel"],
-          "modifierName": "UnderLevel"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "UnderLevel"
+          ],
+          "modifierName": "UnderLevel",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Open", "Opening"],
-          "modifierName": "Entrance"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Open",
+            "Opening"
+          ],
+          "modifierName": "Entrance",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Active"],
-          "modifierName": "Active"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Active"
+          ],
+          "modifierName": "Active",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Opening"],
-          "modifierName": "Opening"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Opening"
+          ],
+          "modifierName": "Opening",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "RedTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "RedTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03"
+              "rotationDampTime": "Eff_DungeonEntry_MengDe_Hint03"
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "BlueTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "BlueTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03"
+              "rotationDampTime": "Eff_DungeonEntry_MengDe_Hint03"
             }
           ]
         },
         "ReachLevel": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked"
             }
           ]
         },
         "UnderLevel": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked"
             }
           ]
         },
         "Active": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Active",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Active",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Entrance": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Entrance",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Entrance",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Opening": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Open",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Open",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -139,136 +168,165 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_MengDe01_UW",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["UnderLevel", "ReachLevel", "Inactive"],
-          "modifierName": "RedTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "UnderLevel",
+            "ReachLevel",
+            "Inactive"
+          ],
+          "modifierName": "RedTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Lock"
+          ],
+          "modifierName": "BlueTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ReachLevel", "Inactive"],
-          "modifierName": "ReachLevel"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ReachLevel",
+            "Inactive"
+          ],
+          "modifierName": "ReachLevel",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["UnderLevel"],
-          "modifierName": "UnderLevel"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "UnderLevel"
+          ],
+          "modifierName": "UnderLevel",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Open", "Opening"],
-          "modifierName": "Entrance"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Open",
+            "Opening"
+          ],
+          "modifierName": "Entrance",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Active"],
-          "modifierName": "Active"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Active"
+          ],
+          "modifierName": "Active",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Opening"],
-          "modifierName": "Opening"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Opening"
+          ],
+          "modifierName": "Opening",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "RedTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "RedTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03_UW"
+              "rotationDampTime": "Eff_DungeonEntry_MengDe_Hint03_UW"
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "BlueTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "BlueTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Hint03_UW"
+              "rotationDampTime": "Eff_DungeonEntry_MengDe_Hint03_UW"
             }
           ]
         },
         "ReachLevel": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
             }
           ]
         },
         "UnderLevel": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
             }
           ]
         },
         "Active": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Active_UW",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Active_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Entrance": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Entrance_UW",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Entrance_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Opening": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Open_UW",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Open_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -277,54 +335,64 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Gear_Gate_DungeonGate02",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Gate_Open"],
-          "modifierName": "Gate_Open"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Gate_Open"
+          ],
+          "modifierName": "Gate_Open",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Gate_Open": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Centre_01a",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Centre_01a",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Centre_02",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Centre_02",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Left_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Left_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Right_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Right_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Up_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Up_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Down_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Down_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate02_Centre_Open",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate02_Centre_Open",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -333,11 +401,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_MengDe02",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Rise",
             "UnderLevel",
@@ -347,182 +415,221 @@
             "Other",
             "Opening"
           ],
-          "modifierName": "Pillar"
+          "modifierName": "Pillar",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Rise"],
-          "modifierName": "Rise"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Rise"
+          ],
+          "modifierName": "Rise",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Rise", "UnderLevel", "OnGround", "ReachLevel"],
-          "modifierName": "RedBoard"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Rise",
+            "UnderLevel",
+            "OnGround",
+            "ReachLevel"
+          ],
+          "modifierName": "RedBoard",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Rise", "OnGround", "UnderLevel"],
-          "modifierName": "RedTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Rise",
+            "OnGround",
+            "UnderLevel"
+          ],
+          "modifierName": "RedTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ReachLevel"],
-          "modifierName": "BlueBoard"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ReachLevel"
+          ],
+          "modifierName": "BlueBoard",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Lock"
+          ],
+          "modifierName": "BlueTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Other", "Opening"],
-          "modifierName": "Entrance"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Other",
+            "Opening"
+          ],
+          "modifierName": "Entrance",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Opening"],
-          "modifierName": "Opening"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Opening"
+          ],
+          "modifierName": "Opening",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Gate_Broken"],
-          "modifierName": "Broken"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Gate_Broken"
+          ],
+          "modifierName": "Broken",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Broken": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Broken",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_DungeonEntry_MengDe_Broken",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Opening": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Open",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Open",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "OpenEffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Entrance": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Entrance",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Entrance",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "BlueTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "BlueTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Hint"
             }
           ]
         },
         "Pillar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Hint",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Rise": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Rise",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Rise",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Rise_Ground",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Rise_Ground",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "RedBoard": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "RedTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Hint"
             }
           ]
         },
         "RedTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked"
             }
           ]
         },
         "BlueBoard": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked"
             }
           ],
           "onRemoved": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Active",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Active",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "ActiveEffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -531,11 +638,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_MengDe02_UW",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
+          "$type": "IHPNOCDHKEC",
           "stateIDs": [
             "Rise",
             "UnderLevel",
@@ -545,184 +652,223 @@
             "Other",
             "Opening"
           ],
-          "modifierName": "Pillar"
+          "modifierName": "Pillar",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Rise"],
-          "modifierName": "Rise"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Rise"
+          ],
+          "modifierName": "Rise",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Rise", "UnderLevel", "OnGround", "ReachLevel"],
-          "modifierName": "RedBoard"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Rise",
+            "UnderLevel",
+            "OnGround",
+            "ReachLevel"
+          ],
+          "modifierName": "RedBoard",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Rise", "OnGround", "UnderLevel"],
-          "modifierName": "RedTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Rise",
+            "OnGround",
+            "UnderLevel"
+          ],
+          "modifierName": "RedTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ReachLevel"],
-          "modifierName": "BlueBoard"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ReachLevel"
+          ],
+          "modifierName": "BlueBoard",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Lock"
+          ],
+          "modifierName": "BlueTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Other", "Opening"],
-          "modifierName": "Entrance"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Other",
+            "Opening"
+          ],
+          "modifierName": "Entrance",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Opening"],
-          "modifierName": "Opening"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Opening"
+          ],
+          "modifierName": "Opening",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Gate_Broken"],
-          "modifierName": "Broken"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Gate_Broken"
+          ],
+          "modifierName": "Broken",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Broken": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_DungeonEntry_MengDe_Broken_UW",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_DungeonEntry_MengDe_Broken_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Opening": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Open_UW",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Open_UW",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
-                "FIOMHONCCNM": true,
+                "$type": "HCPLIKKENJE",
+                "useRotation": true,
                 "attachPointName": "OpenEffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Entrance": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Entrance_UW",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Entrance_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "BlueTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "BlueTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint_UW"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Hint_UW"
             }
           ]
         },
         "Pillar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint_UW",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Hint_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Rise": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Rise_UW",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Rise_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Rise_Ground_UW",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Rise_Ground_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "RedBoard": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked_UW",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "RedTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Hint_UW"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Hint_UW"
             }
           ]
         },
         "RedTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
             }
           ]
         },
         "BlueBoard": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_01_Locked_UW"
             }
           ],
           "onRemoved": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_03_Active_UW",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_03_Active_UW",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
-                "FIOMHONCCNM": true,
+                "$type": "HCPLIKKENJE",
+                "useRotation": true,
                 "attachPointName": "ActiveEffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -731,73 +877,95 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_MengDe03",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["UnderLevel", "ReachLevel", "Inactive"],
-          "modifierName": "RedTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "UnderLevel",
+            "ReachLevel",
+            "Inactive"
+          ],
+          "modifierName": "RedTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Lock"],
-          "modifierName": "BlueTrigger"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Lock"
+          ],
+          "modifierName": "BlueTrigger",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ReachLevel", "Inactive"],
-          "modifierName": "ReachLevel"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ReachLevel",
+            "Inactive"
+          ],
+          "modifierName": "ReachLevel",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["UnderLevel"],
-          "modifierName": "UnderLevel"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "UnderLevel"
+          ],
+          "modifierName": "UnderLevel",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Open"],
-          "modifierName": "Entrance"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Open"
+          ],
+          "modifierName": "Entrance",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Active"],
-          "modifierName": "Active"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Active"
+          ],
+          "modifierName": "Active",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "RedTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "RedTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Hint01"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Hint01"
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Locked",
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Locked",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "EffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "BlueTrigger": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "Opened",
                   "ratio": 1.0,
                   "compareType": "MoreThanAndEqual"
@@ -805,122 +973,129 @@
               ],
               "successActions": [
                 {
-                  "$type": "AttachEffect",
-                  "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_MainDisappear",
+                  "$type": "LMPIJGNENAI",
+                  "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_MainDisappear",
                   "born": {
-                    "$type": "ConfigBornByAttachPoint",
+                    "$type": "HCPLIKKENJE",
                     "attachPointName": "EffectPoint"
                   },
-                  "effectTempleteID": -1.0
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": -1.0,
                   "key": "Opened",
                   "useLimitRange": true,
-                  "maxValue": 1.0,
-                  "minValue": 0.0
+                  "param2": 1.0,
+                  "JHDOLIIOACK": 0.0
                 }
               ]
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "BlueTrigger",
-              "IIKEHINGEME": "",
-              "type": "Bool",
+              "attachPoint": "",
+              "damageRatio": "Bool",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Hint01"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Hint01"
             }
           ]
         },
         "ReachLevel": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Locked"
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Locked"
             }
           ]
         },
         "UnderLevel": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "gadgetState",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Locked"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Locked"
             }
           ]
         },
         "Active": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "Entrance": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Main",
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Main",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "EffectPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": 1.0,
               "key": "Opened",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachEffect",
-          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_DungeonEntry_04_Hint01",
+          "$type": "LMPIJGNENAI",
+          "rotationDampTime": "Eff_SceneObj_DungeonEntry_04_Hint01",
           "born": {
-            "$type": "ConfigBornByAttachPoint",
+            "$type": "HCPLIKKENJE",
             "attachPointName": "EffectPoint"
           },
-          "effectTempleteID": -1.0
+          "NEGDPOAEJFL": 1.0,
+          "CCLMIJIBGDK": -1.0
         }
       ]
     }
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_Temp",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Appear"],
-          "modifierName": "Dungeon_Appear"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Appear"
+          ],
+          "modifierName": "Dungeon_Appear",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Dungeon_Appear": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Door_Magic_Decal",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Door_Magic_Decal",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -929,24 +1104,28 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_Temp_3d",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Appear"],
-          "modifierName": "Dungeon_Appear"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Appear"
+          ],
+          "modifierName": "Dungeon_Appear",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Dungeon_Appear": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Door_Magic_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Door_Magic_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -955,68 +1134,77 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_Goddess",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Red"
+          ],
+          "modifierName": "Red_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["White"],
-          "modifierName": "White_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "White"
+          ],
+          "modifierName": "White_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Blue"
+          ],
+          "modifierName": "Blue_LightCross",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Red_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_Goddess_Level"
             }
           ]
         },
         "White_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level"
+              "rotationDampTime": "Eff_Goddess_Level"
             }
           ]
         },
         "Blue_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "#### blue ####"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 2,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level"
+              "rotationDampTime": "Eff_Goddess_Level"
             }
           ]
         }
@@ -1025,36 +1213,37 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "FireEffect_ElementResonance_Wind",
       "modifiers": {
         "Delay": {
           "modifierName": "",
-          "duration": 0.17499999701976776,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.17499999701976776,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Fire_Effect"
             }
           ]
         },
         "Fire_Effect": {
           "modifierName": "",
-          "duration": 5.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Chord_Wind",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Goddess_Chord_Wind",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Delay"
         }
       ]
@@ -1062,64 +1251,73 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_Goddess_LY",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Red"
+          ],
+          "modifierName": "Red_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["White"],
-          "modifierName": "White_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "White"
+          ],
+          "modifierName": "White_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Blue"
+          ],
+          "modifierName": "Blue_LightCross",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Red_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_LY"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_Goddess_Level_LY"
             }
           ]
         },
         "White_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_LY"
+              "rotationDampTime": "Eff_Goddess_Level_LY"
             }
           ]
         },
         "Blue_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 2,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_LY"
+              "rotationDampTime": "Eff_Goddess_Level_LY"
             }
           ]
         }
@@ -1128,36 +1326,37 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "FireEffect_ElementResonance_Rock",
       "modifiers": {
         "Delay": {
           "modifierName": "",
-          "duration": 0.1850000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.1850000023841858,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Fire_Effect"
             }
           ]
         },
         "Fire_Effect": {
           "modifierName": "",
-          "duration": 5.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Chord_Rock",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Goddess_Chord_Rock",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Delay"
         }
       ]
@@ -1165,64 +1364,73 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Area_Fd_Property_Ani_Build_FDGoddess_01",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Red"
+          ],
+          "modifierName": "Red_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["White"],
-          "modifierName": "White_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "White"
+          ],
+          "modifierName": "White_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Blue"
+          ],
+          "modifierName": "Blue_LightCross",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Red_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_FD"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_Goddess_Level_FD"
             }
           ]
         },
         "White_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_FD"
+              "rotationDampTime": "Eff_Goddess_Level_FD"
             }
           ]
         },
         "Blue_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 2,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_FD"
+              "rotationDampTime": "Eff_Goddess_Level_FD"
             }
           ]
         }
@@ -1231,36 +1439,37 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "FireEffect_ElementResonance_Water",
       "modifiers": {
         "Delay": {
           "modifierName": "",
-          "duration": 0.1850000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.1850000023841858,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Fire_Effect"
             }
           ]
         },
         "Fire_Effect": {
           "modifierName": "",
-          "duration": 5.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Chord_Water",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Goddess_Chord_Water",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Delay"
         }
       ]
@@ -1268,16 +1477,129 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
+      "abilityName": "SceneObj_Area_Nt_Property_Ani_Build_NTGoddess_01",
+      "abilityMixins": [
+        {
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Red"
+          ],
+          "modifierName": "Red_LightCross",
+          "IIFOLCMHMHP": ""
+        },
+        {
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "White"
+          ],
+          "modifierName": "White_LightCross",
+          "IIFOLCMHMHP": ""
+        },
+        {
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Blue"
+          ],
+          "modifierName": "Blue_LightCross",
+          "IIFOLCMHMHP": ""
+        }
+      ],
+      "modifiers": {
+        "Red_LightCross": {
+          "modifierName": "",
+          "PBPPIFIOAMB": 100.0,
+          "onAdded": [
+            {
+              "$type": "FLKPNJOEPPC",
+              "parameter": "TriggerType",
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_Goddess_Level_NT"
+            }
+          ]
+        },
+        "White_LightCross": {
+          "modifierName": "",
+          "PBPPIFIOAMB": 100.0,
+          "onAdded": [
+            {
+              "$type": "FLKPNJOEPPC",
+              "parameter": "TriggerType",
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "value": 1,
+              "rotationDampTime": "Eff_Goddess_Level_NT"
+            }
+          ]
+        },
+        "Blue_LightCross": {
+          "modifierName": "",
+          "PBPPIFIOAMB": 100.0,
+          "onAdded": [
+            {
+              "$type": "FLKPNJOEPPC",
+              "parameter": "TriggerType",
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "value": 2,
+              "rotationDampTime": "Eff_Goddess_Level_NT"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Default": {
+      "$type": "ENJCEFCBGJF",
+      "abilityName": "FireEffect_ElementResonance_Fire",
+      "modifiers": {
+        "Delay": {
+          "modifierName": "",
+          "FOAFPGCJHHF": 0.1850000023841858,
+          "PBPPIFIOAMB": 100.0,
+          "onRemoved": [
+            {
+              "$type": "DJAIBNJIMAD",
+              "modifierName": "Fire_Effect"
+            }
+          ]
+        },
+        "Fire_Effect": {
+          "modifierName": "",
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0,
+          "onAdded": [
+            {
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Goddess_Chord_Fire",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
+            }
+          ]
+        }
+      },
+      "onAbilityStart": [
+        {
+          "$type": "DJAIBNJIMAD",
+          "modifierName": "Delay"
+        }
+      ]
+    }
+  },
+  {
+    "Default": {
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Test_Rotation_Interact",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 201,
           "modifierName": "Rotation_201"
         },
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 202,
           "modifierName": "Rotation_202"
         }
@@ -1285,10 +1607,10 @@
       "modifiers": {
         "Rotation_201": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "Rotate",
               "ratio": true
             }
@@ -1296,64 +1618,65 @@
         },
         "Rotation_202": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "Glow",
               "ratio": true
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_KanriahMech_ElectricBall_Shoot",
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_KanriahMech_ElectricBall_Shoot",
               "born": {
-                "$type": "ConfigBornByAttachPoint",
+                "$type": "HCPLIKKENJE",
                 "attachPointName": "attachPoint"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "Reset",
               "ratio": true
             },
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "Glow"
             },
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "Rotate"
             }
           ]
         },
         "DoubleAttack": {
           "modifierName": "",
-          "duration": 1.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.75,
           "onThinkInterval": [
             {
-              "$type": "TriggerAttackEvent",
-              "cdDelta": true,
+              "$type": "LAHLFGKNGGA",
+              "musicSubStates": true,
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "GGBJACPDDCM",
+                  "$type": "NHOLNMDNDHH",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornByTarget",
+                    "$type": "DNEGODCNNPL",
                     "offset": {
-                      "x": 0.0,
-                      "y": -1.5,
-                      "z": -2.5
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": -1.5,
+                      "HCMGOAIEFGL": -2.5
                     }
                   },
                   "size": {
-                    "x": 5.0,
-                    "y": 1.0,
-                    "z": 5.0
+                    "PANGIELPECA": 5.0,
+                    "CJENFGKOOOO": 1.0,
+                    "HCMGOAIEFGL": 5.0
                   }
                 },
                 "attackInfo": {
@@ -1361,16 +1684,17 @@
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": 1.0,
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": 1.0,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Grass",
-                    "bonusCritical": 10.0,
+                    "PBPPIFIOAMB": 10.0,
                     "strikeType": "Pierce",
                     "enBreak": 9999999.0,
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "default",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV3",
                     "hitHaltTimeScale": 0.05000000074505806
                   }
@@ -1385,28 +1709,28 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Test_Rotation_Attack",
       "onAbilityStart": [
         {
-          "$type": "TriggerAttackEvent",
-          "cdDelta": true,
+          "$type": "LAHLFGKNGGA",
+          "musicSubStates": true,
           "attackEvent": {
             "attackPattern": {
-              "$type": "GGBJACPDDCM",
+              "$type": "NHOLNMDNDHH",
               "triggerType": "TriggerNoRepeat",
               "born": {
-                "$type": "ConfigBornByTarget",
+                "$type": "DNEGODCNNPL",
                 "offset": {
-                  "x": 0.0,
-                  "y": -1.5,
-                  "z": -2.5
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": -1.5,
+                  "HCMGOAIEFGL": -2.5
                 }
               },
               "size": {
-                "x": 5.0,
-                "y": 1.0,
-                "z": 5.0
+                "PANGIELPECA": 5.0,
+                "CJENFGKOOOO": 1.0,
+                "HCMGOAIEFGL": 5.0
               }
             },
             "attackInfo": {
@@ -1414,16 +1738,17 @@
               "attenuationTag": "",
               "attenuationGroup": "default",
               "attackProperty": {
-                "damagePercentage": 1.0,
-                "damagePercentageRatio": 0.0,
+                "actorElecSubHurtDelta": 1.0,
+                "actorElementReactionCriticalDelta": 0.0,
                 "elementType": "Grass",
-                "bonusCritical": 10.0,
+                "PBPPIFIOAMB": 10.0,
                 "strikeType": "Pierce",
                 "enBreak": 9999999.0,
-                "FKGFPFNOJMN": 0.0
+                "IPANOFPPPBC": 0.0
               },
               "hitPattern": {
                 "onHitEffectName": "default",
+                "hitImpulseY": "",
                 "hitImpulseType": "LV3",
                 "hitHaltTimeScale": 0.05000000074505806
               }
@@ -1436,15 +1761,15 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Test_Rotation02_Interact",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "modifierName": "Rotation_0"
         },
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 201,
           "modifierName": "Rotation_201"
         }
@@ -1452,10 +1777,10 @@
       "modifiers": {
         "Rotation_0": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorInt",
+              "$type": "CKBBHMNFMIB",
               "intID": "GadgetState",
               "ratio": 0.0
             }
@@ -1463,10 +1788,10 @@
         },
         "Rotation_201": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorInt",
+              "$type": "CKBBHMNFMIB",
               "intID": "GadgetState",
               "ratio": 201.0
             }
@@ -1477,38 +1802,38 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "WindDevice01_Interact",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "modifierName": "Device_Inactive"
         }
       ],
       "modifiers": {
         "Device_Inactive": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "AirFlow_Start"
             }
           ],
           "onRemoved": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "CutScene_Delay"
             }
           ]
         },
         "CutScene_Delay": {
           "modifierName": "",
-          "duration": 3.799999952316284,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 3.799999952316284,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "SetAnimatorBool",
+              "$type": "BMIKALFADPH",
               "boolID": "AirFlow_Start",
               "ratio": true
             }
@@ -1519,39 +1844,46 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Gear_Gate_DungeonGate03_Ability",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Gate_Open"],
-          "modifierName": "Gate_Open"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Gate_Open"
+          ],
+          "modifierName": "Gate_Open",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Gate_Open": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate03_Centre_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate03_Centre_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate03_Centre_02",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate03_Centre_02",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate03_Left_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate03_Left_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Gear_Gate03_Right_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Gear_Gate03_Right_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -1560,15 +1892,15 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Level_Common_Property_Ani_Prop_HiddenDoor_01",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "modifierName": "Phase1"
         },
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 201,
           "modifierName": "Phase2"
         }
@@ -1576,23 +1908,25 @@
       "modifiers": {
         "Phase1": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_HiddenDoor_01_Close",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_HiddenDoor_01_Close",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "Phase2": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_HiddenDoor_01_Open",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_HiddenDoor_01_Open",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
@@ -1601,46 +1935,67 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Area_Common_Property_Ani_Build_ChallengeEntry_01",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["LadderNone"],
-          "modifierName": "LadderNone"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "LadderNone"
+          ],
+          "modifierName": "LadderNone",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["LadderAppear"],
-          "modifierName": "LadderAppear"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "LadderAppear"
+          ],
+          "modifierName": "LadderAppear",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["LadderDisapper"],
-          "modifierName": "LadderDisapper"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "LadderDisapper"
+          ],
+          "modifierName": "LadderDisapper",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ChallengeEntry_Disappear"],
-          "modifierName": "ChallengeEntry_Disappear"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ChallengeEntry_Disappear"
+          ],
+          "modifierName": "ChallengeEntry_Disappear",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ChallengeEntry_Appear"],
-          "modifierName": "ChallengeEntry_Appear"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ChallengeEntry_Appear"
+          ],
+          "modifierName": "ChallengeEntry_Appear",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ChallengeEntry_Open"],
-          "modifierName": "ChallengeEntry_Open"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ChallengeEntry_Open"
+          ],
+          "modifierName": "ChallengeEntry_Open",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["ChallengeEntry_Close"],
-          "modifierName": "ChallengeEntry_Close"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "ChallengeEntry_Close"
+          ],
+          "modifierName": "ChallengeEntry_Close",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 201,
           "modifierName": "TestState"
         }
@@ -1648,85 +2003,85 @@
       "modifiers": {
         "TestState": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : TestState"
             }
           ]
         },
         "LadderNone": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : LadderNone"
             }
           ]
         },
         "LadderAppear": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : LadderAppear"
             }
           ]
         },
         "LadderDisapper": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : LadderDisapper"
             }
           ]
         },
         "ChallengeEntry_Disappear": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetAnimatorInt",
+              "$type": "CKBBHMNFMIB",
               "intID": "PlayerClose",
               "ratio": 0.0
             },
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : ChallengeEntry_Disappear"
             }
           ]
         },
         "ChallengeEntry_Appear": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : ChallengeEntry_Appear"
             }
           ]
         },
         "ChallengeEntry_Open": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : ChallengeEntry_Open"
             }
           ]
         },
         "ChallengeEntry_Close": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "DebugLog",
+              "$type": "KPFAIJPLCBC",
               "content": "Modifiers On Added : ChallengeEntry_Close"
             }
           ]
@@ -1734,14 +2089,14 @@
       },
       "onFieldEnter": [
         {
-          "$type": "SetAnimatorInt",
+          "$type": "CKBBHMNFMIB",
           "intID": "PlayerClose",
           "ratio": 1.0
         }
       ],
       "onFieldExit": [
         {
-          "$type": "SetAnimatorInt",
+          "$type": "CKBBHMNFMIB",
           "intID": "PlayerClose",
           "ratio": 0.0
         }
@@ -1750,64 +2105,73 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_Goddess_DQ",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Red"
+          ],
+          "modifierName": "Red_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["White"],
-          "modifierName": "White_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "White"
+          ],
+          "modifierName": "White_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Blue"
+          ],
+          "modifierName": "Blue_LightCross",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Red_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_DQ"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_Goddess_Level_DQ"
             }
           ]
         },
         "White_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_DQ"
+              "rotationDampTime": "Eff_Goddess_Level_DQ"
             }
           ]
         },
         "Blue_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 2,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_DQ"
+              "rotationDampTime": "Eff_Goddess_Level_DQ"
             }
           ]
         }
@@ -1816,36 +2180,37 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "FireEffect_ElementResonance_Electric",
       "modifiers": {
         "Delay": {
           "modifierName": "",
-          "duration": 0.1850000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.1850000023841858,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Fire_Effect"
             }
           ]
         },
         "Fire_Effect": {
           "modifierName": "",
-          "duration": 5.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Chord_Electric",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Goddess_Chord_Electric",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Delay"
         }
       ]
@@ -1853,64 +2218,73 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_Goddess_XM",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Red"],
-          "modifierName": "Red_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Red"
+          ],
+          "modifierName": "Red_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["White"],
-          "modifierName": "White_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "White"
+          ],
+          "modifierName": "White_LightCross",
+          "IIFOLCMHMHP": ""
         },
         {
-          "$type": "AttachToStateIDMixin",
-          "stateIDs": ["Blue"],
-          "modifierName": "Blue_LightCross"
+          "$type": "IHPNOCDHKEC",
+          "stateIDs": [
+            "Blue"
+          ],
+          "modifierName": "Blue_LightCross",
+          "IIFOLCMHMHP": ""
         }
       ],
       "modifiers": {
         "Red_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_XM"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_Goddess_Level_XM"
             }
           ]
         },
         "White_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 1,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_XM"
+              "rotationDampTime": "Eff_Goddess_Level_XM"
             }
           ]
         },
         "Blue_LightCross": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "parameter": "TriggerType",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 2,
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Level_XM"
+              "rotationDampTime": "Eff_Goddess_Level_XM"
             }
           ]
         }
@@ -1919,36 +2293,37 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "FireEffect_ElementResonance_Grass",
       "modifiers": {
         "Delay": {
           "modifierName": "",
-          "duration": 0.1850000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.1850000023841858,
+          "PBPPIFIOAMB": 100.0,
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Fire_Effect"
             }
           ]
         },
         "Fire_Effect": {
           "modifierName": "",
-          "duration": 5.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Goddess_Chord_Grass",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Goddess_Chord_Grass",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Delay"
         }
       ]
@@ -1956,29 +2331,31 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneObj_Resident_DungeonEntry_MakotoTorii",
       "onAdded": [
         {
-          "$type": "AttachEffect",
-          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_MakotoTorii_01_Main",
-          "effectTempleteID": -1.0
+          "$type": "LMPIJGNENAI",
+          "rotationDampTime": "Eff_SceneObj_MakotoTorii_01_Main",
+          "NEGDPOAEJFL": 1.0,
+          "CCLMIJIBGDK": -1.0
         },
         {
-          "$type": "AttachEffect",
-          "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_POI_Dq_MS_BaalEntrance_01",
+          "$type": "LMPIJGNENAI",
+          "rotationDampTime": "Eff_SceneObj_POI_Dq_MS_BaalEntrance_01",
           "born": {
-            "$type": "ConfigBornBySelf",
+            "$type": "ONAGPPKOMPD",
             "direction": {
-              "$type": "DFEHJKCDGHN",
-              "LAIBDKJCHJI": {
-                "x": 0.0,
-                "y": -67.0,
-                "z": 0.0
+              "$type": "MEKFAPMPKCG",
+              "angleOffsetCorrect": {
+                "PANGIELPECA": 0.0,
+                "CJENFGKOOOO": -67.0,
+                "HCMGOAIEFGL": 0.0
               }
             }
           },
-          "effectTempleteID": -1.0
+          "NEGDPOAEJFL": 1.0,
+          "CCLMIJIBGDK": -1.0
         }
       ]
     }

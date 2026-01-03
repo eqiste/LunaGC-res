@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "DPGKNHENGLM",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 200.0,
@@ -16,15 +16,19 @@
     "recoverByInitPose": true
   },
   "headControl": {
-    "$type": "NJIKCGBDNDF",
+    "$type": "KLJDMKFFHOP",
     "useHeadControl": true,
     "maxYawDegree": 10.0,
     "maxPitchDegree": 5.0,
-    "animStates": ["NormalIdle/Standby", "Defend_Loop/Defend_Loop"]
+    "animStates": [
+      "NormalIdle/Standby",
+      "Defend_Loop/Defend_Loop"
+    ]
   },
   "model": {
     "bornEffect": "",
-    "attachEffect": ""
+    "attachEffect": "",
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 1.0
@@ -32,7 +36,8 @@
   "combat": {
     "property": {
       "endureType": "Monster_Minion",
-      "weight": 80.0
+      "weight": 80.0,
+      "isLockHP": true
     },
     "beHit": {
       "hitBloodEffect": "",
@@ -55,29 +60,30 @@
     "animEvents": {
       "Attack": {
         "attackPattern": {
-          "$type": "AGJFCPDIMCK",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "NKOODKOFELF",
-            "JEOALPJGDJO": true
+            "$type": "ONAGPPKOMPD",
+            "useRotation": true
           },
           "height": 2.0,
-          "LOACHGCADCO": 1.7000000476837158
+          "JNOPAOAHJAH": 1.7000000476837158
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "Tortoise_Attack",
           "attenuationGroup": "Tortoise_Attack",
           "attackProperty": {
-            "HOGNHNAHNML": 1.0,
-            "BAPILBAGBOJ": 0.0,
-            "bonusCriticalHurt": 100.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 120.0,
-            "damagePercentage": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV4",
             "hitHaltTimeScale": 0.05000000074505806
           }
@@ -94,159 +100,233 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "AJBLILDCLBO": ["AwareBeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnEnter": [
+            "AwareBeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Walk": ["Audio_Tortoise_01_Walk"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Walk": [
+              "Audio_Tortoise_01_Walk"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Die": [],
             "Die_Disappear": []
           },
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Personality_101_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_101_BS": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_101_Loop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_101_Loop": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_101_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_101_AS": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_102_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_102_BS": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_102_Loop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_102_Loop": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality_102_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality_102_AS": []
           },
-          "POLKCLOHPOO": true,
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Standby_Defend_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Standby_Defend_AS": ["Audio_Tortoise_01_Defend_AS"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Standby_Defend_AS": [
+              "Audio_Tortoise_01_Defend_AS"
+            ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Standby_Defend_Loop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby_Defend_Loop": []
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Standby_Defend_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Standby_Defend_BS": ["Audio_Tortoise_01_Defend_BS"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Standby_Defend_BS": [
+              "Audio_Tortoise_01_Defend_BS"
+            ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Defend_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Defend_BS": ["Audio_Tortoise_01_Defend_BS"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Defend_BS": [
+              "Audio_Tortoise_01_Defend_BS"
+            ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Defend_Loop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Defend_Loop": []
           },
-          "AJBLILDCLBO": ["AwareBeHit"],
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "AwareBeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "handleAnimatorStateImmediately": true
         },
         "Defend_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Defend_AS": []
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "handleAnimatorStateImmediately": true
         },
         "Attack_BS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Attack_BS": [
               "Animal_Tortoise_Attack_BS",
               "Audio_Tortoise_01_Attack_BS"
             ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Attack_Loop": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Attack_Loop": ["Animal_Tortoise_Attack"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Attack_Loop": [
+              "Animal_Tortoise_Attack"
+            ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "handleAnimatorStateImmediately": true
         },
         "Attack_AS": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Attack_AS": ["Audio_Tortoise_01_Attack_AS"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Attack_AS": [
+              "Audio_Tortoise_01_Attack_AS"
+            ]
           },
-          "DLAOMOCMANL": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "handleAnimatorStateImmediately": true
         }
       }
     }
@@ -267,19 +347,19 @@
       }
     },
     "threat": {
+      "specification": "",
       "clearThreatTargetDistance": 10.0,
       "clearThreatTimerByDistance": 1.0,
       "viewThreatGrow": 30.0,
       "feelThreatGrow": 30.0,
-      "threatDecreaseSpeed": 500.0,
-      "JGFOPCOIJOI": ""
+      "threatDecreaseSpeed": 500.0
     },
     "defendArea": {
       "defendRange": 30.0
     },
     "ui": {
       "hasDirectionIndicator": false,
-      "FLMOHOODJBA": ""
+      "MECOEANNABD": ""
     },
     "skillGroupCDConfigs": [
       {
@@ -297,7 +377,7 @@
         "initialCDUpperRange": 7.5,
         "publicCDGroup": "",
         "skillGroupCDID": 0,
-        "HGAMDGAEIGO": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "Personality_101_BS",
           "Personality_101_Loop",
@@ -317,7 +397,7 @@
         "initialCDUpperRange": 7.5,
         "publicCDGroup": "",
         "skillGroupCDID": 0,
-        "HGAMDGAEIGO": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "Personality_102_BS",
           "Personality_102_Loop",
@@ -330,31 +410,33 @@
       }
     },
     "skillGCD": 10.0,
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "KMHBGMELMKD",
+        "$type": "CCGMBAAMCIC",
         "enable": true,
-        "LMMKNFEMOMG": {
-          "KIHPEPHJMOG": 1,
-          "KPOGGFBLNPE": 9.0,
-          "JOCOJHEICNA": "",
-          "DBIELIMGBMC": ""
+        "platformMap": {
+          "autoChangeStep": 1,
+          "HCKPCHCMNHN": 9.0,
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "GGKADEIBMLG",
+        "$type": "OMEJECJFGDI",
         "enable": true,
-        "FJANPNOAAFK": {
-          "pose": [1]
+        "condition": {
+          "pose": [
+            1
+          ]
         },
-        "LMMKNFEMOMG": {
-          "GEAICNICJAJ": 0.10000000149011612,
-          "JIFJFPJANHO": 17.5,
-          "CBKHBGCPFBG": 12.5,
-          "EKDHNAGGGAE": 5.0,
-          "BFEJAKFKKFP": 3.0,
-          "KOAMKCEFJED": 5.0,
-          "JOCOJHEICNA": ""
+        "platformMap": {
+          "maxFileNum": 0.10000000149011612,
+          "DEHJKJAMIKG": 17.5,
+          "CLMGGEMDIGP": 12.5,
+          "DGOPNNFDHNN": 5.0,
+          "KBCIAPABFBF": 3.0,
+          "AKPLIHCCDLC": 5.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
@@ -372,16 +454,19 @@
     }
   ],
   "move": {
-    "$type": "IIGPJJNGCLE",
-    "EIEIGIPKLAO": {
-      "excludeForces": ["RetreatAirType", "WindZoneType"]
+    "$type": "GHFIPBIFJDP",
+    "velocityForce": {
+      "excludeForces": [
+        "RetreatAirType",
+        "WindZoneType"
+      ]
     },
-    "AFOGPFALECN": 0.5,
-    "LBMLCBFLOII": true,
-    "FACNOEFNHIB": "RootNode"
+    "moveOnWaterDepth": 0.5,
+    "DPOFACCALPC": true,
+    "KJBPBOFPFBE": "RootNode"
   },
   "audio": {
-    "KEEAIACIJBN": "",
+    "overrideEmitterName": "",
     "animAudio": {
       "onTransitionIn": [
         {
@@ -389,7 +474,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Tortoise_01_Attack_LP"
           },
-          "otherStateNames": ["Attack_Loop"],
+          "otherStateNames": [
+            "Attack_Loop"
+          ],
           "usage": "Except"
         }
       ],
@@ -399,7 +486,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Tortoise_01_Attack_LP"
           },
-          "otherStateNames": ["Attack_Loop"],
+          "otherStateNames": [
+            "Attack_Loop"
+          ],
           "usage": "Except"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "ACFHOEIIBAJ",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "mass": 10000.0,
@@ -12,7 +12,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "combat": {
     "property": {
@@ -36,21 +37,21 @@
     "animEvents": {
       "ATK01": {
         "attackPattern": {
-          "$type": "ABLEKHNLCEE",
+          "$type": "NHOLNMDNDHH",
           "triggerType": "TriggerNoRepeat",
           "checkHitLayerType": "Both",
           "born": {
-            "$type": "KKKABMDCNIJ",
+            "$type": "BBOPPIBMHDE",
             "offset": {
-              "AOFNOGLCGMP": 0.0,
-              "CHEGDAPFFHA": 0.0,
-              "JEGKAACFHJK": 0.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 0.0
             }
           },
           "size": {
-            "AOFNOGLCGMP": 1.0,
-            "CHEGDAPFFHA": 1.0,
-            "JEGKAACFHJK": 1.0
+            "PANGIELPECA": 1.0,
+            "CJENFGKOOOO": 1.0,
+            "HCMGOAIEFGL": 1.0
           }
         },
         "attackInfo": {
@@ -58,14 +59,15 @@
           "attenuationTag": "",
           "attenuationGroup": "default",
           "attackProperty": {
-            "AGMNCBAKCEF": 1.0,
-            "AILJJDMKONE": 0.0,
-            "bonusCriticalHurt": 100.0,
+            "actorElecSubHurtDelta": 1.0,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Pierce",
-            "bonusCritical": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV1",
             "hitHaltTimeScale": 0.009999999776482582
           },
@@ -76,23 +78,25 @@
   },
   "stateLayers": {
     "defaultLayer": {
-      "$type": "DEMOGNGMPCC",
+      "$type": "AJPJHBCALOM",
       "layerIndexName": "",
-      "OFKGBGMCPBM": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "NormalIdle": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Standby": []
           },
           "canDoSkill": true,
           "canSyncMove": true,
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         }
       }
     }
   },
-  "weather": {
+  "initialPoses": {
     "Default": {}
   },
   "aibeta": {}

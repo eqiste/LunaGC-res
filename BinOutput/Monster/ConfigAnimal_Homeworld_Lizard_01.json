@@ -1,152 +1,184 @@
 {
-  "MDJNFHAJPAD": {
-    "FAIKDMCHPEL": {
-      "$type": "DPGKNHENGLM",
+  "common": {
+    "effectAttachShape": {
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
-    "FINMNFLLAMB": 20.0,
-    "NEBDNCNFDJC": 0.699999988079071,
-    "MECICKNEPGG": 0.5,
-    "MBMBBGOGNHF": true,
-    "DIEPJBNIPBG": true,
-    "FNLMEPDMMMD": 1.2000000476837158,
-    "CKECEGGMJOP": false,
-    "GJDONABEMOA": true
+    "mass": 20.0,
+    "height": 0.699999988079071,
+    "viewSize": 0.5,
+    "affectedByWorld": true,
+    "checkInSurface": true,
+    "scale": 1.2000000476837158,
+    "canTriggerElementReactionText": false,
+    "useGrassDisplacement": true
   },
-  "PJEANIPCFFN": {
-    "CKAIGCFDCMG": "",
-    "KHGAHHAIJFJ": "",
-    "DFFKHFKJKEK": false
+  "model": {
+    "bornEffect": "",
+    "attachEffect": "",
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
-  "GKIMHOOMGHB": {
-    "DHBJGHDCMAA": {
-      "LDAHGACLHII": "Monster_Minion",
-      "LJGADHKDLLB": 30.0,
-      "ACOAHCMABGF": true
+  "combat": {
+    "property": {
+      "endureType": "Monster_Minion",
+      "weight": 30.0,
+      "isInvincible": true
     },
-    "BPKIJDAHLGB": {
-      "LKMLEJGEHAP": "",
-      "LHMKDLOKKJG": true
+    "beHit": {
+      "hitBloodEffect": "",
+      "muteAllHitText": true
     },
-    "INCPHOFGIJA": {
-      "FGJIHAKMLBG": "CircleLockEnemy",
-      "JPIFIDOPOND": true,
-      "BGMEKAEIOGA": "Default"
+    "combatLock": {
+      "lockShape": "CircleLockEnemy",
+      "denyLockOn": true,
+      "lockType": "Default"
     },
-    "JCCJMILDEAM": {
-      "GKFDFDFJJFB": 0.009999999776482582,
-      "FNIJBPMPCHA": 10.0,
-      "BCHFMGGBEFN": "Eff_Animal_Common_Die"
+    "die": {
+      "dieEndTime": 0.009999999776482582,
+      "dieForceDisappearTime": 10.0,
+      "dieDisappearEffect": "Eff_Animal_Common_Die"
     }
   },
-  "GGIOJAMBNPO": {
+  "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
-      "LFGKIDDJIED": {
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
+      "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": []
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Walk": ["Audio_Crab_Run"],
-            "Rush": ["Audio_Crab_Run"],
-            "Run": ["Audio_Crab_Run"],
-            "Run_AS": ["Audio_Crab_Run"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Walk": [
+              "Audio_Crab_Run"
+            ],
+            "Rush": [
+              "Audio_Crab_Run"
+            ],
+            "Run": [
+              "Audio_Crab_Run"
+            ],
+            "Run_AS": [
+              "Audio_Crab_Run"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_L": []
           },
-          "AJBLILDCLBO": ["BeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Disappear": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Disappear": []
           }
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Animal_Lizard_Die"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Animal_Lizard_Die"
+            ]
           }
         }
       }
     }
   },
-  "IONIFBIBFNL": {
+  "initialPoses": {
     "Default": {}
   },
-  "PDCDMABCPOA": {
-    "ENLKMOKHELD": true,
-    "BBIKFBPEPKO": 1,
-    "LFINILDKIOL": "Animal_Homeworld",
-    "OCBDDDCJANP": {
-      "IJOBKDKBEME": {
+  "aibeta": {
+    "enable": true,
+    "friendliness": 1,
+    "decisionArchetype": "Animal_Homeworld",
+    "sensing": {
+      "settings": {
         "DefaultSetting": {
-          "FNIFPAHGINJ": false,
-          "BHOECAJIBOM": 7.5
+          "enableVision": false,
+          "feelRange": 7.5
         }
       }
     },
-    "OFEGONBLOGP": {
-      "DefaultSetting": ["HIT"]
+    "neurons": {
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
-    "EJOLGMGAECP": {
-      "KICEOILEEPP": 75.0,
-      "JEAMBMPMOAC": 1000.0,
-      "KNNHACDCGCF": 5.0,
-      "JGFOPCOIJOI": ""
+    "threat": {
+      "specification": "",
+      "viewThreatGrow": 75.0,
+      "feelThreatGrow": 1000.0,
+      "threatBroadcastRange": 5.0
     },
-    "PMNPDDIOHHJ": {
-      "OKMHHFALCCH": 100.0
+    "defendArea": {
+      "defendRange": 100.0
     },
-    "HEOOEKIGDAL": {
-      "GMFIDKOEKHA": false,
-      "FLMOHOODJBA": ""
+    "ui": {
+      "hasDirectionIndicator": false,
+      "MECOEANNABD": ""
     },
-    "ABANJDJJKBP": {
-      "POACCELMOJN": [
+    "mixin": {
+      "setControllerParameterOnBeHitByEntityType": [
         {
-          "DGPPEMIKGJN": [1, 102],
-          "IJOBKDKBEME": [
+          "poseIDs": [
+            1,
+            102
+          ],
+          "settings": [
             {
-              "MDCJFODDKOF": ["Avatar", "Monster", "Gadget", "Bullet"],
-              "KCJJGBCCIGI": {
-                "DKJMPEINKDO": [
+              "entityTypes": [
+                "Avatar",
+                "Monster",
+                "Gadget",
+                "Bullet"
+              ],
+              "onSuccess": {
+                "setPoseBool": [
                   {
-                    "NBIHBPPMDLL": "FleeState",
-                    "EGBGLFJKMNK": true
+                    "boolID": "FleeState",
+                    "ratio": true
                   }
                 ]
               },
-              "EAIKHFBCEGE": {
-                "DKJMPEINKDO": [
+              "onFail": {
+                "setPoseBool": [
                   {
-                    "NBIHBPPMDLL": "FleeState",
-                    "EGBGLFJKMNK": true
+                    "boolID": "FleeState",
+                    "ratio": true
                   }
                 ]
               }
@@ -155,48 +187,56 @@
         }
       ]
     },
-    "EEKEAKJCMJO": [
+    "birdCirclingTactic": [
       {
-        "$type": "GIMIMAJNOPH",
-        "ENLKMOKHELD": true,
-        "FJANPNOAAFK": {
-          "CEKMINILIFB": [101]
+        "$type": "GDHDBOLMIDA",
+        "enable": true,
+        "condition": {
+          "pose": [
+            101
+          ]
         },
-        "GMMKOLNMFJL": ["HIT"],
-        "LMMKNFEMOMG": {
-          "PAHIDIJLGPF": 0.0,
-          "OHLJIHFFMLB": 200.0,
-          "IFCLJHAJFHD": 30.0,
-          "GGIBBPIGEJF": 8,
-          "PKFMEOPIHEO": 12,
-          "NBBIJDCLJOF": 3.299999952316284,
-          "MHMMABHJIIA": 3.299999952316284,
-          "DPDMGFACKOP": 3.0,
-          "JOCOJHEICNA": ""
+        "nerveTrigger": [
+          "HIT"
+        ],
+        "platformMap": {
+          "cd": 0.0,
+          "triggerDistance": 200.0,
+          "BECAHMJJGFB": 30.0,
+          "DFOENAEFIHA": 8,
+          "ELJCMKFHGCC": 12,
+          "MDJFBGIGOPL": 3.299999952316284,
+          "LGGOMDLBBPH": 3.299999952316284,
+          "ONNOGKLIEDD": 3.0,
+          "KJNBPEOBHNE": ""
         }
       },
       {
-        "$type": "KMHBGMELMKD",
-        "ENLKMOKHELD": true
+        "$type": "CCGMBAAMCIC",
+        "enable": true
       },
       {
-        "$type": "GGKADEIBMLG",
-        "ENLKMOKHELD": true,
-        "FDIIDHNBFFE": [0, 1, 2],
-        "LMMKNFEMOMG": {
-          "JIFJFPJANHO": 120.0,
-          "CBKHBGCPFBG": 60.0,
-          "EKDHNAGGGAE": 10.0,
-          "BFEJAKFKKFP": 1.5,
-          "KOAMKCEFJED": 3.0,
-          "JOCOJHEICNA": ""
+        "$type": "OMEJECJFGDI",
+        "enable": true,
+        "DBJHOGJCNAE": [
+          0,
+          1,
+          2
+        ],
+        "platformMap": {
+          "DEHJKJAMIKG": 120.0,
+          "CLMGGEMDIGP": 60.0,
+          "DGOPNNFDHNN": 10.0,
+          "KBCIAPABFBF": 1.5,
+          "AKPLIHCCDLC": 3.0,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
   },
-  "KDLODKFKHPB": {
-    "HKPPCCONOFN": false,
-    "PIMGAEBNCBJ": false,
-    "JFBHPOLAAEJ": false
+  "animal": {
+    "hasAbility": false,
+    "tickAbilityElement": false,
+    "hasCharacterRenderering": false
   }
 }

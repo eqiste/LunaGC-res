@@ -1,7 +1,7 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_ToMoon_FoodChallenge_Part1",
       "abilitySpecials": {
         "Kill_Count": 0.0,
@@ -14,20 +14,24 @@
       "modifiers": {
         "Activity_ToMoon_Part1_Handler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ServerUpdateGlobalValueMixin",
+              "$type": "MPPPFECOOIH",
               "key": "_Activity_ToMoon_Part1_Level",
               "useLimitRange": true,
-              "maxValue": 10.0,
-              "minValue": 0.0
+              "param2": 10.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "$type": "DNAPOLPDJMH",
               "globalValueKey": "_Activity_ToMoon_Part1_Level",
-              "defaultGlobalValueOnCreate": 0.0,
-              "valueSteps": [1.5, 3.5, 10.0],
+              "IMIMGNLNKHD": 0.0,
+              "valueSteps": [
+                1.5,
+                3.5,
+                10.0
+              ],
               "modifierNameSteps": [
                 "Activity_ToMoon_Part1_Lv2",
                 "Activity_ToMoon_Part1_Lv4"
@@ -36,64 +40,64 @@
           ],
           "onAdded": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "luaCallType": "CurChallengeGroup",
               "funcName": "RefreshSacrificeNum",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "Activity_ToMoon_Part1_Lv2": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Activity_ToMoon_Part1_AttackBuff"
             }
           ]
         },
         "Activity_ToMoon_Part1_Lv4": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Activity_ToMoon_Part1_AttackBuff"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Activity_ToMoon_Part1_DefendBuff"
             }
           ]
         },
         "Activity_ToMoon_Part1_AttackBuff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "ratio": 0.0,
               "key": "_ABILITY_Activity_ToMoon_Part1_Count",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "Activity_ToMoon_Part1_AttackBuff_OnAvatar"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "Activity_ToMoon_Part1_AttackBuff_OnAvatar"
             }
           ]
@@ -101,23 +105,25 @@
         "Activity_ToMoon_Part1_AttackBuff_OnAvatar": {
           "stacking": "Unique",
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionByKillingMixin",
+              "$type": "CHJGFAKDFLP",
               "detectWindow": 0.4000000059604645,
               "onKill": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Other",
-                  "cdDelta": true,
+                  "musicSubStates": true,
                   "targetPredicates": [
                     {
-                      "$type": "ByEntityTypes",
-                      "entityTypes": ["Monster"]
+                      "$type": "ABPNIKGNCGH",
+                      "entityTypes": [
+                        "Monster"
+                      ]
                     },
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "key": "_ANIMAL_ENTITY_TYPE",
                       "ratio": 0.0,
                       "compareType": "NoneOrEqual"
@@ -125,32 +131,32 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "AddGlobalValue",
+                      "$type": "ICIEIAFKCAO",
                       "target": "Team",
-                      "cdDelta": true,
+                      "musicSubStates": true,
                       "ratio": 1.0,
                       "key": "_ABILITY_Activity_ToMoon_Part1_Count",
                       "useLimitRange": true,
-                      "maxValue": "Kill_MaxCount",
-                      "minValue": 0.0
+                      "param2": "Kill_MaxCount",
+                      "JHDOLIIOACK": 0.0
                     },
                     {
-                      "$type": "SetGlobalValueToOverrideMap",
+                      "$type": "OLOEGCPACDP",
                       "target": "Team",
-                      "cdDelta": true,
+                      "musicSubStates": true,
                       "globalValueKey": "_ABILITY_Activity_ToMoon_Part1_Count",
                       "overrideMapKey": "Kill_Count"
                     },
                     {
-                      "$type": "RemoveUniqueModifier",
+                      "$type": "DLACOGBKNLA",
                       "target": "CurTeamAvatars",
-                      "cdDelta": true,
+                      "musicSubStates": true,
                       "modifierName": "UNIQUE_Activity_ToMoon_Part1_AttackBuff"
                     },
                     {
-                      "$type": "AttachModifier",
+                      "$type": "JCCOJGHBBEF",
                       "target": "CurTeamAvatars",
-                      "cdDelta": true,
+                      "musicSubStates": true,
                       "modifierName": "UNIQUE_Activity_ToMoon_Part1_AttackBuff"
                     }
                   ]
@@ -162,59 +168,68 @@
         "UNIQUE_Activity_ToMoon_Part1_AttackBuff": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Attack_Duration",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Attack_Duration",
+          "PBPPIFIOAMB": 100.0,
           "properties": {
-            "Actor_AddHurtDelta": ["Kill_PerDamgeUp", "Kill_Count", "MUL"]
+            "Actor_AddHurtDelta": [
+              "Kill_PerDamgeUp",
+              "Kill_Count",
+              "MUL"
+            ]
           },
           "state": "AttackUp",
           "isLimitedProperties": true
         },
         "Activity_ToMoon_Part1_DefendBuff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "Activity_ToMoon_Part1_DefendBuff_OnAvatar"
             }
           ]
         },
         "Activity_ToMoon_Part1_DefendBuff_OnAvatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["FlyStart", "Fly"],
+              "$type": "IHPNOCDHKEC",
+              "stateIDs": [
+                "FlyStart",
+                "Fly"
+              ],
               "modifierName": "Activity_ToMoon_Part1_DefendBuff_FlyHealHP",
-              "isCheckOnAttach": true
+              "isCheckOnAttach": true,
+              "IIFOLCMHMHP": ""
             }
           ]
         },
         "Activity_ToMoon_Part1_DefendBuff_FlyHealHP": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": "Heal_Interval",
           "onThinkInterval": [
             {
-              "$type": "HealHP",
-              "GGLMMJHNGMO": "Heal_Ratio"
+              "$type": "JMEOFOGONAK",
+              "OJBDHICLDEM": "Heal_Ratio",
+              "cdRatio": ""
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_Activity_ToMoon_Part1_Level",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Activity_ToMoon_Part1_Handler"
         }
       ],
@@ -223,7 +238,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_ToMoon_FoodChallenge_Part2",
       "abilitySpecials": {
         "MasteryUp": 300.0,
@@ -233,20 +248,24 @@
       "modifiers": {
         "Activity_ToMoon_Part2_Handler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ServerUpdateGlobalValueMixin",
+              "$type": "MPPPFECOOIH",
               "key": "_Activity_ToMoon_Part2_Level",
               "useLimitRange": true,
-              "maxValue": 10.0,
-              "minValue": 0.0
+              "param2": 10.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "$type": "DNAPOLPDJMH",
               "globalValueKey": "_Activity_ToMoon_Part2_Level",
-              "defaultGlobalValueOnCreate": 0.0,
-              "valueSteps": [1.5, 3.5, 10.0],
+              "IMIMGNLNKHD": 0.0,
+              "valueSteps": [
+                1.5,
+                3.5,
+                10.0
+              ],
               "modifierNameSteps": [
                 "Activity_ToMoon_Part2_Lv2_OnTeam",
                 "Activity_ToMoon_Part2_Lv4_OnTeam"
@@ -255,57 +274,59 @@
           ],
           "onAdded": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "luaCallType": "CurChallengeGroup",
               "funcName": "RefreshSacrificeNum",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "Activity_ToMoon_Part2_Lv2_OnTeam": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "Activity_ToMoon_Part2_Lv2_OnAvatar"
             }
           ]
         },
         "Activity_ToMoon_Part2_Lv2_OnAvatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "shapeName": "CircleR6.5H5",
                 "campTargetType": "All",
-                "OBHNBNDMPFN": 1.0
+                "doOffStage": 1.0
               },
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Gadget"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_SceneObj_ToMoon_WarmTag",
                   "ratio": 1.0
                 }
               ],
               "successActions": [
                 {
-                  "$type": "RemoveUniqueModifier",
+                  "$type": "DLACOGBKNLA",
                   "target": "CurTeamAvatars",
                   "modifierName": "UNIQUE_Activity_ToMoon_Part2_MasteryUp"
                 },
                 {
-                  "$type": "AttachModifier",
+                  "$type": "JCCOJGHBBEF",
                   "target": "CurTeamAvatars",
                   "modifierName": "UNIQUE_Activity_ToMoon_Part2_MasteryUp"
                 }
@@ -316,9 +337,9 @@
         "UNIQUE_Activity_ToMoon_Part2_MasteryUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 1.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ElemMasteryDelta": "MasteryUp"
           },
@@ -327,51 +348,53 @@
         },
         "Activity_ToMoon_Part2_Lv4_OnTeam": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "Activity_ToMoon_Part2_Lv4_OnAvatar"
             }
           ]
         },
         "Activity_ToMoon_Part2_Lv4_OnAvatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "shapeName": "CircleR6.5H5",
                 "campTargetType": "All",
-                "OBHNBNDMPFN": 1.0
+                "doOffStage": 1.0
               },
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Gadget"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ABILITY_SceneObj_ToMoon_WarmTag",
                   "ratio": 1.0
                 }
               ],
               "successActions": [
                 {
-                  "$type": "RemoveUniqueModifier",
+                  "$type": "DLACOGBKNLA",
                   "target": "CurTeamAvatars",
                   "modifierName": "UNIQUE_Activity_ToMoon_Part2_MasteryUp"
                 },
                 {
-                  "$type": "AttachModifier",
+                  "$type": "JCCOJGHBBEF",
                   "target": "CurTeamAvatars",
                   "modifierName": "UNIQUE_Activity_ToMoon_Part2_MasteryUp"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Other",
                   "modifierName": "Activity_ToMoon_Part2_HealWarmFire"
                 }
@@ -382,26 +405,31 @@
         "Activity_ToMoon_Part2_HealWarmFire": {
           "stacking": "Unique",
           "modifierName": "",
-          "duration": ["Heal_Interval", 0.20000000298023224, "SUB"],
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": [
+            "Heal_Interval",
+            0.20000000298023224,
+            "SUB"
+          ],
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "HealHP",
-              "GGLMMJHNGMO": "Heal_Ratio"
+              "$type": "JMEOFOGONAK",
+              "OJBDHICLDEM": "Heal_Ratio",
+              "cdRatio": ""
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_Activity_ToMoon_Part2_Level",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Activity_ToMoon_Part2_Handler"
         }
       ],
@@ -410,7 +438,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_ToMoon_FoodChallenge_Part3",
       "abilitySpecials": {
         "Attack_Ratio": 0.30000001192092896,
@@ -420,20 +448,24 @@
       "modifiers": {
         "Activity_ToMoon_Part3_Handler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ServerUpdateGlobalValueMixin",
+              "$type": "MPPPFECOOIH",
               "key": "_Activity_ToMoon_Part3_Level",
               "useLimitRange": true,
-              "maxValue": 10.0,
-              "minValue": 0.0
+              "param2": 10.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "$type": "DNAPOLPDJMH",
               "globalValueKey": "_Activity_ToMoon_Part3_Level",
-              "defaultGlobalValueOnCreate": 0.0,
-              "valueSteps": [1.5, 3.5, 10.0],
+              "IMIMGNLNKHD": 0.0,
+              "valueSteps": [
+                1.5,
+                3.5,
+                10.0
+              ],
               "modifierNameSteps": [
                 "Activity_ToMoon_Part3_Lv2",
                 "Activity_ToMoon_Part3_Lv4"
@@ -442,53 +474,53 @@
           ],
           "onAdded": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "luaCallType": "CurChallengeGroup",
               "funcName": "RefreshSacrificeNum",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "Activity_ToMoon_Part3_Lv2": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Activity_ToMoon_Part3_AttackBuff"
             }
           ]
         },
         "Activity_ToMoon_Part3_Lv4": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Activity_ToMoon_Part3_AttackBuff"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Activity_ToMoon_Part3_DefendBuff"
             }
           ]
         },
         "Activity_ToMoon_Part3_AttackBuff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
               "modifierName": "Activity_ToMoon_Part3_AttackBuff_BurstCheck"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
               "modifierName": "Activity_ToMoon_Part3_AttackBuff_BurstCheck"
             }
@@ -497,18 +529,18 @@
         "Activity_ToMoon_Part3_AttackBuff_BurstCheck": {
           "stacking": "Unique",
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "OnAvatarUseSkillMixin",
+              "$type": "CIOPKCOBCHA",
               "onTriggerUltimateSkill": [
                 {
-                  "$type": "AttachModifier",
+                  "$type": "JCCOJGHBBEF",
                   "target": "CurTeamAvatars",
                   "modifierName": "Activity_ToMoon_Part3_AttackUp"
                 }
               ],
-              "CJJAFBGFGFD": 0.20000000298023224
+              "clearSkillIdDelay": 0.20000000298023224
             }
           ]
         },
@@ -519,8 +551,8 @@
             "maxModifierNumForMultipleType": 4.0
           },
           "modifierName": "",
-          "duration": "Attack_Duration",
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": "Attack_Duration",
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Attack_Ratio"
           },
@@ -529,18 +561,18 @@
         },
         "Activity_ToMoon_Part3_DefendBuff": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
               "modifierName": "Activity_ToMoon_Part3_ShieldUp"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
               "modifierName": "Activity_ToMoon_Part3_ShieldUp"
             }
@@ -549,7 +581,7 @@
         "Activity_ToMoon_Part3_ShieldUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ShieldCostMinusRatio": "Shield_Up"
           },
@@ -558,14 +590,14 @@
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "ratio": 0.0,
           "key": "_Activity_ToMoon_Part3_Level",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Activity_ToMoon_Part3_Handler"
         }
       ],

@@ -1,7 +1,7 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_FireSubHurtUp",
       "abilitySpecials": {
         "Value": 0.4000000059604645
@@ -10,8 +10,8 @@
         "UNIQUE_ActivityAbility_FleurFair_FireSubHurtUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FireSubHurtDelta": "Value"
           },
@@ -20,8 +20,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_FireSubHurtUp"
         }
       ],
@@ -30,7 +30,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_DefenceUp",
       "abilitySpecials": {
         "Value": 0.5
@@ -39,8 +39,8 @@
         "UNIQUE_ActivityAbility_FleurFair_DefenceUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_DefenceRatio": "Value"
           },
@@ -49,8 +49,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_DefenceUp"
         }
       ],
@@ -59,7 +59,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_ShieldCostMinusUp",
       "abilitySpecials": {
         "Value": 0.5
@@ -68,8 +68,8 @@
         "UNIQUE_ActivityAbility_FleurFair_ShieldCostMinusUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ShieldCostMinusRatio": "Value"
           },
@@ -78,8 +78,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_ShieldCostMinusUp"
         }
       ],
@@ -88,7 +88,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_CriticalUp",
       "abilitySpecials": {
         "Value": 0.699999988079071
@@ -97,8 +97,8 @@
         "UNIQUE_ActivityAbility_FleurFair_CriticalUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CriticalDelta": "Value"
           },
@@ -107,8 +107,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_CriticalUp"
         }
       ],
@@ -117,7 +117,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_AttackUp",
       "abilitySpecials": {
         "Value": 1.2000000476837158
@@ -126,8 +126,8 @@
         "UNIQUE_ActivityAbility_FleurFair_AttackUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value"
           },
@@ -136,8 +136,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_AttackUp"
         }
       ],
@@ -146,7 +146,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_ElementAddHurtUp",
       "abilitySpecials": {
         "Value": 1.0
@@ -155,8 +155,8 @@
         "UNIQUE_ActivityAbility_FleurFair_ElementAddHurtUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_WaterAddHurtDelta": "Value",
             "Actor_IceAddHurtDelta": "Value",
@@ -167,8 +167,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_ElementAddHurtUp"
         }
       ],
@@ -177,7 +177,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_AttackSpeedUp",
       "abilitySpecials": {
         "Value": 0.20000000298023224
@@ -186,8 +186,8 @@
         "UNIQUE_ActivityAbility_FleurFair_AttackSpeedUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Animator_AttackSpeedRatio": "Value"
           },
@@ -196,8 +196,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_AttackSpeedUp"
         }
       ],
@@ -206,7 +206,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_CriticalHurtUp",
       "abilitySpecials": {
         "Value": 1.399999976158142
@@ -215,8 +215,8 @@
         "UNIQUE_ActivityAbility_FleurFair_CriticalHurtUp": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CriticalHurtDelta": "Value"
           },
@@ -225,8 +225,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_CriticalHurtUp"
         }
       ],
@@ -235,7 +235,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_CostStaminaDown",
       "abilitySpecials": {
         "Value": -0.800000011920929
@@ -244,8 +244,8 @@
         "UNIQUE_ActivityAbility_FleurFair_CostStaminaDown": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CostStaminaRatio": "Value"
           },
@@ -254,8 +254,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_CostStaminaDown"
         }
       ],
@@ -264,7 +264,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_ShieldCostMinusUpLv2",
       "abilitySpecials": {
         "Value": 1.0
@@ -273,8 +273,8 @@
         "UNIQUE_ActivityAbility_FleurFair_ShieldCostMinusUpLv2": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ShieldCostMinusRatio": "Value"
           },
@@ -283,8 +283,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_ShieldCostMinusUpLv2"
         }
       ],
@@ -293,7 +293,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_AttackDoAreaWaterDamage",
       "abilitySpecials": {
         "Value_DamageSystemValue": 0.0,
@@ -306,25 +306,28 @@
         "UNIQUE_ActivityAbility_FleurFair_AttackDoAreaWaterDamage": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster", "Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster",
+                    "Gadget"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_Is_ActivityAbility_FleurFair_AttackDoAreaWaterDamage_CD",
                   "ratio": 0.0,
@@ -333,22 +336,23 @@
               ],
               "successActions": [
                 {
-                  "$type": "Randomed",
+                  "$type": "DKBEECBMHLO",
                   "chance": "Value_Chance",
                   "successActions": [
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Other",
                       "modifierName": "ActivityAbility_FleurFair_AttackDoAreaWaterDamage_Target"
                     },
                     {
-                      "$type": "HealHP",
+                      "$type": "JMEOFOGONAK",
                       "target": "Caster",
-                      "cdDelta": true,
-                      "PKPBLCNMPIG": "Value_HPRatio"
+                      "musicSubStates": true,
+                      "AGEMCCKPHBA": "Value_HPRatio",
+                      "cdRatio": ""
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_FleurFair_AttackDoAreaWaterDamageCD_Team"
                     }
@@ -361,47 +365,49 @@
         },
         "ActivityAbility_FleurFair_AttackDoAreaWaterDamage_Target": {
           "modifierName": "",
-          "duration": 0.10000000149011612,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.10000000149011612,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_HydroImpact_01",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_HydroImpact_01",
               "born": {
-                "$type": "ConfigBornByTarget"
+                "$type": "DNEGODCNNPL"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "target": "Caster",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 10.0
+                  "JNOPAOAHJAH": 10.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentageRatio": 0.0,
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Water",
-                    "bonusCritical": 25.0,
+                    "PBPPIFIOAMB": 25.0,
                     "ignoreAttackerProperty": true,
-                    "damageExtra": [
+                    "actorGrassSubHurtDelta": [
                       "Value_DamageSystemValue",
                       "Value_DamageSystemValueRate",
                       "MUL"
                     ],
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   },
@@ -414,22 +420,22 @@
         },
         "UNIQUE_ActivityAbility_FleurFair_AttackDoAreaWaterDamageCD_Team": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AreaDamageCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AreaDamageCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": 1.0,
               "key": "_Is_ActivityAbility_FleurFair_AttackDoAreaWaterDamage_CD",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 1.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_Is_ActivityAbility_FleurFair_AttackDoAreaWaterDamage_CD"
             }
           ]
@@ -437,13 +443,14 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_AttackDoAreaWaterDamage"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         }
       ],
       "isDynamicAbility": true
@@ -451,7 +458,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_FallingAttackDoAreaDamage",
       "abilitySpecials": {
         "Value_FallingAttackDamage": 0.5,
@@ -462,32 +469,39 @@
         "UNIQUE_ActivityAbility_FleurFair_FallingAttackDoAreaDamage": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
-              "attackTags": ["FallingAttack"],
-              "damagePercentageRatio": "Value_FallingAttackDamage"
+              "$type": "POIOCOGFPHF",
+              "attackTags": [
+                "FallingAttack"
+              ],
+              "actorElementReactionCriticalDelta": "Value_FallingAttackDamage"
             }
           ],
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster", "Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster",
+                    "Gadget"
+                  ]
                 },
                 {
-                  "$type": "ByAttackTags",
-                  "attackTags": ["FallingAttack"]
+                  "$type": "IIHMEDMKFIE",
+                  "attackTags": [
+                    "FallingAttack"
+                  ]
                 }
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Caster",
                   "modifierName": "TriggerAreaAttack"
                 }
@@ -499,46 +513,48 @@
         "TriggerAreaAttack": {
           "stacking": "Unique",
           "modifierName": "",
-          "duration": 0.10000000149011612,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.10000000149011612,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_FleurFairImpact_01",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_FleurFairImpact_01",
               "born": {
-                "$type": "ConfigBornByTarget"
+                "$type": "DNEGODCNNPL"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "target": "Caster",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 10.0
+                  "JNOPAOAHJAH": 10.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentageRatio": 0.0,
-                    "bonusCritical": 0.0,
+                    "actorElementReactionCriticalDelta": 0.0,
+                    "PBPPIFIOAMB": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damageExtra": [
+                    "actorGrassSubHurtDelta": [
                       "Value_DamageSystemValue",
                       "Value_DamageSystemValueRate",
                       "MUL"
                     ],
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   },
@@ -552,14 +568,15 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_FallingAttackDoAreaDamage"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         }
       ],
       "isDynamicAbility": true
@@ -567,7 +584,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage",
       "abilitySpecials": {
         "Value_AreaDamageCD": 1.0,
@@ -579,53 +596,60 @@
         "UNIQUE_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
-              "attackTags": ["ExtraAttack"],
-              "damagePercentageRatio": 0.0,
-              "MODFLPBMPKB": "Value_BonusCritical"
+              "$type": "POIOCOGFPHF",
+              "attackTags": [
+                "ExtraAttack"
+              ],
+              "actorElementReactionCriticalDelta": 0.0,
+              "actorIceSubHurtDelta": "Value_BonusCritical"
             }
           ],
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster", "Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster",
+                    "Gadget"
+                  ]
                 },
                 {
-                  "$type": "ByAttackTags",
-                  "attackTags": ["ExtraAttack"]
+                  "$type": "IIHMEDMKFIE",
+                  "attackTags": [
+                    "ExtraAttack"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_Is_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage_CD",
                   "ratio": 0.0,
-                  "setTarget": true,
+                  "forceByCaster": true,
                   "compareType": "NoneOrEqual"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Other",
                   "modifierName": "ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage_Target"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Caster",
-                  "cdDelta": true,
+                  "musicSubStates": true,
                   "modifierName": "UNIQUE_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamageCD_Self"
                 }
               ]
@@ -635,46 +659,48 @@
         },
         "ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage_Target": {
           "modifierName": "",
-          "duration": 0.10000000149011612,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.10000000149011612,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_FleurFairImpact_01",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_FleurFairImpact_01",
               "born": {
-                "$type": "ConfigBornByTarget"
+                "$type": "DNEGODCNNPL"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "target": "Caster",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 10.0
+                  "JNOPAOAHJAH": 10.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentageRatio": 0.0,
-                    "bonusCritical": 0.0,
+                    "actorElementReactionCriticalDelta": 0.0,
+                    "PBPPIFIOAMB": 0.0,
                     "ignoreAttackerProperty": true,
-                    "damageExtra": [
+                    "actorGrassSubHurtDelta": [
                       "Value_DamageSystemValue",
                       "Value_DamageSystemValueRate",
                       "MUL"
                     ],
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   },
@@ -687,23 +713,23 @@
         },
         "UNIQUE_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamageCD_Self": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AreaDamageCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AreaDamageCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": 1.0,
               "key": "_Is_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage_CD",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 1.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
-              "cdDelta": true,
+              "$type": "JHHFEBMDHFB",
+              "musicSubStates": true,
               "key": "_Is_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage_CD"
             }
           ]
@@ -711,20 +737,23 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "predicates": [
             {
-              "$type": "EJIHECGHKCK",
-              "NBNCGECJGEK": ["WEAPON_BOW"]
+              "$type": "KGNFNACHIGM",
+              "weaponTypes": [
+                "WEAPON_BOW"
+              ]
             }
           ],
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_BowExtraAttackDoAreaDamage"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         }
       ],
       "isDynamicAbility": true
@@ -732,7 +761,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage",
       "abilitySpecials": {
         "Value_AreaDamageCD": 2.0,
@@ -742,60 +771,65 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onBeingHit": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_Is_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage_CD",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "FPBCMGGALCI",
+                  "$type": "DEEBIPHHMNA",
                   "target": "Self",
-                  "type": "All"
+                  "damageRatio": "All"
                 }
               ],
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster", "Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster",
+                    "Gadget"
+                  ]
                 }
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "modifierName": "ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage_CD"
                 }
               ],
               "failActions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Target",
                   "targetPredicates": [
                     {
-                      "$type": "ByEntityTypes",
-                      "entityTypes": ["Bullet"]
+                      "$type": "ABPNIKGNCGH",
+                      "entityTypes": [
+                        "Bullet"
+                      ]
                     }
                   ],
                   "successActions": [
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "modifierName": "ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage"
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage_CD"
                     }
@@ -808,48 +842,50 @@
         },
         "ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage": {
           "modifierName": "",
-          "duration": 1.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_FleurFairImpact_01",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_FleurFairImpact_01",
               "born": {
-                "$type": "ConfigBornByTarget"
+                "$type": "DNEGODCNNPL"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "target": "Applier",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 10.0
+                  "JNOPAOAHJAH": 10.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentageRatio": 0.0,
-                    "bonusCritical": 0.0,
+                    "actorElementReactionCriticalDelta": 0.0,
+                    "PBPPIFIOAMB": 0.0,
                     "ignoreAttackerProperty": true,
                     "strikeType": "Default",
                     "enBreak": 0.0,
-                    "damageExtra": [
+                    "actorGrassSubHurtDelta": [
                       "Value_DamageSystemValue",
                       "Value_DamageSystemValueRate",
                       "MUL"
                     ],
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   },
@@ -862,22 +898,22 @@
         },
         "UNIQUE_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage_CD": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AreaDamageCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AreaDamageCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": 1.0,
               "key": "_Is_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage_CD",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 1.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_Is_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage_CD"
             }
           ]
@@ -885,12 +921,13 @@
       },
       "onAdded": [
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "UNIQUE_ActivityAbility_FleurFair_ShieldOnBeingHitDoAreaDamage"
         }
       ],

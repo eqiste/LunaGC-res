@@ -1,187 +1,206 @@
 {
-  "MDJNFHAJPAD": {
-    "FAIKDMCHPEL": {
-      "$type": "DPGKNHENGLM",
+  "common": {
+    "effectAttachShape": {
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
-    "FINMNFLLAMB": 30.0,
-    "NEBDNCNFDJC": 0.699999988079071,
-    "MBMBBGOGNHF": true,
-    "DIEPJBNIPBG": true,
-    "FNLMEPDMMMD": 2.0,
-    "HPIJDAKGABA": 300.0,
-    "CKECEGGMJOP": false
+    "mass": 30.0,
+    "height": 0.699999988079071,
+    "affectedByWorld": true,
+    "checkInSurface": true,
+    "scale": 2.0,
+    "disableTickDistance": 300.0,
+    "canTriggerElementReactionText": false
   },
-  "PJEANIPCFFN": {
-    "CKAIGCFDCMG": "",
-    "KHGAHHAIJFJ": "",
-    "DFFKHFKJKEK": false
+  "model": {
+    "bornEffect": "",
+    "attachEffect": "",
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
-  "MEMHBNEJBCL": {
-    "PJBCJPKPOLB": 2.0
+  "dither": {
+    "showDitherDuration": 2.0
   },
-  "GKIMHOOMGHB": {
-    "DHBJGHDCMAA": {
-      "LDAHGACLHII": "Monster_Minion",
-      "LJGADHKDLLB": 40.0
+  "combat": {
+    "property": {
+      "endureType": "Monster_Minion",
+      "weight": 40.0
     },
-    "BPKIJDAHLGB": {
-      "LKMLEJGEHAP": "",
-      "LHMKDLOKKJG": true
+    "beHit": {
+      "hitBloodEffect": "",
+      "muteAllHitText": true
     },
-    "INCPHOFGIJA": {
-      "FGJIHAKMLBG": "CircleLockEnemy",
-      "BGMEKAEIOGA": "Animal_Lv2"
+    "combatLock": {
+      "lockShape": "CircleLockEnemy",
+      "lockType": "Animal_Lv2"
     },
-    "JCCJMILDEAM": {
-      "EMCMMKADEFO": false,
-      "GKFDFDFJJFB": 2.0,
-      "FNIJBPMPCHA": 10.0,
-      "BCHFMGGBEFN": ""
+    "die": {
+      "fallWhenAirDie": false,
+      "dieEndTime": 2.0,
+      "dieForceDisappearTime": 10.0,
+      "dieDisappearEffect": ""
     }
   },
-  "IGPKOOHPBFG": [
+  "abilities": [
     {
-      "FPLENFAEDIB": "CommonInitial",
-      "KAJGDIHNKNE": "Animal_Common_Initial",
-      "BIAMBCDKJKP": ""
+      "abilityID": "CommonInitial",
+      "abilityName": "Animal_Common_Initial",
+      "abilityOverride": ""
     }
   ],
-  "GGIOJAMBNPO": {
+  "stateLayers": {
     "defaultLayer": {
-      "$type": "EPAPJJAGHKG",
-      "ACOCIAFGIAD": "",
-      "LFGKIDDJIED": {
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
+      "stateIDs": {
         "Born": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           },
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"]
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalMove": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Glide": [],
-            "Fly": ["Audio_Falcon_Fly"]
+            "Fly": [
+              "Audio_Falcon_Fly"
+            ]
           },
-          "POLKCLOHPOO": true,
-          "PGKCBIHGAOC": true,
-          "DLAOMOCMANL": ["DoSkill"],
-          "LIPMJPLGIKD": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "BeHit": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_L": []
           },
-          "AJBLILDCLBO": ["BeHit"],
-          "DLAOMOCMANL": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "IJOIMFMEGMM",
-          "DLOHGBDFFGB": {
-            "Die": ["Animal_Pigeon_Die"]
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
+            "Die": [
+              "Animal_Pigeon_Die"
+            ]
           }
         }
       }
     }
   },
-  "IONIFBIBFNL": {
+  "initialPoses": {
     "Default": {}
   },
-  "PDCDMABCPOA": {
-    "ENLKMOKHELD": true,
-    "BBIKFBPEPKO": 1,
-    "KGDGKFHPJPO": {
-      "NAHAOOOGKLG": false,
-      "NLGDNEMIKPE": "Undead01",
-      "PJMBMPINKON": 2.0,
-      "NNPOPGCMKBH": 2.0
+  "aibeta": {
+    "enable": true,
+    "friendliness": 1,
+    "moveSetting": {
+      "useNavMesh": false,
+      "navMeshAgentName": "Undead01",
+      "almostReachedDistanceWalk": 2.0,
+      "almostReachedDistanceRun": 2.0
     },
-    "OCBDDDCJANP": {
-      "ENLKMOKHELD": false
+    "sensing": {
+      "enable": false
     },
-    "OFEGONBLOGP": {
-      "DefaultSetting": ["HIT"]
+    "neurons": {
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
-    "EJOLGMGAECP": {
-      "ENLKMOKHELD": false,
-      "JGFOPCOIJOI": ""
+    "threat": {
+      "specification": "",
+      "enable": false
     },
-    "PMNPDDIOHHJ": {
-      "OKMHHFALCCH": 50.0
+    "defendArea": {
+      "defendRange": 50.0
     },
-    "LECMJLBKJHK": {
-      "ENLKMOKHELD": true,
-      "JMHNPPNGEJD": [1, 2]
+    "fly": {
+      "enable": true,
+      "floatingPoses": [
+        1,
+        2
+      ]
     },
-    "HEOOEKIGDAL": {
-      "GMFIDKOEKHA": false,
-      "FLMOHOODJBA": ""
+    "ui": {
+      "hasDirectionIndicator": false,
+      "MECOEANNABD": ""
     },
-    "JLKBBPGPEAA": {
-      "FMFBMENJLJF": "MonsterVista"
+    "profiling": {
+      "lodStrategy": "MonsterVista"
     },
-    "EMBHEEALPLD": 2.5,
-    "EEKEAKJCMJO": [
+    "skillGCD": 2.5,
+    "birdCirclingTactic": [
       {
-        "$type": "EONBNFNCMNG",
-        "ENLKMOKHELD": true,
-        "LMMKNFEMOMG": {}
+        "$type": "PLIFLEBPODH",
+        "enable": true,
+        "platformMap": {}
       },
       {
-        "$type": "CMCHFECOPPI",
-        "ENLKMOKHELD": true,
-        "LMMKNFEMOMG": {
-          "DCEODHLDKCJ": 0.5,
-          "GAHPENGCPFA": 0.5,
-          "JOCGOKPMCKI": "Spacial",
-          "EGLLAFMFBHO": true,
-          "JOCOJHEICNA": "",
-          "DBIELIMGBMC": ""
+        "$type": "NIHHBFCJMEM",
+        "enable": true,
+        "platformMap": {
+          "IKOIJFMMOJK": 0.5,
+          "PMONNAAPPMJ": 0.5,
+          "LFHJBHMECDO": "Spacial",
+          "EKPBNOMGLOM": true,
+          "KJNBPEOBHNE": "",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "KMHBGMELMKD"
+        "$type": "CCGMBAAMCIC"
       }
     ]
   },
-  "ADIGBDHBCDP": {
-    "$type": "IIGPJJNGCLE",
-    "FACNOEFNHIB": "RootNode"
+  "move": {
+    "$type": "GHFIPBIFJDP",
+    "KJBPBOFPFBE": "RootNode"
   },
-  "BEGHJJDCLLK": {
-    "KEEAIACIJBN": "",
-    "JIOEGJGNLEC": {
-      "NGKLCAOGKNG": [
+  "audio": {
+    "overrideEmitterName": "",
+    "animAudio": {
+      "onTransitionIn": [
         {
-          "ILNHPFBOKNK": "Glide",
-          "CDMEEHAPNGE": {
-            "KMNBEAJOBPE": "Play_sfx_creature_falcon_flying_slide_lp"
+          "currentStateName": "Glide",
+          "audioEvent": {
+            "text": "Play_sfx_creature_falcon_flying_slide_lp"
           }
         }
       ],
-      "MPLMIOAKNGG": [
+      "onTransitionOut": [
         {
-          "ILNHPFBOKNK": "Glide",
-          "CDMEEHAPNGE": {
-            "KMNBEAJOBPE": "Stop_sfx_creature_falcon_flying_slide_lp"
+          "currentStateName": "Glide",
+          "audioEvent": {
+            "text": "Stop_sfx_creature_falcon_flying_slide_lp"
           }
         }
       ]
     },
-    "ILECIBOLHCO": {
-      "KMNBEAJOBPE": "Stop_sfx_creature_falcon_flying_slide_lp"
+    "disableEvent": {
+      "text": "Stop_sfx_creature_falcon_flying_slide_lp"
     },
-    "KMDKAEHLABB": {
-      "KMNBEAJOBPE": "Stop_sfx_creature_falcon_flying_slide_lp"
+    "destroyEvent": {
+      "text": "Stop_sfx_creature_falcon_flying_slide_lp"
     }
   },
-  "KDLODKFKHPB": {
-    "HKPPCCONOFN": false,
-    "PIMGAEBNCBJ": false,
-    "JFBHPOLAAEJ": false
+  "animal": {
+    "hasAbility": false,
+    "tickAbilityElement": false,
+    "hasCharacterRenderering": false
   }
 }

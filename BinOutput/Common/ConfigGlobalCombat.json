@@ -199,29 +199,51 @@
       },
       "Hound_Kanis_Rock_WQ_MeleeAtk": {
         "minInterval": 1.5
+      },
+      "Rhizome_LowDangerSkill": {
+        "minInterval": 3.5
+      },
+      "Rhizome_HighDangerSkill": {
+        "minInterval": 8.5
+      },
+      "Udugan_Shadow_Float": {
+        "minInterval": 0.75
+      },
+      "Udugan_Shadow_Attack": {
+        "minInterval": 2.0999999046325684
+      },
+      "Udugan_Shadow_FloatBack": {
+        "minInterval": 0.5
+      },
+      "Shamansaurus_WindField": {
+        "minInterval": 12.5
       }
     },
-    "ILJHBEOPLDA": {
-      "OOICOFKAFAE": [
+    "LNPFIEHBDNE": {
+      "IDONEAJMMKB": [
         {
-          "MNOBMANDDDE": "Cast_In_Water",
-          "BLCPKAMGGFI": 1
+          "JIGFEDNPFDP": "Cast_In_Water",
+          "DFKCOFIBGGH": 1
         },
         {
-          "MNOBMANDDDE": "Natsaurus_Aware",
-          "BLCPKAMGGFI": 1
+          "JIGFEDNPFDP": "Natsaurus_Aware",
+          "DFKCOFIBGGH": 1
         },
         {
-          "MNOBMANDDDE": "TribalWarrior_TribeUlt",
-          "BLCPKAMGGFI": 1
+          "JIGFEDNPFDP": "TribalWarrior_TribeUlt",
+          "DFKCOFIBGGH": 1
+        },
+        {
+          "JIGFEDNPFDP": "ShamanSaurus_Lock",
+          "DFKCOFIBGGH": 1
         }
       ],
       "monster": {
-        "MABLEKDDNLJ": {
+        "PEOMBKNFJMN": {
           "4037": [
             {
-              "MNOBMANDDDE": "MachinaIustitia_Pylon_Charge",
-              "BLCPKAMGGFI": 1
+              "JIGFEDNPFDP": "MachinaIustitia_Pylon_Charge",
+              "DFKCOFIBGGH": 1
             }
           ]
         }
@@ -307,16 +329,16 @@
   "miscs": {
     "airFlowAcc": -1.7999999523162842,
     "paimonGadgetID": 90000003,
-    "MLOBFAHBCMB": 90000006,
+    "MHJJFNDEMKH": 90000006,
     "cureEffect": "Eff_AvatarCommon_Heal",
     "avatarFocus": {
-      "ps4": {
+      "DAKBHOIGCBK": {
         "cameraHorMoveSpeed": 1.7999999523162842,
         "cameraVerMoveSpeed": 4.5,
         "cameraHorStickyRatio": 0.5,
         "cameraVerStickyRatio": 0.4000000059604645
       },
-      "ps5": {
+      "PMMBLIONMOE": {
         "cameraHorMoveSpeed": 1.7999999523162842,
         "cameraVerMoveSpeed": 4.5,
         "cameraHorStickyRatio": 0.5,
@@ -326,570 +348,576 @@
         "cameraHorMoveSpeed": 0.8999999761581421,
         "cameraVerMoveSpeed": 1.5
       },
+      "ps4": {
+        "cameraHorMoveSpeed": 1.7999999523162842,
+        "cameraVerMoveSpeed": 4.5,
+        "cameraHorStickyRatio": 0.5,
+        "cameraVerStickyRatio": 0.4000000059604645
+      },
       "other": {
         "cameraHorMoveSpeed": 1.600000023841858,
         "cameraVerMoveSpeed": 4.0
       }
     },
-    "OKBOGGGHBDB": {
-      "ps4": {
-        "HKHACJPJNEL": {
-          "IEMGGCGBEOL": [
+    "KBOHCJPEION": {
+      "DAKBHOIGCBK": {
+        "CBKDCAMHHCG": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "HGOHKFJCLPM": {
-          "IEMGGCGBEOL": [
+        "HFDELMFPMHL": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "LOGDMAIADCI": {
-          "IEMGGCGBEOL": [
+        "JFEEHFPNGCB": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         }
       },
-      "ps5": {
-        "HKHACJPJNEL": {
-          "IEMGGCGBEOL": [
+      "PMMBLIONMOE": {
+        "CBKDCAMHHCG": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "HGOHKFJCLPM": {
-          "IEMGGCGBEOL": [
+        "HFDELMFPMHL": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "LOGDMAIADCI": {
-          "IEMGGCGBEOL": [
+        "JFEEHFPNGCB": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         }
       },
       "pc": {
-        "HKHACJPJNEL": {
-          "IEMGGCGBEOL": [
+        "CBKDCAMHHCG": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "HGOHKFJCLPM": {
-          "IEMGGCGBEOL": [
+        "HFDELMFPMHL": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "LOGDMAIADCI": {
-          "IEMGGCGBEOL": [
+        "JFEEHFPNGCB": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         }
       },
       "other": {
-        "HKHACJPJNEL": {
-          "IEMGGCGBEOL": [
+        "CBKDCAMHHCG": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "HGOHKFJCLPM": {
-          "IEMGGCGBEOL": [
+        "HFDELMFPMHL": {
+          "JGFCLHFALCL": [
             0.4332999885082245,
             0.699999988079071,
             0.8833000063896179,
             1.600000023841858,
             2.200000047683716
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.30000001192092896,
             0.49000000953674316,
             0.699999988079071,
             0.949999988079071
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.029999999329447746,
             0.03999999910593033,
             0.05000000074505806,
             0.07000000029802322,
             0.10000000149011612
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612,
             0.10000000149011612
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         },
-        "LOGDMAIADCI": {
-          "IEMGGCGBEOL": [
+        "JFEEHFPNGCB": {
+          "JGFCLHFALCL": [
             10.0,
             13.0,
             16.0,
             25.0,
             40.0
           ],
-          "JAOLANFFLBC": [
+          "AHDPHKICAFO": [
             0.20000000298023224,
             0.25,
             0.30000001192092896,
             0.44999998807907104,
             0.75
           ],
-          "IPEMMFGIALP": [
+          "IBFCKOAPEIO": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "DFBHCINLOKN": [
+          "OCKAPOJPPFP": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "JHCIKKMBPHF": [
+          "CJKFDBIHPHD": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "NMMOLBBPPBC": [
+          "EOAFLDCPGHH": [
             0.0,
             0.0,
             0.0,
             0.0,
             0.0
           ],
-          "IJAHKNFBGNG": 1.0,
-          "MENIHGOHJDE": 1.0
+          "DKINHFNHOPC": 1.0,
+          "FDCJFGKNAEI": 1.0
         }
       }
     },
@@ -1100,7 +1128,7 @@
     ],
     "shieldDamageRatiosMap": {
       "None": {
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1123,7 +1151,7 @@
       },
       "Fire": {
         "elementType": "Fire",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           0.0,
           1.0,
@@ -1146,7 +1174,7 @@
       },
       "Water": {
         "elementType": "Water",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           0.0,
@@ -1169,7 +1197,7 @@
       },
       "Grass": {
         "elementType": "Grass",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1192,7 +1220,7 @@
       },
       "Ice": {
         "elementType": "Ice",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1215,7 +1243,7 @@
       },
       "Frozen": {
         "elementType": "Frozen",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1238,7 +1266,7 @@
       },
       "Electric": {
         "elementType": "Electric",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1261,7 +1289,7 @@
       },
       "Wind": {
         "elementType": "Wind",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1284,7 +1312,7 @@
       },
       "Rock": {
         "elementType": "Rock",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1307,7 +1335,7 @@
       },
       "AntiFire": {
         "elementType": "AntiFire",
-        "shieldAngle": [
+        "shieldHP": [
           0.0,
           0.0,
           0.0,
@@ -1344,7 +1372,7 @@
     "shieldDamageRatiosMap": {
       "default": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1357,7 +1385,7 @@
       },
       "xingqiu": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1380,7 +1408,7 @@
       },
       "Shield_Half": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           0.5,
           0.5,
           0.5,
@@ -1393,7 +1421,7 @@
       },
       "Avatar_Fire": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           0.4000000059604645,
           1.0,
@@ -1406,7 +1434,7 @@
       },
       "Avatar_Water": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           0.4000000059604645,
@@ -1419,7 +1447,7 @@
       },
       "Avatar_Grass": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1432,7 +1460,7 @@
       },
       "Avatar_Ice": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1445,7 +1473,7 @@
       },
       "Avatar_Frozen": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1458,7 +1486,7 @@
       },
       "Avatar_Electric": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1471,7 +1499,7 @@
       },
       "Avatar_Wind": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1484,7 +1512,7 @@
       },
       "Avatar_Rock": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           0.6669999957084656,
           0.6669999957084656,
           0.6669999957084656,
@@ -1497,7 +1525,7 @@
       },
       "Element_Water": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           0.4000000059604645,
@@ -1510,7 +1538,7 @@
       },
       "Element_Ice": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1523,7 +1551,7 @@
       },
       "Element_Electric": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           1.0,
           1.0,
@@ -1536,7 +1564,7 @@
       },
       "Element_Fire": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           1.0,
           0.4000000059604645,
           1.0,
@@ -1549,7 +1577,7 @@
       },
       "Element_Rock": {
         "damageRatio": "default",
-        "shieldAngle": [
+        "shieldHP": [
           0.6669999957084656,
           0.6669999957084656,
           0.6669999957084656,
@@ -1632,7 +1660,7 @@
       "Fire"
     ]
   },
-  "NJEKKELGMAF": {},
+  "KKIPDFNIBCD": {},
   "gadgetCreationLimits": [
     {
       "tag": "Rock",
@@ -1764,6 +1792,13 @@
         41095006
       ],
       "maxValue": 12
+    },
+    {
+      "tag": "RoleCombat_Blessing_OverdoseGrassArea",
+      "gadgetIDs": [
+        44000625
+      ],
+      "maxValue": 1
     }
   ],
   "tempComponentBudget": {
@@ -2526,7 +2561,7 @@
       }
     }
   },
-  "KBJNKLMOLIM": {},
+  "KGBNLHIBIIJ": {},
   "elementConvertToChargeBarValueMixinItemGroup": {
     "default": [
       {
@@ -2575,24 +2610,24 @@
         "weight": 1.0,
         "factors": [
           {
-            "$type": "NAFKLLNLOHH",
+            "$type": "FMFODIOFOJP",
             "factorMaxValue": 60.0,
             "triggers": [
               {
-                "$type": "POJDKLNFMPO",
+                "$type": "KCCBCGGCPBN",
                 "predicates": [
                   {
-                    "$type": "KHOPJJBPMFP",
+                    "$type": "AHJJDIOAIKC",
                     "max": 10.0
                   }
                 ],
                 "deltaValue": -1.0
               },
               {
-                "$type": "POJDKLNFMPO",
+                "$type": "KCCBCGGCPBN",
                 "predicates": [
                   {
-                    "$type": "KHOPJJBPMFP",
+                    "$type": "AHJJDIOAIKC",
                     "min": 10.0,
                     "max": 35.0
                   }
@@ -2600,10 +2635,10 @@
                 "deltaValue": -2.5
               },
               {
-                "$type": "POJDKLNFMPO",
+                "$type": "KCCBCGGCPBN",
                 "predicates": [
                   {
-                    "$type": "KHOPJJBPMFP",
+                    "$type": "AHJJDIOAIKC",
                     "min": 35.0,
                     "max": 60.0
                   }
@@ -2611,10 +2646,10 @@
                 "deltaValue": -5.0
               },
               {
-                "$type": "FLMADGAJDJD",
+                "$type": "LHMIGHJFIEM",
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 1.0,
@@ -2629,10 +2664,10 @@
                 "cd": 0.5
               },
               {
-                "$type": "FLMADGAJDJD",
+                "$type": "LHMIGHJFIEM",
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 1.5,
@@ -2642,10 +2677,10 @@
                 "cd": 0.5
               },
               {
-                "$type": "FLMADGAJDJD",
+                "$type": "LHMIGHJFIEM",
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 3.0,
@@ -2655,20 +2690,20 @@
                 "cd": 1.0
               },
               {
-                "$type": "IBJNJIJNNOA",
+                "$type": "NOLDFKHKHHA",
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 5.0,
                 "cd": 3.0
               },
               {
-                "$type": "IMHECHEPLEH",
+                "$type": "FEAOPBPGEOD",
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 15.0,
@@ -2677,13 +2712,13 @@
             ]
           },
           {
-            "$type": "ICLMMPHAGFB",
+            "$type": "MCOODOIKJHF",
             "factorMaxValue": 40.0,
             "triggers": [
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 2.0,
@@ -2692,7 +2727,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 6.0,
@@ -2701,7 +2736,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 8.0,
@@ -2710,7 +2745,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 10.0,
@@ -2719,7 +2754,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 12.0,
@@ -2728,7 +2763,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 15.0,
@@ -2737,7 +2772,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 25.0,
@@ -2746,7 +2781,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 40.0,
@@ -2755,7 +2790,7 @@
               {
                 "predicates": [
                   {
-                    "$type": "EJBJCIMKPCO"
+                    "$type": "FDMLFILNNLM"
                   }
                 ],
                 "deltaValue": 40.0,
@@ -2879,6 +2914,25 @@
         "denyLockOn": true,
         "lockType": "Default"
       }
+    },
+    "monsterDummyGadget": {
+      "property": {
+        "useCreatorProperty": true,
+        "isInvincible": true,
+        "isGhostToEnemy": true,
+        "canTriggerBullet": false
+      },
+      "beHit": {
+        "hitBloodEffect": "",
+        "muteAllHit": true,
+        "muteAllHitEffect": true,
+        "muteAllHitText": true
+      },
+      "combatLock": {
+        "lockShape": "CircleLockEnemy",
+        "denyLockOn": true,
+        "lockType": "Default"
+      }
     }
   },
   "combatAntiCheatAttackTagWhiteList": [
@@ -2958,10 +3012,17 @@
       "key": "arkheGradeKey"
     },
     {
+      "key": "_FrequencyShieldLabel_"
+    },
+    {
       "key": "GV_EnvironmentType"
     },
     {
-      "key": "_FrequencyShieldLabel_"
+      "key": "_COLLISION_NORMAL_SYNC_KEY",
+      "isVector": true
+    },
+    {
+      "key": "GV_MonsterImitationOnStage"
     },
     {
       "key": "RoutePointPos_0"
@@ -3014,12 +3075,14 @@
     "507": "PlayerElectric",
     "707": "PlayerElectric",
     "508": "PlayerGrass",
-    "708": "PlayerGrass"
+    "708": "PlayerGrass",
+    "502": "PlayerFire",
+    "702": "PlayerFire"
   },
-  "LJIKHBDGHJP": [
+  "AIKIEOJMEKM": [
     {
       "sceneID": 3,
-      "worldAreaIDs": [
+      "ILBOOMMFNOB": [
         33,
         34,
         35,
@@ -3032,7 +3095,7 @@
     },
     {
       "sceneID": 11,
-      "worldAreaIDs": [
+      "ILBOOMMFNOB": [
         600
       ]
     }
@@ -3109,9 +3172,17 @@
       41097001,
       41097005,
       41097008
+    ],
+    "Avatar_Chasca": [
+      41104001,
+      41104005
+    ],
+    "Avatar_Olorun": [
+      41105001,
+      41105004
     ]
   },
   "logSetting": {
-    "BBMIKPJLPJB": 10.0
+    "DMLGFFCGLGB": 10.0
   }
 }

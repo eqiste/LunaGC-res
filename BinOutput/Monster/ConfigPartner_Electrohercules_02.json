@@ -1,7 +1,7 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "ACFHOEIIBAJ",
+      "$type": "GJLMDMJBELA",
       "mesh": "EffectMesh"
     },
     "height": 1.0,
@@ -13,7 +13,8 @@
   "model": {
     "bornEffect": "",
     "attachEffect": "",
-    "canBakeMesh": false
+    "canBakeMesh": false,
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "showDitherDuration": 1.0
@@ -103,19 +104,21 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "DEMOGNGMPCC",
+      "$type": "AJPJHBCALOM",
       "layerIndexName": "",
-      "OFKGBGMCPBM": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Born": []
           },
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "NormalIdle": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Standby": []
           },
@@ -128,19 +131,31 @@
             "DefendEnd",
             "Rebound"
           ],
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "BeHit": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Hit_L": ["Audio_Animal_Electrohercules_01_Hit_L"],
-            "Hit_H": ["Audio_Animal_Electrohercules_01_Hit_H"]
+            "Hit_L": [
+              "Audio_Animal_Electrohercules_01_Hit_L"
+            ],
+            "Hit_H": [
+              "Audio_Animal_Electrohercules_01_Hit_H"
+            ]
           },
-          "resetAnimatorTriggerOnEnter": ["BeHit", "IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "BeHitThrow": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "HitThrow": [],
             "HitThrowDrop": [],
@@ -152,10 +167,12 @@
             "IsCharging",
             "ChargeEnd"
           ],
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Struggle": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Struggle": []
           },
@@ -165,25 +182,34 @@
             "IsCharging",
             "ChargeEnd"
           ],
-          "resetAnimatorTriggerOnExit": ["DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ]
         },
         "Die": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Die": ["Audio_Animal_Electrohercules_01_Die"]
+            "Die": [
+              "Audio_Animal_Electrohercules_01_Die"
+            ]
           }
         },
         "Warning": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
-            "Alert": ["Audio_Animal_Electrohercules_01_Alert"]
+            "Alert": [
+              "Audio_Animal_Electrohercules_01_Alert"
+            ]
           },
           "canSyncMove": true,
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
           "canSteer": true
         },
         "JumpForward_Once": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Once": [
               "Animal_Electrohercules_01_JumpBack",
@@ -191,46 +217,78 @@
             ],
             "JumpForward_Once_CanTriggerCritical": []
           },
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpForward_Once_AS": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Once_AS": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpForward_Critical": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Critical": []
           },
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "CriticalTrigger"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "CriticalTrigger"
+          ]
         },
         "JumpForward_Recoil": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Recoil": []
           },
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "CriticalTrigger"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "CriticalTrigger"
+          ]
         },
         "JumpForward_Charging": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Charging_BS": [],
             "JumpForward_Charging_Loop": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["IsCharging"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "IsCharging"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "IsCharging"
+          ]
         },
         "JumpForward_Long": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Long": [
               "Animal_Electrohercules_01_JumpForward",
@@ -238,20 +296,32 @@
             ],
             "JumpForward_Long_CanTriggerCritical": []
           },
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpForward_Long_AS": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Long_AS": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpForward_Short": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Short": [
               "Animal_Electrohercules_01_JumpForward",
@@ -259,66 +329,109 @@
             ],
             "JumpForward_Short_CanTriggerCritical": []
           },
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpForward_Short_AS": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpForward_Short_AS": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpBack": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpBack": [
               "Animal_Electrohercules_01_JumpBack",
               "Audio_Animal_Electrohercules_01_Jump"
             ]
           },
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "JumpBack_AS": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "JumpBack_AS": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["IsCharging", "ChargeEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "IsCharging",
+            "ChargeEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Defend_BS": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Defend_BS": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DefendStart", "DefendEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill", "DefendStart"]
+          "resetAnimatorTriggerOnEnter": [
+            "DefendStart",
+            "DefendEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill",
+            "DefendStart"
+          ]
         },
         "Defend_Loop": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Defend_Loop": []
           },
           "canDoSkill": true,
-          "resetAnimatorTriggerOnEnter": ["DefendStart", "DefendEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "DefendStart",
+            "DefendEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Defend": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Defend": []
           },
-          "resetAnimatorTriggerOnEnter": ["DefendStart", "DefendEnd"],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnEnter": [
+            "DefendStart",
+            "DefendEnd"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Defend_AS": {
-          "$type": "LDJOKHDLCAA",
+          "$type": "KBLJANEJOPC",
           "animatorStates": {
             "Defend_AS": []
           },
@@ -328,12 +441,15 @@
             "DefendEnd",
             "TutorialDefend"
           ],
-          "resetAnimatorTriggerOnExit": ["BeHit", "DoSkill"]
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         }
       }
     }
   },
-  "weather": {
+  "initialPoses": {
     "Default": {
       "initialPoseID": 1,
       "initialPoseParams": {
@@ -366,11 +482,11 @@
     }
   ],
   "move": {
-    "$type": "DNEKPIJLOOI",
-    "JCFKLCHEGFJ": "RootNode"
+    "$type": "GHFIPBIFJDP",
+    "KJBPBOFPFBE": "RootNode"
   },
   "animal": {
-    "ignoreChildSceneProp": false,
+    "tickAbilityElement": false,
     "hasCharacterRenderering": false
   }
 }

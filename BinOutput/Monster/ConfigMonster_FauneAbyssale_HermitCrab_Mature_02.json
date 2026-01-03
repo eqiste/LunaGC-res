@@ -1,25 +1,26 @@
 {
   "common": {
     "effectAttachShape": {
-      "$type": "CMIPFEGOJCH",
-      "EJAEFCDBDFB": "EffectMesh"
+      "$type": "GJLMDMJBELA",
+      "mesh": "EffectMesh"
     },
     "mass": 120.0,
     "height": 5.0,
     "viewSize": 2.0,
     "scale": 3.75,
-    "DLFJJCMGIBH": true,
-    "NICGCIINMFJ": true
+    "reconnectSupport": true,
+    "recoverByInitPose": true
   },
   "model": {
     "bornEffect": "",
-    "attachEffect": ""
+    "attachEffect": "",
+    "BDACFIDIDOL": ""
   },
   "dither": {
     "normalBetweenCamera": {
       "detectDitherRange": 25.0
     },
-    "HEANNOHJJJI": true
+    "hideEffectWhenDither": true
   },
   "combat": {
     "property": {
@@ -28,7 +29,7 @@
     },
     "beHit": {
       "hitBloodEffect": "",
-      "muteAllHit": true
+      "JMODBEDJDLH": true
     },
     "combatLock": {
       "lockShape": "CircleLockEnemy",
@@ -43,43 +44,44 @@
       "dieShaderData": "MonsterDieInWater",
       "dieShaderEnableDurationTime": 1.0,
       "dieModelFadeDelay": 0.5,
-      "LDOHFFOEPPI": true,
-      "BMOKGIFNILM": true,
-      "PHCLLDNDFNG": true,
-      "CHBAHMJGJBE": true,
-      "OPPHENIKFJA": true,
-      "CCNGAIMLPIJ": true
+      "muteHitBox": true,
+      "dieDenyLockOn": true,
+      "dieIsGhostToEnemy": true,
+      "dieIgnoreTriggerBullet": true,
+      "muteBillboard": true,
+      "mutePushCollider": true
     },
     "animEvents": {
       "WhirlAtk": {
         "attackPattern": {
-          "$type": "HBFCINNBDFD",
+          "$type": "DNKGADKMEKG",
           "triggerType": "TriggerNoRepeat",
           "born": {
-            "$type": "KDEPFKAAHCG",
+            "$type": "ONAGPPKOMPD",
             "offset": {
-              "HMHIOILIGBF": 0.0,
-              "DPPJGBOHAAL": 0.0,
-              "DDOAGBLBCEF": 1.0
+              "PANGIELPECA": 0.0,
+              "CJENFGKOOOO": 0.0,
+              "HCMGOAIEFGL": 1.0
             }
           },
           "height": 5.0,
-          "DFMMIGEMOHH": 5.0
+          "JNOPAOAHJAH": 5.0
         },
         "attackInfo": {
           "attackTag": "",
           "attenuationTag": "FauneAbyssale_HermitCrab_Mature_Whirl",
           "attenuationGroup": "FauneAbyssale_HermitCrab_Mature_Whirl",
           "attackProperty": {
-            "PCFAAPMOCGJ": 0.800000011920929,
-            "LCCBNOKMNFG": 0.0,
-            "bonusCritical": 100.0,
+            "actorElecSubHurtDelta": 0.800000011920929,
+            "actorElementReactionCriticalDelta": 0.0,
+            "PBPPIFIOAMB": 100.0,
             "strikeType": "Blunt",
             "enBreak": 1.0,
-            "FKGFPFNOJMN": 0.0
+            "IPANOFPPPBC": 0.0
           },
           "hitPattern": {
             "onHitEffectName": "default",
+            "hitImpulseY": "",
             "hitImpulseType": "LV3"
           },
           "cameraShake": {
@@ -145,300 +147,378 @@
   ],
   "stateLayers": {
     "defaultLayer": {
-      "$type": "KFHJINNNDPN",
-      "BOPIBFKFKCA": "",
+      "$type": "AJPJHBCALOM",
+      "layerIndexName": "",
+      "CDNJBEFECMM": "",
       "stateIDs": {
         "Born": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Born": []
           }
         },
         "NormalIdle": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Standby": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NormalMove": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "WalkForwardInWater": [],
             "WalkBackInWater": [],
             "WalkLeftInWater": [],
             "WalkRightInWater": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "FlyInWater": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "FlyInWater": [],
             "StandbyInWater": [],
             "EnhanceFlyInWater": [],
             "EnhanceStandbyInWater": []
           },
-          "KNOHBHKACHA": true,
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["DoSkill"],
-          "NPMGEMAFACP": true,
-          "EPHHDGDBFGO": "BlendMove",
-          "GKEDOGCHJAI": true
+          "canDoSkill": true,
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "canSteer": true,
+          "blendMove": "BlendMove",
+          "MMINOBJOKLM": true
         },
         "BeHit": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Hit_InWater": []
           },
-          "PJFELLIJONH": ["BeHit"],
-          "ADPGACLPFHN": ["DoSkill"],
-          "MGFHGCKKPDB": true
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit"
+          ],
+          "resetAnimatorTriggerOnExit": [
+            "DoSkill"
+          ],
+          "airMoveFollowAnimation": true
         },
         "DieInWater": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "DieInWater": [
               "Monster_FauneAbyssale_HermitCrab_DieInWater",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_DieInWater"
             ]
           },
-          "PJFELLIJONH": ["BeHit", "DoSkill", "BeHit", "WeakTrigger"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "DoSkill",
+            "BeHit",
+            "WeakTrigger"
+          ]
         },
         "DieInWater_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "DieInWater_AS": []
           },
-          "PJFELLIJONH": ["BeHit", "DoSkill", "BeHit", "WeakTrigger"]
+          "resetAnimatorTriggerOnEnter": [
+            "BeHit",
+            "DoSkill",
+            "BeHit",
+            "WeakTrigger"
+          ]
         },
         "TrailAttack_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TrailAttack_BS": [
               "Monster_FauneAbyssale_HermitCrab_Mature_TrailAttack_BS",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_TrailAttack_BS"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TrailAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TrailAttack": [
               "Monster_FauneAbyssale_HermitCrab_Mature_TrailAttack",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_TrailAttack"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TrailAttack_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TrailAttack_AS": [
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_TrailAttack_AS"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "TrailAttack_AS02": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "TrailAttack_AS02": []
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "EnhanceTrailAttack_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "EnhanceTrailAttack_BS": [
               "Monster_FauneAbyssale_HermitCrab_Mature_TrailAttack_BS",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_TrailAttack_BS"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "EnhanceTrailAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "EnhanceTrailAttack": [
               "Monster_FauneAbyssale_HermitCrab_Mature_TrailAttack",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_TrailAttack"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "EnhanceTrailAttack_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "EnhanceTrailAttack_AS": []
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "FightBackAttack_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "FightBackAttack_BS": []
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "FightBackAttack": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "FightBackAttack": [
               "Monster_FauneAbyssale_HermitCrab_Mature_FightBackAttack",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_FightBackAttack"
             ]
           },
-          "PAKNCLFMOAC": 0.0,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "addEndure": 0.0,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NormalAttack03_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NormalAttack03_BS": [
               "Monster_FauneAbyssale_HermitCrab_Mature_Whirl_Warning",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_NormalAttack03_BS"
             ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NormalAttack03_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NormalAttack03_Loop": [
               "Monster_FauneAbyssale_HermitCrab_Mature_Whirl_Loop"
             ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "NormalAttack03_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "NormalAttack03_AS": [
               "Monster_FauneAbyssale_HermitCrab_Mature_NormalAtk03_AS",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_NormalAttack03_AS"
             ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Land": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Land": [
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_Land",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_Land"
             ]
           },
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true,
-          "LMGAMOBLNPP": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true,
+          "forceSetAirMove": true
         },
         "Launch": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Launch": [
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_Launch",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_Launch"
             ]
           },
-          "BAABNFCMKIO": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canSyncMove": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Alert": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Alert": [
               "Monster_FauneAbyssale_HermitCrab_Larva_Alert",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_AlertInWater"
             ]
           },
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Personality3": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality3": [
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality3InWater"
             ]
           },
-          "KNOHBHKACHA": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Personality4_BS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality4_BS": [
               "Monster_FauneAbyssale_HermitCrab_Larva_Personality01_Water",
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4InWater_BS"
             ]
           },
-          "KNOHBHKACHA": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         },
         "Personality4_Loop": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality4_Loop": []
           },
-          "KNOHBHKACHA": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"]
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ]
         },
         "Personality4_AS": {
-          "$type": "MEECNDLIOBI",
-          "HKPCLGHBKFD": {
+          "$type": "KBLJANEJOPC",
+          "animatorStates": {
             "Personality4_AS": [
               "Audio_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4InWater_AS"
             ]
           },
-          "KNOHBHKACHA": true,
-          "ADPGACLPFHN": ["BeHit", "DoSkill"],
-          "NPMGEMAFACP": true
+          "canDoSkill": true,
+          "resetAnimatorTriggerOnExit": [
+            "BeHit",
+            "DoSkill"
+          ],
+          "canSteer": true
         }
       }
     }
   },
   "billboard": {
-    "$type": "HFEGKLAIGGI",
-    "IIKEHINGEME": "BillboardAttach",
+    "$type": "HODFBPFPGEF",
+    "attachPoint": "BillboardAttach",
     "offset": {
       "y": 0.5
     },
-    "HECLHMINJII": 1.0,
-    "ABJJCOBEPLC": true,
+    "radiusOffset": 1.0,
+    "enableSelfAdapt": true,
     "showDistance": 32.0,
-    "DMHOOGGGDKG": true,
+    "showHPBar": true,
     "size": "Big"
   },
   "initialPoses": {
@@ -555,10 +635,11 @@
     "enable": true,
     "moveSetting": {
       "moveCategory": "DiveSeafloorLandAmphibious",
-      "BPLMFAOBAHA": true,
+      "useToTheMoon": true,
       "navMeshAgentName": "Undead01",
       "almostReachedDistanceWalk": 2.0,
-      "almostReachedDistanceRun": 2.0
+      "almostReachedDistanceRun": 2.0,
+      "FHPFHBMDEIF": true
     },
     "sensing": {
       "settings": {
@@ -576,9 +657,12 @@
       }
     },
     "neurons": {
-      "DefaultSetting": ["HIT"]
+      "DefaultSetting": [
+        "HIT"
+      ]
     },
     "threat": {
+      "specification": "",
       "threatDecreaseSpeed": 45.0,
       "viewAttenuation": [
         {
@@ -604,24 +688,38 @@
     },
     "fly": {
       "enable": true,
-      "CMKAGLKCJKN": [11, 12, 13, 51, 301, 303, 901, 902, 903]
+      "CAJEFDIEAFC": [
+        11,
+        12,
+        13,
+        51,
+        301,
+        303,
+        901,
+        902,
+        903
+      ]
     },
     "skills": {
       "231": {
         "name": "TrailAttack",
         "priority": 2,
         "castCondition": {
-          "pose": [301],
-          "AHGLPKFFCIK": [2],
+          "pose": [
+            301
+          ],
+          "NBIHMBHENCF": [
+            2
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 100.0,
-          "SkillAnchorRangeMin": 8.0
+          "EEDOLNCPOOD": 8.0
         },
         "cd": 6.0,
         "cdUpperRange": 1.0,
         "initialCD": 4.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "TrailAttack_BS",
           "TrailAttack",
@@ -637,17 +735,21 @@
         "name": "EnhanceTrailAttack",
         "priority": 2,
         "castCondition": {
-          "pose": [303],
-          "AHGLPKFFCIK": [2],
+          "pose": [
+            303
+          ],
+          "NBIHMBHENCF": [
+            2
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 100.0,
-          "SkillAnchorRangeMin": 8.0
+          "EEDOLNCPOOD": 8.0
         },
         "cd": 12.0,
         "cdUpperRange": 1.0,
         "initialCD": 2.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "EnhanceTrailAttack_BS",
           "EnhanceTrailAttack",
@@ -664,17 +766,21 @@
         "name": "TrailAttack",
         "priority": 2,
         "castCondition": {
-          "pose": [303],
-          "AHGLPKFFCIK": [2],
+          "pose": [
+            303
+          ],
+          "NBIHMBHENCF": [
+            2
+          ],
           "pickRangeMin": 5.0,
           "pickRangeMax": 100.0,
-          "SkillAnchorRangeMin": 8.0
+          "EEDOLNCPOOD": 8.0
         },
         "cd": 12.0,
         "cdUpperRange": 1.0,
         "initialCD": 4.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "TrailAttack_BS",
           "TrailAttack",
@@ -690,8 +796,13 @@
         "name": "NormalAttack03",
         "priority": 3,
         "castCondition": {
-          "pose": [301, 303],
-          "AHGLPKFFCIK": [2],
+          "pose": [
+            301,
+            303
+          ],
+          "NBIHMBHENCF": [
+            2
+          ],
           "maxTargetAngleY": 45.0,
           "minTargetAngleY": -45.0,
           "pickRangeMax": 40.0
@@ -699,7 +810,7 @@
         "cd": 12.0,
         "cdUpperRange": 6.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
+        "BHMGINABLCP": "",
         "stateIDs": [
           "NormalAttack03_BS",
           "NormalAttack03_Loop",
@@ -714,15 +825,23 @@
         "name": "Launch",
         "priority": 1,
         "castCondition": {
-          "pose": [201, 203],
-          "AHGLPKFFCIK": [1, 2],
-          "SkillAnchorRangeMin": 5.0
+          "pose": [
+            201,
+            203
+          ],
+          "NBIHMBHENCF": [
+            1,
+            2
+          ],
+          "EEDOLNCPOOD": 5.0
         },
         "cd": 5.0,
         "cdUpperRange": 2.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Launch"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Launch"
+        ],
         "flagTargetReachable": "11",
         "flagSelfOnTemplateCollider": "11",
         "flagSelfInZone": "11",
@@ -735,8 +854,10 @@
         "publicCDGroup": "",
         "ignoreGCD": true,
         "triggerGCD": false,
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Alert"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Alert"
+        ],
         "skillQueryingTime": 3.0,
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
@@ -748,14 +869,21 @@
         "skillType": "Free",
         "priority": 2,
         "castCondition": {
-          "pose": [1, 21, 3, 23]
+          "pose": [
+            1,
+            21,
+            3,
+            23
+          ]
         },
         "cd": 15.0,
         "cdUpperRange": 2.0,
         "initialCD": 5.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Personality3"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality3"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -766,13 +894,19 @@
         "skillType": "Free",
         "priority": 2,
         "castCondition": {
-          "pose": [31]
+          "pose": [
+            31
+          ]
         },
         "cd": 10.0,
         "cdUpperRange": 2.0,
         "publicCDGroup": "",
-        "CLEPNIDJOLN": "",
-        "stateIDs": ["Personality4_BS", "Personality4_Loop", "Personality4_AS"],
+        "BHMGINABLCP": "",
+        "stateIDs": [
+          "Personality4_BS",
+          "Personality4_Loop",
+          "Personality4_AS"
+        ],
         "flagTargetReachable": "10",
         "flagSelfOnTemplateCollider": "01",
         "flagSelfInZone": "10",
@@ -780,225 +914,255 @@
       }
     },
     "skillGCD": 1.5,
-    "combatFollowMoveTactic": {
+    "groupSurroundTactic": {
       "Temp1": {
-        "CJLEEDNPOPP": 1.5,
-        "DFFPDGGEBHM": 5.0,
-        "FBPKFCBDJAJ": 5.0,
-        "DILKKAOLEOK": 5.0
+        "JMDCDDPMNHG": 1.5,
+        "NBLAGOIDBIM": 5.0,
+        "MHAIDAHFEDN": 5.0,
+        "IIMGCJHDMOO": 5.0
       },
       "Temp2": {
-        "CJLEEDNPOPP": 3.0,
-        "DFFPDGGEBHM": 5.0,
-        "FBPKFCBDJAJ": 5.0,
-        "DILKKAOLEOK": 5.0
+        "JMDCDDPMNHG": 3.0,
+        "NBLAGOIDBIM": 5.0,
+        "MHAIDAHFEDN": 5.0,
+        "IIMGCJHDMOO": 5.0
       }
     },
-    "combatFixedMoveTactic": [
+    "birdCirclingTactic": [
       {
-        "$type": "KIMPOLMEFNK",
+        "$type": "AOANKGJLDJD",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [201, 203, 401, 403]
+        "condition": {
+          "pose": [
+            201,
+            203,
+            401,
+            403
+          ]
         },
-        "NGIEOIGFFDH": {
+        "platformMap": {
           "rangeMin": 4.0,
           "rangeMax": 7.0,
-          "ODLFCBFIAEG": {
-            "ACLMEMJMCHO": 0.05000000074505806,
-            "MKGIHLDDOPO": 0.05000000074505806,
-            "AIMKHLAPJGH": 0.20000000298023224,
-            "LJGPLFGCHJM": 0.3499999940395355,
-            "ODFJMMCNEHI": 0.3499999940395355
+          "DLMHEAKPPDN": {
+            "DLGHEDFAPFM": 0.05000000074505806,
+            "NNNLDBMPEDD": 0.05000000074505806,
+            "OFCFDJHFCFC": 0.20000000298023224,
+            "FAGCGPJJNBP": 0.3499999940395355,
+            "IGJADOKHABD": 0.3499999940395355
           },
-          "EOBOHLNDGNC": "1111",
-          "JFAHEKLBENF": "1111",
-          "FCFLCFFJKLO": ""
+          "CMPIAHEGPDJ": "1111",
+          "GLNJBFOMIPF": "1111",
+          "KJNBPEOBHNE": ""
         },
-        "LKIMAMPDDDI": {
+        "levelMap": {
           "203": {
             "rangeMin": 15.0,
             "rangeMax": 35.0,
-            "ODLFCBFIAEG": {
-              "ACLMEMJMCHO": 0.10000000149011612,
-              "MKGIHLDDOPO": 0.0,
-              "AIMKHLAPJGH": 0.20000000298023224,
-              "LJGPLFGCHJM": 0.3499999940395355,
-              "ODFJMMCNEHI": 0.3499999940395355
+            "DLMHEAKPPDN": {
+              "DLGHEDFAPFM": 0.10000000149011612,
+              "NNNLDBMPEDD": 0.0,
+              "OFCFDJHFCFC": 0.20000000298023224,
+              "FAGCGPJJNBP": 0.3499999940395355,
+              "IGJADOKHABD": 0.3499999940395355
             },
-            "EOBOHLNDGNC": "1111",
-            "JFAHEKLBENF": "1111",
-            "FCFLCFFJKLO": ""
+            "CMPIAHEGPDJ": "1111",
+            "GLNJBFOMIPF": "1111",
+            "KJNBPEOBHNE": ""
           }
         }
       },
       {
-        "$type": "AFDJLHBOOMF",
-        "NGIEOIGFFDH": {
-          "ODJCANIELOC": 2.0,
-          "OKABCEDCDJM": 2.0,
-          "CJBBENAKMKA": "Auto",
-          "FCFLCFFJKLO": "Temp1",
-          "BKCOJDIDEGN": ""
+        "$type": "NIHHBFCJMEM",
+        "platformMap": {
+          "IKOIJFMMOJK": 2.0,
+          "PMONNAAPPMJ": 2.0,
+          "LFHJBHMECDO": "Auto",
+          "KJNBPEOBHNE": "Temp1",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "FFPDAEHGBGJ",
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 1,
-          "FCFLCFFJKLO": "Temp1",
-          "BKCOJDIDEGN": "",
-          "CJBBENAKMKA": "Auto"
+        "$type": "LBLMLKDPAMK",
+        "platformMap": {
+          "autoChangeStep": 1,
+          "KJNBPEOBHNE": "Temp1",
+          "minFileNum": "",
+          "LFHJBHMECDO": "Auto",
+          "GKDINJOMNJL": "",
+          "BMLLMIOLBNN": "",
+          "JMJONENLBDC": "",
+          "GDAFJOPFBEG": ""
         }
       },
       {
-        "$type": "PFPAILLHEOL",
+        "$type": "BFFACELDGFJ",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [2, 12, 22]
+        "condition": {
+          "pose": [
+            2,
+            12,
+            22
+          ]
         },
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 1,
-          "CJBBENAKMKA": "Auto",
-          "FCFLCFFJKLO": "Temp1",
-          "BKCOJDIDEGN": ""
+        "platformMap": {
+          "autoChangeStep": 1,
+          "LFHJBHMECDO": "Auto",
+          "KJNBPEOBHNE": "Temp1",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "GJGILIGEJMO",
+        "$type": "CCGMBAAMCIC",
         "enable": true,
-        "NGIEOIGFFDH": {
-          "MONCHHKIDKL": 5.0,
-          "HEMHHCFMJGB": 5.0,
-          "CJBBENAKMKA": "Auto",
-          "FCFLCFFJKLO": "Temp2",
-          "BKCOJDIDEGN": ""
+        "platformMap": {
+          "maxFileNum": 5.0,
+          "OINBNIHBNFB": 5.0,
+          "LFHJBHMECDO": "Auto",
+          "KJNBPEOBHNE": "Temp2",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "BIIGCKAIPPG",
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 1,
-          "OKLCDKFIAPP": true,
-          "FCFLCFFJKLO": "Temp1",
-          "BKCOJDIDEGN": ""
+        "$type": "PFKBCECIAJC",
+        "platformMap": {
+          "autoChangeStep": 1,
+          "KEFIEIDADDO": true,
+          "KJNBPEOBHNE": "Temp1",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "DCLDANBAMMK",
+        "$type": "HKBMCKAOIIH",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [301]
+        "condition": {
+          "pose": [
+            301
+          ]
         },
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 2,
-          "DJLKEFHINHG": 0.5,
-          "EDFNFFEIKGL": 2.0,
-          "FCFLCFFJKLO": "Default"
+        "platformMap": {
+          "autoChangeStep": 2,
+          "BKPOFEPLOBJ": 0.5,
+          "CEMDNGFBEAJ": 2.0,
+          "KJNBPEOBHNE": "Default"
         }
       },
       {
-        "$type": "NAJPEMALIHG",
+        "$type": "NDHJGKKGABD",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [301]
+        "condition": {
+          "pose": [
+            301
+          ]
         },
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 2,
-          "EABOPMAOKHG": 13.5,
-          "BMBHANCLNON": 5.5,
-          "JLPNNIIGBIL": 0.0,
-          "AIEFFAPNOMO": 1.0,
-          "FCFLCFFJKLO": "Temp2",
-          "BKCOJDIDEGN": ""
+        "platformMap": {
+          "autoChangeStep": 2,
+          "JOINJEEDCFD": 13.5,
+          "DPNMNJGBKCN": 5.5,
+          "GNFEGJAIOAJ": 0.0,
+          "LFINMPPCHPM": 1.0,
+          "KJNBPEOBHNE": "Temp2",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "IJEBEDOFNJP",
+        "$type": "OHGCBDHNHBA",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [301, 303]
+        "condition": {
+          "pose": [
+            301,
+            303
+          ]
         },
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 2,
-          "CCNPABODAPO": 10.0,
-          "FIEBJKLPGNF": 0.949999988079071,
-          "OHCPDFPNLEP": 1.0,
-          "DDDDMJLFJNG": 1.0,
-          "EBEKKNCJBLL": 1.5,
-          "EKNKGKBCADJ": 3.0,
-          "AHNAPEOFNPD": {
-            "ACLMEMJMCHO": 0.0,
-            "MKGIHLDDOPO": 0.0,
-            "LBMNDFCKDOA": 0.5,
-            "HGPFHLEEDFC": 1.5,
-            "AKKAHCLDFOJ": 2.0,
-            "LDJKEDKOGKK": 4.0,
-            "AFBJIELDPCB": 2.0,
-            "EPNMHGNOKLJ": 4.0,
-            "IGIPKNOENJL": 2.0,
-            "JDLKEKHPCJN": 4.0,
-            "CGDEFBJFOJL": 3.0,
-            "MLNEMAIEKOA": 0.5,
-            "NFMCGDBACDH": 2.0
+        "platformMap": {
+          "autoChangeStep": 2,
+          "OPBKEKLGBLD": 10.0,
+          "JPLDOFOMJHC": 12.0,
+          "BNHFNBDJLGJ": 0.949999988079071,
+          "KHNHKCNKAHL": 1.0,
+          "NMIKKDGFDIM": 1.0,
+          "KHBIMICBJJA": 1.5,
+          "ALBFNIJGFHI": 3.0,
+          "GDEKBEMOEBH": {
+            "DLGHEDFAPFM": 0.0,
+            "NNNLDBMPEDD": 0.0,
+            "PMBELMMHLLB": 0.5,
+            "ADNDDHNGBFD": 1.5,
+            "FCPOCCMJLML": 2.0,
+            "LLCJBPNGKEC": 4.0,
+            "MGJMFNGKHGP": 2.0,
+            "FFPKLCMLDCA": 4.0,
+            "ADDBDCMOFHP": 2.0,
+            "JKLEJJCECKE": 4.0,
+            "PDBLLAHCLBL": 3.0,
+            "NBKJDFEFKOO": 0.5,
+            "GGHFLFJLNFM": 2.0
           },
-          "JDKIBAHAEFI": false,
-          "FCFLCFFJKLO": "Temp1",
-          "BKCOJDIDEGN": ""
+          "ABBBEABLNEH": false,
+          "KJNBPEOBHNE": "Temp1",
+          "minFileNum": ""
         }
       },
       {
-        "$type": "EPJPKHELFCE",
+        "$type": "FDLFMMAPACK",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [11, 13, 51]
+        "condition": {
+          "pose": [
+            11,
+            13,
+            51
+          ]
         },
-        "NGIEOIGFFDH": {
-          "NHPKGHAHIFA": 1,
-          "ABMMNMAMDKF": {
-            "IEKCLNLKGOI": 0.20000000298023224,
-            "LBMNDFCKDOA": 3.5,
-            "HGPFHLEEDFC": 7.5,
-            "AKKAHCLDFOJ": 2.0,
-            "LDJKEDKOGKK": 5.0,
-            "AFBJIELDPCB": 3.0,
-            "EPNMHGNOKLJ": 7.0,
-            "IGIPKNOENJL": 3.0,
-            "JDLKEKHPCJN": 7.0,
-            "MHKNNENCDFP": 0.0,
-            "DMDLBIOHHLP": 1.0
+        "platformMap": {
+          "autoChangeStep": 1,
+          "HBBFMCDHHDO": {
+            "OJPLGIEINPL": 0.20000000298023224,
+            "PMBELMMHLLB": 3.5,
+            "ADNDDHNGBFD": 7.5,
+            "FCPOCCMJLML": 2.0,
+            "LLCJBPNGKEC": 5.0,
+            "MGJMFNGKHGP": 3.0,
+            "FFPKLCMLDCA": 7.0,
+            "ADDBDCMOFHP": 3.0,
+            "JKLEJJCECKE": 7.0,
+            "LAEIMMCMNOB": 0.0,
+            "FDBLJAMNBIF": 1.0
           },
-          "MONCHHKIDKL": 1.5,
-          "DIHFJALHEDD": 10.0,
-          "HOKGJAONGHG": 0.20000000298023224,
-          "GJOBDMEBGLM": 0.10000000149011612,
-          "FCFLCFFJKLO": "Temp1",
-          "BKCOJDIDEGN": "",
-          "LJHHPEJFCAP": 1.5,
-          "NPKEFCGNJHC": 3.0,
-          "JFFDJOKBJFD": 2.0,
-          "GLALONNMICP": 1.5,
-          "EEJLIBNKODF": 0.5,
-          "FHDMGIOGCPI": 0.33000001311302185,
-          "MGDCIEKHPOC": -0.5,
-          "MKNAIFGPIBB": 0.5,
-          "LPJFOKMCAJO": 0.6600000262260437
+          "maxFileNum": 1.5,
+          "AAHJONDPNBI": 10.0,
+          "DEHJKJAMIKG": 0.20000000298023224,
+          "CLMGGEMDIGP": 0.10000000149011612,
+          "KJNBPEOBHNE": "Temp1",
+          "minFileNum": "",
+          "ONJPKALMPAO": 1.5,
+          "IKPKLJLCOIE": 3.0,
+          "IFJJGGMKJAL": 2.0,
+          "BFIALEFDNPE": 1.5,
+          "KNPKBNIMFEE": 0.5,
+          "LOGJHNONPGI": 0.33000001311302185,
+          "AJGAABKBOGF": -0.5,
+          "BNOOJLOIDLK": 0.5,
+          "OCAOKNFAKHH": 0.6600000262260437
         }
       },
       {
-        "$type": "IKIHDEMELGB",
+        "$type": "OMEJECJFGDI",
         "enable": true,
-        "EGJMGEHLDOL": {
-          "pose": [1, 3, 21, 23]
+        "condition": {
+          "pose": [
+            1,
+            3,
+            21,
+            23
+          ]
         },
-        "NGIEOIGFFDH": {
-          "MONCHHKIDKL": 1.5,
-          "HOKGJAONGHG": 3.0,
-          "GJOBDMEBGLM": 1.5,
-          "KDLAOJIPGHP": 10.0,
-          "OEFFOIEOJNC": 2.75,
-          "HAHMEDHEBKE": 4.5,
-          "FCFLCFFJKLO": ""
+        "platformMap": {
+          "maxFileNum": 1.5,
+          "DEHJKJAMIKG": 3.0,
+          "CLMGGEMDIGP": 1.5,
+          "DGOPNNFDHNN": 10.0,
+          "KBCIAPABFBF": 2.75,
+          "AKPLIHCCDLC": 4.5,
+          "KJNBPEOBHNE": ""
         }
       }
     ]
@@ -1046,28 +1210,29 @@
     }
   ],
   "move": {
-    "$type": "JKDLANFKJIL",
-    "MFABCNMCIFB": true,
-    "KJLPKFNPFON": [
+    "$type": "GHFIPBIFJDP",
+    "handleCombatTaskImmediately": true,
+    "raycasts": [
       {
-        "CDGDFGCJGMP": 5.0,
-        "AGIFMABFMHE": "DownToGroundOnlyInWater",
-        "NNGJPPABGNH": ""
+        "raycastLength": 5.0,
+        "raycastType": "DownToGroundOnlyInWater",
+        "startPoint": ""
       }
     ],
-    "NKMOKNEJFJM": true,
-    "ADKJOFPNHNO": "FourDirection",
-    "NGDJGNMGHIM": "AirBlend",
-    "NKJKJFLNPPN": 1.0,
-    "OPALOODMBJP": true,
-    "KEHGLKGFKKD": true,
-    "LPAKBBIADNC": "RootNode",
-    "ODAGPPGIBJA": 30.0,
-    "HEFHKKCJLEI": true,
-    "HGJOMDMPIGK": true
+    "DPOFACCALPC": true,
+    "facingMove": "FourDirection",
+    "airFacingMove": "AirBlend",
+    "yawSpeedRatio": 1.0,
+    "velocityRatio": 1.0,
+    "positionModifyExtra": true,
+    "rotationModifyExtra": true,
+    "KJBPBOFPFBE": "RootNode",
+    "KJDBKHEHAHG": 30.0,
+    "KAFFIKHFPAL": true,
+    "FJLGBEEGNMI": true
   },
   "audio": {
-    "LKJIHNLBIJL": "",
+    "overrideEmitterName": "",
     "animAudio": {
       "onTransitionIn": [
         {
@@ -1075,7 +1240,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkForward"],
+          "otherStateNames": [
+            "WalkForward"
+          ],
           "usage": "Except"
         },
         {
@@ -1083,7 +1250,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkBack"],
+          "otherStateNames": [
+            "WalkBack"
+          ],
           "usage": "Except"
         },
         {
@@ -1091,7 +1260,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkLeft"],
+          "otherStateNames": [
+            "WalkLeft"
+          ],
           "usage": "Except"
         },
         {
@@ -1099,7 +1270,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkRight"],
+          "otherStateNames": [
+            "WalkRight"
+          ],
           "usage": "Except"
         },
         {
@@ -1107,7 +1280,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkForwardInWater"],
+          "otherStateNames": [
+            "WalkForwardInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1115,7 +1290,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkBackInWater"],
+          "otherStateNames": [
+            "WalkBackInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1123,7 +1300,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkLeftInWater"],
+          "otherStateNames": [
+            "WalkLeftInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1131,7 +1310,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkRightInWater"],
+          "otherStateNames": [
+            "WalkRightInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1139,7 +1320,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_FlyInWater_LP"
           },
-          "otherStateNames": ["FlyInWater"],
+          "otherStateNames": [
+            "FlyInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1147,7 +1330,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4_Loop_LP"
           },
-          "otherStateNames": ["Personality4_Loop"],
+          "otherStateNames": [
+            "Personality4_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1155,7 +1340,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_NormalAttack02_Loop_LP"
           },
-          "otherStateNames": ["NormalAttack02_Loop1"],
+          "otherStateNames": [
+            "NormalAttack02_Loop1"
+          ],
           "usage": "Except"
         },
         {
@@ -1163,7 +1350,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_NormalAttack02_Loop_LP"
           },
-          "otherStateNames": ["NormalAttack02_Loop2"],
+          "otherStateNames": [
+            "NormalAttack02_Loop2"
+          ],
           "usage": "Except"
         },
         {
@@ -1171,7 +1360,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_NormalAttack02_Loop_LP"
           },
-          "otherStateNames": ["NormalAttack02_Loop3"],
+          "otherStateNames": [
+            "NormalAttack02_Loop3"
+          ],
           "usage": "Except"
         },
         {
@@ -1179,7 +1370,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4_Loop_LP"
           },
-          "otherStateNames": ["Personality5_Loop"],
+          "otherStateNames": [
+            "Personality5_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1187,7 +1380,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4_Loop_LP"
           },
-          "otherStateNames": ["Personality5_Loop"],
+          "otherStateNames": [
+            "Personality5_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1195,7 +1390,9 @@
           "audioEvent": {
             "text": "Play_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_FlyInWater_LP"
           },
-          "otherStateNames": ["StandbyInWater"],
+          "otherStateNames": [
+            "StandbyInWater"
+          ],
           "usage": "Except"
         }
       ],
@@ -1205,7 +1402,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkForward"],
+          "otherStateNames": [
+            "WalkForward"
+          ],
           "usage": "Except"
         },
         {
@@ -1213,7 +1412,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkBack"],
+          "otherStateNames": [
+            "WalkBack"
+          ],
           "usage": "Except"
         },
         {
@@ -1221,7 +1422,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkLeft"],
+          "otherStateNames": [
+            "WalkLeft"
+          ],
           "usage": "Except"
         },
         {
@@ -1229,7 +1432,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_Walk_LP"
           },
-          "otherStateNames": ["WalkRight"],
+          "otherStateNames": [
+            "WalkRight"
+          ],
           "usage": "Except"
         },
         {
@@ -1237,7 +1442,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkForwardInWater"],
+          "otherStateNames": [
+            "WalkForwardInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1245,7 +1452,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkBackInWater"],
+          "otherStateNames": [
+            "WalkBackInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1253,7 +1462,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkLeftInWater"],
+          "otherStateNames": [
+            "WalkLeftInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1261,7 +1472,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_WalkForwardSeaBed_LP"
           },
-          "otherStateNames": ["WalkRightInWater"],
+          "otherStateNames": [
+            "WalkRightInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1269,7 +1482,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_FlyInWater_LP"
           },
-          "otherStateNames": ["FlyInWater"],
+          "otherStateNames": [
+            "FlyInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1277,7 +1492,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4_Loop_LP"
           },
-          "otherStateNames": ["Personality4_Loop"],
+          "otherStateNames": [
+            "Personality4_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1285,7 +1502,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_NormalAttack02_Loop_LP"
           },
-          "otherStateNames": ["NormalAttack02_Loop1"],
+          "otherStateNames": [
+            "NormalAttack02_Loop1"
+          ],
           "usage": "Except"
         },
         {
@@ -1293,7 +1512,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_NormalAttack02_Loop_LP"
           },
-          "otherStateNames": ["NormalAttack02_Loop2"],
+          "otherStateNames": [
+            "NormalAttack02_Loop2"
+          ],
           "usage": "Except"
         },
         {
@@ -1301,7 +1522,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_NormalAttack02_Loop_LP"
           },
-          "otherStateNames": ["NormalAttack02_Loop"],
+          "otherStateNames": [
+            "NormalAttack02_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1309,7 +1532,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_02_Personality4_Loop_LP"
           },
-          "otherStateNames": ["Personality5_Loop"],
+          "otherStateNames": [
+            "Personality5_Loop"
+          ],
           "usage": "Except"
         },
         {
@@ -1317,7 +1542,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_FlyInWater_LP"
           },
-          "otherStateNames": ["StandbyInWater"],
+          "otherStateNames": [
+            "StandbyInWater"
+          ],
           "usage": "Except"
         },
         {
@@ -1325,7 +1552,9 @@
           "audioEvent": {
             "text": "Stop_Sfx_Monster_FauneAbyssale_HermitCrab_Mature_FlyInWater_LP"
           },
-          "otherStateNames": ["StandbyInWater"],
+          "otherStateNames": [
+            "StandbyInWater"
+          ],
           "usage": "Except"
         }
       ]

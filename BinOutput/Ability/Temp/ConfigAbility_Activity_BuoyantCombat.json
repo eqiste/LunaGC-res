@@ -1,7 +1,7 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_FireBase",
       "abilitySpecials": {
         "Value_TempCount": 0.0,
@@ -16,55 +16,63 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireBase": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionByElementReactionMixin",
-              "entityTypes": ["Monster"],
-              "reactionTypes": ["Melt"],
+              "$type": "IKNAGJBIPKO",
+              "entityTypes": [
+                "Monster"
+              ],
+              "reactionTypes": [
+                "Melt"
+              ],
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Other",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "_ActivityAbility_BuoyantCombat_FireBase_Count",
-                      "ratio": ["Value_BuffCount", 1.0, "SUB"],
+                      "ratio": [
+                        "Value_BuffCount",
+                        1.0,
+                        "SUB"
+                      ],
                       "compareType": "LessAndEqual"
                     }
                   ],
                   "successActions": [
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_Property_CD_Team"
                     }
                   ],
                   "failActions": [
                     {
-                      "$type": "SetGlobalPos",
+                      "$type": "IHAJBJGDAGC",
                       "target": "Other",
                       "key": "_Ability_BuoyantCombat_FireBasePos",
                       "born": {
-                        "$type": "ConfigBornByTarget",
+                        "$type": "DNEGODCNNPL",
                         "offset": {
-                          "x": 0.0,
-                          "y": 0.0,
-                          "z": 0.0
+                          "PANGIELPECA": 0.0,
+                          "CJENFGKOOOO": 0.0,
+                          "HCMGOAIEFGL": 0.0
                         },
-                        "CJKCLAIPMHH": true
+                        "onGround": true
                       },
                       "setTarget": false
                     },
                     {
-                      "$type": "Predicated",
+                      "$type": "BGNIHCGOFJH",
                       "target": "Caster",
                       "targetPredicates": [
                         {
-                          "$type": "ByTargetGlobalValue",
+                          "$type": "CABGKHFDJGP",
                           "target": "Team",
                           "key": "_ActivityAbility_BuoyantCombat_FireBase_CD",
                           "ratio": 0.0,
@@ -73,55 +81,57 @@
                       ],
                       "successActions": [
                         {
-                          "$type": "ApplyModifier",
+                          "$type": "DJAIBNJIMAD",
                           "target": "Team",
                           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_CD_Team"
                         },
                         {
-                          "$type": "FireEffect",
-                          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Expand_Fire_Level_01",
+                          "$type": "HPOJEFINJEP",
+                          "rotationDampTime": "Eff_Avatar_ShockWave_Expand_Fire_Level_01",
                           "born": {
-                            "$type": "LBFHLMJGELJ",
-                            "LDPAKEFHAOK": "_Ability_BuoyantCombat_FireBasePos",
-                            "IDGILJNLJGN": ""
+                            "$type": "IEECEGJDPNG",
+                            "positionKey": "_Ability_BuoyantCombat_FireBasePos",
+                            "directionKey": ""
                           },
-                          "effectTempleteID": -1.0
+                          "NEGDPOAEJFL": 1.0,
+                          "CCLMIJIBGDK": -1.0
                         },
                         {
-                          "$type": "TriggerAttackEvent",
+                          "$type": "LAHLFGKNGGA",
                           "target": "Caster",
                           "attackEvent": {
                             "attackPattern": {
-                              "$type": "ConfigAttackSphere",
+                              "$type": "FDBKEGJJIBF",
                               "triggerType": "TriggerNoRepeat",
                               "born": {
-                                "$type": "LBFHLMJGELJ",
-                                "LDPAKEFHAOK": "_Ability_BuoyantCombat_FireBasePos",
-                                "IDGILJNLJGN": ""
+                                "$type": "IEECEGJDPNG",
+                                "positionKey": "_Ability_BuoyantCombat_FireBasePos",
+                                "directionKey": ""
                               },
-                              "radius": 5.0
+                              "JNOPAOAHJAH": 5.0
                             },
                             "attackInfo": {
                               "attackTag": "",
                               "attenuationTag": "",
                               "attenuationGroup": "default",
                               "attackProperty": {
-                                "damagePercentageRatio": 0.0,
+                                "actorElementReactionCriticalDelta": 0.0,
                                 "elementType": "Fire",
-                                "bonusCritical": 20.0,
+                                "PBPPIFIOAMB": 20.0,
                                 "ignoreAttackerProperty": true,
                                 "enBreak": 0.0,
-                                "damageExtra": [
+                                "actorGrassSubHurtDelta": [
                                   "Value_DamageRate",
                                   "Value_DamageSystemValue",
                                   "MUL"
                                 ],
                                 "trueDamage": true,
-                                "JHBHILHIEJJ": true,
-                                "FKGFPFNOJMN": 0.0
+                                "ignoreModifyDamage": true,
+                                "IPANOFPPPBC": 0.0
                               },
                               "hitPattern": {
                                 "onHitEffectName": "",
+                                "hitImpulseY": "",
                                 "hitImpulseType": "LV1"
                               }
                             }
@@ -139,31 +149,35 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_Property": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
-            "Actor_FireAddHurtDelta": ["Value_Buff", "Value_TempCount", "MUL"]
+            "Actor_FireAddHurtDelta": [
+              "Value_Buff",
+              "Value_TempCount",
+              "MUL"
+            ]
           },
           "isLimitedProperties": true
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_FireBase_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_FireBase_CD"
             }
           ]
@@ -171,45 +185,45 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_Property_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_BuffCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_BuffCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Team",
-              "cdDelta": true,
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_FireBase_Count",
               "useLimitRange": true,
-              "maxValue": "Value_BuffCount",
-              "minValue": 0.0
+              "param2": "Value_BuffCount",
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "CopyGlobalValue",
-              "cdDelta": true,
+              "$type": "CBKHHALNKMD",
+              "musicSubStates": true,
               "srcTarget": "Team",
               "dstTarget": "CurLocalAvatar",
               "srcKey": "_ActivityAbility_BuoyantCombat_FireBase_Count",
               "dstKey": "_ActivityAbility_BuoyantCombat_FireBase_Count"
             },
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "globalValueKey": "_ActivityAbility_BuoyantCombat_FireBase_Count",
               "overrideMapKey": "Value_TempCount"
             },
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_Property"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_Property"
             }
           ]
@@ -217,47 +231,48 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireBase"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_FireBase_Count",
           "useLimitRange": true,
-          "maxValue": "Value_BuffCount",
-          "minValue": 0.0
+          "param2": "Value_BuffCount",
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
-          "cdDelta": true,
+          "$type": "CKIGIJHHILP",
+          "musicSubStates": true,
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_FireBase_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_FireLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "onRemoved": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "CurTeamAvatars",
-          "cdDelta": true,
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireBase_Property"
         }
       ],
@@ -266,7 +281,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_FireLv1",
       "abilitySpecials": {
         "Value_Attack": 0.25
@@ -275,8 +290,8 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireLv1": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_Attack"
           },
@@ -285,8 +300,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireLv1"
         }
       ],
@@ -295,7 +310,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_FireLv2",
       "abilitySpecials": {
         "Value_Attack": 0.25
@@ -304,8 +319,8 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireLv2": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_Attack"
           },
@@ -314,8 +329,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireLv2"
         }
       ],
@@ -324,7 +339,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_FireLv3",
       "abilitySpecials": {
         "Value_Attack": 0.5,
@@ -336,20 +351,24 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireLv3": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionByElementReactionMixin",
-              "entityTypes": ["Monster"],
-              "reactionTypes": ["Melt"],
+              "$type": "IKNAGJBIPKO",
+              "entityTypes": [
+                "Monster"
+              ],
+              "reactionTypes": [
+                "Melt"
+              ],
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Caster",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "_ActivityAbility_BuoyantCombat_FireLv3_CD",
                       "ratio": 0.0,
@@ -358,53 +377,55 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireLv3_CD_Team"
                     },
                     {
-                      "$type": "FireEffect",
-                      "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Expand_Fire_Level_02",
-                      "effectTempleteID": -1.0
+                      "$type": "HPOJEFINJEP",
+                      "rotationDampTime": "Eff_Avatar_ShockWave_Expand_Fire_Level_02",
+                      "NEGDPOAEJFL": 1.0,
+                      "CCLMIJIBGDK": -1.0
                     },
                     {
-                      "$type": "TriggerAttackEvent",
+                      "$type": "LAHLFGKNGGA",
                       "attackEvent": {
                         "attackPattern": {
-                          "$type": "ConfigAttackSphere",
+                          "$type": "FDBKEGJJIBF",
                           "triggerType": "TriggerNoRepeat",
                           "born": {
-                            "$type": "ConfigBornBySelf",
+                            "$type": "ONAGPPKOMPD",
                             "offset": {
-                              "x": 0.0,
-                              "y": 0.0,
-                              "z": 0.0
+                              "PANGIELPECA": 0.0,
+                              "CJENFGKOOOO": 0.0,
+                              "HCMGOAIEFGL": 0.0
                             },
-                            "CJKCLAIPMHH": true
+                            "onGround": true
                           },
-                          "radius": 10.0
+                          "JNOPAOAHJAH": 10.0
                         },
                         "attackInfo": {
                           "attackTag": "",
                           "attenuationTag": "",
                           "attenuationGroup": "default",
                           "attackProperty": {
-                            "damagePercentageRatio": 0.0,
+                            "actorElementReactionCriticalDelta": 0.0,
                             "elementType": "Fire",
-                            "bonusCritical": 50.0,
+                            "PBPPIFIOAMB": 50.0,
                             "ignoreAttackerProperty": true,
                             "enBreak": 0.0,
-                            "damageExtra": [
+                            "actorGrassSubHurtDelta": [
                               "Value_DamageRate",
                               "Value_DamageSystemValue",
                               "MUL"
                             ],
                             "trueDamage": true,
-                            "JHBHILHIEJJ": true,
-                            "FKGFPFNOJMN": 0.0
+                            "ignoreModifyDamage": true,
+                            "IPANOFPPPBC": 0.0
                           },
                           "hitPattern": {
                             "onHitEffectName": "",
+                            "hitImpulseY": "",
                             "hitImpulseType": "LV1"
                           }
                         }
@@ -424,21 +445,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_FireLv3_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_FireLv3_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_FireLv3_CD"
             }
           ]
@@ -446,23 +467,24 @@
       },
       "onAdded": [
         {
-          "$type": "SetSystemValueToOverrideMap",
-          "cdDelta": true,
+          "$type": "CKIGIJHHILP",
+          "musicSubStates": true,
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_FireLv3"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_FireLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -470,7 +492,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_IceBase",
       "abilitySpecials": {
         "Value_ReactionUp": 1.0
@@ -478,8 +500,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_IceBase_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ElemReactSConductDelta": "Value_ReactionUp"
           },
@@ -488,17 +510,17 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_IceBase_Property"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_IceLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -506,7 +528,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_IceLv1",
       "abilitySpecials": {
         "Value_Ice": 0.25,
@@ -515,8 +537,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_IceLv1_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_IceAddHurtDelta": "Value_Ice",
             "Actor_PhysicalAddHurtDelta": "Value_Physical"
@@ -526,8 +548,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_IceLv1_Property"
         }
       ],
@@ -536,7 +558,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_IceLv2",
       "abilitySpecials": {
         "Value_Ice": 0.30000001192092896,
@@ -545,8 +567,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_IceLv2_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_IceAddHurtDelta": "Value_Ice",
             "Actor_PhysicalAddHurtDelta": "Value_Physical"
@@ -556,8 +578,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_IceLv2_Property"
         }
       ],
@@ -566,7 +588,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_IceLv3",
       "abilitySpecials": {
         "Value_Ice": 0.550000011920929,
@@ -578,29 +600,31 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_IceLv3_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_IceAddHurtDelta": "Value_Ice",
             "Actor_PhysicalAddHurtDelta": "Value_Physical"
           },
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByAttackTags",
+                  "$type": "IIHMEDMKFIE",
                   "attackTags": [
                     "NormalAttack_01",
                     "NormalAttack_02",
@@ -612,7 +636,7 @@
                   ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_IceLv3_CD",
                   "ratio": 0.0,
@@ -621,67 +645,69 @@
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_IceLv3_CD_Team"
                 },
                 {
-                  "$type": "SetGlobalPos",
+                  "$type": "IHAJBJGDAGC",
                   "target": "Other",
                   "key": "_Ability_BuoyantCombat_IceLv3Pos",
                   "born": {
-                    "$type": "ConfigBornByTarget",
+                    "$type": "DNEGODCNNPL",
                     "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 0.0,
+                      "HCMGOAIEFGL": 0.0
                     }
                   },
                   "setTarget": false
                 },
                 {
-                  "$type": "FireEffect",
-                  "healLimitedByCasterMaxHPRatio": "Eff_Stages_GainWave_01",
+                  "$type": "HPOJEFINJEP",
+                  "rotationDampTime": "Eff_Stages_GainWave_01",
                   "born": {
-                    "$type": "LBFHLMJGELJ",
-                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_IceLv3Pos",
-                    "IDGILJNLJGN": ""
+                    "$type": "IEECEGJDPNG",
+                    "positionKey": "_Ability_BuoyantCombat_IceLv3Pos",
+                    "directionKey": ""
                   },
-                  "effectTempleteID": -1.0
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "TriggerAttackEvent",
+                  "$type": "LAHLFGKNGGA",
                   "attackEvent": {
                     "attackPattern": {
-                      "$type": "ConfigAttackSphere",
+                      "$type": "FDBKEGJJIBF",
                       "triggerType": "TriggerNoRepeat",
                       "born": {
-                        "$type": "LBFHLMJGELJ",
-                        "LDPAKEFHAOK": "_Ability_BuoyantCombat_IceLv3Pos",
-                        "IDGILJNLJGN": ""
+                        "$type": "IEECEGJDPNG",
+                        "positionKey": "_Ability_BuoyantCombat_IceLv3Pos",
+                        "directionKey": ""
                       },
-                      "radius": 5.0
+                      "JNOPAOAHJAH": 5.0
                     },
                     "attackInfo": {
                       "attackTag": "",
                       "attenuationTag": "",
                       "attenuationGroup": "default",
                       "attackProperty": {
-                        "damagePercentageRatio": 0.0,
-                        "bonusCritical": 0.0,
+                        "actorElementReactionCriticalDelta": 0.0,
+                        "PBPPIFIOAMB": 0.0,
                         "ignoreAttackerProperty": true,
                         "enBreak": 0.0,
-                        "damageExtra": [
+                        "actorGrassSubHurtDelta": [
                           "Value_DamageRate",
                           "Value_DamageSystemValue",
                           "MUL"
                         ],
                         "trueDamage": true,
-                        "JHBHILHIEJJ": true,
-                        "FKGFPFNOJMN": 0.0
+                        "ignoreModifyDamage": true,
+                        "IPANOFPPPBC": 0.0
                       },
                       "hitPattern": {
                         "onHitEffectName": "",
+                        "hitImpulseY": "",
                         "hitImpulseType": "LV1"
                       }
                     }
@@ -696,21 +722,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_IceLv3_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_IceLv3_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_IceLv3_CD"
             }
           ]
@@ -718,23 +744,24 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_IceLv3_Property"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
-          "cdDelta": true,
+          "$type": "CKIGIJHHILP",
+          "musicSubStates": true,
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_IceLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -742,20 +769,20 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WaterBase",
       "abilityMixins": [
         {
-          "$type": "StageReadyMixin",
+          "$type": "PPAAEAIFPIG",
           "onStageReady": [
             {
-              "$type": "ServerLuaCall",
-              "cdDelta": true,
+              "$type": "CEDNHGNADHF",
+              "musicSubStates": true,
               "luaCallType": "CurGalleryControlGroup",
               "funcName": "SLC_Recover_BuoyantCombat_Water_Level",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         }
@@ -769,80 +796,83 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_WaterBase": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": "Value_Interval",
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Expand_Water_Loop",
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Avatar_ShockWave_Expand_Water_Loop",
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 0.0
                 },
-                "CJKCLAIPMHH": true
+                "onGround": true
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Expand_Water_Once",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Avatar_ShockWave_Expand_Water_Once",
               "born": {
-                "$type": "ConfigBornBySelf",
-                "CJKCLAIPMHH": true,
+                "$type": "ONAGPPKOMPD",
+                "onGround": true,
                 "direction": {
-                  "$type": "MODPIBPIBHN",
+                  "$type": "FAPOAGPJEKB",
                   "range": 3
                 }
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "SetGlobalValueToOverrideMap",
+              "$type": "OLOEGCPACDP",
               "target": "Team",
               "globalValueKey": "BuoyantCombat_Water_Level",
               "overrideMapKey": "BuoyantCombat_Water_Level"
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "target": "CurLocalAvatar",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf",
+                    "$type": "ONAGPPKOMPD",
                     "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 0.0,
+                      "HCMGOAIEFGL": 0.0
                     },
-                    "CJKCLAIPMHH": true,
+                    "onGround": true,
                     "direction": {
-                      "$type": "POMMEDIFJAA"
+                      "$type": "DJBOMDAEBIN"
                     }
                   },
-                  "radius": 2.5
+                  "JNOPAOAHJAH": 2.5
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentage": "BuoyantCombat_Water_Level",
-                    "damagePercentageRatio": 0.0,
+                    "actorElecSubHurtDelta": "BuoyantCombat_Water_Level",
+                    "actorElementReactionCriticalDelta": 0.0,
                     "elementType": "Water",
-                    "bonusCritical": "Value_ElementDurability",
+                    "PBPPIFIOAMB": "Value_ElementDurability",
                     "enBreak": 0.0,
-                    "FKGFPFNOJMN": 0.0
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV1"
                   }
                 }
@@ -853,62 +883,69 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_WaterBase_Handler": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ServerUpdateGlobalValueMixin",
+              "$type": "MPPPFECOOIH",
               "key": "BuoyantCombat_Water_Level",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "$type": "DNAPOLPDJMH",
               "globalValueKey": "BuoyantCombat_Water_Level",
-              "defaultGlobalValueOnCreate": 0.0,
-              "valueSteps": [-0.5, 0.5, 10.0],
-              "modifierNameSteps": ["UNIQUE_BuoyantCombat_Water_SLC", "Blank"]
+              "IMIMGNLNKHD": 0.0,
+              "valueSteps": [
+                -0.5,
+                0.5,
+                10.0
+              ],
+              "modifierNameSteps": [
+                "UNIQUE_BuoyantCombat_Water_SLC",
+                "Blank"
+              ]
             }
           ]
         },
         "UNIQUE_BuoyantCombat_Water_SLC": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 0.10000000149011612,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 0.10000000149011612,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "ServerLuaCall",
-              "cdDelta": true,
+              "$type": "CEDNHGNADHF",
+              "musicSubStates": true,
               "luaCallType": "CurGalleryControlGroup",
               "funcName": "SLC_Recover_BuoyantCombat_Water_Level",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "Blank": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WaterBase"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "BuoyantCombat_Water_Level",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Team",
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WaterBase_Handler"
         }
@@ -918,7 +955,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WaterLv1",
       "abilitySpecials": {
         "Value_AddHurt": 0.5
@@ -926,8 +963,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_WaterLv1_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AddHurtDelta": "Value_AddHurt"
           },
@@ -936,8 +973,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WaterLv1_Property"
         }
       ],
@@ -946,7 +983,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WaterLv2",
       "abilitySpecials": {
         "Value_AddHurt": 1.0
@@ -954,8 +991,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_WaterLv2_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AddHurtDelta": "Value_AddHurt"
           },
@@ -964,8 +1001,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WaterLv2_Property"
         }
       ],
@@ -974,7 +1011,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WaterLv3",
       "abilitySpecials": {
         "Value_AddHurt": 2.5
@@ -982,8 +1019,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_WaterLv3_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AddHurtDelta": "Value_AddHurt"
           },
@@ -992,8 +1029,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WaterLv3_Property"
         }
       ],
@@ -1002,7 +1039,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WindBase",
       "abilitySpecials": {
         "Value_AttackCD": 5.0,
@@ -1013,12 +1050,14 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_WindBase": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionByElementReactionMixin",
-              "entityTypes": ["Monster"],
+              "$type": "IKNAGJBIPKO",
+              "entityTypes": [
+                "Monster"
+              ],
               "reactionTypes": [
                 "SwirlFire",
                 "SwirlElectric",
@@ -1027,11 +1066,11 @@
               ],
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Other",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "_ActivityAbility_BuoyantCombat_WindBase_CD",
                       "ratio": 0.0,
@@ -1040,40 +1079,40 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "SetGlobalPos",
+                      "$type": "IHAJBJGDAGC",
                       "target": "Other",
                       "key": "_Ability_BuoyantCombat_WindBasePos",
                       "born": {
-                        "$type": "ConfigBornByTarget",
+                        "$type": "DNEGODCNNPL",
                         "offset": {
-                          "x": 0.0,
-                          "y": 0.0,
-                          "z": 0.0
+                          "PANGIELPECA": 0.0,
+                          "CJENFGKOOOO": 0.0,
+                          "HCMGOAIEFGL": 0.0
                         },
-                        "CJKCLAIPMHH": true
+                        "onGround": true
                       },
                       "setTarget": false
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WindBase_CD_Team"
                     },
                     {
-                      "$type": "SetGlobalValue",
+                      "$type": "MHDLPHMDJBN",
                       "target": "Team",
                       "ratio": 0.0,
                       "key": "_ActivityAbility_BuoyantCombat_WindBase_Type",
                       "useLimitRange": true,
                       "randomInRange": true,
-                      "maxValue": 4.0,
-                      "minValue": 0.0
+                      "param2": 4.0,
+                      "JHDOLIIOACK": 0.0
                     },
                     {
-                      "$type": "Predicated",
+                      "$type": "BGNIHCGOFJH",
                       "targetPredicates": [
                         {
-                          "$type": "ByTargetGlobalValue",
+                          "$type": "CABGKHFDJGP",
                           "target": "Team",
                           "key": "_ActivityAbility_BuoyantCombat_WindBase_Type",
                           "ratio": 1.0,
@@ -1082,48 +1121,50 @@
                       ],
                       "successActions": [
                         {
-                          "$type": "FireEffect",
-                          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Fire",
+                          "$type": "HPOJEFINJEP",
+                          "rotationDampTime": "Eff_Avatar_ShockWave_Fire",
                           "born": {
-                            "$type": "LBFHLMJGELJ",
-                            "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                            "IDGILJNLJGN": ""
+                            "$type": "IEECEGJDPNG",
+                            "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                            "directionKey": ""
                           },
-                          "effectTempleteID": -1.0
+                          "NEGDPOAEJFL": 1.0,
+                          "CCLMIJIBGDK": -1.0
                         },
                         {
-                          "$type": "TriggerAttackEvent",
+                          "$type": "LAHLFGKNGGA",
                           "attackEvent": {
                             "attackPattern": {
-                              "$type": "ConfigAttackSphere",
+                              "$type": "FDBKEGJJIBF",
                               "triggerType": "TriggerNoRepeat",
                               "born": {
-                                "$type": "LBFHLMJGELJ",
-                                "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                "IDGILJNLJGN": ""
+                                "$type": "IEECEGJDPNG",
+                                "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                "directionKey": ""
                               },
-                              "radius": 5.0
+                              "JNOPAOAHJAH": 5.0
                             },
                             "attackInfo": {
                               "attackTag": "",
                               "attenuationTag": "",
                               "attenuationGroup": "default",
                               "attackProperty": {
-                                "damagePercentageRatio": 0.0,
+                                "actorElementReactionCriticalDelta": 0.0,
                                 "elementType": "Fire",
-                                "bonusCritical": 20.0,
+                                "PBPPIFIOAMB": 20.0,
                                 "ignoreAttackerProperty": true,
                                 "enBreak": 0.0,
-                                "damageExtra": [
+                                "actorGrassSubHurtDelta": [
                                   "Value_DamageRate",
                                   "Value_DamageSystemValue",
                                   "MUL"
                                 ],
-                                "JHBHILHIEJJ": true,
-                                "FKGFPFNOJMN": 0.0
+                                "ignoreModifyDamage": true,
+                                "IPANOFPPPBC": 0.0
                               },
                               "hitPattern": {
                                 "onHitEffectName": "",
+                                "hitImpulseY": "",
                                 "hitImpulseType": "LV1"
                               }
                             }
@@ -1133,10 +1174,10 @@
                       ],
                       "failActions": [
                         {
-                          "$type": "Predicated",
+                          "$type": "BGNIHCGOFJH",
                           "targetPredicates": [
                             {
-                              "$type": "ByTargetGlobalValue",
+                              "$type": "CABGKHFDJGP",
                               "target": "Team",
                               "key": "_ActivityAbility_BuoyantCombat_WindBase_Type",
                               "ratio": 2.0,
@@ -1145,49 +1186,51 @@
                           ],
                           "successActions": [
                             {
-                              "$type": "FireEffect",
-                              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Electric",
+                              "$type": "HPOJEFINJEP",
+                              "rotationDampTime": "Eff_Avatar_ShockWave_Electric",
                               "born": {
-                                "$type": "LBFHLMJGELJ",
-                                "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                "IDGILJNLJGN": ""
+                                "$type": "IEECEGJDPNG",
+                                "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                "directionKey": ""
                               },
-                              "effectTempleteID": -1.0
+                              "NEGDPOAEJFL": 1.0,
+                              "CCLMIJIBGDK": -1.0
                             },
                             {
-                              "$type": "TriggerAttackEvent",
+                              "$type": "LAHLFGKNGGA",
                               "attackEvent": {
                                 "attackPattern": {
-                                  "$type": "ConfigAttackSphere",
+                                  "$type": "FDBKEGJJIBF",
                                   "triggerType": "TriggerNoRepeat",
                                   "born": {
-                                    "$type": "LBFHLMJGELJ",
-                                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                    "IDGILJNLJGN": ""
+                                    "$type": "IEECEGJDPNG",
+                                    "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                    "directionKey": ""
                                   },
-                                  "radius": 5.0
+                                  "JNOPAOAHJAH": 5.0
                                 },
                                 "attackInfo": {
                                   "attackTag": "",
                                   "attenuationTag": "",
                                   "attenuationGroup": "default",
                                   "attackProperty": {
-                                    "damagePercentageRatio": 0.0,
+                                    "actorElementReactionCriticalDelta": 0.0,
                                     "elementType": "Electric",
-                                    "bonusCritical": 20.0,
+                                    "PBPPIFIOAMB": 20.0,
                                     "ignoreAttackerProperty": true,
                                     "enBreak": 0.0,
-                                    "damageExtra": [
+                                    "actorGrassSubHurtDelta": [
                                       "Value_DamageRate",
                                       "Value_DamageSystemValue",
                                       "MUL"
                                     ],
                                     "trueDamage": true,
-                                    "JHBHILHIEJJ": true,
-                                    "FKGFPFNOJMN": 0.0
+                                    "ignoreModifyDamage": true,
+                                    "IPANOFPPPBC": 0.0
                                   },
                                   "hitPattern": {
                                     "onHitEffectName": "",
+                                    "hitImpulseY": "",
                                     "hitImpulseType": "LV1"
                                   }
                                 }
@@ -1197,10 +1240,10 @@
                           ],
                           "failActions": [
                             {
-                              "$type": "Predicated",
+                              "$type": "BGNIHCGOFJH",
                               "targetPredicates": [
                                 {
-                                  "$type": "ByTargetGlobalValue",
+                                  "$type": "CABGKHFDJGP",
                                   "target": "Team",
                                   "key": "_ActivityAbility_BuoyantCombat_WindBase_Type",
                                   "ratio": 3.0,
@@ -1209,49 +1252,51 @@
                               ],
                               "successActions": [
                                 {
-                                  "$type": "FireEffect",
-                                  "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Water",
+                                  "$type": "HPOJEFINJEP",
+                                  "rotationDampTime": "Eff_Avatar_ShockWave_Water",
                                   "born": {
-                                    "$type": "LBFHLMJGELJ",
-                                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                    "IDGILJNLJGN": ""
+                                    "$type": "IEECEGJDPNG",
+                                    "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                    "directionKey": ""
                                   },
-                                  "effectTempleteID": -1.0
+                                  "NEGDPOAEJFL": 1.0,
+                                  "CCLMIJIBGDK": -1.0
                                 },
                                 {
-                                  "$type": "TriggerAttackEvent",
+                                  "$type": "LAHLFGKNGGA",
                                   "attackEvent": {
                                     "attackPattern": {
-                                      "$type": "ConfigAttackSphere",
+                                      "$type": "FDBKEGJJIBF",
                                       "triggerType": "TriggerNoRepeat",
                                       "born": {
-                                        "$type": "LBFHLMJGELJ",
-                                        "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                        "IDGILJNLJGN": ""
+                                        "$type": "IEECEGJDPNG",
+                                        "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                        "directionKey": ""
                                       },
-                                      "radius": 5.0
+                                      "JNOPAOAHJAH": 5.0
                                     },
                                     "attackInfo": {
                                       "attackTag": "",
                                       "attenuationTag": "",
                                       "attenuationGroup": "default",
                                       "attackProperty": {
-                                        "damagePercentageRatio": 0.0,
+                                        "actorElementReactionCriticalDelta": 0.0,
                                         "elementType": "Water",
-                                        "bonusCritical": 20.0,
+                                        "PBPPIFIOAMB": 20.0,
                                         "ignoreAttackerProperty": true,
                                         "enBreak": 0.0,
-                                        "damageExtra": [
+                                        "actorGrassSubHurtDelta": [
                                           "Value_DamageRate",
                                           "Value_DamageSystemValue",
                                           "MUL"
                                         ],
                                         "trueDamage": true,
-                                        "JHBHILHIEJJ": true,
-                                        "FKGFPFNOJMN": 0.0
+                                        "ignoreModifyDamage": true,
+                                        "IPANOFPPPBC": 0.0
                                       },
                                       "hitPattern": {
                                         "onHitEffectName": "",
+                                        "hitImpulseY": "",
                                         "hitImpulseType": "LV1"
                                       }
                                     }
@@ -1261,49 +1306,51 @@
                               ],
                               "failActions": [
                                 {
-                                  "$type": "FireEffect",
-                                  "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Ice",
+                                  "$type": "HPOJEFINJEP",
+                                  "rotationDampTime": "Eff_Avatar_ShockWave_Ice",
                                   "born": {
-                                    "$type": "LBFHLMJGELJ",
-                                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                    "IDGILJNLJGN": ""
+                                    "$type": "IEECEGJDPNG",
+                                    "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                    "directionKey": ""
                                   },
-                                  "effectTempleteID": -1.0
+                                  "NEGDPOAEJFL": 1.0,
+                                  "CCLMIJIBGDK": -1.0
                                 },
                                 {
-                                  "$type": "TriggerAttackEvent",
+                                  "$type": "LAHLFGKNGGA",
                                   "attackEvent": {
                                     "attackPattern": {
-                                      "$type": "ConfigAttackSphere",
+                                      "$type": "FDBKEGJJIBF",
                                       "triggerType": "TriggerNoRepeat",
                                       "born": {
-                                        "$type": "LBFHLMJGELJ",
-                                        "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindBasePos",
-                                        "IDGILJNLJGN": ""
+                                        "$type": "IEECEGJDPNG",
+                                        "positionKey": "_Ability_BuoyantCombat_WindBasePos",
+                                        "directionKey": ""
                                       },
-                                      "radius": 5.0
+                                      "JNOPAOAHJAH": 5.0
                                     },
                                     "attackInfo": {
                                       "attackTag": "",
                                       "attenuationTag": "",
                                       "attenuationGroup": "default",
                                       "attackProperty": {
-                                        "damagePercentageRatio": 0.0,
+                                        "actorElementReactionCriticalDelta": 0.0,
                                         "elementType": "Ice",
-                                        "bonusCritical": 20.0,
+                                        "PBPPIFIOAMB": 20.0,
                                         "ignoreAttackerProperty": true,
                                         "enBreak": 0.0,
-                                        "damageExtra": [
+                                        "actorGrassSubHurtDelta": [
                                           "Value_DamageRate",
                                           "Value_DamageSystemValue",
                                           "MUL"
                                         ],
                                         "trueDamage": true,
-                                        "JHBHILHIEJJ": true,
-                                        "FKGFPFNOJMN": 0.0
+                                        "ignoreModifyDamage": true,
+                                        "IPANOFPPPBC": 0.0
                                       },
                                       "hitPattern": {
                                         "onHitEffectName": "",
+                                        "hitImpulseY": "",
                                         "hitImpulseType": "LV1"
                                       }
                                     }
@@ -1325,21 +1372,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_WindBase_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_WindBase_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_WindBase_CD"
             }
           ]
@@ -1347,31 +1394,32 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WindBase"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
-          "cdDelta": true,
+          "$type": "CKIGIJHHILP",
+          "musicSubStates": true,
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_WindBase_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_WindLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -1379,7 +1427,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WindLv1",
       "abilitySpecials": {
         "Value_ElemMasteryDelta": 100.0
@@ -1387,8 +1435,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_WindLv1_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ElemMasteryDelta": "Value_ElemMasteryDelta"
           },
@@ -1397,8 +1445,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WindLv1_Property"
         }
       ],
@@ -1407,7 +1455,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WindLv2",
       "abilitySpecials": {
         "Value_ElemMasteryDelta": 200.0
@@ -1415,8 +1463,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_WindLv2_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ElemMasteryDelta": "Value_ElemMasteryDelta"
           },
@@ -1425,8 +1473,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WindLv2_Property"
         }
       ],
@@ -1435,7 +1483,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WindLv3",
       "abilitySpecials": {
         "Value_ElemMasteryDelta": 400.0,
@@ -1444,12 +1492,14 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_WindLv3_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DoActionByElementReactionMixin",
-              "entityTypes": ["Monster"],
+              "$type": "IKNAGJBIPKO",
+              "entityTypes": [
+                "Monster"
+              ],
               "reactionTypes": [
                 "SwirlFire",
                 "SwirlElectric",
@@ -1458,11 +1508,11 @@
               ],
               "actions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Other",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "_ActivityAbility_BuoyantCombat_WindLv3_CD",
                       "ratio": 0.0,
@@ -1471,31 +1521,31 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "SetGlobalPos",
+                      "$type": "IHAJBJGDAGC",
                       "target": "Other",
                       "key": "_Ability_BuoyantCombat_WindLv3Pos",
                       "born": {
-                        "$type": "ConfigBornByTarget",
+                        "$type": "DNEGODCNNPL",
                         "offset": {
-                          "x": 0.0,
-                          "y": 0.0,
-                          "z": 0.0
+                          "PANGIELPECA": 0.0,
+                          "CJENFGKOOOO": 0.0,
+                          "HCMGOAIEFGL": 0.0
                         },
-                        "CJKCLAIPMHH": true
+                        "onGround": true
                       },
                       "setTarget": false
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WindLv3_CD_Team"
                     },
                     {
-                      "$type": "CreateGadget",
+                      "$type": "GIENONHPGIL",
                       "born": {
-                        "$type": "LBFHLMJGELJ",
-                        "LDPAKEFHAOK": "_Ability_BuoyantCombat_WindLv3Pos",
-                        "IDGILJNLJGN": ""
+                        "$type": "IEECEGJDPNG",
+                        "positionKey": "_Ability_BuoyantCombat_WindLv3Pos",
+                        "directionKey": ""
                       },
                       "gadgetID": 44000009,
                       "campID": 1001,
@@ -1514,21 +1564,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_WindLv3_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_WindLv3_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_WindLv3_CD"
             }
           ]
@@ -1536,17 +1586,17 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_WindLv3_Property"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_WindLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -1554,42 +1604,44 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_WindLv3GadgetSkill_WindZone",
       "modifiers": {
         "ActivityAbility_BuoyantCombat_WindLv3_WindZone": {
           "modifierName": "",
-          "duration": 5.099999904632568,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 5.099999904632568,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "modifierMixins": [
             {
-              "$type": "WindZoneMixin",
+              "$type": "GOADMKIHKOH",
               "shapeName": "CircleR5",
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.800000011920929,
-                  "z": 0.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.800000011920929,
+                  "HCMGOAIEFGL": 0.0
                 },
-                "JNDJNDJCGGC": true
+                "alongGround": true
               },
               "strength": 3.5,
-              "attenuation": 2.0,
-              "innerRadius": 3.0,
+              "LKJPPJEFEIM": 2.0,
+              "DHPHFIGEAHK": 3.0,
               "reverse": true,
               "targetType": "All",
               "predicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Avatar"],
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Avatar"
+                  ],
                   "reject": true
                 },
                 {
-                  "$type": "ByTargetWeight",
+                  "$type": "ECDCNJNMGCI",
                   "logic": "LesserOrEqual",
-                  "weight": 100.0
+                  "HLIPOOLFHDD": 100.0
                 }
               ],
               "modifierName": ""
@@ -1597,53 +1649,59 @@
           ],
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Shrink_Wind",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_Avatar_Shrink_Wind",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "KillSelf",
+              "$type": "OHBGKFFNCEA",
               "banDrop": true,
-              "banExp": true,
+              "limboByTargetMaxHPRatio": true,
               "killSelfType": "Disappear"
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf",
+                    "$type": "ONAGPPKOMPD",
                     "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 0.0,
+                      "HCMGOAIEFGL": 0.0
                     },
-                    "CJKCLAIPMHH": true
+                    "onGround": true
                   },
-                  "radius": 5.0
+                  "JNOPAOAHJAH": 5.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentageRatio": 0.0,
-                    "bonusCritical": 0.0,
+                    "actorElementReactionCriticalDelta": 0.0,
+                    "PBPPIFIOAMB": 0.0,
                     "ignoreAttackerProperty": true,
                     "enBreak": 0.0,
-                    "damageExtra": [5.0, "Value_DamageSystemValue", "MUL"],
+                    "actorGrassSubHurtDelta": [
+                      5.0,
+                      "Value_DamageSystemValue",
+                      "MUL"
+                    ],
                     "trueDamage": true,
-                    "JHBHILHIEJJ": true,
-                    "FKGFPFNOJMN": 0.0
+                    "ignoreModifyDamage": true,
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV1"
                   }
                 }
@@ -1655,13 +1713,14 @@
       },
       "onAdded": [
         {
-          "$type": "SetSystemValueToOverrideMap",
-          "cdDelta": true,
+          "$type": "CKIGIJHHILP",
+          "musicSubStates": true,
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "ActivityAbility_BuoyantCombat_WindLv3_WindZone"
         }
       ],
@@ -1670,7 +1729,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_GatherBase",
       "abilitySpecials": {
         "Value_AttackCD": 5.0,
@@ -1681,15 +1740,15 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_GatherBase": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByAttackTags",
+                  "$type": "IIHMEDMKFIE",
                   "attackTags": [
                     "NormalAttack_01",
                     "NormalAttack_02",
@@ -1705,17 +1764,19 @@
                   ]
                 },
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_GatherBase_CD",
                   "ratio": 0.0,
@@ -1724,58 +1785,60 @@
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_GatherBase_CD_Team"
                 },
                 {
-                  "$type": "SetGlobalPos",
+                  "$type": "IHAJBJGDAGC",
                   "target": "Other",
                   "key": "_Temp_POS",
                   "born": {
-                    "$type": "ConfigBornByTarget"
+                    "$type": "DNEGODCNNPL"
                   },
                   "setTarget": false
                 },
                 {
-                  "$type": "FireEffect",
+                  "$type": "HPOJEFINJEP",
                   "target": "Other",
-                  "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Shrink_Wind_Once",
+                  "rotationDampTime": "Eff_Avatar_Shrink_Wind_Once",
                   "born": {
-                    "$type": "LBFHLMJGELJ",
-                    "LDPAKEFHAOK": "_LevelEntity_TowerBuff_SwirlDoFieldPos",
-                    "IDGILJNLJGN": ""
+                    "$type": "IEECEGJDPNG",
+                    "positionKey": "_LevelEntity_TowerBuff_SwirlDoFieldPos",
+                    "directionKey": ""
                   },
-                  "effectTempleteID": -1.0
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "TriggerAttackEvent",
+                  "$type": "LAHLFGKNGGA",
                   "target": "Caster",
                   "attackEvent": {
                     "attackPattern": {
-                      "$type": "ConfigAttackCircle",
+                      "$type": "DNKGADKMEKG",
                       "triggerType": "TriggerNoRepeat",
                       "born": {
-                        "$type": "LBFHLMJGELJ",
-                        "LDPAKEFHAOK": "_Temp_POS",
-                        "IDGILJNLJGN": ""
+                        "$type": "IEECEGJDPNG",
+                        "positionKey": "_Temp_POS",
+                        "directionKey": ""
                       },
                       "height": 6.0,
-                      "radius": 6.0
+                      "JNOPAOAHJAH": 6.0
                     },
                     "attackInfo": {
                       "attackTag": "",
                       "attenuationTag": "",
                       "attenuationGroup": "default",
                       "attackProperty": {
-                        "damagePercentage": "Value_DamagePercentage",
-                        "damagePercentageRatio": 0.0,
-                        "bonusCritical": 0.0,
+                        "actorElecSubHurtDelta": "Value_DamagePercentage",
+                        "actorElementReactionCriticalDelta": 0.0,
+                        "PBPPIFIOAMB": 0.0,
                         "enBreak": 100.0,
-                        "FKGFPFNOJMN": 0.0
+                        "IPANOFPPPBC": 0.0
                       },
                       "hitPattern": {
                         "onHitEffectName": "default",
+                        "hitImpulseY": "",
                         "hitImpulseType": "LV4",
                         "retreatType": "ByHitDirectionInverse",
                         "hitHaltTimeScale": 0.05000000074505806
@@ -1791,21 +1854,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_GatherBase_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_GatherBase_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_GatherBase_CD"
             }
           ]
@@ -1813,25 +1876,25 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_GatherBase"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_GatherBase_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_GatherLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -1839,7 +1902,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_GatherLv1",
       "abilitySpecials": {
         "Value_AttackRatio": 0.25
@@ -1847,8 +1910,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv1_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_AttackRatio"
           },
@@ -1857,8 +1920,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv1_Property"
         }
       ],
@@ -1867,7 +1930,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_GatherLv2",
       "abilitySpecials": {
         "Value_AttackRatio": 0.25
@@ -1875,8 +1938,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv2_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_AttackRatio"
           },
@@ -1885,8 +1948,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv2_Property"
         }
       ],
@@ -1895,7 +1958,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_GatherLv3",
       "abilitySpecials": {
         "Value_AttackRatio": 0.5,
@@ -1906,28 +1969,30 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv3_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_AttackRatio"
           },
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByAttackTags",
+                  "$type": "IIHMEDMKFIE",
                   "attackTags": [
                     "NormalAttack_01",
                     "NormalAttack_02",
@@ -1939,7 +2004,7 @@
                   ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_GatherLv3_CD",
                   "ratio": 0.0,
@@ -1948,40 +2013,40 @@
               ],
               "successActions": [
                 {
-                  "$type": "SetGlobalPos",
+                  "$type": "IHAJBJGDAGC",
                   "target": "Other",
                   "key": "_Ability_BuoyantCombat_GatherLv3Pos",
                   "born": {
-                    "$type": "ConfigBornByTarget",
+                    "$type": "DNEGODCNNPL",
                     "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 0.0,
+                      "HCMGOAIEFGL": 0.0
                     },
-                    "CJKCLAIPMHH": true
+                    "onGround": true
                   },
                   "setTarget": false
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv3_CD_Team"
                 },
                 {
-                  "$type": "SetGlobalValue",
+                  "$type": "MHDLPHMDJBN",
                   "target": "Team",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_GatherLv3_Type",
                   "useLimitRange": true,
                   "randomInRange": true,
-                  "maxValue": 4.0,
-                  "minValue": 0.0
+                  "param2": 4.0,
+                  "JHDOLIIOACK": 0.0
                 },
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "targetPredicates": [
                     {
-                      "$type": "ByTargetGlobalValue",
+                      "$type": "CABGKHFDJGP",
                       "target": "Team",
                       "key": "_ActivityAbility_BuoyantCombat_GatherLv3_Type",
                       "ratio": 1.0,
@@ -1990,49 +2055,51 @@
                   ],
                   "successActions": [
                     {
-                      "$type": "FireEffect",
-                      "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Fire",
+                      "$type": "HPOJEFINJEP",
+                      "rotationDampTime": "Eff_Avatar_ShockWave_Fire",
                       "born": {
-                        "$type": "LBFHLMJGELJ",
-                        "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                        "IDGILJNLJGN": ""
+                        "$type": "IEECEGJDPNG",
+                        "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                        "directionKey": ""
                       },
-                      "effectTempleteID": -1.0
+                      "NEGDPOAEJFL": 1.0,
+                      "CCLMIJIBGDK": -1.0
                     },
                     {
-                      "$type": "TriggerAttackEvent",
+                      "$type": "LAHLFGKNGGA",
                       "attackEvent": {
                         "attackPattern": {
-                          "$type": "ConfigAttackSphere",
+                          "$type": "FDBKEGJJIBF",
                           "triggerType": "TriggerNoRepeat",
                           "born": {
-                            "$type": "LBFHLMJGELJ",
-                            "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                            "IDGILJNLJGN": ""
+                            "$type": "IEECEGJDPNG",
+                            "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                            "directionKey": ""
                           },
-                          "radius": 5.0
+                          "JNOPAOAHJAH": 5.0
                         },
                         "attackInfo": {
                           "attackTag": "",
                           "attenuationTag": "",
                           "attenuationGroup": "default",
                           "attackProperty": {
-                            "damagePercentageRatio": 0.0,
+                            "actorElementReactionCriticalDelta": 0.0,
                             "elementType": "Fire",
-                            "bonusCritical": 50.0,
+                            "PBPPIFIOAMB": 50.0,
                             "ignoreAttackerProperty": true,
                             "enBreak": 0.0,
-                            "damageExtra": [
+                            "actorGrassSubHurtDelta": [
                               "Value_DamageRate",
                               "Value_DamageSystemValue",
                               "MUL"
                             ],
                             "trueDamage": true,
-                            "JHBHILHIEJJ": true,
-                            "FKGFPFNOJMN": 0.0
+                            "ignoreModifyDamage": true,
+                            "IPANOFPPPBC": 0.0
                           },
                           "hitPattern": {
                             "onHitEffectName": "",
+                            "hitImpulseY": "",
                             "hitImpulseType": "LV1"
                           }
                         }
@@ -2042,10 +2109,10 @@
                   ],
                   "failActions": [
                     {
-                      "$type": "Predicated",
+                      "$type": "BGNIHCGOFJH",
                       "targetPredicates": [
                         {
-                          "$type": "ByTargetGlobalValue",
+                          "$type": "CABGKHFDJGP",
                           "target": "Team",
                           "key": "_ActivityAbility_BuoyantCombat_GatherLv3_Type",
                           "ratio": 2.0,
@@ -2054,49 +2121,51 @@
                       ],
                       "successActions": [
                         {
-                          "$type": "FireEffect",
-                          "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Electric",
+                          "$type": "HPOJEFINJEP",
+                          "rotationDampTime": "Eff_Avatar_ShockWave_Electric",
                           "born": {
-                            "$type": "LBFHLMJGELJ",
-                            "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                            "IDGILJNLJGN": ""
+                            "$type": "IEECEGJDPNG",
+                            "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                            "directionKey": ""
                           },
-                          "effectTempleteID": -1.0
+                          "NEGDPOAEJFL": 1.0,
+                          "CCLMIJIBGDK": -1.0
                         },
                         {
-                          "$type": "TriggerAttackEvent",
+                          "$type": "LAHLFGKNGGA",
                           "attackEvent": {
                             "attackPattern": {
-                              "$type": "ConfigAttackSphere",
+                              "$type": "FDBKEGJJIBF",
                               "triggerType": "TriggerNoRepeat",
                               "born": {
-                                "$type": "LBFHLMJGELJ",
-                                "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                                "IDGILJNLJGN": ""
+                                "$type": "IEECEGJDPNG",
+                                "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                                "directionKey": ""
                               },
-                              "radius": 5.0
+                              "JNOPAOAHJAH": 5.0
                             },
                             "attackInfo": {
                               "attackTag": "",
                               "attenuationTag": "",
                               "attenuationGroup": "default",
                               "attackProperty": {
-                                "damagePercentageRatio": 0.0,
+                                "actorElementReactionCriticalDelta": 0.0,
                                 "elementType": "Electric",
-                                "bonusCritical": 50.0,
+                                "PBPPIFIOAMB": 50.0,
                                 "ignoreAttackerProperty": true,
                                 "enBreak": 0.0,
-                                "damageExtra": [
+                                "actorGrassSubHurtDelta": [
                                   "Value_DamageRate",
                                   "Value_DamageSystemValue",
                                   "MUL"
                                 ],
                                 "trueDamage": true,
-                                "JHBHILHIEJJ": true,
-                                "FKGFPFNOJMN": 0.0
+                                "ignoreModifyDamage": true,
+                                "IPANOFPPPBC": 0.0
                               },
                               "hitPattern": {
                                 "onHitEffectName": "",
+                                "hitImpulseY": "",
                                 "hitImpulseType": "LV1"
                               }
                             }
@@ -2106,10 +2175,10 @@
                       ],
                       "failActions": [
                         {
-                          "$type": "Predicated",
+                          "$type": "BGNIHCGOFJH",
                           "targetPredicates": [
                             {
-                              "$type": "ByTargetGlobalValue",
+                              "$type": "CABGKHFDJGP",
                               "target": "Team",
                               "key": "_ActivityAbility_BuoyantCombat_GatherLv3_Type",
                               "ratio": 3.0,
@@ -2118,49 +2187,51 @@
                           ],
                           "successActions": [
                             {
-                              "$type": "FireEffect",
-                              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Water",
+                              "$type": "HPOJEFINJEP",
+                              "rotationDampTime": "Eff_Avatar_ShockWave_Water",
                               "born": {
-                                "$type": "LBFHLMJGELJ",
-                                "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                                "IDGILJNLJGN": ""
+                                "$type": "IEECEGJDPNG",
+                                "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                                "directionKey": ""
                               },
-                              "effectTempleteID": -1.0
+                              "NEGDPOAEJFL": 1.0,
+                              "CCLMIJIBGDK": -1.0
                             },
                             {
-                              "$type": "TriggerAttackEvent",
+                              "$type": "LAHLFGKNGGA",
                               "attackEvent": {
                                 "attackPattern": {
-                                  "$type": "ConfigAttackSphere",
+                                  "$type": "FDBKEGJJIBF",
                                   "triggerType": "TriggerNoRepeat",
                                   "born": {
-                                    "$type": "LBFHLMJGELJ",
-                                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                                    "IDGILJNLJGN": ""
+                                    "$type": "IEECEGJDPNG",
+                                    "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                                    "directionKey": ""
                                   },
-                                  "radius": 5.0
+                                  "JNOPAOAHJAH": 5.0
                                 },
                                 "attackInfo": {
                                   "attackTag": "",
                                   "attenuationTag": "",
                                   "attenuationGroup": "default",
                                   "attackProperty": {
-                                    "damagePercentageRatio": 0.0,
+                                    "actorElementReactionCriticalDelta": 0.0,
                                     "elementType": "Water",
-                                    "bonusCritical": 50.0,
+                                    "PBPPIFIOAMB": 50.0,
                                     "ignoreAttackerProperty": true,
                                     "enBreak": 0.0,
-                                    "damageExtra": [
+                                    "actorGrassSubHurtDelta": [
                                       "Value_DamageRate",
                                       "Value_DamageSystemValue",
                                       "MUL"
                                     ],
                                     "trueDamage": true,
-                                    "JHBHILHIEJJ": true,
-                                    "FKGFPFNOJMN": 0.0
+                                    "ignoreModifyDamage": true,
+                                    "IPANOFPPPBC": 0.0
                                   },
                                   "hitPattern": {
                                     "onHitEffectName": "",
+                                    "hitImpulseY": "",
                                     "hitImpulseType": "LV1"
                                   }
                                 }
@@ -2170,49 +2241,51 @@
                           ],
                           "failActions": [
                             {
-                              "$type": "FireEffect",
-                              "healLimitedByCasterMaxHPRatio": "Eff_Avatar_ShockWave_Ice",
+                              "$type": "HPOJEFINJEP",
+                              "rotationDampTime": "Eff_Avatar_ShockWave_Ice",
                               "born": {
-                                "$type": "LBFHLMJGELJ",
-                                "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                                "IDGILJNLJGN": ""
+                                "$type": "IEECEGJDPNG",
+                                "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                                "directionKey": ""
                               },
-                              "effectTempleteID": -1.0
+                              "NEGDPOAEJFL": 1.0,
+                              "CCLMIJIBGDK": -1.0
                             },
                             {
-                              "$type": "TriggerAttackEvent",
+                              "$type": "LAHLFGKNGGA",
                               "attackEvent": {
                                 "attackPattern": {
-                                  "$type": "ConfigAttackSphere",
+                                  "$type": "FDBKEGJJIBF",
                                   "triggerType": "TriggerNoRepeat",
                                   "born": {
-                                    "$type": "LBFHLMJGELJ",
-                                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_GatherLv3Pos",
-                                    "IDGILJNLJGN": ""
+                                    "$type": "IEECEGJDPNG",
+                                    "positionKey": "_Ability_BuoyantCombat_GatherLv3Pos",
+                                    "directionKey": ""
                                   },
-                                  "radius": 5.0
+                                  "JNOPAOAHJAH": 5.0
                                 },
                                 "attackInfo": {
                                   "attackTag": "",
                                   "attenuationTag": "",
                                   "attenuationGroup": "default",
                                   "attackProperty": {
-                                    "damagePercentageRatio": 0.0,
+                                    "actorElementReactionCriticalDelta": 0.0,
                                     "elementType": "Ice",
-                                    "bonusCritical": 50.0,
+                                    "PBPPIFIOAMB": 50.0,
                                     "ignoreAttackerProperty": true,
                                     "enBreak": 0.0,
-                                    "damageExtra": [
+                                    "actorGrassSubHurtDelta": [
                                       "Value_DamageRate",
                                       "Value_DamageSystemValue",
                                       "MUL"
                                     ],
                                     "trueDamage": true,
-                                    "JHBHILHIEJJ": true,
-                                    "FKGFPFNOJMN": 0.0
+                                    "ignoreModifyDamage": true,
+                                    "IPANOFPPPBC": 0.0
                                   },
                                   "hitPattern": {
                                     "onHitEffectName": "",
+                                    "hitImpulseY": "",
                                     "hitImpulseType": "LV1"
                                   }
                                 }
@@ -2233,21 +2306,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv3_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_GatherLv3_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_GatherLv3_CD"
             }
           ]
@@ -2255,23 +2328,24 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_GatherLv3_Property"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
-          "cdDelta": true,
+          "$type": "CKIGIJHHILP",
+          "musicSubStates": true,
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_GatherLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2279,7 +2353,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_CriticalBase",
       "abilitySpecials": {
         "Value_BonusCriticalHurt": 0.25,
@@ -2288,8 +2362,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_CriticalBase_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CriticalHurtDelta": "Value_BonusCriticalHurt"
           },
@@ -2298,17 +2372,17 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_CriticalBase": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ModifyDamageMixin",
+              "$type": "POIOCOGFPHF",
               "ignoreEventInfo": true,
-              "damagePercentageRatio": 0.0,
-              "MODFLPBMPKB": "Value_BonusCritical",
+              "actorElementReactionCriticalDelta": 0.0,
+              "actorIceSubHurtDelta": "Value_BonusCritical",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_MONSTER_AutoMatron_WeakTag",
                   "ratio": 1.0
                 }
@@ -2319,22 +2393,22 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_CriticalBase_Property"
         },
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_CriticalBase"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_CriticalLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2342,7 +2416,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_CriticalLv1",
       "abilitySpecials": {
         "Value_CriticalHurt": 0.25
@@ -2350,8 +2424,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv1_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CriticalHurtDelta": "Value_CriticalHurt"
           },
@@ -2360,8 +2434,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv1_Property"
         }
       ],
@@ -2370,7 +2444,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_CriticalLv2",
       "abilitySpecials": {
         "Value_CriticalHurt": 0.25
@@ -2378,8 +2452,8 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv2_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CriticalHurtDelta": "Value_CriticalHurt"
           },
@@ -2388,8 +2462,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv2_Property"
         }
       ],
@@ -2398,7 +2472,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_CriticalLv3",
       "abilitySpecials": {
         "Value_CriticalHurt": 0.5,
@@ -2409,28 +2483,30 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv3_Property": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_CriticalHurtDelta": "Value_CriticalHurt"
           },
           "onAttackLanded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByAttackTags",
+                  "$type": "IIHMEDMKFIE",
                   "attackTags": [
                     "NormalAttack_01",
                     "NormalAttack_02",
@@ -2442,7 +2518,7 @@
                   ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_CriticalLv3_CD",
                   "ratio": 0.0,
@@ -2451,70 +2527,72 @@
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv3_CD_Team"
                 },
                 {
-                  "$type": "SetGlobalPos",
+                  "$type": "IHAJBJGDAGC",
                   "target": "Other",
                   "key": "_Ability_BuoyantCombat_CriticalLv3Pos",
                   "born": {
-                    "$type": "ConfigBornByTarget",
+                    "$type": "DNEGODCNNPL",
                     "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 0.0,
+                      "HCMGOAIEFGL": 0.0
                     },
-                    "CJKCLAIPMHH": true
+                    "onGround": true
                   },
                   "setTarget": false
                 },
                 {
-                  "$type": "FireEffect",
+                  "$type": "HPOJEFINJEP",
                   "target": "Other",
-                  "healLimitedByCasterMaxHPRatio": "Eff_Stages_GainWave_01",
+                  "rotationDampTime": "Eff_Stages_GainWave_01",
                   "born": {
-                    "$type": "LBFHLMJGELJ",
-                    "LDPAKEFHAOK": "_Ability_BuoyantCombat_CriticalLv3Pos",
-                    "IDGILJNLJGN": ""
+                    "$type": "IEECEGJDPNG",
+                    "positionKey": "_Ability_BuoyantCombat_CriticalLv3Pos",
+                    "directionKey": ""
                   },
-                  "effectTempleteID": -1.0
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "TriggerAttackEvent",
+                  "$type": "LAHLFGKNGGA",
                   "target": "Caster",
                   "attackEvent": {
                     "attackPattern": {
-                      "$type": "ConfigAttackSphere",
+                      "$type": "FDBKEGJJIBF",
                       "triggerType": "TriggerNoRepeat",
                       "born": {
-                        "$type": "LBFHLMJGELJ",
-                        "LDPAKEFHAOK": "_Ability_BuoyantCombat_CriticalLv3Pos",
-                        "IDGILJNLJGN": ""
+                        "$type": "IEECEGJDPNG",
+                        "positionKey": "_Ability_BuoyantCombat_CriticalLv3Pos",
+                        "directionKey": ""
                       },
-                      "radius": 5.0
+                      "JNOPAOAHJAH": 5.0
                     },
                     "attackInfo": {
                       "attackTag": "",
                       "attenuationTag": "",
                       "attenuationGroup": "default",
                       "attackProperty": {
-                        "damagePercentageRatio": 0.0,
-                        "bonusCritical": 0.0,
+                        "actorElementReactionCriticalDelta": 0.0,
+                        "PBPPIFIOAMB": 0.0,
                         "ignoreAttackerProperty": true,
                         "enBreak": 0.0,
-                        "damageExtra": [
+                        "actorGrassSubHurtDelta": [
                           "Value_DamageRate",
                           "Value_DamageSystemValue",
                           "MUL"
                         ],
                         "trueDamage": true,
-                        "JHBHILHIEJJ": true,
-                        "FKGFPFNOJMN": 0.0
+                        "ignoreModifyDamage": true,
+                        "IPANOFPPPBC": 0.0
                       },
                       "hitPattern": {
                         "onHitEffectName": "",
+                        "hitImpulseY": "",
                         "hitImpulseType": "LV1"
                       }
                     }
@@ -2529,21 +2607,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv3_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_AttackCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_AttackCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_CriticalLv3_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_CriticalLv3_CD"
             }
           ]
@@ -2551,22 +2629,23 @@
       },
       "onAdded": [
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_CriticalLv3_Property"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_CriticalLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2574,14 +2653,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_ShieldBase",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobalValueMixin",
+          "$type": "DNAPOLPDJMH",
           "globalValueKey": "_ActivityAbility_BuoyantCombat_ShieldBase_Check",
-          "defaultGlobalValueOnCreate": 0.0,
-          "valueSteps": [-0.5, 0.5, 1.5],
+          "IMIMGNLNKHD": 0.0,
+          "valueSteps": [
+            -0.5,
+            0.5,
+            1.5
+          ],
           "modifierNameSteps": [
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_NoBuff",
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_HasBuff"
@@ -2597,36 +2680,36 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_Handler": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "FPBCMGGALCI",
-                  "type": "All"
+                  "$type": "DEEBIPHHMNA",
+                  "damageRatio": "All"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldBase_Check",
                   "useLimitRange": true,
-                  "maxValue": 1.0,
-                  "minValue": 1.0
+                  "param2": 1.0,
+                  "JHDOLIIOACK": 1.0
                 }
               ],
               "failActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldBase_Check",
                   "useLimitRange": true,
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "param2": 0.0,
+                  "JHDOLIIOACK": 0.0
                 }
               ]
             }
@@ -2634,73 +2717,78 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_NoBuff": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_HasBuff"
             }
           ]
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_HasBuff": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onBeingHit": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "target": "Other",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_ShieldBase_CD",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "FPBCMGGALCI",
+                  "$type": "DEEBIPHHMNA",
                   "target": "Self",
-                  "type": "All"
+                  "damageRatio": "All"
                 }
               ],
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster", "Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster",
+                    "Gadget"
+                  ]
                 }
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Other",
                   "modifierName": "ActivityAbility_BuoyantCombat_ShieldBase_DoDamage"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_CD_Team"
                 }
               ],
               "failActions": [
                 {
-                  "$type": "Predicated",
+                  "$type": "BGNIHCGOFJH",
                   "target": "Target",
                   "targetPredicates": [
                     {
-                      "$type": "ByEntityTypes",
-                      "entityTypes": ["Bullet"]
+                      "$type": "ABPNIKGNCGH",
+                      "entityTypes": [
+                        "Bullet"
+                      ]
                     }
                   ],
                   "successActions": [
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "TargetOriginOwner",
                       "modifierName": "ActivityAbility_BuoyantCombat_ShieldBase_DoDamage"
                     },
                     {
-                      "$type": "ApplyModifier",
+                      "$type": "DJAIBNJIMAD",
                       "target": "Team",
                       "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_CD_Team"
                     }
@@ -2712,50 +2800,52 @@
         },
         "ActivityAbility_BuoyantCombat_ShieldBase_DoDamage": {
           "modifierName": "",
-          "duration": 0.05000000074505806,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.05000000074505806,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_ShieldOnBeingHit",
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_ShieldOnBeingHit",
               "born": {
-                "$type": "ConfigBornBySelf"
+                "$type": "ONAGPPKOMPD"
               },
-              "effectTempleteID": -1.0
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "TriggerAttackEvent",
+              "$type": "LAHLFGKNGGA",
               "target": "Applier",
               "attackEvent": {
                 "attackPattern": {
-                  "$type": "ConfigAttackSphere",
+                  "$type": "FDBKEGJJIBF",
                   "triggerType": "TriggerNoRepeat",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "radius": 5.0
+                  "JNOPAOAHJAH": 5.0
                 },
                 "attackInfo": {
                   "attackTag": "",
                   "attenuationTag": "",
                   "attenuationGroup": "default",
                   "attackProperty": {
-                    "damagePercentageRatio": 0.0,
-                    "bonusCritical": 0.0,
+                    "actorElementReactionCriticalDelta": 0.0,
+                    "PBPPIFIOAMB": 0.0,
                     "ignoreAttackerProperty": true,
                     "strikeType": "Default",
                     "enBreak": 0.0,
-                    "damageExtra": [
+                    "actorGrassSubHurtDelta": [
                       "Value_DamageRate",
                       "Value_DamageSystemValue",
                       "MUL"
                     ],
                     "trueDamage": true,
-                    "JHBHILHIEJJ": true,
-                    "FKGFPFNOJMN": 0.0
+                    "ignoreModifyDamage": true,
+                    "IPANOFPPPBC": 0.0
                   },
                   "hitPattern": {
                     "onHitEffectName": "",
+                    "hitImpulseY": "",
                     "hitImpulseType": "LV2",
                     "hitHaltTimeScale": 0.05000000074505806
                   },
@@ -2768,22 +2858,22 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_CD_Team": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_CD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_CD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_ShieldBase_CD",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 1.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_ShieldBase_CD"
             }
           ]
@@ -2791,8 +2881,8 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_Property": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_ShieldCostMinusRatio": "Value_ShieldCostMinusRatio"
           },
@@ -2801,35 +2891,36 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_Handler"
         },
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldBase_Property"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_ShieldBase_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_CD",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2837,14 +2928,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_ShieldLv1",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobalValueMixin",
+          "$type": "DNAPOLPDJMH",
           "globalValueKey": "_ActivityAbility_BuoyantCombat_ShieldLv1_Check",
-          "defaultGlobalValueOnCreate": 0.0,
-          "valueSteps": [-0.5, 0.5, 1.5],
+          "IMIMGNLNKHD": 0.0,
+          "valueSteps": [
+            -0.5,
+            0.5,
+            1.5
+          ],
           "modifierNameSteps": [
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_NoBuff",
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_HasBuff"
@@ -2857,36 +2952,36 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_Handler": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "FPBCMGGALCI",
-                  "type": "All"
+                  "$type": "DEEBIPHHMNA",
+                  "damageRatio": "All"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv1_Check",
                   "useLimitRange": true,
-                  "maxValue": 1.0,
-                  "minValue": 1.0
+                  "param2": 1.0,
+                  "JHDOLIIOACK": 1.0
                 }
               ],
               "failActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv1_Check",
                   "useLimitRange": true,
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "param2": 0.0,
+                  "JHDOLIIOACK": 0.0
                 }
               ]
             }
@@ -2894,11 +2989,11 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_NoBuff": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_HasBuff"
             }
           ]
@@ -2906,8 +3001,8 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_HasBuff": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_AttackRatio"
           },
@@ -2916,8 +3011,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv1_Handler"
         }
       ],
@@ -2926,14 +3021,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_ShieldLv2",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobalValueMixin",
+          "$type": "DNAPOLPDJMH",
           "globalValueKey": "_ActivityAbility_BuoyantCombat_ShieldLv2_Check",
-          "defaultGlobalValueOnCreate": 0.0,
-          "valueSteps": [-0.5, 0.5, 1.5],
+          "IMIMGNLNKHD": 0.0,
+          "valueSteps": [
+            -0.5,
+            0.5,
+            1.5
+          ],
           "modifierNameSteps": [
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_NoBuff",
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_HasBuff"
@@ -2946,36 +3045,36 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_Handler": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "FPBCMGGALCI",
-                  "type": "All"
+                  "$type": "DEEBIPHHMNA",
+                  "damageRatio": "All"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv2_Check",
                   "useLimitRange": true,
-                  "maxValue": 1.0,
-                  "minValue": 1.0
+                  "param2": 1.0,
+                  "JHDOLIIOACK": 1.0
                 }
               ],
               "failActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv2_Check",
                   "useLimitRange": true,
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "param2": 0.0,
+                  "JHDOLIIOACK": 0.0
                 }
               ]
             }
@@ -2983,11 +3082,11 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_NoBuff": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_HasBuff"
             }
           ]
@@ -2995,8 +3094,8 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_HasBuff": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "Value_AttackRatio"
           },
@@ -3005,8 +3104,8 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv2_Handler"
         }
       ],
@@ -3015,14 +3114,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "ActivityAbility_BuoyantCombat_ShieldLv3",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobalValueMixin",
+          "$type": "DNAPOLPDJMH",
           "globalValueKey": "_ActivityAbility_BuoyantCombat_ShieldLv3_Check",
-          "defaultGlobalValueOnCreate": 0.0,
-          "valueSteps": [-0.5, 0.5, 1.5],
+          "IMIMGNLNKHD": 0.0,
+          "valueSteps": [
+            -0.5,
+            0.5,
+            1.5
+          ],
           "modifierNameSteps": [
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_NoBuff",
             "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_HasBuff"
@@ -3039,36 +3142,36 @@
       "modifiers": {
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_Handler": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "targetPredicates": [
                 {
-                  "$type": "FPBCMGGALCI",
-                  "type": "All"
+                  "$type": "DEEBIPHHMNA",
+                  "damageRatio": "All"
                 }
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_Check",
                   "useLimitRange": true,
-                  "maxValue": 1.0,
-                  "minValue": 1.0
+                  "param2": 1.0,
+                  "JHDOLIIOACK": 1.0
                 }
               ],
               "failActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "ratio": 0.0,
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_Check",
                   "useLimitRange": true,
-                  "maxValue": 0.0,
-                  "minValue": 0.0
+                  "param2": 0.0,
+                  "JHDOLIIOACK": 0.0
                 }
               ]
             }
@@ -3076,11 +3179,11 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_NoBuff": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_HasBuff"
             }
           ]
@@ -3088,39 +3191,41 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_HasBuff": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 2.0,
           "properties": {
             "Actor_AttackRatio": "Value_AttackRatio"
           },
           "onAdded": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "topLimit": 1,
                 "sortType": "Random",
                 "shapeName": "CircleR5",
                 "centerBasedOn": "CurLocalAvatar",
                 "campTargetType": "Enemy",
-                "BDDJBGEIGMJ": "CurLocalAvatar",
-                "OBHNBNDMPFN": 1.0
+                "campBasedOn": "CurLocalAvatar",
+                "doOffStage": 1.0
               },
               "targetPredicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_CD",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
@@ -3128,12 +3233,12 @@
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Other",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_DamageModifier"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_CD_Team"
                 }
@@ -3142,31 +3247,33 @@
           ],
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
+                "$type": "CLJHKMAIHCM",
                 "topLimit": 1,
                 "sortType": "Random",
                 "shapeName": "CircleR5",
                 "centerBasedOn": "CurLocalAvatar",
                 "campTargetType": "Enemy",
-                "BDDJBGEIGMJ": "CurLocalAvatar",
-                "OBHNBNDMPFN": 1.0
+                "campBasedOn": "CurLocalAvatar",
+                "doOffStage": 1.0
               },
               "targetPredicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_CD",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
                 },
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Monster"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Monster"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_ANIMAL_ENTITY_TYPE",
                   "ratio": 0.0,
                   "compareType": "NoneOrEqual"
@@ -3174,12 +3281,12 @@
               ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Other",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_DamageModifier"
                 },
                 {
-                  "$type": "ApplyModifier",
+                  "$type": "DJAIBNJIMAD",
                   "target": "Team",
                   "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_CD_Team"
                 }
@@ -3190,56 +3297,58 @@
         },
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_DamageModifier": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 0.10000000149011612,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 0.10000000149011612,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "Randomed",
+              "$type": "DKBEECBMHLO",
               "chance": 0.5,
               "successActions": [
                 {
-                  "$type": "FireEffect",
+                  "$type": "HPOJEFINJEP",
                   "target": "Caster",
-                  "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Burst_Down_Ice",
+                  "rotationDampTime": "Eff_Avatar_Burst_Down_Ice",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "effectTempleteID": -1.0
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "TriggerAttackEvent",
+                  "$type": "LAHLFGKNGGA",
                   "target": "Caster",
                   "attackEvent": {
                     "attackPattern": {
-                      "$type": "ConfigAttackSphere",
+                      "$type": "FDBKEGJJIBF",
                       "triggerType": "TriggerNoRepeat",
                       "born": {
-                        "$type": "ConfigBornBySelf"
+                        "$type": "ONAGPPKOMPD"
                       },
-                      "radius": 0.5
+                      "JNOPAOAHJAH": 0.5
                     },
                     "attackInfo": {
                       "attackTag": "",
                       "attenuationTag": "",
                       "attenuationGroup": "default",
                       "attackProperty": {
-                        "damagePercentageRatio": 0.0,
+                        "actorElementReactionCriticalDelta": 0.0,
                         "elementType": "Ice",
-                        "bonusCritical": 50.0,
+                        "PBPPIFIOAMB": 50.0,
                         "ignoreAttackerProperty": true,
                         "enBreak": 0.0,
-                        "damageExtra": [
+                        "actorGrassSubHurtDelta": [
                           "Value_DamageRate",
                           "Value_DamageSystemValue",
                           "MUL"
                         ],
                         "trueDamage": true,
-                        "JHBHILHIEJJ": true,
-                        "FKGFPFNOJMN": 0.0
+                        "ignoreModifyDamage": true,
+                        "IPANOFPPPBC": 0.0
                       },
                       "hitPattern": {
                         "onHitEffectName": "",
+                        "hitImpulseY": "",
                         "hitImpulseType": "LV1"
                       }
                     }
@@ -3249,46 +3358,48 @@
               ],
               "failActions": [
                 {
-                  "$type": "FireEffect",
-                  "healLimitedByCasterMaxHPRatio": "Eff_Avatar_Burst_Down_Lightning",
+                  "$type": "HPOJEFINJEP",
+                  "rotationDampTime": "Eff_Avatar_Burst_Down_Lightning",
                   "born": {
-                    "$type": "ConfigBornBySelf"
+                    "$type": "ONAGPPKOMPD"
                   },
-                  "effectTempleteID": -1.0
+                  "NEGDPOAEJFL": 1.0,
+                  "CCLMIJIBGDK": -1.0
                 },
                 {
-                  "$type": "TriggerAttackEvent",
+                  "$type": "LAHLFGKNGGA",
                   "target": "Caster",
                   "attackEvent": {
                     "attackPattern": {
-                      "$type": "ConfigAttackSphere",
+                      "$type": "FDBKEGJJIBF",
                       "triggerType": "TriggerNoRepeat",
                       "born": {
-                        "$type": "ConfigBornBySelf"
+                        "$type": "ONAGPPKOMPD"
                       },
-                      "radius": 0.5
+                      "JNOPAOAHJAH": 0.5
                     },
                     "attackInfo": {
                       "attackTag": "",
                       "attenuationTag": "",
                       "attenuationGroup": "default",
                       "attackProperty": {
-                        "damagePercentageRatio": 0.0,
+                        "actorElementReactionCriticalDelta": 0.0,
                         "elementType": "Electric",
-                        "bonusCritical": 50.0,
+                        "PBPPIFIOAMB": 50.0,
                         "ignoreAttackerProperty": true,
                         "enBreak": 0.0,
-                        "damageExtra": [
+                        "actorGrassSubHurtDelta": [
                           "Value_DamageRate",
                           "Value_DamageSystemValue",
                           "MUL"
                         ],
                         "trueDamage": true,
-                        "JHBHILHIEJJ": true,
-                        "FKGFPFNOJMN": 0.0
+                        "ignoreModifyDamage": true,
+                        "IPANOFPPPBC": 0.0
                       },
                       "hitPattern": {
                         "onHitEffectName": "",
+                        "hitImpulseY": "",
                         "hitImpulseType": "LV1"
                       }
                     }
@@ -3302,21 +3413,21 @@
         "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_CD_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": "Value_DamageCD",
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": "Value_DamageCD",
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_CD",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ClearGlobalValue",
+              "$type": "JHHFEBMDHFB",
               "key": "_ActivityAbility_BuoyantCombat_ShieldLv3_CD"
             }
           ]
@@ -3324,14 +3435,15 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
-          "cdDelta": true,
+          "$type": "JCCOJGHBBEF",
+          "musicSubStates": true,
           "modifierName": "UNIQUE_ActivityAbility_BuoyantCombat_ShieldLv3_Handler"
         },
         {
-          "$type": "SetSystemValueToOverrideMap",
+          "$type": "CKIGIJHHILP",
           "key": "Value_DamageSystemValue",
-          "type": "ElementLevelCo"
+          "damageRatio": "ElementLevelCo",
+          "param3": -1.0
         }
       ],
       "isDynamicAbility": true

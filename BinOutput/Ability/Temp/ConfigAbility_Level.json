@@ -1,26 +1,27 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "AI_LeaveCombat_Reset",
       "modifiers": {
         "AI_Reset_HP": {
           "modifierName": "",
-          "duration": 1.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "HealHP",
+              "$type": "JMEOFOGONAK",
               "target": "Target",
-              "GGLMMJHNGMO": 1.0,
-              "muteHealEffect": true
+              "OJBDHICLDEM": 1.0,
+              "muteHealEffect": true,
+              "cdRatio": ""
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Target",
           "modifierName": "AI_Reset_HP"
         }
@@ -30,23 +31,23 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Gadget_Level_Paimon_Apple",
       "onAbilityStart": [
         {
-          "$type": "SetPaimonLookAtAvatar",
+          "$type": "NOKJGPAPFAC",
           "from": "Task",
           "lookat": true,
           "minTime": 2.200000047683716,
           "maxTime": 2.200000047683716
         },
         {
-          "$type": "PaimonAction",
+          "$type": "LIGHKEFPJMM",
           "from": "Task",
           "actionName": "Hope"
         },
         {
-          "$type": "SetPaimonTempOffset",
+          "$type": "IFOBJOAKELF",
           "from": "Task",
           "offSetPos": {
             "x": 0.25,
@@ -61,18 +62,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Gadget_Level_Paimon_Stamina",
       "onAbilityStart": [
         {
-          "$type": "SetPaimonLookAtCamera",
+          "$type": "EHDDJDMFJAG",
           "from": "Task",
           "lookat": true,
           "minTime": 2.5,
           "maxTime": 2.5
         },
         {
-          "$type": "PaimonAction",
+          "$type": "LIGHKEFPJMM",
           "from": "Task",
           "actionName": "Guide"
         }
@@ -82,51 +83,51 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Apply_Switch_SneakBtn",
       "modifiers": {
         "UNIQUE_WatchingCurAvatarModifier": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "UNIQUE_SwtichBtnModifier"
             }
           ]
         },
         "UNIQUE_SwtichBtnModifier": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 10035
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "SwithBtnModifier"
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "SwithBtnModifier"
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 10035
             }
           ]
         },
         "SwithBtnModifier": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Quest",
               "skillIndex": 1,
               "skillID": 10035
@@ -136,7 +137,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Team",
           "modifierName": "UNIQUE_WatchingCurAvatarModifier"
         }
@@ -146,11 +147,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Remove_Switch_SneakBtn",
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "Team",
           "modifierName": "UNIQUE_WatchingCurAvatarModifier"
         }
@@ -160,34 +161,37 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Player_RunBomber",
       "modifiers": {
         "UNIQUE_Avatar_Start_RunBomber": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToAnimatorStateIDMixin",
-              "stateIDs": ["Run"],
-              "modifierName": "Avatar_Start_RunBomber"
+              "$type": "CINOKAMLEJJ",
+              "stateIDs": [
+                "Run"
+              ],
+              "modifierName": "Avatar_Start_RunBomber",
+              "IIFOLCMHMHP": ""
             }
           ]
         },
         "Avatar_Start_RunBomber": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "TriggerBullet",
+              "$type": "NIMBMIFEBKH",
               "bulletID": 40000174,
               "born": {
-                "$type": "ConfigBornByTarget",
+                "$type": "DNEGODCNNPL",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.5,
-                  "z": 0.10000000149011612
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.5,
+                  "HCMGOAIEFGL": 0.10000000149011612
                 }
               }
             }
@@ -196,7 +200,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "CurTeamAvatars",
           "modifierName": "UNIQUE_Avatar_Start_RunBomber"
         }
@@ -206,72 +210,72 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Test_FlyingBomber",
       "modifiers": {
         "Avatar_Player_CamCtrl_Modifier": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "TriggerAbility",
-              "cdDelta": true,
+              "$type": "BMEHDKMCIAD",
+              "musicSubStates": true,
               "abilityName": "Avatar_Player_CamCtrl"
             }
           ]
         },
         "UNIQUE_WatchingCurAvatarModifier_Flying": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "UNIQUE_SwtichBtnModifier_Flying"
             },
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "Avatar_Player_CamCtrl_Modifier"
             },
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "Avatar_Player_SetFlyState_Modifier"
             }
           ]
         },
         "UNIQUE_SwtichBtnModifier_Flying": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddAvatarSkillInfo",
-              "cdDelta": true,
+              "$type": "GDGNCPBPGPA",
+              "musicSubStates": true,
               "skillID": 10037
             },
             {
-              "$type": "ApplyModifier",
-              "cdDelta": true,
+              "$type": "DJAIBNJIMAD",
+              "musicSubStates": true,
               "modifierName": "SwithBtnModifier_Flying"
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "SwithBtnModifier_Flying"
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 10037
             }
           ]
         },
         "SwithBtnModifier_Flying": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AvatarChangeSkillMixin",
+              "$type": "MHEKPPMCOAO",
               "index": 1,
               "priority": "Quest",
               "jumpSkillID": 10037,
@@ -281,7 +285,7 @@
         },
         "Avatar_Player_SetFlyState_Modifier": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FlyBackSpeedMaxRatio": 1.0,
             "Actor_FlyHorizontalSpeedMaxRatio": 3.0,
@@ -293,7 +297,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Team",
           "modifierName": "UNIQUE_WatchingCurAvatarModifier_Flying"
         }
@@ -303,11 +307,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Remove_Avatar_Test_FlyingBomber",
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "Team",
           "modifierName": "UNIQUE_WatchingCurAvatarModifier_Flying"
         }
@@ -317,51 +321,51 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Apply_Switch_FindCatBtn",
       "modifiers": {
         "UNIQUE_WatchingCurAvatarModifier_FindCat": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "UNIQUE_SwtichBtnModifier_FindCat"
             }
           ]
         },
         "UNIQUE_SwtichBtnModifier_FindCat": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddAvatarSkillInfo",
+              "$type": "GDGNCPBPGPA",
               "skillID": 10384
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "SwithBtnModifier"
             }
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "modifierName": "SwithBtnModifier"
             },
             {
-              "$type": "RemoveAvatarSkillInfo",
+              "$type": "LGFJIDOLLHD",
               "skillID": 10384
             }
           ]
         },
         "SwithBtnModifier": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "SwitchSkillIDMixin",
+              "$type": "PDAJGCNBDJL",
               "priority": "Quest",
               "skillIndex": 1,
               "skillID": 10384
@@ -371,7 +375,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Team",
           "modifierName": "UNIQUE_WatchingCurAvatarModifier_FindCat"
         }
@@ -381,11 +385,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Remove_Switch_FindCatBtn",
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "Team",
           "modifierName": "UNIQUE_WatchingCurAvatarModifier_FindCat"
         }
@@ -395,18 +399,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "LevelBuff_ReviveElemEnergyMinusCD",
       "modifiers": {
         "UNIQUE_LevelBuff_ReviveElemEnergy_Check": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 120.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 120.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "UNIQUE_LevelBuff_ReviveElemEnergy"
             }
           ]
@@ -414,15 +418,15 @@
         "UNIQUE_LevelBuff_ReviveElemEnergy": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 120.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 120.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ReviveElemEnergyMixin",
+              "$type": "LJIAPPNJJHA",
               "period": 1.0,
               "baseEnergy": 10.0,
-              "value": 1.0
+              "maxValue": 1.0
             }
           ],
           "properties": {
@@ -430,18 +434,19 @@
           },
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_MQ1002_XueyueBuff",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_MQ1002_XueyueBuff",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "target": "Team",
-          "cdDelta": true,
+          "musicSubStates": true,
           "modifierName": "UNIQUE_LevelBuff_ReviveElemEnergy_Check"
         }
       ],
@@ -450,11 +455,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "LevelBuff_Remove_ReviveElemEnergyMinusCD",
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "Team",
           "modifierName": "UNIQUE_LevelBuff_ReviveElemEnergy_Check"
         }
@@ -464,13 +469,13 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_FallingDamageImmune",
       "modifiers": {
         "UNIQUE_Avatar_FallingDamage": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FallingDamageRatio": -1.0
           }
@@ -478,7 +483,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "CurTeamAvatars",
           "modifierName": "UNIQUE_Avatar_FallingDamage"
         }
@@ -488,11 +493,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Remove_FallingDamageImmune",
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "CurTeamAvatars",
           "modifierName": "UNIQUE_Avatar_FallingDamage"
         }
@@ -502,40 +507,46 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_Player_StaminaReduced",
       "modifiers": {
         "UNIQUE_StaminaReduced_Team": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixin",
+              "$type": "ELIAEEJENIF",
               "modifierName": "UNIQUE_Avatar_StaminaReduced"
             }
           ]
         },
         "UNIQUE_Avatar_StaminaReduced": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["Fly"],
-              "modifierName": "Avatar_Flying_StaminaReduced"
+              "$type": "IHPNOCDHKEC",
+              "stateIDs": [
+                "Fly"
+              ],
+              "modifierName": "Avatar_Flying_StaminaReduced",
+              "IIFOLCMHMHP": ""
             },
             {
-              "$type": "AttachToAnimatorStateIDMixin",
-              "stateIDs": ["Run"],
-              "modifierName": "Avatar_Flying_StaminaReduced"
+              "$type": "CINOKAMLEJJ",
+              "stateIDs": [
+                "Run"
+              ],
+              "modifierName": "Avatar_Flying_StaminaReduced",
+              "IIFOLCMHMHP": ""
             }
           ]
         },
         "Avatar_Flying_StaminaReduced": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_MaxStaminaDelta": 100.0,
             "Actor_CostStaminaRatio": -999.0,
@@ -543,11 +554,11 @@
           },
           "onAdded": [
             {
-              "$type": "AttachAbilityStateResistance",
+              "$type": "LIEKGJAFBPD",
               "resistanceListID": 11002
             },
             {
-              "$type": "SetAvatarHitBuckets",
+              "$type": "GGHNHHFEOBN",
               "overrideAvatarHitBucketSetting": {
                 "rangedBucketCount": 4
               }
@@ -557,7 +568,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Team",
           "modifierName": "UNIQUE_StaminaReduced_Team"
         }
@@ -567,11 +578,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Level_Remove_Avatar_Player_StaminaReduced",
       "onAbilityStart": [
         {
-          "$type": "RemoveUniqueModifier",
+          "$type": "DLACOGBKNLA",
           "target": "Team",
           "modifierName": "UNIQUE_Avatar_StaminaReduced"
         }
@@ -581,39 +592,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Electric_Alter",
       "modifiers": {
         "Electric_Alter": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_ELECTRIC_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_ELECTRIC_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Electric_Alter"
         }
       ],
@@ -622,39 +633,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Swirl_Fire_Alter",
       "modifiers": {
         "Swirl_Fire_Alter": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_SWRIL_FIRE_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_SWRIL_FIRE_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Swirl_Fire_Alter"
         }
       ],
@@ -663,39 +674,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Swirl_Electric_Alter",
       "modifiers": {
         "Swirl_Electric": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_SWRIL_ELECTRIC_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_SWRIL_ELECTRIC_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Swirl_Electric"
         }
       ],
@@ -704,39 +715,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Swirl_Water_Alter",
       "modifiers": {
         "Swirl_Water": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_SWRIL_WATER_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_SWRIL_WATER_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Swirl_Water"
         }
       ],
@@ -745,39 +756,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Swirl_Ice_Alter",
       "modifiers": {
         "Swirl_Ice": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_SWRIL_ICE_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_SWRIL_ICE_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Swirl_Ice"
         }
       ],
@@ -786,39 +797,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Explode_Alter",
       "modifiers": {
         "Explode_Alter": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_EXPLODE_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_EXPLODE_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Explode_Alter"
         }
       ],
@@ -827,39 +838,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Superconductor_Alter",
       "modifiers": {
         "Superconductor_Alter": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_SUPERCONDUCTOR_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_SUPERCONDUCTOR_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Superconductor_Alter"
         }
       ],
@@ -868,39 +879,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Burning_Alter",
       "modifiers": {
         "Burning_Alter": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_BURNING_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_BURNING_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Burning_Alter"
         }
       ],
@@ -909,39 +920,39 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Freeze_Alter",
       "modifiers": {
         "Freeze_Alter": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": 1.0,
               "key": "_IS_FREEZE_ALTER",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Caster",
               "ratio": -1.0,
               "key": "_IS_FREEZE_ALTER",
               "useLimitRange": true,
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "Freeze_Alter"
         }
       ],
@@ -950,14 +961,14 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "SceneAbility_Monster_GenerateElemBall",
       "abilityMixins": [
         {
-          "$type": "MonsterReadyMixin",
+          "$type": "MMMNAAOAIMN",
           "onMonsterReady": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "Target",
               "modifierName": "UNIQUE_Monster_GenerateElemBall"
             }
@@ -968,22 +979,26 @@
         "UNIQUE_Monster_GenerateElemBall": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onBeingHit": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByAny",
+                  "$type": "DEHGJIGOLBJ",
                   "predicates": [
                     {
-                      "$type": "ByAttackTags",
-                      "attackTags": ["ExplodeDamage"]
+                      "$type": "IIHMEDMKFIE",
+                      "attackTags": [
+                        "ExplodeDamage"
+                      ]
                     },
                     {
-                      "$type": "ByAttackTags",
-                      "attackTags": ["SuperconductorDamage"]
+                      "$type": "IIHMEDMKFIE",
+                      "attackTags": [
+                        "SuperconductorDamage"
+                      ]
                     }
                   ]
                 }
@@ -995,42 +1010,42 @@
         "UNIQUE_Monster_GenerateElemBall_Timer": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 2.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 2.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "GenerateElemBall",
+              "$type": "HLIMKOOKJNK",
               "dropType": "ForceDrop",
               "configID": 2024,
               "born": {
-                "$type": "ConfigBornByTarget",
+                "$type": "DNEGODCNNPL",
                 "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 0.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": 0.0,
+                  "HCMGOAIEFGL": 0.0
                 }
               },
-              "value": 4.0,
+              "maxValue": 4.0,
               "baseEnergy": 2.0
             },
             {
-              "$type": "Randomed",
+              "$type": "DKBEECBMHLO",
               "chance": 0.5,
               "successActions": [
                 {
-                  "$type": "GenerateElemBall",
+                  "$type": "HLIMKOOKJNK",
                   "dropType": "ForceDrop",
                   "configID": 2024,
                   "born": {
-                    "$type": "ConfigBornByTarget",
+                    "$type": "DNEGODCNNPL",
                     "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 0.0
+                      "PANGIELPECA": 0.0,
+                      "CJENFGKOOOO": 0.0,
+                      "HCMGOAIEFGL": 0.0
                     }
                   },
-                  "value": 2.0,
+                  "maxValue": 2.0,
                   "baseEnergy": 2.0
                 }
               ]
@@ -1043,37 +1058,40 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "LevelAbility_Challenge_RecoverAllState",
       "modifiers": {
         "RecoverAllState": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "ReviveDeadAvatar",
+              "$type": "HEHKJHGDNLC",
               "target": "AllPlayerAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "predicates": [
                 {
-                  "$type": "JOLJOHDJLNF",
+                  "$type": "BKDNDLPCHFH",
                   "logic": "LesserOrEqual",
-                  "ratio": 12.0
+                  "ratio": 12.0,
+                  "IEGMHDPPMNE": ""
                 }
               ],
-              "GGLMMJHNGMO": 1.0,
-              "amount": 1.0
+              "OJBDHICLDEM": 1.0,
+              "cdRatio": "",
+              "costStaminaRatio": 1.0
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "AllPlayerAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "predicates": [
                 {
-                  "$type": "JOLJOHDJLNF",
+                  "$type": "BKDNDLPCHFH",
                   "logic": "LesserOrEqual",
-                  "ratio": 12.0
+                  "ratio": 12.0,
+                  "IEGMHDPPMNE": ""
                 }
               ],
               "modifierName": "RecoverHpElemEnergy"
@@ -1083,28 +1101,29 @@
         "RecoverHpElemEnergy": {
           "stacking": "Multiple",
           "modifierName": "",
-          "duration": 1.100000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.100000023841858,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ReviveElemEnergyMixin",
+              "$type": "LJIAPPNJJHA",
               "period": 1.0,
               "baseEnergy": 20.0,
-              "value": 1.0
+              "maxValue": 1.0
             }
           ],
           "onAdded": [
             {
-              "$type": "HealHP",
-              "cdDelta": true,
-              "GGLMMJHNGMO": 1.0
+              "$type": "JMEOFOGONAK",
+              "musicSubStates": true,
+              "OJBDHICLDEM": 1.0,
+              "cdRatio": ""
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "RecoverAllState"
         }
       ],
@@ -1113,37 +1132,40 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "LevelAbility_Challenge_RecoverAllState_Big",
       "modifiers": {
         "RecoverAllState": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "ReviveDeadAvatar",
+              "$type": "HEHKJHGDNLC",
               "target": "AllPlayerAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "predicates": [
                 {
-                  "$type": "JOLJOHDJLNF",
+                  "$type": "BKDNDLPCHFH",
                   "logic": "LesserOrEqual",
-                  "ratio": 20.0
+                  "ratio": 20.0,
+                  "IEGMHDPPMNE": ""
                 }
               ],
-              "GGLMMJHNGMO": 1.0,
-              "amount": 1.0
+              "OJBDHICLDEM": 1.0,
+              "cdRatio": "",
+              "costStaminaRatio": 1.0
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "AllPlayerAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "predicates": [
                 {
-                  "$type": "JOLJOHDJLNF",
+                  "$type": "BKDNDLPCHFH",
                   "logic": "LesserOrEqual",
-                  "ratio": 20.0
+                  "ratio": 20.0,
+                  "IEGMHDPPMNE": ""
                 }
               ],
               "modifierName": "RecoverHpElemEnergy"
@@ -1153,28 +1175,29 @@
         "RecoverHpElemEnergy": {
           "stacking": "Multiple",
           "modifierName": "",
-          "duration": 1.100000023841858,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 1.100000023841858,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ReviveElemEnergyMixin",
+              "$type": "LJIAPPNJJHA",
               "period": 1.0,
               "baseEnergy": 20.0,
-              "value": 1.0
+              "maxValue": 1.0
             }
           ],
           "onAdded": [
             {
-              "$type": "HealHP",
-              "cdDelta": true,
-              "GGLMMJHNGMO": 1.0
+              "$type": "JMEOFOGONAK",
+              "musicSubStates": true,
+              "OJBDHICLDEM": 1.0,
+              "cdRatio": ""
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "modifierName": "RecoverAllState"
         }
       ],
@@ -1183,11 +1206,11 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "LevelAbility_SceneObj_ClearLocalGadget",
       "abilityMixins": [
         {
-          "$type": "AttachToGadgetStateMixin",
+          "$type": "ICPDCNFLCGA",
           "gadgetState": 201,
           "modifierName": "State_201"
         }
@@ -1195,14 +1218,14 @@
       "modifiers": {
         "State_201": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "ClearLocalGadgets"
+              "$type": "BMBPBJAIDJD"
             },
             {
-              "$type": "ChangeGadgetState",
-              "OBNBNBGHJEK": 1
+              "$type": "CIKIKFMNALB",
+              "state": 1
             }
           ]
         }
@@ -1212,26 +1235,28 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_WindFlora_Dungeon_Load",
       "modifiers": {
         "Avatar_Ready": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "StageReadyMixin",
+              "$type": "PPAAEAIFPIG",
               "onStageReady": [
                 {
-                  "$type": "ServerLuaCall",
+                  "$type": "CEDNHGNADHF",
                   "target": "Team",
                   "luaCallType": "SpecificGroup",
                   "isTarget": true,
-                  "CallParamList": [235800001],
+                  "callParamList": [
+                    235800001
+                  ],
                   "funcName": "action_player_ready_to_go_single",
-                  "FDPBPIHKEGH": 0.0,
-                  "FJCBPCIDMGJ": 0.0,
-                  "NDCPJDDPIMD": 0.0
+                  "param1": 0.0,
+                  "GBNICMACNIE": 0.0,
+                  "IHKFPGMMIDN": 0.0
                 }
               ]
             }
@@ -1240,7 +1265,7 @@
       },
       "onAdded": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "Avatar_Ready"
         }
       ],
@@ -1249,42 +1274,44 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_CharAmusement_Dungeon_Load",
       "modifiers": {
         "UNIQUE_Avatar_FallingDamage": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FallingDamageRatio": -1.0
           }
         },
         "UNIQUE_Avatar_EnterScene": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "canBeHandledOnRecover": true,
               "luaCallType": "SpecificGroup",
-              "CallParamList": [247608007],
+              "callParamList": [
+                247608007
+              ],
               "funcName": "SLC_CharAmuseMain_PlayerEnter",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "UNIQUE_Avatar_FallingDamage"
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "UNIQUE_Avatar_EnterScene"
         }
       ],
@@ -1293,14 +1320,22 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_UGC_Dungeon_Ray",
       "abilityMixins": [
         {
-          "$type": "DoActionByRayTagMixin",
-          "GMDAOAIHKPM": ["Down"],
-          "FKIMDFCNONP": [1, 2, 3, 4, 5],
-          "HNBEKOEKIBC": [
+          "$type": "EGEBCMIPIKI",
+          "ugcRayTriggerDirections": [
+            "Down"
+          ],
+          "rayTags": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "modifierToTags": [
             "UNIQUE_Team_Fire",
             "UNIQUE_Team_Water",
             "UNIQUE_Team_Ice",
@@ -1309,38 +1344,46 @@
           ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
-          "isUnique": true,
+          "$type": "GALIFKLAJDH",
+          "reApplyModifierOnStateChange": true,
           "globalValueTarget": "Team",
           "globalValueKey": "GV_UGC_AvatarCanRocketJump",
-          "valueSteps": [-0.5, 0.5, 999.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            999.0
+          ],
           "modifierNameSteps": [
             "UNIQUE_UGC_DisableRocketJump",
             "UNIQUE_UGC_EnableRocketJump"
           ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
-          "isUnique": true,
+          "$type": "GALIFKLAJDH",
+          "reApplyModifierOnStateChange": true,
           "globalValueTarget": "Team",
           "globalValueKey": "SGV_UGCDungeon_Immune",
-          "valueSteps": [-0.5, 0.5, 20.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
           "modifierNameSteps": [
             "UNIQUE_UGC_DisableImmune",
             "UNIQUE_UGC_EnableImmune"
           ]
         },
         {
-          "$type": "StageReadyMixin",
+          "$type": "PPAAEAIFPIG",
           "onStageReady": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "ratio": 0.0,
               "key": "GV_UGC_AvatarCanRocketJump",
               "useLimitRange": true,
-              "maxValue": 999.0,
-              "minValue": 0.0
+              "param2": 999.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
@@ -1349,32 +1392,32 @@
         "UNIQUE_PlayerTrig": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 1.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "UGC_Triggered",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 0.0,
               "key": "UGC_Triggered",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_UGC_LockHp": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FallingDamageRatio": -1.0
           },
@@ -1383,18 +1426,18 @@
         "UNIQUE_Team_Fire": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 3.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 3.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGC_FireCubeElem"
             }
           ],
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "UNIQUE_UGC_FireCubeElem"
             }
@@ -1403,18 +1446,18 @@
         "UNIQUE_Team_Water": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 3.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 3.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGC_WaterCubeElem"
             }
           ],
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "UNIQUE_UGC_WaterCubeElem"
             }
@@ -1423,18 +1466,18 @@
         "UNIQUE_Team_Ice": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 3.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 3.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGC_IceCubeElem"
             }
           ],
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "UNIQUE_UGC_IceCubeElem"
             }
@@ -1443,18 +1486,18 @@
         "UNIQUE_Team_Elec": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 3.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 3.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGC_ElecCubeElem"
             }
           ],
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "UNIQUE_UGC_ElecCubeElem"
             }
@@ -1462,94 +1505,98 @@
         },
         "UNIQUE_Team_RocketJump": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 0.6000000238418579,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 0.6000000238418579,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Team",
               "ratio": 1.0,
               "key": "GV_UGC_AvatarCanRocketJump",
               "useLimitRange": true,
-              "maxValue": 999.0,
-              "minValue": 0.0
+              "param2": 999.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Team",
               "ratio": -1.0,
               "key": "GV_UGC_AvatarCanRocketJump",
               "useLimitRange": true,
-              "maxValue": 999.0,
-              "minValue": 0.0
+              "param2": 999.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_UGC_FireCubeElem": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 5.0,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGC_WaterCubeElem": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 5.0,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGC_IceCubeElem": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 5.0,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGC_ElecCubeElem": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 5.0,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 5.0,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGC_EnableRocketJump": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGC_ROCKETJUMP"
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "UNIQUE_UGC_ROCKETJUMP"
             }
           ]
         },
         "UNIQUE_UGC_ROCKETJUMP": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["Jump"],
-              "modifierName": "UGC_RocketJumpEffect"
+              "$type": "IHPNOCDHKEC",
+              "stateIDs": [
+                "Jump"
+              ],
+              "modifierName": "UGC_RocketJumpEffect",
+              "IIFOLCMHMHP": ""
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_JumpUp_01_Buff",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_JumpUp_01_Buff",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "EnableRocketJump",
+              "$type": "NGKAPBOKIKB",
               "canBeHandledOnRecover": true,
-              "type": "DungeonJump",
+              "damageRatio": "DungeonJump",
               "enable": true,
               "extention": {
                 "xzMultiplier": 3.0,
@@ -1559,62 +1606,63 @@
           ],
           "onRemoved": [
             {
-              "$type": "EnableRocketJump",
+              "$type": "NGKAPBOKIKB",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
-              "type": "DungeonJump"
+              "musicSubStates": true,
+              "damageRatio": "DungeonJump"
             }
           ]
         },
         "UNIQUE_UGC_DisableRocketJump": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UGC_RocketJumpEffect": {
           "modifierName": "",
-          "duration": 0.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.5,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_Level_Common_Jumpplatform_01_Active",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_Level_Common_Jumpplatform_01_Active",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "UNIQUE_UGC_EnableImmune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGC_Immune"
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "UNIQUE_UGC_Immune"
             }
           ]
         },
         "UNIQUE_UGC_DisableImmune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGC_Immune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "EntityDitherMixin",
+              "$type": "LKDJNADNMII",
               "predicates": [
                 {
-                  "$type": "ABFPLJIKNAD"
+                  "$type": "JLAODCPDLHK"
                 }
               ],
               "ditherValue": 0.5,
@@ -1626,26 +1674,30 @@
         },
         "UNIQUE_UGC_ElectricCorePlay": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "Predicated",
+              "$type": "BGNIHCGOFJH",
               "otherTargets": {
-                "$type": "SelectTargetsByShape",
-                "entityTypePriority": ["Gadget"],
+                "$type": "CLJHKMAIHCM",
+                "entityTypePriority": [
+                  "Gadget"
+                ],
                 "shapeName": "CircleR15H30",
                 "campTargetType": "All",
-                "OBHNBNDMPFN": 1.0
+                "doOffStage": 1.0
               },
               "targetPredicates": [
                 {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": ["Gadget"]
+                  "$type": "ABPNIKGNCGH",
+                  "entityTypes": [
+                    "Gadget"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "_IS_ELECTRIC_CORE",
                   "ratio": 0.0,
                   "compareType": "MoreThanAndEqual"
@@ -1653,21 +1705,21 @@
               ],
               "successActions": [
                 {
-                  "$type": "AddGlobalValue",
+                  "$type": "ICIEIAFKCAO",
                   "target": "CurTeamAvatars",
                   "ratio": 1.0,
                   "key": "GV_ShowTAbility",
-                  "maxValue": 10.0,
-                  "minValue": 0.0
+                  "param2": 10.0,
+                  "JHDOLIIOACK": 0.0
                 }
               ]
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "CurLocalAvatar",
                   "key": "GV_ShowTAbility",
                   "ratio": 0.0,
@@ -1677,11 +1729,11 @@
               "modifierName": "UNIQUE_UGC_ShowTAbility"
             },
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "target": "CurLocalAvatar",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "CurLocalAvatar",
                   "key": "GV_ShowTAbility",
                   "ratio": 0.0
@@ -1690,102 +1742,72 @@
               "modifierName": "UNIQUE_UGC_ShowTAbility"
             },
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "CurTeamAvatars",
               "ratio": 0.0,
               "key": "GV_ShowTAbility",
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_UGC_ShowTAbility": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "ShowExtraAbility",
+              "$type": "KIKALFCCNFJ",
               "target": "CurTeamAvatars",
-              "cdDelta": true,
+              "musicSubStates": true,
               "skillID": 20008
             }
           ],
           "onRemoved": [
             {
-              "$type": "ShowExtraAbility",
+              "$type": "KIKALFCCNFJ",
               "target": "CurTeamAvatars",
-              "cdDelta": true
+              "musicSubStates": true
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "target": "CurTeamAvatars",
           "modifierName": "UNIQUE_UGC_LockHp"
         },
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "target": "CurTeamAvatars",
           "modifierName": "UNIQUE_UGC_ElectricCorePlay"
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "CurTeamAvatars",
           "ratio": 0.0,
           "key": "GV_ShowTAbility",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "CurTeamAvatars",
           "ratio": 0.0,
           "key": "GV_LightCoreNums",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "GV_UGC_AvatarCanRocketJump",
           "useLimitRange": true,
-          "maxValue": 999.0,
-          "minValue": 0.0
-        }
-      ],
-      "onTriggerAvatarRay": [
-        {
-          "$type": "DebugLog",
-          "cdDelta": true,
-          "content": "##UGC: RAY TRIGGERED"
-        },
-        {
-          "$type": "ApplyModifier",
-          "target": "Target",
-          "modifierName": "UNIQUE_PlayerTrig"
-        },
-        {
-          "$type": "Predicated",
-          "target": "Target",
-          "targetPredicates": [
-            {
-              "$type": "ByTargetGlobalValue",
-              "key": "GS_UGC_Vanish",
-              "ratio": 1.0
-            }
-          ],
-          "successActions": [
-            {
-              "$type": "ExecuteGadgetLua",
-              "target": "Target",
-              "param1": 201
-            }
-          ]
+          "param2": 999.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -1793,49 +1815,56 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_UGC_Dungeon_Skill",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "SGV_UGCDungeon_ForbidSkill",
-          "valueSteps": [-0.5, 0.5, 1.5],
-          "modifierNameSteps": ["UGC_Normal", "UGC_ForbidSkill"]
+          "valueSteps": [
+            -0.5,
+            0.5,
+            1.5
+          ],
+          "modifierNameSteps": [
+            "UGC_Normal",
+            "UGC_ForbidSkill"
+          ]
         }
       ],
       "modifiers": {
         "UGC_Normal": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "ChangePlayMode",
-              "cdDelta": true,
+              "$type": "GBLMKGBHIAB",
+              "musicSubStates": true,
               "muteRemoteAction": true,
-              "DLEICBJFEKN": "UGCForbidSkill"
+              "BCKOFAHAHLD": "UGCForbidSkill"
             }
           ]
         },
         "UGC_ForbidSkill": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ReviveElemEnergyMixin",
+              "$type": "LJIAPPNJJHA",
               "period": 1.0,
               "baseEnergy": -20.0,
-              "value": 1.0
+              "maxValue": 1.0
             }
           ],
           "onAdded": [
             {
-              "$type": "ChangePlayMode",
-              "cdDelta": true,
+              "$type": "GBLMKGBHIAB",
+              "musicSubStates": true,
               "muteRemoteAction": true,
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "SGV_UGCDungeon_ForbidSkill",
                   "ratio": 1.0
                 }
@@ -1845,28 +1874,28 @@
           ],
           "onRemoved": [
             {
-              "$type": "ChangePlayMode",
-              "cdDelta": true,
+              "$type": "GBLMKGBHIAB",
+              "musicSubStates": true,
               "muteRemoteAction": true,
-              "DLEICBJFEKN": "UGCForbidSkill"
+              "BCKOFAHAHLD": "UGCForbidSkill"
             }
           ]
         }
       },
       "onRemoved": [
         {
-          "$type": "ChangePlayMode",
-          "cdDelta": true,
+          "$type": "GBLMKGBHIAB",
+          "musicSubStates": true,
           "muteRemoteAction": true,
-          "DLEICBJFEKN": "UGCForbidSkill"
+          "BCKOFAHAHLD": "UGCForbidSkill"
         }
       ],
       "onKill": [
         {
-          "$type": "ChangePlayMode",
-          "cdDelta": true,
+          "$type": "GBLMKGBHIAB",
+          "musicSubStates": true,
           "muteRemoteAction": true,
-          "DLEICBJFEKN": "UGCForbidSkill"
+          "BCKOFAHAHLD": "UGCForbidSkill"
         }
       ],
       "isDynamicAbility": true
@@ -1874,14 +1903,18 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Team_UGC_Electric_Fairy",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "GV_UGC_Electric_Fairy",
-          "valueSteps": [-0.5, 0.5, 100.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            100.0
+          ],
           "modifierNameSteps": [
             "UGC_Electric_Fairy_Blank",
             "UGC_Electric_Fairy_Attach"
@@ -1891,14 +1924,14 @@
       "modifiers": {
         "UGC_Electric_Fairy_Blank": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "UGC_Electric_Fairy_Attach": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "Team",
               "modifierName": "UNIQUE_Electric_Fairy_Skill_Lv3"
             }
@@ -1906,71 +1939,75 @@
         },
         "UNIQUE_Electric_Fairy_Skill_Lv3": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "FollowAttachPointEffectMixin",
+              "$type": "MNFGEPPFGAD",
               "modifierName": "UNIQUE_Electric_Fairy_Skill_Init_Lv1",
-              "APNJDGMDPIF": "FollowPet",
-              "JLEKPJMKLCF": true
+              "attachPriority": "FollowPet",
+              "refreshOnAvatarIn": true
             },
             {
-              "$type": "FollowAttachPointEffectMixin",
+              "$type": "MNFGEPPFGAD",
               "modifierName": "UNIQUE_Electric_Fairy_Skill_OnTeam_Lv3",
-              "APNJDGMDPIF": "ThemePlay",
-              "JLEKPJMKLCF": true
+              "attachPriority": "ThemePlay",
+              "refreshOnAvatarIn": true
             }
           ],
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "ratio": 6.0,
               "key": "_ABILITY_SceneObj_Electric_Fairy_Immunity_Time",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_Electric_Fairy_Skill_Init_Lv1": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "ratio": 6.0,
               "key": "_ABILITY_SceneObj_Electric_Fairy_Immunity_Time",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "ratio": 0.0,
               "key": "_ABILITY_SceneObj_Electric_Fairy_AutoAttack_Time",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_Electric_Fairy_Skill_OnTeam_Lv3": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_Electric_Fairy_Skill_OnAvatar_Lv3"
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "$type": "DNAPOLPDJMH",
               "globalValueKey": "_ABILITY_SceneObj_Electric_Fairy_Immunity_Time",
-              "defaultGlobalValueOnCreate": 1.0,
-              "valueSteps": [-0.5, 0.5, 100.0],
+              "IMIMGNLNKHD": 1.0,
+              "valueSteps": [
+                -0.5,
+                0.5,
+                100.0
+              ],
               "modifierNameSteps": [
                 "Electric_Fairy_Immunity_OnTeam",
                 "Electric_Fairy_Immunity_OnTeam"
@@ -1978,12 +2015,12 @@
               "actionQueues": [
                 [
                   {
-                    "$type": "ApplyModifier",
+                    "$type": "DJAIBNJIMAD",
                     "target": "CurLocalAvatar",
                     "modifierName": "Electric_Fairy_Immunity_OnAvatar_LastHit"
                   },
                   {
-                    "$type": "RemoveModifier",
+                    "$type": "LBCOJMOPBAB",
                     "target": "CurLocalAvatar",
                     "modifierName": "UNIQUE_Electric_Fairy_Skill_Lv3"
                   }
@@ -1994,15 +2031,15 @@
           ],
           "onAdded": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "Electric_Fairy_Effect_Lv1"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Electric_Fairy_Effect_Hit_Lv1"
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Electric_Fairy_ReviveEnergy"
             }
           ]
@@ -2010,71 +2047,81 @@
         "UNIQUE_Electric_Fairy_Skill_OnAvatar_Lv3": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Electric_Fairy_Electric_Block_Lv1"
             }
           ]
         },
         "Electric_Fairy_Electric_Block_Lv1": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DynamicCollisionMixin",
-              "tags": ["LEVEL1"],
-              "CMFFHGDJIMP": true
+              "$type": "OMJPLGLHLCM",
+              "tags": [
+                "LEVEL1"
+              ],
+              "isChecker": true
             }
           ],
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "HAS_ELECTRIC_FAIRY_BUFF",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "_ABILITY_Electric_Fairy_Block_Handle_Level",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 0.0,
               "key": "HAS_ELECTRIC_FAIRY_BUFF",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 0.0,
               "key": "_ABILITY_Electric_Fairy_Block_Handle_Level",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "Electric_Fairy_Effect_Hit_Lv1": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachModifierToSelfGlobalValueMixin",
+              "$type": "DNAPOLPDJMH",
               "globalValueKey": "_ABILITY_SceneObj_Electric_Fairy_Immunity_Time",
-              "defaultGlobalValueOnCreate": 0.0,
-              "valueSteps": [-0.5, 0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
+              "IMIMGNLNKHD": 0.0,
+              "valueSteps": [
+                -0.5,
+                0.5,
+                1.5,
+                2.5,
+                3.5,
+                4.5,
+                5.5
+              ],
               "modifierNameSteps": [
                 "Blank",
                 "Blank",
@@ -2086,44 +2133,50 @@
               "actionQueues": [
                 [
                   {
-                    "$type": "FireEffect",
-                    "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ElectricFairy_Shield_Hit_Last",
-                    "effectTempleteID": -1.0
+                    "$type": "HPOJEFINJEP",
+                    "rotationDampTime": "Eff_SceneObj_ElectricFairy_Shield_Hit_Last",
+                    "NEGDPOAEJFL": 1.0,
+                    "CCLMIJIBGDK": -1.0
                   }
                 ],
                 [
                   {
-                    "$type": "FireEffect",
-                    "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ElectricFairy_Shield_Hit",
-                    "effectTempleteID": -1.0
+                    "$type": "HPOJEFINJEP",
+                    "rotationDampTime": "Eff_SceneObj_ElectricFairy_Shield_Hit",
+                    "NEGDPOAEJFL": 1.0,
+                    "CCLMIJIBGDK": -1.0
                   }
                 ],
                 [
                   {
-                    "$type": "FireEffect",
-                    "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ElectricFairy_Shield_Hit",
-                    "effectTempleteID": -1.0
+                    "$type": "HPOJEFINJEP",
+                    "rotationDampTime": "Eff_SceneObj_ElectricFairy_Shield_Hit",
+                    "NEGDPOAEJFL": 1.0,
+                    "CCLMIJIBGDK": -1.0
                   }
                 ],
                 [
                   {
-                    "$type": "FireEffect",
-                    "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ElectricFairy_Shield_Hit",
-                    "effectTempleteID": -1.0
+                    "$type": "HPOJEFINJEP",
+                    "rotationDampTime": "Eff_SceneObj_ElectricFairy_Shield_Hit",
+                    "NEGDPOAEJFL": 1.0,
+                    "CCLMIJIBGDK": -1.0
                   }
                 ],
                 [
                   {
-                    "$type": "FireEffect",
-                    "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ElectricFairy_Shield_Hit",
-                    "effectTempleteID": -1.0
+                    "$type": "HPOJEFINJEP",
+                    "rotationDampTime": "Eff_SceneObj_ElectricFairy_Shield_Hit",
+                    "NEGDPOAEJFL": 1.0,
+                    "CCLMIJIBGDK": -1.0
                   }
                 ],
                 [
                   {
-                    "$type": "FireEffect",
-                    "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ElectricFairy_Shield_Hit",
-                    "effectTempleteID": -1.0
+                    "$type": "HPOJEFINJEP",
+                    "rotationDampTime": "Eff_SceneObj_ElectricFairy_Shield_Hit",
+                    "NEGDPOAEJFL": 1.0,
+                    "CCLMIJIBGDK": -1.0
                   }
                 ]
               ]
@@ -2132,21 +2185,21 @@
         },
         "Electric_Fairy_ReviveEnergy": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "ReviveElemEnergy",
+              "$type": "FBELJIOFHMN",
               "target": "CurLocalAvatar",
               "predicates": [
                 {
-                  "$type": "DPGHGFAMBAD",
+                  "$type": "DBKEAALIFFM",
                   "target": "CurLocalAvatar",
                   "logic": "LesserOrEqual",
-                  "value": 0.5
+                  "maxValue": 0.5
                 },
                 {
-                  "$type": "IEHJJFMCFAJ",
+                  "$type": "JHOFGCEIEJH",
                   "elementType": "Electric"
                 }
               ],
@@ -2156,43 +2209,44 @@
         },
         "Electric_Fairy_Immunity_OnAvatar_LastHit": {
           "modifierName": "",
-          "duration": 0.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.5,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "RejectAttackMixin",
+              "$type": "NGGDJPNPIEO",
               "attackTag": "Inazuma_Environment_Damage"
             }
           ]
         },
         "Blank": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "Electric_Fairy_Effect_Lv1": {
           "modifierName": "",
-          "duration": 1.0,
-          "bonusCritical": 1.0,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 1.0,
           "thinkInterval": 0.5,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "Electric_Fairy_Effect_Move_Handler"
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_01",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "AddElementDurability",
+              "$type": "ALNAJCBIDNB",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "HAS_ELECTRIC_FAIRY_BUFF_Team",
                   "ratio": 1.0
                 }
@@ -2200,14 +2254,14 @@
               "ratio": 1.0,
               "modifierName": "Electric_Fairy_Effect_Lv1",
               "useLimitRange": true,
-              "maxValue": 1.0,
-              "minValue": 0.0
+              "param2": 1.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "key": "HAS_ELECTRIC_FAIRY_BUFF_Team",
                   "ratio": 0.0
                 }
@@ -2218,44 +2272,44 @@
         },
         "Electric_Fairy_RemoveEffect": {
           "modifierName": "",
-          "duration": 0.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.5,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 203,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_01"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 203,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_02"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 203,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_03"
             }
           ]
         },
         "Electric_Fairy_Effect_Move_Handler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToAnimatorStateIDMixin",
+              "$type": "CINOKAMLEJJ",
               "stateIDs": [
                 "Standby",
                 "RunToIdle",
@@ -2264,169 +2318,174 @@
                 "StandbyShow_01",
                 "StandbyShow_02"
               ],
-              "modifierName": "Electric_Fairy_Effect_DoStandBy"
+              "modifierName": "Electric_Fairy_Effect_DoStandBy",
+              "IIFOLCMHMHP": ""
             },
             {
-              "$type": "AttachToAnimatorStateIDMixin",
-              "stateIDs": ["Run", "Sprint"],
-              "modifierName": "Electric_Fairy_Effect_DoMove"
+              "$type": "CINOKAMLEJJ",
+              "stateIDs": [
+                "Run",
+                "Sprint"
+              ],
+              "modifierName": "Electric_Fairy_Effect_DoMove",
+              "IIFOLCMHMHP": ""
             }
           ]
         },
         "Electric_Fairy_Effect_DoStandBy": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_01"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_02"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
+              "attachPoint": "",
+              "damageRatio": "Int",
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_03"
             }
           ],
           "onRemoved": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_01"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_02"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_03"
             }
           ]
         },
         "Electric_Fairy_Effect_DoMove": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_01"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_01"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_02"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_02"
             },
             {
-              "$type": "SendEffectTrigger",
+              "$type": "FLKPNJOEPPC",
               "target": "Team",
               "parameter": "State",
-              "IIKEHINGEME": "",
-              "type": "Int",
+              "attachPoint": "",
+              "damageRatio": "Int",
               "value": 201,
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_ThunderSeed_03"
+              "rotationDampTime": "Eff_SceneObj_ThunderSeed_03"
             }
           ]
         },
         "Electric_Fairy_Immunity_OnTeam": {
           "stacking": "Unique",
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "Electric_Fairy_Immunity_OnAvatar"
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "modifierName": "Electric_Fairy_Mark"
             }
           ]
         },
         "Electric_Fairy_Mark": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "HAS_ELECTRIC_FAIRY_BUFF_Team",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 0.0,
               "key": "HAS_ELECTRIC_FAIRY_BUFF_Team",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onThinkInterval": [
             {
-              "$type": "SetGlobalValue",
-              "cdDelta": true,
+              "$type": "MHDLPHMDJBN",
+              "musicSubStates": true,
               "ratio": 1.0,
               "key": "HAS_ELECTRIC_FAIRY_BUFF_Team",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
-          "cdDelta": true,
+          "musicSubStates": true,
           "ratio": 0.0,
           "key": "GV_UGC_Electric_Fairy",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2434,80 +2493,107 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_UGC_Dungeon_BooldHealth_UsedOut",
       "abilityMixins": [
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_UGCHeartHealthUsedOut",
-          "valueSteps": [-0.5, 0.5, 20.0],
-          "modifierNameSteps": ["UGCV2_BooldHealth", "UGCV2_BooldHealthUsedOut"]
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
+          "modifierNameSteps": [
+            "UGCV2_BooldHealth",
+            "UGCV2_BooldHealthUsedOut"
+          ]
         },
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_UGCTransPlayerToRevivePoint",
-          "valueSteps": [-0.5, 0.5, 20.0],
-          "modifierNameSteps": ["UGCV2_Empty", "UGCV2_TransPlayerToRevivePoint"]
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
+          "modifierNameSteps": [
+            "UGCV2_Empty",
+            "UGCV2_TransPlayerToRevivePoint"
+          ]
         },
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_UGCTryShowOfficialPatternGuidePage",
-          "valueSteps": [-0.5, 0.5, 20.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
           "modifierNameSteps": [
             "UGCV2_Empty",
             "UGCV2_TryShowOfficialPatternGuidePage"
           ]
         },
         {
-          "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+          "$type": "KBIPODHHACL",
           "globalValueKey": "SGV_UGCDungeon_BanSkill",
-          "valueSteps": [-0.5, 0.5, 20.0],
-          "modifierNameSteps": ["UGCV2_Empty", "UGCV2_BanSkill"]
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
+          "modifierNameSteps": [
+            "UGCV2_Empty",
+            "UGCV2_BanSkill"
+          ]
         },
         {
-          "$type": "CurLocalAvatarMixinV2",
+          "$type": "CPNOIFDJKPO",
           "modifierName": "BombLoseHp"
         },
         {
-          "$type": "CurLocalAvatarMixinV2",
+          "$type": "CPNOIFDJKPO",
           "modifierName": "CallGuestShowReminder"
         }
       ],
       "modifiers": {
         "CallGuestShowReminder": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 0.5,
           "onThinkInterval": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "predicates": [
                 {
-                  "$type": "HIDEOMGPPCA"
+                  "$type": "PLJGKEPBJHF"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "GV_CallGuestShowReminder",
                   "ratio": 0.0
                 }
               ],
               "luaCallType": "SpecificGroup",
-              "CallParamList": [247501001],
+              "callParamList": [
+                247501001
+              ],
               "funcName": "SLC_CallGuestShowReminder",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             },
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "HIDEOMGPPCA"
+                  "$type": "PLJGKEPBJHF"
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "GV_CallGuestShowReminder",
                   "ratio": 0.0
@@ -2515,39 +2601,41 @@
               ],
               "ratio": 1.0,
               "key": "GV_CallGuestShowReminder",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
-          "EAHGOMKOGPA": [
+          "onReconnect": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "PNAJMHKEJLI"
+                  "$type": "MJKJJBEJJNJ"
                 }
               ],
               "ratio": 0.0,
               "key": "GV_CallGuestShowReminder",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "BombLoseHp": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onBeingHit": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "predicates": [
                 {
-                  "$type": "ByAttackTags",
-                  "attackTags": ["UGC_Bomb_Box_Explode"]
+                  "$type": "IIHMEDMKFIE",
+                  "attackTags": [
+                    "UGC_Bomb_Box_Explode"
+                  ]
                 },
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Self",
                   "key": "GV_UGC_BombBox_Attack_UP_Avatar_Flag",
                   "ratio": 0.0,
@@ -2555,109 +2643,113 @@
                 }
               ],
               "luaCallType": "SpecificGroup",
-              "CallParamList": [247501001],
+              "callParamList": [
+                247501001
+              ],
               "funcName": "SLC_BloodHealthLevelHitAvatar",
-              "KIDPODIIJLI": 1,
-              "FDPBPIHKEGH": -1.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "paramNum": 1,
+              "param1": -1.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "BanSmallItem": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "HideActionSlotMixin",
-              "MGEIMONNADI": "SlotQuickUse"
+              "$type": "NENNGJGECBO",
+              "slotType": "SlotQuickUse"
             }
           ]
         },
         "UGCV2_BanSkill": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "HideTeamEnergyBtnMixin"
+              "$type": "NBJOIJGEGIM"
             }
           ]
         },
         "UGCV2_BooldHealth": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "UGCV2_Empty": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "UGCV2_TryShowOfficialPatternGuidePage": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "TickTryShowOfficialPatternGuidePage"
             }
           ]
         },
         "TickTryShowOfficialPatternGuidePage": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "predicates": [
                 {
-                  "$type": "HIDEOMGPPCA"
+                  "$type": "PLJGKEPBJHF"
                 }
               ],
               "luaCallType": "SpecificGroup",
-              "CallParamList": [247501001],
+              "callParamList": [
+                247501001
+              ],
               "funcName": "SLC_TryShowOfficialPatternGuidePage",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "UGCV2_TransPlayerToRevivePoint": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "TickTransPlayer"
             }
           ]
         },
         "TickTransPlayer": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "thinkInterval": 1.0,
           "onThinkInterval": [
             {
-              "$type": "ServerLuaCall",
+              "$type": "CEDNHGNADHF",
               "predicates": [
                 {
-                  "$type": "HIDEOMGPPCA"
+                  "$type": "PLJGKEPBJHF"
                 }
               ],
               "luaCallType": "CurGalleryControlGroup",
               "funcName": "SLC_TransPlayerToCurrentRoom",
-              "FDPBPIHKEGH": 0.0,
-              "FJCBPCIDMGJ": 0.0,
-              "NDCPJDDPIMD": 0.0
+              "param1": 0.0,
+              "GBNICMACNIE": 0.0,
+              "IHKFPGMMIDN": 0.0
             }
           ]
         },
         "BooldHealthUsedOutInvincible": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "VelocityForceMixin",
+              "$type": "PFBKONFPEEK",
               "muteAll": true
             }
           ],
@@ -2665,30 +2757,32 @@
         },
         "UGCV2_BooldHealthUsedOut": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "DisableUIMixin",
-              "JKEGAFJECGB": ["InteePanel"]
+              "$type": "BOCAIIMABNM",
+              "typeList": [
+                "InteePanel"
+              ]
             },
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "BooldHealthUsedOutInvincible"
             }
           ],
           "onAdded": [
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
               "modifierName": "UGC_Team_Is_Fail_CloseCollider"
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "CurLocalAvatar",
               "modifierName": "FakeDie"
             },
             {
-              "$type": "HideUIBillBoard",
+              "$type": "LBEJDMGNGDL",
               "target": "CurLocalAvatar",
               "canBeHandledOnRecover": true,
               "hide": true
@@ -2696,13 +2790,13 @@
           ],
           "onRemoved": [
             {
-              "$type": "RemoveModifier",
+              "$type": "LBCOJMOPBAB",
               "target": "Team",
-              "cdDelta": true,
+              "musicSubStates": true,
               "modifierName": "UGC_Is_Fail_SetVisible_Team"
             },
             {
-              "$type": "HideUIBillBoard",
+              "$type": "LBEJDMGNGDL",
               "target": "CurLocalAvatar",
               "canBeHandledOnRecover": true
             }
@@ -2710,59 +2804,70 @@
         },
         "UGC_Team_Is_Fail_CloseCollider": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "TriggerSetPassThrough",
-              "cdDelta": true,
+              "$type": "PNAECJDHAGJ",
+              "musicSubStates": true,
               "passThrough": true,
-              "DKCAPHOKPKK": true
+              "includeDynamicBarrier": true
             },
             {
-              "$type": "TriggerHideWeapon",
-              "cdDelta": true,
-              "partNames": ["equip01", "equip02", "equip03", "sheathPoint"]
+              "$type": "DIPFNOFFFGP",
+              "musicSubStates": true,
+              "partNames": [
+                "equip01",
+                "equip02",
+                "equip03",
+                "sheathPoint"
+              ]
             }
           ],
           "onRemoved": [
             {
-              "$type": "TriggerSetPassThrough",
-              "cdDelta": true,
+              "$type": "PNAECJDHAGJ",
+              "musicSubStates": true,
               "canBeHandledOnRecover": true
             },
             {
-              "$type": "TriggerHideWeapon",
-              "cdDelta": true,
-              "visible": true,
-              "partNames": ["equip01", "equip02", "equip03", "sheathPoint"]
+              "$type": "DIPFNOFFFGP",
+              "musicSubStates": true,
+              "BIKFMCHBBII": true,
+              "partNames": [
+                "equip01",
+                "equip02",
+                "equip03",
+                "sheathPoint"
+              ]
             }
           ]
         },
         "FakeDie": {
           "modifierName": "",
-          "duration": 2.0,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 2.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ShaderLerpMixin",
-              "type": "AvatarDie",
-              "IBDLCDBBMDC": true
+              "$type": "IBAMBHPLNNA",
+              "damageRatio": "AvatarDie",
+              "forceStopWhenRemoved": true
             }
           ],
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Death_Avatar_Common",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Death_Avatar_Common",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "target": "Team",
               "predicates": [
                 {
-                  "$type": "ByTargetGlobalValue",
+                  "$type": "CABGKHFDJGP",
                   "target": "Team",
                   "key": "SGV_UGCHeartHealthUsedOut",
                   "ratio": 1.0
@@ -2774,20 +2879,20 @@
         },
         "UGC_Is_Fail_SetVisible_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UGC_Is_Fail_SetVisible_Avatar"
             }
           ]
         },
         "UGC_Is_Fail_SetVisible_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "EntityInVisibleMixin",
+              "$type": "PAFDLFKFOMC",
               "reason": "Gallary"
             }
           ]
@@ -2795,29 +2900,31 @@
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "GV_CallGuestShowReminder",
-          "maxValue": 0.0,
-          "minValue": 0.0
+          "param2": 0.0,
+          "JHDOLIIOACK": 0.0
         },
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "modifierName": "BanSmallItem"
         }
       ],
       "onAbilityStart": [
         {
-          "$type": "ServerLuaCall",
+          "$type": "CEDNHGNADHF",
           "target": "CurLocalAvatar",
-          "cdDelta": true,
+          "musicSubStates": true,
           "luaCallType": "SpecificGroup",
-          "CallParamList": [247501001],
+          "callParamList": [
+            247501001
+          ],
           "funcName": "SLC_HeartBloodLevelRevivePlayer",
-          "FDPBPIHKEGH": 0.0,
-          "FJCBPCIDMGJ": 0.0,
-          "NDCPJDDPIMD": 0.0
+          "param1": 0.0,
+          "GBNICMACNIE": 0.0,
+          "IHKFPGMMIDN": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -2825,73 +2932,102 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Avatar_UGC_Dungeon_Ray_V2",
       "abilityMixins": [
         {
-          "$type": "DoActionByRayTagMixin",
-          "GMDAOAIHKPM": ["Down"],
-          "FKIMDFCNONP": [5],
-          "HNBEKOEKIBC": ["UNIQUE_Team_RocketJump2"]
+          "$type": "EGEBCMIPIKI",
+          "ugcRayTriggerDirections": [
+            "Down"
+          ],
+          "rayTags": [
+            5
+          ],
+          "modifierToTags": [
+            "UNIQUE_Team_RocketJump2"
+          ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "GV_UGC_AvatarCanRocketJump",
-          "valueSteps": [-0.5, 0.5, 999.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            999.0
+          ],
           "modifierNameSteps": [
             "UNIQUE_UGCV2_DisableRocketJump",
             "UNIQUE_UGCV2_EnableRocketJump"
           ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "SGV_UGCDungeon_Immune",
-          "valueSteps": [-0.5, 0.5, 20.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
           "modifierNameSteps": [
             "UNIQUE_UGCV2_DisableImmune",
             "UNIQUE_UGCV2_EnableImmune"
           ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "SGV_UGCDungeon_AvatarLockHp",
-          "valueSteps": [-0.5, 0.5, 20.0],
-          "modifierNameSteps": ["UNIQUE_UGCV2_UnlockHp", "UNIQUE_UGCV2_LockHp"]
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
+          "modifierNameSteps": [
+            "UNIQUE_UGCV2_UnlockHp",
+            "UNIQUE_UGCV2_LockHp"
+          ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "SGV_UGCDungeon_AvatarGhostToMonster",
-          "valueSteps": [-0.5, 0.5, 20.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
           "modifierNameSteps": [
             "UNIQUE_UGCV2_Isnotghost",
             "UNIQUE_UGCV2_Isghost"
           ]
         },
         {
-          "$type": "AttachModifierToGlobalValueMixin",
+          "$type": "GALIFKLAJDH",
           "globalValueTarget": "Team",
           "globalValueKey": "SGV_UGCDungeon_AvatarGhostToMonster",
-          "valueSteps": [-0.5, 0.5, 20.0],
+          "valueSteps": [
+            -0.5,
+            0.5,
+            20.0
+          ],
           "modifierNameSteps": [
             "UNIQUE_UGCV2_NotInvicible",
             "UNIQUE_UGCV2_Invicible"
           ]
         },
         {
-          "$type": "StageReadyMixin",
+          "$type": "PPAAEAIFPIG",
           "onStageReady": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "target": "Team",
               "ratio": 0.0,
               "key": "GV_UGC_AvatarCanRocketJump",
               "useLimitRange": true,
-              "maxValue": 999.0,
-              "minValue": 0.0
+              "param2": 999.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         }
@@ -2899,88 +3035,88 @@
       "modifiers": {
         "UNIQUE_Team_RocketJump2": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 0.6000000238418579,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 0.6000000238418579,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Team",
               "ratio": 1.0,
               "key": "GV_UGC_AvatarCanRocketJump",
               "useLimitRange": true,
-              "maxValue": 999.0,
-              "minValue": 0.0
+              "param2": 999.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "AddGlobalValue",
+              "$type": "ICIEIAFKCAO",
               "target": "Team",
               "ratio": -1.0,
               "key": "GV_UGC_AvatarCanRocketJump",
               "useLimitRange": true,
-              "maxValue": 999.0,
-              "minValue": 0.0
+              "param2": 999.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_UGCV2_Isnotghost": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGCV2_NotInvicible": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGCV2_Isghost": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "state": "DenyLockOn"
         },
         "UNIQUE_UGCV2_Invicible": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "state": "Invincible"
         },
         "UNIQUE_PlayerTrigV2": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 1.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 1.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 1.0,
               "key": "UGC_Triggered",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ],
           "onRemoved": [
             {
-              "$type": "SetGlobalValue",
+              "$type": "MHDLPHMDJBN",
               "ratio": 0.0,
               "key": "UGC_Triggered",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             }
           ]
         },
         "UNIQUE_UGCV2_UnlockHp": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGCV2_LockHp": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FallingDamageRatio": -1.0
           },
@@ -2988,28 +3124,34 @@
         },
         "UNIQUE_UGCV2_EnableRocketJump": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGCV2_ROCKETJUMP"
             }
           ]
         },
         "UNIQUE_UGCV2_ROCKETJUMP": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["Jump"],
-              "modifierName": "UGC_RocketJumpEffectV2"
+              "$type": "IHPNOCDHKEC",
+              "stateIDs": [
+                "Jump",
+                "SpecialJump",
+                "SpecialJumpForRun",
+                "SpecialJumpForSprint"
+              ],
+              "modifierName": "UGC_RocketJumpEffectV2",
+              "IIFOLCMHMHP": ""
             },
             {
-              "$type": "RocketJumpMixin",
-              "type": "DungeonJump",
+              "$type": "IHGLBBGKFJK",
+              "damageRatio": "DungeonJump",
               "extention": {
                 "xzMultiplier": 3.0,
                 "yMultiplier": 5.0
@@ -3018,87 +3160,97 @@
           ],
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_JumpUp_01_Buff",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_JumpUp_01_Buff",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "UNIQUE_UGCV2_DisableRocketJump": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UGC_RocketJumpEffectV2": {
           "modifierName": "",
-          "duration": 0.5,
-          "bonusCritical": 100.0,
+          "FOAFPGCJHHF": 0.5,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "FireEffect",
-              "healLimitedByCasterMaxHPRatio": "Eff_Stages_Level_Common_Jumpplatform_01_Active",
-              "effectTempleteID": -1.0
+              "$type": "HPOJEFINJEP",
+              "rotationDampTime": "Eff_Stages_Level_Common_Jumpplatform_01_Active",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "ApplyModifier",
+              "$type": "DJAIBNJIMAD",
               "modifierName": "UNIQUE_UGCV2_RocketJumpFallProtect"
             }
           ]
         },
         "UNIQUE_UGCV2_RocketJumpFallProtect": {
           "modifierName": "",
-          "isUnique": true,
-          "duration": 10.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 10.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["Jump", "Fall"],
+              "$type": "IHPNOCDHKEC",
+              "stateIDs": [
+                "Jump",
+                "SpecialJump",
+                "SpecialJumpForRun",
+                "SpecialJumpForSprint",
+                "Fall",
+                "SpecialFall"
+              ],
               "modifierName": "UNIQUE_FallingDamageImmune",
-              "isCheckOnAttach": true
+              "isCheckOnAttach": true,
+              "IIFOLCMHMHP": ""
             }
           ]
         },
         "UNIQUE_FallingDamageImmune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_FallingDamageRatio": -1.0
           },
           "onRemoved": [
             {
-              "$type": "RemoveUniqueModifier",
+              "$type": "DLACOGBKNLA",
               "modifierName": "UNIQUE_UGCV2_RocketJumpFallProtect"
             }
           ]
         },
         "UNIQUE_UGCV2_EnableImmune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "CurLocalAvatarMixinV2",
+              "$type": "CPNOIFDJKPO",
               "modifierName": "UNIQUE_UGCV2_Immune"
             }
           ]
         },
         "UNIQUE_UGCV2_DisableImmune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0
         },
         "UNIQUE_UGCV2_Immune": {
           "modifierName": "",
-          "isUnique": true,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "EntityDitherMixin",
+              "$type": "LKDJNADNMII",
               "predicates": [
                 {
-                  "$type": "ABFPLJIKNAD"
+                  "$type": "JLAODCPDLHK"
                 }
               ],
               "ditherValue": 0.5,
@@ -3111,38 +3263,13 @@
       },
       "onAdded": [
         {
-          "$type": "SetGlobalValue",
+          "$type": "MHDLPHMDJBN",
           "target": "Team",
           "ratio": 0.0,
           "key": "GV_UGC_AvatarCanRocketJump",
           "useLimitRange": true,
-          "maxValue": 999.0,
-          "minValue": 0.0
-        }
-      ],
-      "onTriggerAvatarRay": [
-        {
-          "$type": "ApplyModifier",
-          "target": "Target",
-          "modifierName": "UNIQUE_PlayerTrigV2"
-        },
-        {
-          "$type": "Predicated",
-          "target": "Target",
-          "targetPredicates": [
-            {
-              "$type": "ByTargetGlobalValue",
-              "key": "GS_UGC_Vanish",
-              "ratio": 1.0
-            }
-          ],
-          "successActions": [
-            {
-              "$type": "ChangeGadgetState",
-              "target": "Target",
-              "OBNBNBGHJEK": 201
-            }
-          ]
+          "param2": 999.0,
+          "JHDOLIIOACK": 0.0
         }
       ],
       "isDynamicAbility": true
@@ -3150,7 +3277,7 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Team_UGC_TeamLevel_ExtraProp",
       "abilitySpecials": {
         "CriticalDelta_Level01": 0.10000000149011612,
@@ -3202,18 +3329,26 @@
       "modifiers": {
         "Team_UGC_TeamLevel_ExtraProp_Handler": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "ServerUpdateGlobalValueMixin",
+              "$type": "MPPPFECOOIH",
               "key": "SGV_UGC_Team_Level_ExtraProp",
-              "maxValue": 0.0,
-              "minValue": 0.0
+              "param2": 0.0,
+              "JHDOLIIOACK": 0.0
             },
             {
-              "$type": "AttachModifierToSelfGlobalValueNoInitMixin",
+              "$type": "KBIPODHHACL",
               "globalValueKey": "SGV_UGC_Team_Level_ExtraProp",
-              "valueSteps": [0.0, 0.5, 1.5, 2.5, 3.5, 4.5, 5.5],
+              "valueSteps": [
+                0.0,
+                0.5,
+                1.5,
+                2.5,
+                3.5,
+                4.5,
+                5.5
+              ],
               "modifierNameSteps": [
                 "Blank",
                 "UGC_TeamLevel_ExtraProp_Level01_Team",
@@ -3227,61 +3362,61 @@
         },
         "Blank": {
           "modifierName": "",
-          "bonusCritical": 100.0
+          "PBPPIFIOAMB": 100.0
         },
         "UGC_TeamLevel_ExtraProp_Level01_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UGC_TeamLevel_ExtraProp_Level01_Avatar"
             }
           ]
         },
         "UGC_TeamLevel_ExtraProp_Level02_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UGC_TeamLevel_ExtraProp_Level02_Avatar"
             }
           ]
         },
         "UGC_TeamLevel_ExtraProp_Level03_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UGC_TeamLevel_ExtraProp_Level03_Avatar"
             }
           ]
         },
         "UGC_TeamLevel_ExtraProp_Level04_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UGC_TeamLevel_ExtraProp_Level04_Avatar"
             }
           ]
         },
         "UGC_TeamLevel_ExtraProp_Level05_Team": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "LocalAvatarsMixin",
+              "$type": "MOANFFBNEIK",
               "modifierName": "UGC_TeamLevel_ExtraProp_Level05_Avatar"
             }
           ]
         },
         "UGC_TeamLevel_ExtraProp_Level01_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "AttackRatio_Level01",
             "Actor_DefenceRatio": "DefenceRatio_Level01",
@@ -3303,7 +3438,7 @@
         },
         "UGC_TeamLevel_ExtraProp_Level02_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "AttackRatio_Level02",
             "Actor_DefenceRatio": "DefenceRatio_Level02",
@@ -3325,7 +3460,7 @@
         },
         "UGC_TeamLevel_ExtraProp_Level03_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "AttackRatio_Level03",
             "Actor_DefenceRatio": "DefenceRatio_Level03",
@@ -3347,7 +3482,7 @@
         },
         "UGC_TeamLevel_ExtraProp_Level04_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "AttackRatio_Level04",
             "Actor_DefenceRatio": "DefenceRatio_Level04",
@@ -3369,7 +3504,7 @@
         },
         "UGC_TeamLevel_ExtraProp_Level05_Avatar": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "properties": {
             "Actor_AttackRatio": "AttackRatio_Level05",
             "Actor_DefenceRatio": "DefenceRatio_Level05",
@@ -3392,9 +3527,9 @@
       },
       "onAdded": [
         {
-          "$type": "AttachModifier",
+          "$type": "JCCOJGHBBEF",
           "target": "Team",
-          "cdDelta": true,
+          "musicSubStates": true,
           "modifierName": "Team_UGC_TeamLevel_ExtraProp_Handler"
         }
       ],

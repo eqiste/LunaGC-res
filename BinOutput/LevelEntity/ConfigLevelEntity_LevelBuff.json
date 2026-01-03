@@ -5301,5 +5301,50 @@
         "abilityOverride": ""
       }
     ]
+  },
+  "LevelBuff_TowerBuff_TriggerCJBWithShield": {
+    "teamAbilities": [
+      {
+        "abilityID": "",
+        "abilityName": "LevelBuff_TowerBuff_TriggerCJBWithShield",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "LevelBuff_TowerBuff_ExtraAttack_DamageUp": {
+    "teamAbilities": [
+      {
+        "abilityID": "",
+        "abilityName": "LevelBuff_TowerBuff_ExtraAttack_DamageUp",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "LevelBuff_TowerBuff_FireReactionTriggerImpact": {
+    "teamAbilities": [
+      {
+        "abilityID": "",
+        "abilityName": "LevelBuff_TowerBuff_FireReactionTriggerImpact",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "LevelBuff_TowerBuff_BeHealedTriggerCJB": {
+    "teamAbilities": [
+      {
+        "abilityID": "",
+        "abilityName": "LevelBuff_TowerBuff_BeHealedTriggerCJB",
+        "abilityOverride": ""
+      }
+    ]
+  },
+  "LevelBuff_TowerBuff_FallingAttackTriggerCJB": {
+    "teamAbilities": [
+      {
+        "abilityID": "",
+        "abilityName": "LevelBuff_TowerBuff_FallingAttackTriggerCJB",
+        "abilityOverride": ""
+      }
+    ]
   }
 }

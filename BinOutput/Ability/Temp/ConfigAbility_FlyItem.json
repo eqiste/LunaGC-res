@@ -1,24 +1,24 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Activity_FlyItem",
       "modifiers": {
         "UNIQUE_Flying_SpeedUp_Team": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 30.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 30.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
-              "target": "Team",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Widget_FlySpeedUp_Use_Loop",
-              "effectTempleteID": -1.0
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_Widget_FlySpeedUp_Use_Loop",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             },
             {
-              "$type": "AttachModifier",
+              "$type": "JCCOJGHBBEF",
               "target": "CurTeamAvatars",
               "modifierName": "AttachEffect_Fly"
             }
@@ -26,12 +26,17 @@
         },
         "AttachEffect_Fly": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "modifierMixins": [
             {
-              "$type": "AttachToStateIDMixin",
-              "stateIDs": ["Fly", "Fall"],
-              "modifierName": "AttachEffect_Fly_FireEffect"
+              "$type": "IHPNOCDHKEC",
+              "stateIDs": [
+                "Fly",
+                "Fall",
+                "SpecialFly"
+              ],
+              "modifierName": "AttachEffect_Fly_FireEffect",
+              "IIFOLCMHMHP": ""
             }
           ],
           "properties": {
@@ -39,29 +44,41 @@
           },
           "onAdded": [
             {
-              "$type": "FireEffect",
+              "$type": "HPOJEFINJEP",
               "target": "CurLocalAvatar",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Widget_FlySpeedUp_Use",
-              "effectTempleteID": -1.0
+              "rotationDampTime": "Eff_SceneObj_Widget_FlySpeedUp_Use",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         },
         "AttachEffect_Fly_FireEffect": {
           "modifierName": "",
-          "bonusCritical": 100.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "$type": "JCCOJGHBBEF",
               "target": "Team",
-              "healLimitedByCasterMaxHPRatio": "Eff_SceneObj_Widget_FlySpeedUp",
-              "effectTempleteID": -1.0
+              "modifierName": "AttachEffect_Fly_FireEffect_Team"
+            }
+          ]
+        },
+        "AttachEffect_Fly_FireEffect_Team": {
+          "modifierName": "",
+          "PBPPIFIOAMB": 100.0,
+          "onAdded": [
+            {
+              "$type": "LMPIJGNENAI",
+              "rotationDampTime": "Eff_SceneObj_Widget_FlySpeedUp",
+              "NEGDPOAEJFL": 1.0,
+              "CCLMIJIBGDK": -1.0
             }
           ]
         }
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "Team",
           "modifierName": "UNIQUE_Flying_SpeedUp_Team"
         }
@@ -71,27 +88,27 @@
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "$type": "ENJCEFCBGJF",
       "abilityName": "Activity_WindFieldItem",
       "modifiers": {
         "UNIQUE_Activity_WindFieldItem_Create": {
           "stacking": "Unique",
           "modifierName": "",
-          "isUnique": true,
-          "duration": 2.0,
-          "bonusCritical": 100.0,
+          "reApplyModifierOnStateChange": true,
+          "FOAFPGCJHHF": 2.0,
+          "PBPPIFIOAMB": 100.0,
           "onAdded": [
             {
-              "$type": "CreateGadget",
+              "$type": "GIENONHPGIL",
               "muteRemoteAction": true,
               "born": {
-                "$type": "ConfigBornBySelf",
+                "$type": "ONAGPPKOMPD",
                 "offset": {
-                  "x": 0.0,
-                  "y": -0.20000000298023224,
-                  "z": 0.0
+                  "PANGIELPECA": 0.0,
+                  "CJENFGKOOOO": -0.20000000298023224,
+                  "HCMGOAIEFGL": 0.0
                 },
-                "FIOMHONCCNM": true
+                "useRotation": true
               },
               "gadgetID": 44000579,
               "campID": 5001
@@ -101,7 +118,7 @@
       },
       "onAbilityStart": [
         {
-          "$type": "ApplyModifier",
+          "$type": "DJAIBNJIMAD",
           "target": "CurLocalAvatar",
           "modifierName": "UNIQUE_Activity_WindFieldItem_Create"
         }
