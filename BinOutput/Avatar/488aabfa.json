@@ -1,0 +1,24 @@
+{
+  "common": {
+    "effectAttachShape": {
+      "$type": "KOMOJFDHIAA",
+      "mesh": "EffectMesh"
+    },
+    "mass": 10
+  },
+  "hasAudio": true,
+  "stateLayers": {
+    "defaultLayer": {
+      "$type": "EBPLDNJIBAO",
+      "layerIndexName": "",
+      "CGKICJFCEEL": "",
+      "stateIDs": {
+        "MultiOverride": {
+          "$type": "HGIADGFFEHN",
+          "ALKCGDAIAEL": {},
+          "animatorTriggerOnLanded": ""
+        }
+      }
+    }
+  }
+}

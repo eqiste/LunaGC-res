@@ -1,17 +1,17 @@
 {
   "Natsaurus_Flamingo_Small_FireBullet": {
-    "$type": "ConfigGadget",
+    "$type": "LJABJHEGANE",
     "common": {
       "effectAttachShape": {
-        "$type": "ConfigEffectAttachBox"
+        "$type": "IDKIDIPOJBL"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
-        "attack": 10.0,
-        "defense": 999999.0,
+        "hp": 999999,
+        "attack": 10,
+        "defense": 999999,
         "isInvincible": true,
         "isGhostToAllied": true,
         "isGhostToEnemy": true
@@ -42,31 +42,31 @@
       }
     ],
     "timer": {
-      "lifeTime": 2.0
+      "lifeTime": 2
     },
     "move": {
-      "$type": "ConfigLinerBulletMove",
-      "speed": 20.0,
-      "maxSpeed": 20.0,
-      "minSpeed": 15.0
+      "$type": "IGMAPLMFMHG",
+      "speed": 20,
+      "maxSpeed": 20,
+      "minSpeed": 15
     },
     "gadget": {
-      "$type": "ConfigBulletPattern",
+      "$type": "PCBPMFCMGHI",
       "collision": {
         "ccd": {
-          "type": "Always"
+          "damageRatio": "Always"
         },
-        "target": "Enemy"
+        "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "ConfigGadgetTriggerAbility",
+          "$type": "GOONODOJION",
           "abilityName": "Natsaurus_Flamingo_Small_FireBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "ConfigGadgetTriggerAbility",
+          "$type": "GOONODOJION",
           "abilityName": "Natsaurus_Flamingo_Small_FireBullet_LifeOver"
         }
       ],
@@ -74,18 +74,18 @@
     }
   },
   "Natsaurus_Flamingo_Normal_FireBullet": {
-    "$type": "ConfigGadget",
+    "$type": "LJABJHEGANE",
     "common": {
       "effectAttachShape": {
-        "$type": "ConfigEffectAttachBox"
+        "$type": "IDKIDIPOJBL"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
-        "attack": 10.0,
-        "defense": 999999.0,
+        "hp": 999999,
+        "attack": 10,
+        "defense": 999999,
         "isInvincible": true,
         "isGhostToAllied": true,
         "isGhostToEnemy": true
@@ -116,32 +116,32 @@
       }
     ],
     "timer": {
-      "lifeTime": 1.2000000476837158
+      "lifeTime": 1.2
     },
     "move": {
-      "$type": "ConfigLinerBulletMove",
-      "speed": 30.0,
-      "maxSpeed": 35.0,
-      "minSpeed": 30.0,
-      "acceleration": 2.0
+      "$type": "IGMAPLMFMHG",
+      "speed": 30,
+      "maxSpeed": 35,
+      "minSpeed": 30,
+      "acceleration": 2
     },
     "gadget": {
-      "$type": "ConfigBulletPattern",
+      "$type": "PCBPMFCMGHI",
       "collision": {
         "ccd": {
-          "type": "Always"
+          "damageRatio": "Always"
         },
-        "target": "Enemy"
+        "targetType": "Enemy"
       },
       "triggerActions": [
         {
-          "$type": "ConfigGadgetTriggerAbility",
+          "$type": "GOONODOJION",
           "abilityName": "Natsaurus_Flamingo_Normal_FireBullet"
         }
       ],
       "triggerLifeOverActions": [
         {
-          "$type": "ConfigGadgetTriggerAbility",
+          "$type": "GOONODOJION",
           "abilityName": "Natsaurus_Flamingo_Normal_FireBullet_LifeOver"
         }
       ],
@@ -149,18 +149,18 @@
     }
   },
   "Natsaurus_Flamingo_Normal_RushAtk_FollowBullet": {
-    "$type": "ConfigGadget",
+    "$type": "LJABJHEGANE",
     "common": {
       "effectAttachShape": {
-        "$type": "ConfigEffectAttachBox"
+        "$type": "IDKIDIPOJBL"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
-        "attack": 10.0,
-        "defense": 999999.0,
+        "hp": 999999,
+        "attack": 10,
+        "defense": 999999,
         "isInvincible": true,
         "isGhostToAllied": true,
         "isGhostToEnemy": true
@@ -186,25 +186,25 @@
       }
     ],
     "timer": {
-      "lifeTime": 20.0
+      "lifeTime": 20
     },
     "move": {
-      "$type": "ConfigFollowMove",
+      "$type": "ECOPBAJJGKH",
       "target": "TargetEntity",
       "attachPoint": "RushAtkPoint",
       "followRotation": true,
       "AJEPBJKCGIB": ""
     },
     "gadget": {
-      "$type": "ConfigBulletPattern",
+      "$type": "PCBPMFCMGHI",
       "collision": {
         "triggerType": "TriggerNoRepeat",
-        "target": "Enemy",
+        "targetType": "Enemy",
         "ignoreScene": true
       },
       "triggerActions": [
         {
-          "$type": "ConfigGadgetTriggerAbility",
+          "$type": "GOONODOJION",
           "abilityName": "Natsaurus_Flamingo_Normal_RushAtk_FollowBullet"
         }
       ],
@@ -212,18 +212,18 @@
     }
   },
   "Natsaurus_Flamingo_Normal_Alert_Air_FollowBullet": {
-    "$type": "ConfigGadget",
+    "$type": "LJABJHEGANE",
     "common": {
       "effectAttachShape": {
-        "$type": "ConfigEffectAttachBox"
+        "$type": "IDKIDIPOJBL"
       }
     },
     "combat": {
       "property": {
         "useCreatorProperty": true,
-        "HP": 999999.0,
-        "attack": 30.0,
-        "defense": 999999.0,
+        "hp": 999999,
+        "attack": 30,
+        "defense": 999999,
         "isLockHP": true,
         "canTriggerBullet": false
       },
@@ -248,26 +248,26 @@
       }
     ],
     "timer": {
-      "lifeTime": 10.0
+      "lifeTime": 10
     },
     "move": {
-      "$type": "ConfigFollowMove",
+      "$type": "ECOPBAJJGKH",
       "target": "TargetEntity",
       "attachPoint": "AlertAirBullet",
       "followRotation": true,
       "AJEPBJKCGIB": ""
     },
     "gadget": {
-      "$type": "ConfigBulletPattern",
+      "$type": "PCBPMFCMGHI",
       "collision": {
         "ccd": {
-          "type": "Always"
+          "damageRatio": "Always"
         },
         "triggerType": "TriggerAlways"
       },
       "triggerActions": [
         {
-          "$type": "ConfigGadgetTriggerAbility",
+          "$type": "GOONODOJION",
           "abilityName": "Natsaurus_Flamingo_Normal_Alert_Air_FollowBullet"
         }
       ]

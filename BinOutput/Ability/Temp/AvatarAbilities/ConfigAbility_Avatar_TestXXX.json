@@ -1,621 +1,1984 @@
 [
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "abilitySpecials": {
+        "ExtraAttack_Sword_Stamina_Cost": 0,
+        "Flexible_Stamina": -2
+      },
+      "isDynamicAbility": false,
       "abilityName": "Avatar_TestXXX_ExtraAttack",
       "abilityMixins": [
         {
-          "$type": "ButtonHoldChargeMixin",
-          "skillID": 10461,
-          "chargeTime": 0.11999999731779099,
-          "secondChargeTime": 0.20000000298023224,
-          "onBeginUncharged": [
-            {
-              "$type": "SetAnimatorTrigger",
-              "triggerID": "DoSkill"
-            },
-            {
-              "$type": "SetAnimatorInt",
-              "predicates": [
-                {
-                  "$type": "ByAny",
-                  "predicates": [
-                    {
-                      "$type": "ByAnimatorInt",
-                      "logic": "Equal",
-                      "value": 0,
-                      "parameter": "ComboCount"
-                    },
-                    {
-                      "$type": "ByAnimatorInt",
-                      "logic": "Equal",
-                      "value": 5,
-                      "parameter": "ComboCount"
-                    }
-                  ]
-                }
-              ],
-              "intID": "SkillID",
-              "value": 99.0
-            },
-            {
-              "$type": "SetAnimatorBool",
-              "boolID": "IsCharging"
-            }
-          ],
-          "onReleaseUncharged": [
-            {
-              "$type": "SetAnimatorInt",
-              "intID": "SkillID",
-              "value": 1.0
-            }
-          ],
-          "onBeginCharged": [
-            {
-              "$type": "SetAnimatorBool",
-              "boolID": "IsCharging",
-              "value": true
-            }
-          ],
-          "onReleaseCharged": [
-            {
-              "$type": "SetAnimatorBool",
-              "boolID": "IsCharging"
-            },
-            {
-              "$type": "SetAnimatorInt",
-              "intID": "SkillID",
-              "value": 1.0
-            }
-          ],
-          "onBeginSecondCharged": [
-            {
-              "$type": "SetAnimatorTrigger",
-              "predicates": [
-                {
-                  "$type": "ByLocalAvatarStamina",
-                  "logic": "GreaterOrEqual",
-                  "stamina": [
-                    "ExtraAttack_Sword_Stamina_Cost",
-                    "Flexible_Stamina",
-                    "ADD"
-                  ]
-                }
-              ],
-              "triggerID": "DoSkill"
-            },
-            {
-              "$type": "SetAnimatorInt",
-              "predicates": [
-                {
-                  "$type": "ByLocalAvatarStamina",
-                  "logic": "GreaterOrEqual",
-                  "stamina": [
-                    "ExtraAttack_Sword_Stamina_Cost",
-                    "Flexible_Stamina",
-                    "ADD"
-                  ]
-                }
-              ],
-              "intID": "SkillID",
-              "value": 6.0
-            },
-            {
-              "$type": "SetAnimatorBool",
-              "boolID": "IsCharging"
-            }
-          ],
           "chargeStateIDs": [
             "Attack01",
             "Attack02",
             "Attack03",
             "Attack04",
             "Run"
-          ]
+          ],
+          "__unk_Q4125547569": -1,
+          "secondChargeTime": 0.2,
+          "isUnique": false,
+          "onReleaseUncharged": [
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "intID": "SkillID",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": 1,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorInt"
+            }
+          ],
+          "onReleaseCharged": [
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "boolID": "IsCharging",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorBool"
+            },
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "intID": "SkillID",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": 1,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorInt"
+            }
+          ],
+          "onBeginUncharged": [
+            {
+              "AECKKDKPMAP": false,
+              "triggerID": "DoSkill",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "SetAnimatorTrigger"
+            },
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "parameter": "ComboCount",
+                      "logic": "Equal",
+                      "value": 0,
+                      "target": "Target",
+                      "$type": "ByAnimatorInt"
+                    },
+                    {
+                      "parameter": "ComboCount",
+                      "logic": "Equal",
+                      "value": 5,
+                      "target": "Target",
+                      "$type": "ByAnimatorInt"
+                    }
+                  ],
+                  "target": "Target",
+                  "$type": "ByAny"
+                }
+              ],
+              "intID": "SkillID",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": 99,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorInt"
+            },
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "boolID": "IsCharging",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorBool"
+            }
+          ],
+          "onBeginCharged": [
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "boolID": "IsCharging",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": true,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorBool"
+            }
+          ],
+          "skillID": 10461,
+          "onBeginSecondCharged": [
+            {
+              "AECKKDKPMAP": false,
+              "triggerID": "DoSkill",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "predicates": [
+                {
+                  "logic": "GreaterOrEqual",
+                  "target": "Target",
+                  "stamina": [
+                    "ExtraAttack_Sword_Stamina_Cost",
+                    "Flexible_Stamina",
+                    "ADD"
+                  ],
+                  "$type": "ByLocalAvatarStamina"
+                }
+              ],
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "SetAnimatorTrigger"
+            },
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "predicates": [
+                {
+                  "logic": "GreaterOrEqual",
+                  "target": "Target",
+                  "stamina": [
+                    "ExtraAttack_Sword_Stamina_Cost",
+                    "Flexible_Stamina",
+                    "ADD"
+                  ],
+                  "$type": "ByLocalAvatarStamina"
+                }
+              ],
+              "intID": "SkillID",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": 6,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorInt"
+            },
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "boolID": "IsCharging",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "value": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "persistent": false,
+              "$type": "SetAnimatorBool"
+            }
+          ],
+          "__unk_Q3695777311": false,
+          "chargeTime": 0.12,
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "$type": "ButtonHoldChargeMixin"
         },
         {
-          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "ExtraAttack_AS",
+          "__unk_Q4125547569": -1,
+          "isUnique": false,
+          "GJLGBFFIACC": -1,
+          "normalizeStart": 0.21,
           "modifierName": "ExtraAttack_AS_Effect",
-          "normalizeStart": 0.20999999344348907,
-          "__unk_Q2081332355": ""
+          "__unk_Q3695777311": false,
+          "__unk_Q2081332355": "",
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "normalizeEnd": 1,
+          "$type": "AttachToNormalizedTimeMixin"
         },
         {
-          "$type": "AttachToStateIDMixin",
+          "__unk_Q4125547569": -1,
+          "isUnique": false,
+          "GJLGBFFIACC": -1,
           "stateIDs": [
             "ExtraAttack"
           ],
           "modifierName": "ExtraAttack_StaminaCost",
-          "__unk_Q2081332355": ""
+          "isCheckOnAttach": false,
+          "__unk_Q3695777311": false,
+          "__unk_Q2081332355": "",
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "$type": "AttachToStateIDMixin"
         }
       ],
-      "abilitySpecials": {
-        "ExtraAttack_Sword_Stamina_Cost": 0.0,
-        "Flexible_Stamina": -2.0
-      },
+      "EINMHCJCNBG": 0,
+      "HKGAKPLKEEJ": false,
+      "IPONDLMHIOC": false,
+      "MBLAAGJLEED": false,
       "modifiers": {
         "ExtraAttack_StaminaCost": {
-          "modifierName": "",
-          "elementDurability": 100.0,
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
           "onAdded": [
             {
-              "$type": "AvatarSkillStart",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "EJHCNOABEMJ": 1,
               "skillID": 10001,
-              "cdRatio": 1.0,
-              "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost"
+              "costStaminaRatio": "ExtraAttack_Sword_Stamina_Cost",
+              "cdRatio": 1,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "NAFNHCFAGBG": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "AvatarSkillStart"
             }
-          ]
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Refresh"
         },
         "ExtraAttack_AS_Effect": {
-          "stacking": "Unique",
-          "modifierName": "",
-          "elementDurability": 100.0,
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "CEPBKBGCHFF": "",
+              "__unk_Q4125547569": -1,
+              "EDBGKFNKFCI": false,
               "effectPattern": "Eff_Avatar_Male_Sword_Kaeya_ExtraAttack_SwordAS",
-              "scale": 1.0,
-              "effectTempleteID": -1.0
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "scale": 1,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "PCKDBMIAPKM": false,
+              "$type": "AttachEffect"
             }
-          ]
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Unique"
         }
-      }
+      },
+      "PCCDGEAGBLE": false
     }
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "abilitySpecials": {
+        "damage": 0,
+        "GetElementRatio": 1,
+        "TasteOfCold": 0.15
+      },
+      "isDynamicAbility": false,
       "abilityName": "Avatar_TestXXX_Normalattackball",
       "abilityMixins": [
         {
-          "$type": "AttachToStateIDMixin",
+          "__unk_Q4125547569": -1,
+          "isUnique": false,
+          "GJLGBFFIACC": -1,
           "stateIDs": [
             "Attack05"
           ],
           "modifierName": "GenerateElemBall_IceShield",
-          "__unk_Q2081332355": ""
+          "isCheckOnAttach": false,
+          "__unk_Q3695777311": false,
+          "__unk_Q2081332355": "",
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "$type": "AttachToStateIDMixin"
         }
       ],
-      "abilitySpecials": {
-        "damage": 0.0,
-        "GetElementRatio": 1.0,
-        "TasteOfCold": 0.15000000596046448
-      },
+      "EINMHCJCNBG": 0,
+      "HKGAKPLKEEJ": false,
+      "IPONDLMHIOC": false,
+      "MBLAAGJLEED": false,
       "modifiers": {
         "GenerateElemBall_IceShield": {
-          "modifierName": "",
-          "elementDurability": 100.0,
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
           "onAttackLanded": [
             {
-              "$type": "Predicated",
-              "target": "Target",
-              "targetPredicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": [
-                    "Monster"
-                  ]
-                }
-              ],
               "successActions": [
                 {
-                  "$type": "ApplyModifier",
-                  "modifierName": "ElementBall"
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "modifierName": "ElementBall",
+                  "doOffStage": false,
+                  "KHMDLFFCJID": "None",
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "ApplyModifier"
                 },
                 {
-                  "$type": "ApplyModifier",
-                  "modifierName": "ElementBall_Extra"
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "modifierName": "ElementBall_Extra",
+                  "doOffStage": false,
+                  "KHMDLFFCJID": "None",
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "ApplyModifier"
                 }
-              ]
+              ],
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "targetPredicates": [
+                {
+                  "KEAECDOLGCN": -1,
+                  "reject": false,
+                  "NCJILCMGBHO": false,
+                  "entityTypes": [
+                    "Monster"
+                  ],
+                  "target": "Target",
+                  "$type": "ByEntityTypes"
+                }
+              ],
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Target",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "Predicated"
             }
-          ]
+          ],
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Refresh"
         },
         "ElementBall": {
-          "stacking": "Unique",
-          "modifierName": "",
-          "duration": 1.0,
-          "elementDurability": 100.0,
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
           "onAdded": [
             {
-              "$type": "GenerateElemBall",
-              "configID": 2020,
-              "born": {
-                "$type": "ConfigBornByTarget",
-                "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
-                }
-              },
+              "BGPGOPAIJOA": "LevelControl",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
               "ratio": "GetElementRatio",
-              "baseEnergy": 6.0
+              "baseEnergy": 6,
+              "doOffStage": false,
+              "born": {
+                "onGround": false,
+                "CNIPHLJJEHA": {
+                  "ANLJGLBGHNO": 0,
+                  "CJPLOKJFIMJ": 0,
+                  "HLGNNOEOBPJ": false
+                },
+                "offset": {
+                  "z": 1
+                },
+                "HPMIIPNIHNB": false,
+                "LIKCDACGCJP": 10,
+                "onGroundRaycastUpDist": 2,
+                "NJIGPLAMGKL": false,
+                "useRotation": false,
+                "$type": "ConfigBornByTarget"
+              },
+              "KHMDLFFCJID": "None",
+              "configID": 2020,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "OLKNIDEHAPD": false,
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "GenerateElemBall"
             }
-          ]
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 1,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Unique"
         },
         "ElementBall_Extra": {
-          "stacking": "MultipleRefreshNoRemove",
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
           "stackingOption": {
+            "enableMixedUnique": false,
+            "maxModifierNumForMultipleType": 3,
             "abilitySpecialName": "",
-            "maxModifierNumForMultipleType": 3.0
+            "PAKGIMNBGIP": "Greater"
           },
-          "modifierName": "",
-          "duration": 1.0,
-          "elementDurability": 100.0,
+          "AMOJAACLEBF": false,
           "onAdded": [
             {
-              "$type": "Randomed",
-              "chance": 0.9900000095367432,
               "successActions": [
                 {
-                  "$type": "GenerateElemBall",
-                  "configID": 2020,
-                  "born": {
-                    "$type": "ConfigBornByTarget",
-                    "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 1.0
-                    }
-                  },
+                  "BGPGOPAIJOA": "LevelControl",
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
                   "ratio": "GetElementRatio",
-                  "baseEnergy": 3.0
+                  "baseEnergy": 3,
+                  "doOffStage": false,
+                  "born": {
+                    "onGround": false,
+                    "CNIPHLJJEHA": {
+                      "ANLJGLBGHNO": 0,
+                      "CJPLOKJFIMJ": 0,
+                      "HLGNNOEOBPJ": false
+                    },
+                    "offset": {
+                      "z": 1
+                    },
+                    "HPMIIPNIHNB": false,
+                    "LIKCDACGCJP": 10,
+                    "onGroundRaycastUpDist": 2,
+                    "NJIGPLAMGKL": false,
+                    "useRotation": false,
+                    "$type": "ConfigBornByTarget"
+                  },
+                  "KHMDLFFCJID": "None",
+                  "configID": 2020,
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "OLKNIDEHAPD": false,
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "GenerateElemBall"
                 }
-              ]
+              ],
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "chance": 0.99,
+              "$type": "Randomed"
             }
-          ]
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 1,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "MultipleRefreshNoRemove"
         }
-      }
+      },
+      "PCCDGEAGBLE": false
     }
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "isDynamicAbility": false,
       "abilityName": "Avatar_TestXXX_NormalattackElement",
       "abilityMixins": [
         {
-          "$type": "OnAvatarUseSkillMixin",
           "onTriggerSkill": [
             {
-              "$type": "ApplyModifier",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
               "otherTargets": {
-                "$type": "SelectTargetsByEquipParts",
                 "equipPartNames": [
                   "equip01",
                   "sheathPoint"
-                ]
+                ],
+                "sortType": "Default",
+                "JKIDLLIAENA": false,
+                "topLimit": 0,
+                "$type": "SelectTargetsByEquipParts"
               },
-              "modifierName": "Fire_Enhancement_Weapon"
+              "modifierName": "Fire_Enhancement_Weapon",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "ApplyModifier"
             }
           ],
-          "clearSkillIdDelay": 0.20000000298023224
+          "__unk_Q4125547569": -1,
+          "isUnique": false,
+          "JJCNOMJDHHF": false,
+          "__unk_Q3695777311": false,
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "clearSkillIdDelay": 0.2,
+          "$type": "OnAvatarUseSkillMixin"
         }
       ],
+      "EINMHCJCNBG": 0,
+      "HKGAKPLKEEJ": false,
+      "IPONDLMHIOC": false,
+      "MBLAAGJLEED": false,
       "modifiers": {
         "Fire_Enhancement_Weapon": {
-          "stacking": "Unique",
-          "modifierName": "",
-          "duration": 10.0,
-          "elementType": "Fire",
-          "elementDurability": 30.0,
-          "overrideWeaponElement": true,
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
           "onAdded": [
             {
-              "$type": "AttachEffect",
+              "CEPBKBGCHFF": "",
+              "__unk_Q4125547569": -1,
+              "EDBGKFNKFCI": false,
               "effectPattern": "Eff_Diluc_FireCross_Weapon_02",
-              "scale": 1.0,
-              "effectTempleteID": -1.0
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "scale": 1,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "PCKDBMIAPKM": false,
+              "$type": "AttachEffect"
             }
-          ]
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 30,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "Fire",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": true,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 10,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Unique"
         }
-      }
+      },
+      "PCCDGEAGBLE": false
     }
   },
   {
     "Default": {
-      "$type": "ConfigAbility",
+      "abilitySpecials": {
+        "damage": 0,
+        "GetElementRatio": 1,
+        "TasteOfCold": 0.15
+      },
+      "isDynamicAbility": false,
       "abilityName": "Avatar_TestXXX_IceShield_Impact",
       "abilityMixins": [
         {
-          "$type": "AttachToNormalizedTimeMixin",
           "stateID": "IceShield_AS",
+          "__unk_Q4125547569": -1,
+          "isUnique": false,
+          "GJLGBFFIACC": -1,
+          "normalizeStart": 0.14,
           "modifierName": "IceShield_AS_Effect",
-          "normalizeStart": 0.14000000059604645,
-          "__unk_Q2081332355": ""
+          "__unk_Q3695777311": false,
+          "__unk_Q2081332355": "",
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "normalizeEnd": 1,
+          "$type": "AttachToNormalizedTimeMixin"
         },
         {
-          "$type": "AttachToStateIDMixin",
+          "__unk_Q4125547569": -1,
+          "predicates": [
+            {
+              "target": "Target",
+              "talentParam": "TasteOfCold",
+              "$type": "ByUnlockTalentParam"
+            }
+          ],
+          "isUnique": false,
+          "GJLGBFFIACC": -1,
           "stateIDs": [
             "IceShield"
           ],
           "modifierName": "TasteOfCold",
-          "predicates": [
-            {
-              "$type": "ByUnlockTalentParam",
-              "talentParam": "TasteOfCold"
-            }
-          ],
-          "__unk_Q2081332355": ""
+          "isCheckOnAttach": false,
+          "__unk_Q3695777311": false,
+          "__unk_Q2081332355": "",
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "$type": "AttachToStateIDMixin"
         }
       ],
-      "abilitySpecials": {
-        "damage": 0.0,
-        "GetElementRatio": 1.0,
-        "TasteOfCold": 0.15000000596046448
-      },
-      "modifiers": {
-        "IceShield_AS_Effect": {
-          "stacking": "Unique",
-          "modifierName": "",
-          "elementDurability": 100.0,
-          "onAdded": [
-            {
-              "$type": "AttachEffect",
-              "effectPattern": "Eff_Kaeya_IceShield_Impact_SwordAS",
-              "scale": 1.0,
-              "effectTempleteID": -1.0
-            },
-            {
-              "$type": "AttachEffect",
-              "effectPattern": "Eff_Kaeya_IceShield_Impact_SwordAS1",
-              "scale": 1.0,
-              "effectTempleteID": -1.0
-            }
-          ]
-        },
-        "TasteOfCold": {
-          "modifierName": "",
-          "elementDurability": 100.0,
-          "onAttackLanded": [
-            {
-              "$type": "Predicated",
-              "target": "Target",
-              "targetPredicates": [
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": [
-                    "Monster"
-                  ]
-                },
-                {
-                  "$type": "ByAttackTags",
-                  "attackTags": [
-                    "Elemental_Art"
-                  ]
-                }
-              ],
-              "successActions": [
-                {
-                  "$type": "HealHP",
-                  "amountByCasterAttackRatio": "TasteOfCold",
-                  "__exp_healTag": ""
-                }
-              ]
-            }
-          ]
-        },
-        "GenerateElemBall_IceShield": {
-          "modifierName": "",
-          "elementDurability": 100.0,
-          "onAttackLanded": [
-            {
-              "$type": "Predicated",
-              "target": "Target",
-              "targetPredicates": [
-                {
-                  "$type": "ByAttackTags",
-                  "attackTags": [
-                    "Elemental_Art"
-                  ]
-                },
-                {
-                  "$type": "ByEntityTypes",
-                  "entityTypes": [
-                    "Monster"
-                  ]
-                }
-              ],
-              "successActions": [
-                {
-                  "$type": "ApplyModifier",
-                  "modifierName": "ElementBall"
-                },
-                {
-                  "$type": "ApplyModifier",
-                  "modifierName": "ElementBall_Extra"
-                },
-                {
-                  "$type": "ApplyModifier",
-                  "target": "Target",
-                  "predicates": [
-                    {
-                      "$type": "ByUnlockTalentParam",
-                      "talentParam": "FrozenStar"
-                    }
-                  ],
-                  "modifierName": "FrozenStar"
-                }
-              ]
-            }
-          ]
-        },
-        "FrozenStar": {
-          "stacking": "Unique",
-          "modifierName": "",
-          "duration": 0.10000000149011612,
-          "elementDurability": 100.0,
-          "onAdded": [
-            {
-              "$type": "ApplyModifier",
-              "target": "Caster",
-              "predicates": [
-                {
-                  "$type": "ByAny",
-                  "predicates": [
-                    {
-                      "$type": "ByHasAbilityState",
-                      "target": "Self",
-                      "abilityState": "ElementWet"
-                    },
-                    {
-                      "$type": "ByHasAbilityState",
-                      "target": "Self",
-                      "abilityState": "ElementFreeze"
-                    }
-                  ]
-                }
-              ],
-              "modifierName": "FrozenStar_ElementBall"
-            }
-          ]
-        },
-        "FrozenStar_ElementBall": {
-          "stacking": "Multiple",
-          "stackingOption": {
-            "abilitySpecialName": "",
-            "maxModifierNumForMultipleType": 2.0
-          },
-          "modifierName": "",
-          "duration": 1.0,
-          "elementDurability": 100.0,
-          "onAdded": [
-            {
-              "$type": "GenerateElemBall",
-              "configID": 2022,
-              "born": {
-                "$type": "ConfigBornByTarget",
-                "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
-                }
-              },
-              "ratio": 1.0,
-              "baseEnergy": 3.0
-            }
-          ]
-        },
-        "ElementBall": {
-          "stacking": "Unique",
-          "modifierName": "",
-          "duration": 1.0,
-          "elementDurability": 100.0,
-          "onAdded": [
-            {
-              "$type": "GenerateElemBall",
-              "configID": 2022,
-              "born": {
-                "$type": "ConfigBornByTarget",
-                "offset": {
-                  "x": 0.0,
-                  "y": 0.0,
-                  "z": 1.0
-                }
-              },
-              "ratio": "GetElementRatio",
-              "baseEnergy": 6.0
-            }
-          ]
-        },
-        "ElementBall_Extra": {
-          "stacking": "MultipleRefreshNoRemove",
-          "stackingOption": {
-            "abilitySpecialName": "",
-            "maxModifierNumForMultipleType": 3.0
-          },
-          "modifierName": "",
-          "duration": 1.0,
-          "elementDurability": 100.0,
-          "onAdded": [
-            {
-              "$type": "Randomed",
-              "chance": 0.6700000166893005,
-              "successActions": [
-                {
-                  "$type": "GenerateElemBall",
-                  "configID": 2022,
-                  "born": {
-                    "$type": "ConfigBornByTarget",
-                    "offset": {
-                      "x": 0.0,
-                      "y": 0.0,
-                      "z": 1.0
-                    }
-                  },
-                  "ratio": "GetElementRatio",
-                  "baseEnergy": 3.0
-                }
-              ]
-            }
-          ]
-        }
-      },
+      "EINMHCJCNBG": 0,
+      "HKGAKPLKEEJ": false,
       "onAbilityStart": [
         {
-          "$type": "AvatarSkillStart",
+          "__unk_Q4125547569": -1,
+          "__unk_Q2273802443": false,
+          "EJHCNOABEMJ": 1,
           "skillID": 10462,
-          "cdRatio": 1.0,
-          "costStaminaRatio": 1.0
+          "costStaminaRatio": 1,
+          "cdRatio": 1,
+          "doOffStage": false,
+          "KHMDLFFCJID": "None",
+          "muteRemoteAction": false,
+          "NAFNHCFAGBG": false,
+          "canBeHandledOnRecover": false,
+          "doAfterDie": true,
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "$type": "AvatarSkillStart"
         },
         {
-          "$type": "FireEffect",
+          "useY": false,
+          "CEPBKBGCHFF": "",
+          "__unk_Q4125547569": -1,
+          "EDBGKFNKFCI": false,
           "effectPattern": "Eff_TestXXX_IceShield_Impact_Breath",
-          "scale": 1.0,
-          "effectTempleteID": -1.0
+          "__unk_Q2273802443": false,
+          "GCBLCFEPLEP": false,
+          "HOFMOLFHLCG": false,
+          "doOffStage": false,
+          "KHMDLFFCJID": "None",
+          "scale": 1,
+          "muteRemoteAction": false,
+          "MJAAFFBGKKF": false,
+          "canBeHandledOnRecover": false,
+          "doAfterDie": true,
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
+          "PCKDBMIAPKM": false,
+          "PMMODMFNAME": false,
+          "$type": "FireEffect"
         },
         {
-          "$type": "TriggerAttackEvent",
+          "targetType": "Enemy",
+          "__unk_Q4125547569": -1,
+          "__unk_Q2273802443": false,
+          "FCPHBBDGKDI": 0,
+          "GOOLBBMLLOB": false,
+          "doOffStage": false,
+          "KHMDLFFCJID": "None",
+          "muteRemoteAction": false,
+          "canBeHandledOnRecover": false,
+          "doAfterDie": true,
+          "target": "Self",
+          "PAJKDJILKOL": {
+            "IIJECFHKBKL": false,
+            "__unk_Q3587015628": ""
+          },
           "attackEvent": {
-            "attackPattern": {
-              "$type": "ConfigAttackBox",
-              "triggerType": "TriggerNoRepeat",
-              "born": {
-                "$type": "ConfigBornBySelf",
-                "offset": {
-                  "x": 0.0,
-                  "y": 1.0,
-                  "z": -0.20000000298023224
+            "attackInfo": {
+              "BCINJDBEMMG": {
+                "CAGEJDLIHLD": 0,
+                "DONALAPHAHG": "Shake",
+                "EHMLEMKCMPM": 3.4028235e+38,
+                "FDJNGGLEGAN": 3.4028235e+38,
+                "GJDDIMFGOHI": 0,
+                "GJLFNGCPGOA": 0,
+                "GOHABALPLMI": 0,
+                "HIHNDONFNHB": 3.4028235e+38,
+                "NECGNLIPIJM": 0
+              },
+              "canBeModifiedBy": "None",
+              "CHMBDCGKNAE": "OriginOwner",
+              "canHitHead": false,
+              "__unk_Q3296203363": "None",
+              "attenuationGroup": "default",
+              "hitPattern": {
+                "AEIAENNIAAK": {
+                  "duration": 0,
+                  "INFBMPBLHIO": {
+                    "text": "",
+                    "IJJGOBKKCNC": false,
+                    "PKOEDONNCLB": 0
+                  }
+                },
+                "recurring": false,
+                "canBeDefenceHalt": false,
+                "onHitEffectName": "default",
+                "hitLevel": "Heavy",
+                "ELAFGELPBIB": "Default",
+                "hitImpulseType": "",
+                "hitImpulseX": 800,
+                "GMLHNPGOMKF": {
+                  "offset": {
+                    "$type": "MEGPNFDKFFH"
+                  },
+                  "angleOffset": {
+                    "$type": "MEGPNFDKFFH"
+                  },
+                  "MPKNHEKOIFF": true,
+                  "NMDECIMFKDJ": false,
+                  "OLOGENKMHEL": 1
+                },
+                "retreatType": "ByAttacker",
+                "hitHaltTime": 0,
+                "hitImpulseY": 0,
+                "MMOKGPLBMOA": false,
+                "overrideHitImpulse": {
+                  "hitLevel": "Mute"
+                },
+                "NEKPPFMGNPA": false,
+                "__unk_Q3893899620": "",
+                "hitHaltTimeScale": 0.02,
+                "OGJMBPAMIIH": false,
+                "POPKAMFDFFP": {
+                  "$type": "MEGPNFDKFFH"
                 }
               },
-              "size": {
-                "x": 4.0,
-                "y": 1.7999999523162842,
-                "z": 8.0
-              }
-            },
-            "attackInfo": {
               "attackTag": "Elemental_Art",
-              "attenuationTag": "",
-              "attenuationGroup": "default",
+              "cameraShake": {
+                "shakeDistance": 30,
+                "shakeRange": 0.36,
+                "extension": {
+                  "rangeAttenuation": 0.5,
+                  "DGKALDKDHIF": false,
+                  "EKEEGDAFEOF": false,
+                  "FFCJDJLDEOM": true,
+                  "cycleDamping": 0.12,
+                  "baseCycle": 0.12,
+                  "INJKDHLNDDJ": false,
+                  "LJFBMJHNHEO": false,
+                  "NMPNEBKEONI": false,
+                  "PFKPPNDBBAM": 0
+                },
+                "shakeTime": 0.12,
+                "shakeType": "Center",
+                "shakeDir": {
+                  "$type": "MEGPNFDKFFH"
+                }
+              },
+              "forceCameraShake": false,
               "attackProperty": {
                 "damagePercentage": "damage",
-                "damagePercentageRatio": 0.0,
-                "elementType": "Electric",
-                "elementRank": 1.5,
-                "elementDurability": 50.0,
-                "strikeType": "Default",
-                "enBreak": 140.0,
+                "DIJCLFFMDFK": {
+                  "ABFODLKMHHC": false,
+                  "HFKPJFOIOCM": false
+                },
+                "elementDurability": 50,
+                "overrideByWeapon": false,
                 "attackType": "Melee",
-                "__exp_Arkhe": 0.0
+                "damagePercentageRatio": 0,
+                "elementType": "Electric",
+                "trueDamage": false,
+                "elementRank": 1.5,
+                "IIBJDCCPPEJ": false,
+                "KBMFGOIDCHC": false,
+                "__exp_arkhe": 0,
+                "enHeadBreak": 0,
+                "ignoreAttackerProperty": false,
+                "strikeType": "Default",
+                "enBreak": 140
               },
-              "hitPattern": {
+              "hitHeadPattern": {
+                "AEIAENNIAAK": {
+                  "duration": 0,
+                  "INFBMPBLHIO": {
+                    "text": "",
+                    "IJJGOBKKCNC": false,
+                    "PKOEDONNCLB": 0
+                  }
+                },
+                "recurring": false,
+                "canBeDefenceHalt": false,
                 "onHitEffectName": "default",
-                "__unk_Q3893899620": "",
-                "hitLevel": "Heavy",
-                "hitImpulseX": 800.0,
-                "hitImpulseY": 0.0,
+                "hitLevel": "Mute",
+                "ELAFGELPBIB": "Default",
                 "hitImpulseType": "",
-                "hitHaltTimeScale": 0.019999999552965164
+                "GMLHNPGOMKF": {
+                  "offset": {
+                    "$type": "MEGPNFDKFFH"
+                  },
+                  "angleOffset": {
+                    "$type": "MEGPNFDKFFH"
+                  },
+                  "MPKNHEKOIFF": true,
+                  "NMDECIMFKDJ": false,
+                  "OLOGENKMHEL": 1
+                },
+                "retreatType": "ByAttacker",
+                "hitHaltTime": 0,
+                "MMOKGPLBMOA": false,
+                "overrideHitImpulse": {
+                  "hitLevel": "Mute"
+                },
+                "NEKPPFMGNPA": false,
+                "__unk_Q3893899620": "",
+                "hitHaltTimeScale": 0,
+                "OGJMBPAMIIH": false,
+                "POPKAMFDFFP": {
+                  "$type": "MEGPNFDKFFH"
+                }
               },
-              "cameraShake": {
-                "shakeRange": 0.36000001430511475,
-                "shakeTime": 0.11999999731779099,
-                "shakeDistance": 30.0
-              }
+              "NHGAMNNPHOE": false,
+              "attenuationTag": "",
+              "OCIEHCNLENA": {},
+              "ONFAOKKEEOL": 0
+            },
+            "attackPattern": {
+              "triggerCD": 0,
+              "BIKJEBJJFCH": false,
+              "BILLADIMEGD": false,
+              "checkHitLayerType": "OnlyHitBox",
+              "massiveAttackRatio": 1,
+              "FLDDBNNHFMN": false,
+              "FONNGMPAEIE": 0,
+              "triggerType": "TriggerNoRepeat",
+              "HDDMIGAFMOA": false,
+              "useCustomShape": false,
+              "ILJKGMFFBKM": false,
+              "born": {
+                "onGround": false,
+                "CNIPHLJJEHA": {
+                  "ANLJGLBGHNO": 0,
+                  "CJPLOKJFIMJ": 0,
+                  "HLGNNOEOBPJ": false
+                },
+                "offset": {
+                  "z": -0.2,
+                  "y": 1
+                },
+                "HPMIIPNIHNB": false,
+                "LIKCDACGCJP": 10,
+                "onGroundRaycastUpDist": 2,
+                "NJIGPLAMGKL": false,
+                "useRotation": false,
+                "$type": "ConfigBornBySelf"
+              },
+              "LPNAKCKJCFK": false,
+              "size": {
+                "z": 8,
+                "y": 1.8,
+                "x": 4
+              },
+              "filterByFrame": false,
+              "ignoreMassive": false,
+              "hitScene": {
+                "EEMMOCJNIBF": {
+                  "offset": {
+                    "$type": "MEGPNFDKFFH"
+                  },
+                  "angleOffset": {
+                    "$type": "MEGPNFDKFFH"
+                  },
+                  "MPKNHEKOIFF": true,
+                  "NMDECIMFKDJ": false,
+                  "OLOGENKMHEL": 1
+                },
+                "defaultEffect": ""
+              },
+              "PMGEMILEKND": "AllEntities",
+              "$type": "ConfigAttackBox"
             }
           },
-          "targetType": "Enemy"
+          "$type": "TriggerAttackEvent"
         }
-      ]
+      ],
+      "IPONDLMHIOC": false,
+      "MBLAAGJLEED": false,
+      "modifiers": {
+        "IceShield_AS_Effect": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "onAdded": [
+            {
+              "CEPBKBGCHFF": "",
+              "__unk_Q4125547569": -1,
+              "EDBGKFNKFCI": false,
+              "effectPattern": "Eff_Kaeya_IceShield_Impact_SwordAS",
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "scale": 1,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "PCKDBMIAPKM": false,
+              "$type": "AttachEffect"
+            },
+            {
+              "CEPBKBGCHFF": "",
+              "__unk_Q4125547569": -1,
+              "EDBGKFNKFCI": false,
+              "effectPattern": "Eff_Kaeya_IceShield_Impact_SwordAS1",
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "scale": 1,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "PCKDBMIAPKM": false,
+              "$type": "AttachEffect"
+            }
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Unique"
+        },
+        "TasteOfCold": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "onAttackLanded": [
+            {
+              "successActions": [
+                {
+                  "__exp_healTag": "",
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "JFBPDGJOHPB": false,
+                  "doOffStage": false,
+                  "KHMDLFFCJID": "None",
+                  "LCFPCLLHJFM": 1,
+                  "muteRemoteAction": false,
+                  "MEAGPFBMGNM": false,
+                  "amountByCasterAttackRatio": "TasteOfCold",
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "HealHP"
+                }
+              ],
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "targetPredicates": [
+                {
+                  "KEAECDOLGCN": -1,
+                  "reject": false,
+                  "NCJILCMGBHO": false,
+                  "entityTypes": [
+                    "Monster"
+                  ],
+                  "target": "Target",
+                  "$type": "ByEntityTypes"
+                },
+                {
+                  "target": "Target",
+                  "attackTags": [
+                    "Elemental_Art"
+                  ],
+                  "$type": "ByAttackTags"
+                }
+              ],
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Target",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "Predicated"
+            }
+          ],
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Refresh"
+        },
+        "GenerateElemBall_IceShield": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "onAttackLanded": [
+            {
+              "successActions": [
+                {
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "modifierName": "ElementBall",
+                  "doOffStage": false,
+                  "KHMDLFFCJID": "None",
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "ApplyModifier"
+                },
+                {
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "modifierName": "ElementBall_Extra",
+                  "doOffStage": false,
+                  "KHMDLFFCJID": "None",
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "ApplyModifier"
+                },
+                {
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "predicates": [
+                    {
+                      "target": "Target",
+                      "talentParam": "FrozenStar",
+                      "$type": "ByUnlockTalentParam"
+                    }
+                  ],
+                  "modifierName": "FrozenStar",
+                  "doOffStage": false,
+                  "KHMDLFFCJID": "None",
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Target",
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "ApplyModifier"
+                }
+              ],
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "targetPredicates": [
+                {
+                  "target": "Target",
+                  "attackTags": [
+                    "Elemental_Art"
+                  ],
+                  "$type": "ByAttackTags"
+                },
+                {
+                  "KEAECDOLGCN": -1,
+                  "reject": false,
+                  "NCJILCMGBHO": false,
+                  "entityTypes": [
+                    "Monster"
+                  ],
+                  "target": "Target",
+                  "$type": "ByEntityTypes"
+                }
+              ],
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Target",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "Predicated"
+            }
+          ],
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Refresh"
+        },
+        "FrozenStar": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "onAdded": [
+            {
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "predicates": [
+                {
+                  "predicates": [
+                    {
+                      "abilityState": "ElementWet",
+                      "target": "Self",
+                      "$type": "ByHasAbilityState"
+                    },
+                    {
+                      "abilityState": "ElementFreeze",
+                      "target": "Self",
+                      "$type": "ByHasAbilityState"
+                    }
+                  ],
+                  "target": "Target",
+                  "$type": "ByAny"
+                }
+              ],
+              "modifierName": "FrozenStar_ElementBall",
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Caster",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "ApplyModifier"
+            }
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 0.1,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Unique"
+        },
+        "FrozenStar_ElementBall": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "maxModifierNumForMultipleType": 2,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "onAdded": [
+            {
+              "BGPGOPAIJOA": "LevelControl",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "ratio": 1,
+              "baseEnergy": 3,
+              "doOffStage": false,
+              "born": {
+                "onGround": false,
+                "CNIPHLJJEHA": {
+                  "ANLJGLBGHNO": 0,
+                  "CJPLOKJFIMJ": 0,
+                  "HLGNNOEOBPJ": false
+                },
+                "offset": {
+                  "z": 1
+                },
+                "HPMIIPNIHNB": false,
+                "LIKCDACGCJP": 10,
+                "onGroundRaycastUpDist": 2,
+                "NJIGPLAMGKL": false,
+                "useRotation": false,
+                "$type": "ConfigBornByTarget"
+              },
+              "KHMDLFFCJID": "None",
+              "configID": 2022,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "OLKNIDEHAPD": false,
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "GenerateElemBall"
+            }
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 1,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Multiple"
+        },
+        "ElementBall": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "onAdded": [
+            {
+              "BGPGOPAIJOA": "LevelControl",
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "ratio": "GetElementRatio",
+              "baseEnergy": 6,
+              "doOffStage": false,
+              "born": {
+                "onGround": false,
+                "CNIPHLJJEHA": {
+                  "ANLJGLBGHNO": 0,
+                  "CJPLOKJFIMJ": 0,
+                  "HLGNNOEOBPJ": false
+                },
+                "offset": {
+                  "z": 1
+                },
+                "HPMIIPNIHNB": false,
+                "LIKCDACGCJP": 10,
+                "onGroundRaycastUpDist": 2,
+                "NJIGPLAMGKL": false,
+                "useRotation": false,
+                "$type": "ConfigBornByTarget"
+              },
+              "KHMDLFFCJID": "None",
+              "configID": 2022,
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "OLKNIDEHAPD": false,
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "$type": "GenerateElemBall"
+            }
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 1,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "Unique"
+        },
+        "ElementBall_Extra": {
+          "fireEventWhenApply": false,
+          "useDummyAbility": false,
+          "onThinkIntervalIsFixedUpdate": false,
+          "ALGHEGPCFAL": -1,
+          "ALGLHMNGAIK": false,
+          "stackingOption": {
+            "enableMixedUnique": false,
+            "maxModifierNumForMultipleType": 3,
+            "abilitySpecialName": "",
+            "PAKGIMNBGIP": "Greater"
+          },
+          "AMOJAACLEBF": false,
+          "onAdded": [
+            {
+              "successActions": [
+                {
+                  "BGPGOPAIJOA": "LevelControl",
+                  "__unk_Q4125547569": -1,
+                  "__unk_Q2273802443": false,
+                  "ratio": "GetElementRatio",
+                  "baseEnergy": 3,
+                  "doOffStage": false,
+                  "born": {
+                    "onGround": false,
+                    "CNIPHLJJEHA": {
+                      "ANLJGLBGHNO": 0,
+                      "CJPLOKJFIMJ": 0,
+                      "HLGNNOEOBPJ": false
+                    },
+                    "offset": {
+                      "z": 1
+                    },
+                    "HPMIIPNIHNB": false,
+                    "LIKCDACGCJP": 10,
+                    "onGroundRaycastUpDist": 2,
+                    "NJIGPLAMGKL": false,
+                    "useRotation": false,
+                    "$type": "ConfigBornByTarget"
+                  },
+                  "KHMDLFFCJID": "None",
+                  "configID": 2022,
+                  "muteRemoteAction": false,
+                  "canBeHandledOnRecover": false,
+                  "doAfterDie": true,
+                  "target": "Self",
+                  "OLKNIDEHAPD": false,
+                  "PAJKDJILKOL": {
+                    "IIJECFHKBKL": false,
+                    "__unk_Q3587015628": ""
+                  },
+                  "$type": "GenerateElemBall"
+                }
+              ],
+              "__unk_Q4125547569": -1,
+              "__unk_Q2273802443": false,
+              "doOffStage": false,
+              "KHMDLFFCJID": "None",
+              "muteRemoteAction": false,
+              "canBeHandledOnRecover": false,
+              "doAfterDie": true,
+              "target": "Self",
+              "PAJKDJILKOL": {
+                "IIJECFHKBKL": false,
+                "__unk_Q3587015628": ""
+              },
+              "chance": 0.67,
+              "$type": "Randomed"
+            }
+          ],
+          "BKADNGDPKBB": false,
+          "BKNMDGOHNOL": false,
+          "elementDurability": 100,
+          "EICKDCDCEOK": false,
+          "EINMHCJCNBG": 0,
+          "elementType": "None",
+          "FEOGJLMCKDI": false,
+          "trimThinkInterval": false,
+          "state": "None",
+          "overrideWeaponElement": false,
+          "FNCDEKOAAOE": false,
+          "isUnique": false,
+          "GCOMLBIIIGL": false,
+          "isElementDurabilityMutable": true,
+          "timeScale": "Owner",
+          "HIGGGNHGEEM": false,
+          "HMECEOJAMEK": 0,
+          "modifierName": "",
+          "ICBDJNHEFFB": false,
+          "ICLPOOJCEPI": false,
+          "IICJDNBLMMD": 0,
+          "IPNNJKHJKPN": false,
+          "purgeIncrement": 0,
+          "JIAFDJBDEFH": false,
+          "LBPBDEIMOFM": false,
+          "LECFPDIICCE": false,
+          "isLimitedProperties": false,
+          "LMENDAOJCBK": {
+            "FCOPOMMPKKK": false
+          },
+          "MEHFAOLMCAP": -1,
+          "buffID": 0,
+          "duration": 1,
+          "NOCILDGOBBH": false,
+          "isDurabilityGlobal": false,
+          "OJMEBIHEKDC": false,
+          "PCAMCNDOFPM": "NormallySynced",
+          "stacking": "MultipleRefreshNoRemove"
+        }
+      },
+      "PCCDGEAGBLE": false
     }
   }
 ]
